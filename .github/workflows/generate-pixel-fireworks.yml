@@ -19,10 +19,14 @@ jobs:
       - name: Generate Fireworks SVG
         run: node scripts/generate-fireworks-svg.js
 
+      - name: Check output
+        run: ls -l output/
+
       - name: Commit & Push
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add output/pixel-fireworks.svg
-          git commit -m "Update Pixel Fireworks SVG" || echo "No changes to commit"
+          # перевіряємо, чи є зміни
+          git diff-index --quiet HEAD || git commit -m "Update Pixel Fireworks SVG"
           git push
