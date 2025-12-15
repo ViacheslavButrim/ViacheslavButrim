@@ -1,9 +1,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const COLS = 28;   // дні
-const ROWS = 7;    // тижні
-const CELL = 16;   // розмір квадрата
+const COLS = 28;   
+const ROWS = 7;    
+const CELL = 16;   
 const GAP = 4;
 
 const WIDTH = COLS * (CELL + GAP);
@@ -14,22 +14,19 @@ let svg = `<svg xmlns="http://www.w3.org/2000/svg"
      width="${WIDTH}"
      height="${HEIGHT}">`;
 
-// grid + fireworks
 for (let y = 0; y < ROWS; y++) {
   for (let x = 0; x < COLS; x++) {
     const px = x * (CELL + GAP);
     const py = y * (CELL + GAP);
-    const commits = Math.floor(Math.random() * 6); // поки random 0-5
+    const commits = Math.floor(Math.random() * 6); // random 0-5
 
-    // базовий квадрат
-    let color = '#e5e7eb'; // 0 commits
+    let color = '#e5e7eb';
     if (commits === 1 || commits === 2) color = '#86efac';
     if (commits === 3 || commits === 4) color = '#22c55e';
     if (commits >= 5) color = '#facc15';
 
     svg += `<rect x="${px}" y="${py}" width="${CELL}" height="${CELL}" rx="4" fill="${color}"/>`;
 
-    // fireworks анімація для активних комітів
     if (commits >= 3) {
       svg += `<circle cx="${px + CELL/2}" cy="${py + CELL/2}" r="2" fill="#facc15">
                 <animate attributeName="r" values="2;6;2" dur="1.5s" repeatCount="indefinite"/>
@@ -41,9 +38,8 @@ for (let y = 0; y < ROWS; y++) {
 
 svg += `</svg>`;
 
-// запис у файл
 const outputDir = path.resolve(process.cwd(), 'output');
 fs.mkdirSync(outputDir, { recursive: true });
-fs.writeFileSync(path.join(outputDir, 'pixel-hero.svg'), svg);
+fs.writeFileSync(path.join(outputDir, 'pixel-fireworks.svg'), svg);
 
 console.log('✔ Pixel Fireworks SVG generated');
