@@ -1,9 +1,9 @@
-name: Generate Pixel Hero SVG
+name: Generate Pixel Fireworks SVG
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *" # щодня о 00:00
 
 jobs:
   generate:
@@ -11,23 +11,18 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: actions/setup-node@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: 20       
 
-      - name: Generate Pixel Hero SVG
-        run: node scripts/generate-pixel-hero.js
-
-      - name: Debug output folder
-        run: |
-          pwd
-          ls -la
-          ls -la output || echo "output folder not found"
+      - name: Generate Fireworks SVG
+        run: node scripts/generate-fireworks-svg.js
 
       - name: Commit & Push
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add output/pixel-hero.svg
-          git commit -m "Update Pixel Hero SVG" || echo "No changes to commit"
+          git add output/pixel-fireworks.svg
+          git commit -m "Update Pixel Fireworks SVG" || echo "No changes to commit"
           git push
