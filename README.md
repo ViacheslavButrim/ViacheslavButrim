@@ -1,12 +1,8 @@
-## Hi there 👋
-![Banner](./assets/banner.svg)
-<img src="./assets/glitch-title.svg" />
-## 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ViacheslavButrim&show_icons=true&theme=tokyonight&hide_border=true" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ViacheslavButrim&layout=compact&theme=tokyonight&hide_border=true" height="170" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=61DAFB&width=650&lines=Hi+there+%F0%9F%91%8B;I'm+ViacheslavButrim;Full-Stack+Developer;React+%7C+Node.js+%7C+TypeScript" alt="Typing SVG" />
 </p>
 
+<h1 align="center">👋 Hello! I'm ViacheslavButrim</h1>
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=ViacheslavButrim&theme=tokyonight&hide_border=true" />
+Full-Stack Developer | React, Node.js, TypeScript | Creating modern & scalable web apps 🚀
 </p>
