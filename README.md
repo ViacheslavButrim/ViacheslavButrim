@@ -7,4 +7,4 @@
 Full-Stack Developer | React, Node.js, TypeScript | Creating modern & scalable web apps 🚀
 </p>
 
-![Pacman](https://raw.githubusercontent.com//ViacheslavButrim/output/pacman.svg)
+![Pacman](https://raw.githubusercontent.com//YOUR_USERNAME/output/pacman.svg)
