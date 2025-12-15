@@ -1,9 +1,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const COLS = 28;   
-const ROWS = 7;    
-const CELL = 16;   
+const COLS = 28;
+const ROWS = 7;
+const CELL = 16;
 const GAP = 4;
 
 const WIDTH = COLS * (CELL + GAP);
@@ -20,17 +20,20 @@ for (let y = 0; y < ROWS; y++) {
     const py = y * (CELL + GAP);
     const commits = Math.floor(Math.random() * 6); // random 0-5
 
-    let color = '#e5e7eb';
-    if (commits === 1 || commits === 2) color = '#86efac';
-    if (commits === 3 || commits === 4) color = '#22c55e';
-    if (commits >= 5) color = '#facc15';
+    // Темніші кольори
+    let color = '#d1d5db';
+    if (commits === 1 || commits === 2) color = '#4ade80';
+    if (commits === 3 || commits === 4) color = '#16a34a';
+    if (commits >= 5) color = '#ca8a04';
 
     svg += `<rect x="${px}" y="${py}" width="${CELL}" height="${CELL}" rx="4" fill="${color}"/>`;
 
     if (commits >= 3) {
-      svg += `<circle cx="${px + CELL/2}" cy="${py + CELL/2}" r="2" fill="#facc15">
-                <animate attributeName="r" values="2;6;2" dur="1.5s" repeatCount="indefinite"/>
-                <animate attributeName="opacity" values="1;0.5;1" dur="1.5s" repeatCount="indefinite"/>
+      // Затримка анімації по координатах, щоб вибухали по черзі
+      const delay = ((x + y) * 0.1).toFixed(1);
+      svg += `<circle cx="${px + CELL/2}" cy="${py + CELL/2}" r="2" fill="#ca8a04">
+                <animate attributeName="r" values="2;6;2" dur="1.5s" repeatCount="indefinite" begin="${delay}s"/>
+                <animate attributeName="opacity" values="1;0.5;1" dur="1.5s" repeatCount="indefinite" begin="${delay}s"/>
               </circle>`;
     }
   }
@@ -42,4 +45,4 @@ const outputDir = path.resolve(process.cwd(), 'output');
 fs.mkdirSync(outputDir, { recursive: true });
 fs.writeFileSync(path.join(outputDir, 'pixel-fireworks.svg'), svg);
 
-console.log('✔ Pixel Fireworks SVG generated');
+console.log('✔ Pixel Fireworks SVG updated with darker colors and sequential explosions');
