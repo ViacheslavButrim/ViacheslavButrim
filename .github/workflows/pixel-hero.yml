@@ -3,7 +3,7 @@ name: Generate Pixel Hero SVG
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *" # щодня о 00:00
+    - cron: "0 0 * * *"
 
 jobs:
   generate:
@@ -11,13 +11,18 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: 20       
+          node-version: 20
 
       - name: Generate Pixel Hero SVG
         run: node scripts/generate-pixel-hero.js
+
+      - name: Debug output folder
+        run: |
+          pwd
+          ls -la
+          ls -la output || echo "output folder not found"
 
       - name: Commit & Push
         run: |
