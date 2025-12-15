@@ -1,5 +1,4 @@
 const fs = require('fs');
-const path = require('path');
 
 const COLS = 28;
 const ROWS = 7;
@@ -10,14 +9,18 @@ const STEP = CELL + GAP;
 const WIDTH = COLS * STEP;
 const HEIGHT = ROWS * STEP;
 
-// random helper
-const rand = (max) => Math.floor(Math.random() * max);
+// helpers
+const rand = (n) => Math.floor(Math.random() * n);
 
-// generate random drift path
-const points = Array.from({ length: 80 }, () => [
-  rand(COLS),
-  rand(ROWS)
-]);
+// маршрут корабля (хаотичний)
+const path = Array.from({ length: 60 }, () => [rand(COLS), rand(ROWS)]);
+
+// які клітинки "будуть зʼїдені"
+const eaten = path.map((p, i) => ({
+  x: p[0],
+  y: p[1],
+  t: i * 0.35
+}));
 
 let svg = `<svg xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 ${WIDTH} ${HEIGHT}"
@@ -25,7 +28,7 @@ let svg = `<svg xmlns="http://www.w3.org/2000/svg"
   height="${HEIGHT}"
   style="background:#020617">`;
 
-// neon grid
+// ===== GRID =====
 for (let y = 0; y < ROWS; y++) {
   for (let x = 0; x < COLS; x++) {
     const px = x * STEP;
@@ -37,17 +40,27 @@ for (let y = 0; y < ROWS; y++) {
     if (commits >= 3) color = '#14b8a6';
     if (commits >= 5) color = '#5eead4';
 
+    const eat = eaten.find(e => e.x === x && e.y === y);
+    const hideAnim = eat
+      ? `<animate attributeName="opacity"
+           values="1;0"
+           begin="${eat.t}s"
+           dur="0.4s"
+           fill="freeze" />`
+      : '';
+
     svg += `
 <rect x="${px}" y="${py}" width="${CELL}" height="${CELL}" rx="3"
-  fill="${color}" />
-`;
+  fill="${color}">
+  ${hideAnim}
+</rect>`;
   }
 }
 
-// glow filter
+// ===== GLOW =====
 svg += `
 <defs>
-  <filter id="glow">
+  <filter id="neon">
     <feGaussianBlur stdDeviation="2" result="blur"/>
     <feMerge>
       <feMergeNode in="blur"/>
@@ -57,11 +70,32 @@ svg += `
 </defs>
 `;
 
-// spaceship (simple geometric drone)
+// ===== NEON TAIL =====
 svg += `
-<g filter="url(#glow)">
+<polyline
+  points="${path.map(p => `${p[0]*STEP + CELL/2},${p[1]*STEP + CELL/2}`).join(' ')}"
+  fill="none"
+  stroke="#67e8f9"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-dasharray="4 12"
+  opacity="0.4"
+  filter="url(#neon)"
+>
+  <animate
+    attributeName="stroke-dashoffset"
+    from="0"
+    to="-200"
+    dur="6s"
+    repeatCount="indefinite"/>
+</polyline>
+`;
+
+// ===== SHIP =====
+svg += `
+<g filter="url(#neon)">
   <polygon
-    points="0,-6 10,0 0,6 -4,0"
+    points="0,-6 12,0 0,6 -4,0"
     fill="none"
     stroke="#e5e7eb"
     stroke-width="1.5"
@@ -69,12 +103,9 @@ svg += `
     <animateTransform
       attributeName="transform"
       type="translate"
-      dur="22s"
+      dur="18s"
       repeatCount="indefinite"
-      calcMode="discrete"
-      values="${points
-        .map(p => `${p[0]*STEP + CELL/2} ${p[1]*STEP + CELL/2}`)
-        .join(';')}"
+      values="${path.map(p => `${p[0]*STEP + CELL/2} ${p[1]*STEP + CELL/2}`).join(';')}"
     />
   </polygon>
 </g>
@@ -82,7 +113,7 @@ svg += `
 
 svg += `</svg>`;
 
-fs.mkdirSync(path.resolve('output'), { recursive: true });
+fs.mkdirSync('output', { recursive: true });
 fs.writeFileSync('output/pixel-fireworks.svg', svg);
 
-console.log('✔ Neon Space Drift generated');
+console.log('✔ Neon Hunter generated');
