@@ -1,26 +1,31 @@
-name: Pacman Contribution Graph
+name: Generate GitHub Activity SVGs
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */24 * * *"
+    - cron: "0 0 * * *" # щодня о 00:00
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: ViacheslavButrim
-          snake_color: "#FFD700"
-          snake_outline_color: "#000000"
-          outputs: |
-            dist/pacman.svg
-            dist/pacman-dark.svg?palette=github-dark
+      - uses: actions/checkout@v3
 
-      - name: Publish SVG
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: output
-          publish_dir: dist
+          node-version: 20
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Generate SVGs
+        run: node scripts/generate-svgs.js
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add output/*.svg
+          git commit -m "Update GitHub Activity SVGs"
+          git push

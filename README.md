@@ -7,4 +7,4 @@
 Full-Stack Developer | React, Node.js, TypeScript | Creating modern & scalable web apps 🚀
 </p>
  
- ![Pacman](https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/output/pacman.svg)
+ ![Pixel Hero](https://ViacheslavButrim.github.io/output/pixel-hero.svg)
