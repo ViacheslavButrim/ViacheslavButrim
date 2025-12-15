@@ -1,567 +1,393 @@
-
 <svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 560 150"
+     viewBox="0 0 560 170"
      width="560"
-     height="150">
+     height="170"><rect x="0" y="0" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="8" cy="8" r="4" fill="#86efac">
+                <animate attributeName="cy" values="8;6;8" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="20" y="0" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="40" y="0" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="48" cy="8" r="4" fill="#86efac">
+                <animate attributeName="cy" values="8;6;8" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="60" y="0" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="64" y="4" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="68 8"/>
+              </rect><rect x="80" y="0" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="100" y="0" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="104" y="4" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="108 8"/>
+              </rect><rect x="120" y="0" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="124" y="4" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="128 8"/>
+              </rect><rect x="140" y="0" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="160" y="0" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="168" cy="8" r="4" fill="#86efac">
+                <animate attributeName="cy" values="8;6;8" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="180" y="0" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="187" y="6" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="188" cy="6" r="6" fill="#15803d">
+                <animate attributeName="cy" values="6;4;6" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="200" y="0" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="204" y="4" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="208 8"/>
+              </rect><rect x="220" y="0" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="228" cy="8" r="4" fill="#86efac">
+                <animate attributeName="cy" values="8;6;8" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="240" y="0" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="248" cy="8" r="4" fill="#86efac">
+                <animate attributeName="cy" values="8;6;8" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="260" y="0" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="264" y="4" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="268 8"/>
+              </rect><rect x="280" y="0" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="287" y="6" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="288" cy="6" r="6" fill="#15803d">
+                <animate attributeName="cy" values="6;4;6" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="300" y="0" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="304" y="4" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="308 8"/>
+              </rect><rect x="320" y="0" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="328" cy="8" r="4" fill="#86efac">
+                <animate attributeName="cy" values="8;6;8" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="340" y="0" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="348" cy="8" r="4" fill="#86efac">
+                <animate attributeName="cy" values="8;6;8" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="360" y="0" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="364" y="4" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="368 8"/>
+              </rect><rect x="380" y="0" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="384" y="4" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="388 8"/>
+              </rect><rect x="400" y="0" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="407" y="6" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="408" cy="6" r="6" fill="#15803d">
+                <animate attributeName="cy" values="6;4;6" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="420" y="0" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="440" y="0" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="444" y="4" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="448 8"/>
+              </rect><rect x="460" y="0" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="464" y="4" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="468 8"/>
+              </rect><rect x="480" y="0" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="487" y="6" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="488" cy="6" r="6" fill="#15803d">
+                <animate attributeName="cy" values="6;4;6" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="500" y="0" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="504" y="4" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="508 8"/>
+              </rect><rect x="520" y="0" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="524" y="4" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="528 8"/>
+              </rect><rect x="540" y="0" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="544" y="4" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="548 8"/>
+              </rect><rect x="0" y="20" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="8" cy="28" r="4" fill="#86efac">
+                <animate attributeName="cy" values="28;26;28" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="20" y="20" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="24" y="24" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="28 28"/>
+              </rect><rect x="40" y="20" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="48" cy="28" r="4" fill="#86efac">
+                <animate attributeName="cy" values="28;26;28" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="60" y="20" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="80" y="20" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="88" cy="28" r="4" fill="#86efac">
+                <animate attributeName="cy" values="28;26;28" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="100" y="20" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="108" cy="28" r="4" fill="#86efac">
+                <animate attributeName="cy" values="28;26;28" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="120" y="20" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="128" cy="28" r="4" fill="#86efac">
+                <animate attributeName="cy" values="28;26;28" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="140" y="20" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="148" cy="28" r="4" fill="#86efac">
+                <animate attributeName="cy" values="28;26;28" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="160" y="20" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="164" y="24" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="168 28"/>
+              </rect><rect x="180" y="20" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="184" y="24" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="188 28"/>
+              </rect><rect x="200" y="20" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="220" y="20" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="224" y="24" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="228 28"/>
+              </rect><rect x="240" y="20" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="244" y="24" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="248 28"/>
+              </rect><rect x="260" y="20" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="264" y="24" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="268 28"/>
+              </rect><rect x="280" y="20" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="288" cy="28" r="4" fill="#86efac">
+                <animate attributeName="cy" values="28;26;28" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="300" y="20" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="307" y="26" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="308" cy="26" r="6" fill="#15803d">
+                <animate attributeName="cy" values="26;24;26" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="320" y="20" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="328" cy="28" r="4" fill="#86efac">
+                <animate attributeName="cy" values="28;26;28" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="340" y="20" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="348" cy="28" r="4" fill="#86efac">
+                <animate attributeName="cy" values="28;26;28" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="360" y="20" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="364" y="24" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="368 28"/>
+              </rect><rect x="380" y="20" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="400" y="20" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="407" y="26" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="408" cy="26" r="6" fill="#15803d">
+                <animate attributeName="cy" values="26;24;26" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="420" y="20" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="428" cy="28" r="4" fill="#86efac">
+                <animate attributeName="cy" values="28;26;28" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="440" y="20" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="444" y="24" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="448 28"/>
+              </rect><rect x="460" y="20" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="464" y="24" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="468 28"/>
+              </rect><rect x="480" y="20" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="484" y="24" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="488 28"/>
+              </rect><rect x="500" y="20" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="507" y="26" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="508" cy="26" r="6" fill="#15803d">
+                <animate attributeName="cy" values="26;24;26" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="520" y="20" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="524" y="24" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="528 28"/>
+              </rect><rect x="540" y="20" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="544" y="24" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="548 28"/>
+              </rect><rect x="0" y="40" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="4" y="44" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="8 48"/>
+              </rect><rect x="20" y="40" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="28" cy="48" r="4" fill="#86efac">
+                <animate attributeName="cy" values="48;46;48" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="40" y="40" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="44" y="44" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="48 48"/>
+              </rect><rect x="60" y="40" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="68" cy="48" r="4" fill="#86efac">
+                <animate attributeName="cy" values="48;46;48" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="80" y="40" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="84" y="44" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="88 48"/>
+              </rect><rect x="100" y="40" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="107" y="46" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="108" cy="46" r="6" fill="#15803d">
+                <animate attributeName="cy" values="46;44;46" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="120" y="40" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="128" cy="48" r="4" fill="#86efac">
+                <animate attributeName="cy" values="48;46;48" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="140" y="40" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="144" y="44" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="148 48"/>
+              </rect><rect x="160" y="40" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="167" y="46" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="168" cy="46" r="6" fill="#15803d">
+                <animate attributeName="cy" values="46;44;46" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="180" y="40" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="188" cy="48" r="4" fill="#86efac">
+                <animate attributeName="cy" values="48;46;48" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="200" y="40" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="204" y="44" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="208 48"/>
+              </rect><rect x="220" y="40" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="228" cy="48" r="4" fill="#86efac">
+                <animate attributeName="cy" values="48;46;48" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="240" y="40" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="248" cy="48" r="4" fill="#86efac">
+                <animate attributeName="cy" values="48;46;48" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="260" y="40" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="264" y="44" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="268 48"/>
+              </rect><rect x="280" y="40" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="288" cy="48" r="4" fill="#86efac">
+                <animate attributeName="cy" values="48;46;48" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="300" y="40" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="320" y="40" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="327" y="46" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="328" cy="46" r="6" fill="#15803d">
+                <animate attributeName="cy" values="46;44;46" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="340" y="40" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="348" cy="48" r="4" fill="#86efac">
+                <animate attributeName="cy" values="48;46;48" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="360" y="40" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="364" y="44" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="368 48"/>
+              </rect><rect x="380" y="40" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="400" y="40" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="407" y="46" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="408" cy="46" r="6" fill="#15803d">
+                <animate attributeName="cy" values="46;44;46" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="420" y="40" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="428" cy="48" r="4" fill="#86efac">
+                <animate attributeName="cy" values="48;46;48" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="440" y="40" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="444" y="44" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="448 48"/>
+              </rect><rect x="460" y="40" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="468" cy="48" r="4" fill="#86efac">
+                <animate attributeName="cy" values="48;46;48" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="480" y="40" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="488" cy="48" r="4" fill="#86efac">
+                <animate attributeName="cy" values="48;46;48" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="500" y="40" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="504" y="44" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="508 48"/>
+              </rect><rect x="520" y="40" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="524" y="44" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="528 48"/>
+              </rect><rect x="540" y="40" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="548" cy="48" r="4" fill="#86efac">
+                <animate attributeName="cy" values="48;46;48" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="0" y="60" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="8" cy="68" r="4" fill="#86efac">
+                <animate attributeName="cy" values="68;66;68" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="20" y="60" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="24" y="64" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="28 68"/>
+              </rect><rect x="40" y="60" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="48" cy="68" r="4" fill="#86efac">
+                <animate attributeName="cy" values="68;66;68" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="60" y="60" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="80" y="60" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="88" cy="68" r="4" fill="#86efac">
+                <animate attributeName="cy" values="68;66;68" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="100" y="60" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="120" y="60" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="128" cy="68" r="4" fill="#86efac">
+                <animate attributeName="cy" values="68;66;68" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="140" y="60" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="147" y="66" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="148" cy="66" r="6" fill="#15803d">
+                <animate attributeName="cy" values="66;64;66" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="160" y="60" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="180" y="60" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="184" y="64" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="188 68"/>
+              </rect><rect x="200" y="60" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="208" cy="68" r="4" fill="#86efac">
+                <animate attributeName="cy" values="68;66;68" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="220" y="60" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="228" cy="68" r="4" fill="#86efac">
+                <animate attributeName="cy" values="68;66;68" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="240" y="60" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="244" y="64" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="248 68"/>
+              </rect><rect x="260" y="60" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="267" y="66" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="268" cy="66" r="6" fill="#15803d">
+                <animate attributeName="cy" values="66;64;66" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="280" y="60" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="284" y="64" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="288 68"/>
+              </rect><rect x="300" y="60" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="308" cy="68" r="4" fill="#86efac">
+                <animate attributeName="cy" values="68;66;68" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="320" y="60" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="324" y="64" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="328 68"/>
+              </rect><rect x="340" y="60" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="347" y="66" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="348" cy="66" r="6" fill="#15803d">
+                <animate attributeName="cy" values="66;64;66" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="360" y="60" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="368" cy="68" r="4" fill="#86efac">
+                <animate attributeName="cy" values="68;66;68" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="380" y="60" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="384" y="64" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="388 68"/>
+              </rect><rect x="400" y="60" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="404" y="64" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="408 68"/>
+              </rect><rect x="420" y="60" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="424" y="64" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="428 68"/>
+              </rect><rect x="440" y="60" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="444" y="64" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="448 68"/>
+              </rect><rect x="460" y="60" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="468" cy="68" r="4" fill="#86efac">
+                <animate attributeName="cy" values="68;66;68" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="480" y="60" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="484" y="64" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="488 68"/>
+              </rect><rect x="500" y="60" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="507" y="66" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="508" cy="66" r="6" fill="#15803d">
+                <animate attributeName="cy" values="66;64;66" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="520" y="60" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="524" y="64" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="528 68"/>
+              </rect><rect x="540" y="60" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="544" y="64" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="548 68"/>
+              </rect><rect x="0" y="80" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="4" y="84" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="8 88"/>
+              </rect><rect x="20" y="80" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="27" y="86" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="28" cy="86" r="6" fill="#15803d">
+                <animate attributeName="cy" values="86;84;86" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="40" y="80" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="44" y="84" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="48 88"/>
+              </rect><rect x="60" y="80" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="68" cy="88" r="4" fill="#86efac">
+                <animate attributeName="cy" values="88;86;88" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="80" y="80" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="84" y="84" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="88 88"/>
+              </rect><rect x="100" y="80" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="107" y="86" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="108" cy="86" r="6" fill="#15803d">
+                <animate attributeName="cy" values="86;84;86" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="120" y="80" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="128" cy="88" r="4" fill="#86efac">
+                <animate attributeName="cy" values="88;86;88" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="140" y="80" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="147" y="86" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="148" cy="86" r="6" fill="#15803d">
+                <animate attributeName="cy" values="86;84;86" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="160" y="80" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="164" y="84" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="168 88"/>
+              </rect><rect x="180" y="80" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="188" cy="88" r="4" fill="#86efac">
+                <animate attributeName="cy" values="88;86;88" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="200" y="80" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="204" y="84" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="208 88"/>
+              </rect><rect x="220" y="80" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="228" cy="88" r="4" fill="#86efac">
+                <animate attributeName="cy" values="88;86;88" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="240" y="80" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="260" y="80" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="268" cy="88" r="4" fill="#86efac">
+                <animate attributeName="cy" values="88;86;88" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="280" y="80" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="287" y="86" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="288" cy="86" r="6" fill="#15803d">
+                <animate attributeName="cy" values="86;84;86" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="300" y="80" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="304" y="84" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="308 88"/>
+              </rect><rect x="320" y="80" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="324" y="84" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="328 88"/>
+              </rect><rect x="340" y="80" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="348" cy="88" r="4" fill="#86efac">
+                <animate attributeName="cy" values="88;86;88" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="360" y="80" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="364" y="84" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="368 88"/>
+              </rect><rect x="380" y="80" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="388" cy="88" r="4" fill="#86efac">
+                <animate attributeName="cy" values="88;86;88" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="400" y="80" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="408" cy="88" r="4" fill="#86efac">
+                <animate attributeName="cy" values="88;86;88" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="420" y="80" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="428" cy="88" r="4" fill="#86efac">
+                <animate attributeName="cy" values="88;86;88" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="440" y="80" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="448" cy="88" r="4" fill="#86efac">
+                <animate attributeName="cy" values="88;86;88" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="460" y="80" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="464" y="84" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="468 88"/>
+              </rect><rect x="480" y="80" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="488" cy="88" r="4" fill="#86efac">
+                <animate attributeName="cy" values="88;86;88" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="500" y="80" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="508" cy="88" r="4" fill="#86efac">
+                <animate attributeName="cy" values="88;86;88" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="520" y="80" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="540" y="80" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="544" y="84" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="548 88"/>
+              </rect><rect x="0" y="100" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="7" y="106" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="8" cy="106" r="6" fill="#15803d">
+                <animate attributeName="cy" values="106;104;106" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="20" y="100" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="27" y="106" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="28" cy="106" r="6" fill="#15803d">
+                <animate attributeName="cy" values="106;104;106" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="40" y="100" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="48" cy="108" r="4" fill="#86efac">
+                <animate attributeName="cy" values="108;106;108" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="60" y="100" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="68" cy="108" r="4" fill="#86efac">
+                <animate attributeName="cy" values="108;106;108" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="80" y="100" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="88" cy="108" r="4" fill="#86efac">
+                <animate attributeName="cy" values="108;106;108" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="100" y="100" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="120" y="100" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="127" y="106" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="128" cy="106" r="6" fill="#15803d">
+                <animate attributeName="cy" values="106;104;106" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="140" y="100" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="144" y="104" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="148 108"/>
+              </rect><rect x="160" y="100" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="167" y="106" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="168" cy="106" r="6" fill="#15803d">
+                <animate attributeName="cy" values="106;104;106" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="180" y="100" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="188" cy="108" r="4" fill="#86efac">
+                <animate attributeName="cy" values="108;106;108" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="200" y="100" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="207" y="106" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="208" cy="106" r="6" fill="#15803d">
+                <animate attributeName="cy" values="106;104;106" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="220" y="100" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="240" y="100" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="247" y="106" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="248" cy="106" r="6" fill="#15803d">
+                <animate attributeName="cy" values="106;104;106" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="260" y="100" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="268" cy="108" r="4" fill="#86efac">
+                <animate attributeName="cy" values="108;106;108" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="280" y="100" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="288" cy="108" r="4" fill="#86efac">
+                <animate attributeName="cy" values="108;106;108" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="300" y="100" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="308" cy="108" r="4" fill="#86efac">
+                <animate attributeName="cy" values="108;106;108" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="320" y="100" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="340" y="100" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="347" y="106" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="348" cy="106" r="6" fill="#15803d">
+                <animate attributeName="cy" values="106;104;106" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="360" y="100" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="364" y="104" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="368 108"/>
+              </rect><rect x="380" y="100" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="388" cy="108" r="4" fill="#86efac">
+                <animate attributeName="cy" values="108;106;108" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="400" y="100" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="408" cy="108" r="4" fill="#86efac">
+                <animate attributeName="cy" values="108;106;108" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="420" y="100" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="424" y="104" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="428 108"/>
+              </rect><rect x="440" y="100" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="448" cy="108" r="4" fill="#86efac">
+                <animate attributeName="cy" values="108;106;108" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="460" y="100" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="480" y="100" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="484" y="104" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="488 108"/>
+              </rect><rect x="500" y="100" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="508" cy="108" r="4" fill="#86efac">
+                <animate attributeName="cy" values="108;106;108" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="520" y="100" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="524" y="104" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="528 108"/>
+              </rect><rect x="540" y="100" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="544" y="104" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="548 108"/>
+              </rect><rect x="0" y="120" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="20" y="120" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="24" y="124" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="28 128"/>
+              </rect><rect x="40" y="120" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="44" y="124" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="48 128"/>
+              </rect><rect x="60" y="120" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="64" y="124" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="68 128"/>
+              </rect><rect x="80" y="120" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="87" y="126" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="88" cy="126" r="6" fill="#15803d">
+                <animate attributeName="cy" values="126;124;126" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="100" y="120" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="108" cy="128" r="4" fill="#86efac">
+                <animate attributeName="cy" values="128;126;128" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="120" y="120" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="128" cy="128" r="4" fill="#86efac">
+                <animate attributeName="cy" values="128;126;128" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="140" y="120" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="148" cy="128" r="4" fill="#86efac">
+                <animate attributeName="cy" values="128;126;128" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="160" y="120" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="180" y="120" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="188" cy="128" r="4" fill="#86efac">
+                <animate attributeName="cy" values="128;126;128" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="200" y="120" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="220" y="120" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="240" y="120" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="248" cy="128" r="4" fill="#86efac">
+                <animate attributeName="cy" values="128;126;128" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="260" y="120" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="264" y="124" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="268 128"/>
+              </rect><rect x="280" y="120" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="288" cy="128" r="4" fill="#86efac">
+                <animate attributeName="cy" values="128;126;128" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="300" y="120" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="308" cy="128" r="4" fill="#86efac">
+                <animate attributeName="cy" values="128;126;128" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="320" y="120" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="324" y="124" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="328 128"/>
+              </rect><rect x="340" y="120" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="348" cy="128" r="4" fill="#86efac">
+                <animate attributeName="cy" values="128;126;128" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="360" y="120" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="367" y="126" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="368" cy="126" r="6" fill="#15803d">
+                <animate attributeName="cy" values="126;124;126" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="380" y="120" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="400" y="120" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="404" y="124" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="408 128"/>
+              </rect><rect x="420" y="120" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="424" y="124" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="428 128"/>
+              </rect><rect x="440" y="120" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="447" y="126" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="448" cy="126" r="6" fill="#15803d">
+                <animate attributeName="cy" values="126;124;126" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="460" y="120" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="468" cy="128" r="4" fill="#86efac">
+                <animate attributeName="cy" values="128;126;128" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="480" y="120" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="484" y="124" width="8" height="8" rx="2" fill="#22c55e">
+                <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="2s" repeatCount="indefinite" additive="sum" origin="488 128"/>
+              </rect><rect x="500" y="120" width="16" height="16" rx="4" fill="#e5e7eb"/><circle cx="508" cy="128" r="4" fill="#86efac">
+                <animate attributeName="cy" values="128;126;128" dur="2s" repeatCount="indefinite"/>
+              </circle><rect x="520" y="120" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="540" y="120" width="16" height="16" rx="4" fill="#e5e7eb"/><rect x="547" y="126" width="2" height="6" fill="#7c2d12"/>
+              <circle cx="548" cy="126" r="6" fill="#15803d">
+                <animate attributeName="cy" values="126;124;126" dur="2s" repeatCount="indefinite"/>
+              </circle><g id="hero" transform="translate(0 146)">
+  <!-- тіло героя -->
+  <rect x="4" y="0" width="12" height="12" fill="#111827"/>
+  <rect x="6" y="12" width="8" height="10" fill="#22c55e"/>
+  <rect x="4" y="22" width="4" height="6" fill="#111827"/>
+  <rect x="12" y="22" width="4" height="6" fill="#111827"/>
 
-<style>
-  .soil { fill: #e5e7eb; }
-  .sprout { fill: #86efac; }
-  .bush { fill: #22c55e; }
-  .tree { fill: #15803d; }
-
-  .plant {
-    animation: grow 2s ease-in-out infinite alternate;
-  }
-
-  @keyframes grow {
-    from { transform: scale(0.9); }
-    to { transform: scale(1.05); }
-  }
-</style>
-<rect x="0" y="0" width="16" height="16" rx="4" class="soil"/>
-        <rect x="20" y="0" width="16" height="16" rx="4" class="soil"/>
-        <rect x="27" y="6" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="28" cy="6" r="6" class="tree plant"/>
-      
-        <rect x="40" y="0" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="48" cy="8" r="4" class="sprout plant"/>
-      
-        <rect x="60" y="0" width="16" height="16" rx="4" class="soil"/>
-        <rect x="67" y="6" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="68" cy="6" r="6" class="tree plant"/>
-      <rect x="80" y="0" width="16" height="16" rx="4" class="soil"/>
-        <rect x="100" y="0" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="108" cy="8" r="4" class="sprout plant"/>
-      <rect x="120" y="0" width="16" height="16" rx="4" class="soil"/>
-        <rect x="140" y="0" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="148" cy="8" r="4" class="sprout plant"/>
-      <rect x="160" y="0" width="16" height="16" rx="4" class="soil"/>
-        <rect x="180" y="0" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="188" cy="8" r="4" class="sprout plant"/>
-      
-        <rect x="200" y="0" width="16" height="16" rx="4" class="soil"/>
-        <rect x="204" y="4" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="220" y="0" width="16" height="16" rx="4" class="soil"/>
-        <rect x="224" y="4" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="240" y="0" width="16" height="16" rx="4" class="soil"/>
-        <rect x="244" y="4" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="260" y="0" width="16" height="16" rx="4" class="soil"/>
-        <rect x="264" y="4" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="280" y="0" width="16" height="16" rx="4" class="soil"/>
-        <rect x="284" y="4" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="300" y="0" width="16" height="16" rx="4" class="soil"/>
-        <rect x="304" y="4" width="8" height="8" rx="2" class="bush plant"/>
-      <rect x="320" y="0" width="16" height="16" rx="4" class="soil"/>
-        <rect x="340" y="0" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="348" cy="8" r="4" class="sprout plant"/>
-      
-        <rect x="360" y="0" width="16" height="16" rx="4" class="soil"/>
-        <rect x="367" y="6" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="368" cy="6" r="6" class="tree plant"/>
-      
-        <rect x="380" y="0" width="16" height="16" rx="4" class="soil"/>
-        <rect x="384" y="4" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="400" y="0" width="16" height="16" rx="4" class="soil"/>
-        <rect x="404" y="4" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="420" y="0" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="428" cy="8" r="4" class="sprout plant"/>
-      
-        <rect x="440" y="0" width="16" height="16" rx="4" class="soil"/>
-        <rect x="444" y="4" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="460" y="0" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="468" cy="8" r="4" class="sprout plant"/>
-      
-        <rect x="480" y="0" width="16" height="16" rx="4" class="soil"/>
-        <rect x="484" y="4" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="500" y="0" width="16" height="16" rx="4" class="soil"/>
-        <rect x="507" y="6" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="508" cy="6" r="6" class="tree plant"/>
-      
-        <rect x="520" y="0" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="528" cy="8" r="4" class="sprout plant"/>
-      
-        <rect x="540" y="0" width="16" height="16" rx="4" class="soil"/>
-        <rect x="544" y="4" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="0" y="20" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="8" cy="28" r="4" class="sprout plant"/>
-      
-        <rect x="20" y="20" width="16" height="16" rx="4" class="soil"/>
-        <rect x="24" y="24" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="40" y="20" width="16" height="16" rx="4" class="soil"/>
-        <rect x="44" y="24" width="8" height="8" rx="2" class="bush plant"/>
-      <rect x="60" y="20" width="16" height="16" rx="4" class="soil"/>
-        <rect x="80" y="20" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="88" cy="28" r="4" class="sprout plant"/>
-      
-        <rect x="100" y="20" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="108" cy="28" r="4" class="sprout plant"/>
-      
-        <rect x="120" y="20" width="16" height="16" rx="4" class="soil"/>
-        <rect x="124" y="24" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="140" y="20" width="16" height="16" rx="4" class="soil"/>
-        <rect x="147" y="26" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="148" cy="26" r="6" class="tree plant"/>
-      
-        <rect x="160" y="20" width="16" height="16" rx="4" class="soil"/>
-        <rect x="164" y="24" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="180" y="20" width="16" height="16" rx="4" class="soil"/>
-        <rect x="187" y="26" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="188" cy="26" r="6" class="tree plant"/>
-      
-        <rect x="200" y="20" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="208" cy="28" r="4" class="sprout plant"/>
-      
-        <rect x="220" y="20" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="228" cy="28" r="4" class="sprout plant"/>
-      
-        <rect x="240" y="20" width="16" height="16" rx="4" class="soil"/>
-        <rect x="247" y="26" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="248" cy="26" r="6" class="tree plant"/>
-      
-        <rect x="260" y="20" width="16" height="16" rx="4" class="soil"/>
-        <rect x="264" y="24" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="280" y="20" width="16" height="16" rx="4" class="soil"/>
-        <rect x="284" y="24" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="300" y="20" width="16" height="16" rx="4" class="soil"/>
-        <rect x="304" y="24" width="8" height="8" rx="2" class="bush plant"/>
-      <rect x="320" y="20" width="16" height="16" rx="4" class="soil"/>
-        <rect x="340" y="20" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="348" cy="28" r="4" class="sprout plant"/>
-      
-        <rect x="360" y="20" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="368" cy="28" r="4" class="sprout plant"/>
-      
-        <rect x="380" y="20" width="16" height="16" rx="4" class="soil"/>
-        <rect x="387" y="26" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="388" cy="26" r="6" class="tree plant"/>
-      
-        <rect x="400" y="20" width="16" height="16" rx="4" class="soil"/>
-        <rect x="404" y="24" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="420" y="20" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="428" cy="28" r="4" class="sprout plant"/>
-      
-        <rect x="440" y="20" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="448" cy="28" r="4" class="sprout plant"/>
-      <rect x="460" y="20" width="16" height="16" rx="4" class="soil"/>
-        <rect x="480" y="20" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="488" cy="28" r="4" class="sprout plant"/>
-      
-        <rect x="500" y="20" width="16" height="16" rx="4" class="soil"/>
-        <rect x="504" y="24" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="520" y="20" width="16" height="16" rx="4" class="soil"/>
-        <rect x="524" y="24" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="540" y="20" width="16" height="16" rx="4" class="soil"/>
-        <rect x="547" y="26" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="548" cy="26" r="6" class="tree plant"/>
-      
-        <rect x="0" y="40" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="8" cy="48" r="4" class="sprout plant"/>
-      
-        <rect x="20" y="40" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="28" cy="48" r="4" class="sprout plant"/>
-      
-        <rect x="40" y="40" width="16" height="16" rx="4" class="soil"/>
-        <rect x="44" y="44" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="60" y="40" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="68" cy="48" r="4" class="sprout plant"/>
-      
-        <rect x="80" y="40" width="16" height="16" rx="4" class="soil"/>
-        <rect x="84" y="44" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="100" y="40" width="16" height="16" rx="4" class="soil"/>
-        <rect x="104" y="44" width="8" height="8" rx="2" class="bush plant"/>
-      <rect x="120" y="40" width="16" height="16" rx="4" class="soil"/>
-        <rect x="140" y="40" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="148" cy="48" r="4" class="sprout plant"/>
-      
-        <rect x="160" y="40" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="168" cy="48" r="4" class="sprout plant"/>
-      
-        <rect x="180" y="40" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="188" cy="48" r="4" class="sprout plant"/>
-      
-        <rect x="200" y="40" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="208" cy="48" r="4" class="sprout plant"/>
-      
-        <rect x="220" y="40" width="16" height="16" rx="4" class="soil"/>
-        <rect x="224" y="44" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="240" y="40" width="16" height="16" rx="4" class="soil"/>
-        <rect x="244" y="44" width="8" height="8" rx="2" class="bush plant"/>
-      <rect x="260" y="40" width="16" height="16" rx="4" class="soil"/>
-        <rect x="280" y="40" width="16" height="16" rx="4" class="soil"/>
-        <rect x="287" y="46" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="288" cy="46" r="6" class="tree plant"/>
-      
-        <rect x="300" y="40" width="16" height="16" rx="4" class="soil"/>
-        <rect x="304" y="44" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="320" y="40" width="16" height="16" rx="4" class="soil"/>
-        <rect x="324" y="44" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="340" y="40" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="348" cy="48" r="4" class="sprout plant"/>
-      
-        <rect x="360" y="40" width="16" height="16" rx="4" class="soil"/>
-        <rect x="364" y="44" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="380" y="40" width="16" height="16" rx="4" class="soil"/>
-        <rect x="384" y="44" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="400" y="40" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="408" cy="48" r="4" class="sprout plant"/>
-      
-        <rect x="420" y="40" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="428" cy="48" r="4" class="sprout plant"/>
-      
-        <rect x="440" y="40" width="16" height="16" rx="4" class="soil"/>
-        <rect x="447" y="46" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="448" cy="46" r="6" class="tree plant"/>
-      
-        <rect x="460" y="40" width="16" height="16" rx="4" class="soil"/>
-        <rect x="464" y="44" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="480" y="40" width="16" height="16" rx="4" class="soil"/>
-        <rect x="484" y="44" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="500" y="40" width="16" height="16" rx="4" class="soil"/>
-        <rect x="504" y="44" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="520" y="40" width="16" height="16" rx="4" class="soil"/>
-        <rect x="524" y="44" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="540" y="40" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="548" cy="48" r="4" class="sprout plant"/>
-      
-        <rect x="0" y="60" width="16" height="16" rx="4" class="soil"/>
-        <rect x="7" y="66" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="8" cy="66" r="6" class="tree plant"/>
-      
-        <rect x="20" y="60" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="28" cy="68" r="4" class="sprout plant"/>
-      
-        <rect x="40" y="60" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="48" cy="68" r="4" class="sprout plant"/>
-      
-        <rect x="60" y="60" width="16" height="16" rx="4" class="soil"/>
-        <rect x="67" y="66" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="68" cy="66" r="6" class="tree plant"/>
-      <rect x="80" y="60" width="16" height="16" rx="4" class="soil"/>
-        <rect x="100" y="60" width="16" height="16" rx="4" class="soil"/>
-        <rect x="107" y="66" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="108" cy="66" r="6" class="tree plant"/>
-      <rect x="120" y="60" width="16" height="16" rx="4" class="soil"/>
-        <rect x="140" y="60" width="16" height="16" rx="4" class="soil"/>
-        <rect x="144" y="64" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="160" y="60" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="168" cy="68" r="4" class="sprout plant"/>
-      
-        <rect x="180" y="60" width="16" height="16" rx="4" class="soil"/>
-        <rect x="187" y="66" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="188" cy="66" r="6" class="tree plant"/>
-      
-        <rect x="200" y="60" width="16" height="16" rx="4" class="soil"/>
-        <rect x="207" y="66" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="208" cy="66" r="6" class="tree plant"/>
-      
-        <rect x="220" y="60" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="228" cy="68" r="4" class="sprout plant"/>
-      
-        <rect x="240" y="60" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="248" cy="68" r="4" class="sprout plant"/>
-      
-        <rect x="260" y="60" width="16" height="16" rx="4" class="soil"/>
-        <rect x="267" y="66" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="268" cy="66" r="6" class="tree plant"/>
-      
-        <rect x="280" y="60" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="288" cy="68" r="4" class="sprout plant"/>
-      
-        <rect x="300" y="60" width="16" height="16" rx="4" class="soil"/>
-        <rect x="304" y="64" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="320" y="60" width="16" height="16" rx="4" class="soil"/>
-        <rect x="327" y="66" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="328" cy="66" r="6" class="tree plant"/>
-      
-        <rect x="340" y="60" width="16" height="16" rx="4" class="soil"/>
-        <rect x="347" y="66" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="348" cy="66" r="6" class="tree plant"/>
-      
-        <rect x="360" y="60" width="16" height="16" rx="4" class="soil"/>
-        <rect x="364" y="64" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="380" y="60" width="16" height="16" rx="4" class="soil"/>
-        <rect x="387" y="66" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="388" cy="66" r="6" class="tree plant"/>
-      
-        <rect x="400" y="60" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="408" cy="68" r="4" class="sprout plant"/>
-      
-        <rect x="420" y="60" width="16" height="16" rx="4" class="soil"/>
-        <rect x="427" y="66" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="428" cy="66" r="6" class="tree plant"/>
-      
-        <rect x="440" y="60" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="448" cy="68" r="4" class="sprout plant"/>
-      
-        <rect x="460" y="60" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="468" cy="68" r="4" class="sprout plant"/>
-      
-        <rect x="480" y="60" width="16" height="16" rx="4" class="soil"/>
-        <rect x="484" y="64" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="500" y="60" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="508" cy="68" r="4" class="sprout plant"/>
-      
-        <rect x="520" y="60" width="16" height="16" rx="4" class="soil"/>
-        <rect x="524" y="64" width="8" height="8" rx="2" class="bush plant"/>
-      <rect x="540" y="60" width="16" height="16" rx="4" class="soil"/>
-        <rect x="0" y="80" width="16" height="16" rx="4" class="soil"/>
-        <rect x="7" y="86" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="8" cy="86" r="6" class="tree plant"/>
-      
-        <rect x="20" y="80" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="28" cy="88" r="4" class="sprout plant"/>
-      
-        <rect x="40" y="80" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="48" cy="88" r="4" class="sprout plant"/>
-      <rect x="60" y="80" width="16" height="16" rx="4" class="soil"/>
-        <rect x="80" y="80" width="16" height="16" rx="4" class="soil"/>
-        <rect x="84" y="84" width="8" height="8" rx="2" class="bush plant"/>
-      <rect x="100" y="80" width="16" height="16" rx="4" class="soil"/>
-        <rect x="120" y="80" width="16" height="16" rx="4" class="soil"/>
-        <rect x="127" y="86" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="128" cy="86" r="6" class="tree plant"/>
-      
-        <rect x="140" y="80" width="16" height="16" rx="4" class="soil"/>
-        <rect x="144" y="84" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="160" y="80" width="16" height="16" rx="4" class="soil"/>
-        <rect x="164" y="84" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="180" y="80" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="188" cy="88" r="4" class="sprout plant"/>
-      <rect x="200" y="80" width="16" height="16" rx="4" class="soil"/>
-        <rect x="220" y="80" width="16" height="16" rx="4" class="soil"/>
-        <rect x="224" y="84" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="240" y="80" width="16" height="16" rx="4" class="soil"/>
-        <rect x="244" y="84" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="260" y="80" width="16" height="16" rx="4" class="soil"/>
-        <rect x="264" y="84" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="280" y="80" width="16" height="16" rx="4" class="soil"/>
-        <rect x="284" y="84" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="300" y="80" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="308" cy="88" r="4" class="sprout plant"/>
-      
-        <rect x="320" y="80" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="328" cy="88" r="4" class="sprout plant"/>
-      
-        <rect x="340" y="80" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="348" cy="88" r="4" class="sprout plant"/>
-      <rect x="360" y="80" width="16" height="16" rx="4" class="soil"/>
-        <rect x="380" y="80" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="388" cy="88" r="4" class="sprout plant"/>
-      
-        <rect x="400" y="80" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="408" cy="88" r="4" class="sprout plant"/>
-      
-        <rect x="420" y="80" width="16" height="16" rx="4" class="soil"/>
-        <rect x="424" y="84" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="440" y="80" width="16" height="16" rx="4" class="soil"/>
-        <rect x="447" y="86" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="448" cy="86" r="6" class="tree plant"/>
-      
-        <rect x="460" y="80" width="16" height="16" rx="4" class="soil"/>
-        <rect x="464" y="84" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="480" y="80" width="16" height="16" rx="4" class="soil"/>
-        <rect x="484" y="84" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="500" y="80" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="508" cy="88" r="4" class="sprout plant"/>
-      
-        <rect x="520" y="80" width="16" height="16" rx="4" class="soil"/>
-        <rect x="527" y="86" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="528" cy="86" r="6" class="tree plant"/>
-      <rect x="540" y="80" width="16" height="16" rx="4" class="soil"/>
-        <rect x="0" y="100" width="16" height="16" rx="4" class="soil"/>
-        <rect x="4" y="104" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="20" y="100" width="16" height="16" rx="4" class="soil"/>
-        <rect x="27" y="106" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="28" cy="106" r="6" class="tree plant"/>
-      <rect x="40" y="100" width="16" height="16" rx="4" class="soil"/>
-        <rect x="60" y="100" width="16" height="16" rx="4" class="soil"/>
-        <rect x="64" y="104" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="80" y="100" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="88" cy="108" r="4" class="sprout plant"/>
-      
-        <rect x="100" y="100" width="16" height="16" rx="4" class="soil"/>
-        <rect x="104" y="104" width="8" height="8" rx="2" class="bush plant"/>
-      <rect x="120" y="100" width="16" height="16" rx="4" class="soil"/>
-        <rect x="140" y="100" width="16" height="16" rx="4" class="soil"/>
-        <rect x="147" y="106" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="148" cy="106" r="6" class="tree plant"/>
-      
-        <rect x="160" y="100" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="168" cy="108" r="4" class="sprout plant"/>
-      
-        <rect x="180" y="100" width="16" height="16" rx="4" class="soil"/>
-        <rect x="187" y="106" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="188" cy="106" r="6" class="tree plant"/>
-      
-        <rect x="200" y="100" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="208" cy="108" r="4" class="sprout plant"/>
-      
-        <rect x="220" y="100" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="228" cy="108" r="4" class="sprout plant"/>
-      
-        <rect x="240" y="100" width="16" height="16" rx="4" class="soil"/>
-        <rect x="247" y="106" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="248" cy="106" r="6" class="tree plant"/>
-      
-        <rect x="260" y="100" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="268" cy="108" r="4" class="sprout plant"/>
-      
-        <rect x="280" y="100" width="16" height="16" rx="4" class="soil"/>
-        <rect x="284" y="104" width="8" height="8" rx="2" class="bush plant"/>
-      <rect x="300" y="100" width="16" height="16" rx="4" class="soil"/>
-        <rect x="320" y="100" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="328" cy="108" r="4" class="sprout plant"/>
-      
-        <rect x="340" y="100" width="16" height="16" rx="4" class="soil"/>
-        <rect x="344" y="104" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="360" y="100" width="16" height="16" rx="4" class="soil"/>
-        <rect x="364" y="104" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="380" y="100" width="16" height="16" rx="4" class="soil"/>
-        <rect x="384" y="104" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="400" y="100" width="16" height="16" rx="4" class="soil"/>
-        <rect x="407" y="106" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="408" cy="106" r="6" class="tree plant"/>
-      
-        <rect x="420" y="100" width="16" height="16" rx="4" class="soil"/>
-        <rect x="427" y="106" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="428" cy="106" r="6" class="tree plant"/>
-      
-        <rect x="440" y="100" width="16" height="16" rx="4" class="soil"/>
-        <rect x="444" y="104" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="460" y="100" width="16" height="16" rx="4" class="soil"/>
-        <rect x="464" y="104" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="480" y="100" width="16" height="16" rx="4" class="soil"/>
-        <rect x="487" y="106" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="488" cy="106" r="6" class="tree plant"/>
-      
-        <rect x="500" y="100" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="508" cy="108" r="4" class="sprout plant"/>
-      <rect x="520" y="100" width="16" height="16" rx="4" class="soil"/>
-        <rect x="540" y="100" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="548" cy="108" r="4" class="sprout plant"/>
-      
-        <rect x="0" y="120" width="16" height="16" rx="4" class="soil"/>
-        <rect x="4" y="124" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="20" y="120" width="16" height="16" rx="4" class="soil"/>
-        <rect x="24" y="124" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="40" y="120" width="16" height="16" rx="4" class="soil"/>
-        <rect x="44" y="124" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="60" y="120" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="68" cy="128" r="4" class="sprout plant"/>
-      
-        <rect x="80" y="120" width="16" height="16" rx="4" class="soil"/>
-        <rect x="84" y="124" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="100" y="120" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="108" cy="128" r="4" class="sprout plant"/>
-      
-        <rect x="120" y="120" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="128" cy="128" r="4" class="sprout plant"/>
-      
-        <rect x="140" y="120" width="16" height="16" rx="4" class="soil"/>
-        <rect x="144" y="124" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="160" y="120" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="168" cy="128" r="4" class="sprout plant"/>
-      <rect x="180" y="120" width="16" height="16" rx="4" class="soil"/>
-        <rect x="200" y="120" width="16" height="16" rx="4" class="soil"/>
-        <rect x="204" y="124" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="220" y="120" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="228" cy="128" r="4" class="sprout plant"/>
-      
-        <rect x="240" y="120" width="16" height="16" rx="4" class="soil"/>
-        <rect x="244" y="124" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="260" y="120" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="268" cy="128" r="4" class="sprout plant"/>
-      <rect x="280" y="120" width="16" height="16" rx="4" class="soil"/>
-        <rect x="300" y="120" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="308" cy="128" r="4" class="sprout plant"/>
-      
-        <rect x="320" y="120" width="16" height="16" rx="4" class="soil"/>
-        <rect x="324" y="124" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="340" y="120" width="16" height="16" rx="4" class="soil"/>
-        <rect x="347" y="126" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="348" cy="126" r="6" class="tree plant"/>
-      
-        <rect x="360" y="120" width="16" height="16" rx="4" class="soil"/>
-        <rect x="367" y="126" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="368" cy="126" r="6" class="tree plant"/>
-      
-        <rect x="380" y="120" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="388" cy="128" r="4" class="sprout plant"/>
-      
-        <rect x="400" y="120" width="16" height="16" rx="4" class="soil"/>
-        <rect x="404" y="124" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="420" y="120" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="428" cy="128" r="4" class="sprout plant"/>
-      
-        <rect x="440" y="120" width="16" height="16" rx="4" class="soil"/>
-        <circle cx="448" cy="128" r="4" class="sprout plant"/>
-      
-        <rect x="460" y="120" width="16" height="16" rx="4" class="soil"/>
-        <rect x="464" y="124" width="8" height="8" rx="2" class="bush plant"/>
-      
-        <rect x="480" y="120" width="16" height="16" rx="4" class="soil"/>
-        <rect x="487" y="126" width="2" height="6" fill="#7c2d12"/>
-        <circle cx="488" cy="126" r="6" class="tree plant"/>
-      <rect x="500" y="120" width="16" height="16" rx="4" class="soil"/>
-        <rect x="520" y="120" width="16" height="16" rx="4" class="soil"/>
-        <rect x="524" y="124" width="8" height="8" rx="2" class="bush plant"/>
-      <rect x="540" y="120" width="16" height="16" rx="4" class="soil"/></svg>
+  <animateTransform
+    attributeName="transform"
+    type="translate"
+    from="0 0"
+    to="540 0"
+    dur="6s"
+    repeatCount="indefinite"
+  />
+</g></svg>
