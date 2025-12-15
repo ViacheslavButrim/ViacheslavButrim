@@ -1,1797 +1,567 @@
 
 <svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 560 170"
+     viewBox="0 0 560 150"
      width="560"
-     height="170">
+     height="150">
 
 <style>
-  .cell { fill: #e5e7eb; }
-  .active { fill: #22c55e; }
+  .soil { fill: #e5e7eb; }
+  .sprout { fill: #86efac; }
+  .bush { fill: #22c55e; }
+  .tree { fill: #15803d; }
+
+  .plant {
+    animation: grow 2s ease-in-out infinite alternate;
+  }
+
+  @keyframes grow {
+    from { transform: scale(0.9); }
+    to { transform: scale(1.05); }
+  }
 </style>
-
-      <rect
-        x="0"
-        y="0"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="20"
-        y="0"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="40"
-        y="0"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="60"
-        y="0"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="80"
-        y="0"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="100"
-        y="0"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="120"
-        y="0"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="140"
-        y="0"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="160"
-        y="0"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="180"
-        y="0"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="200"
-        y="0"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="220"
-        y="0"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="240"
-        y="0"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="260"
-        y="0"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="280"
-        y="0"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="300"
-        y="0"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="320"
-        y="0"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="340"
-        y="0"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="360"
-        y="0"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="380"
-        y="0"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="400"
-        y="0"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="420"
-        y="0"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="440"
-        y="0"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="460"
-        y="0"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="480"
-        y="0"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="500"
-        y="0"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="520"
-        y="0"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="540"
-        y="0"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="0"
-        y="20"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="20"
-        y="20"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="40"
-        y="20"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="60"
-        y="20"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="80"
-        y="20"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="100"
-        y="20"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="120"
-        y="20"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="140"
-        y="20"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="160"
-        y="20"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="180"
-        y="20"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="200"
-        y="20"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="220"
-        y="20"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="240"
-        y="20"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="260"
-        y="20"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="280"
-        y="20"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="300"
-        y="20"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="320"
-        y="20"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="340"
-        y="20"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="360"
-        y="20"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="380"
-        y="20"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="400"
-        y="20"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="420"
-        y="20"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="440"
-        y="20"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="460"
-        y="20"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="480"
-        y="20"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="500"
-        y="20"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="520"
-        y="20"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="540"
-        y="20"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="0"
-        y="40"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="20"
-        y="40"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="40"
-        y="40"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="60"
-        y="40"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="80"
-        y="40"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="100"
-        y="40"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="120"
-        y="40"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="140"
-        y="40"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="160"
-        y="40"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="180"
-        y="40"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="200"
-        y="40"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="220"
-        y="40"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="240"
-        y="40"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="260"
-        y="40"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="280"
-        y="40"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="300"
-        y="40"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="320"
-        y="40"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="340"
-        y="40"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="360"
-        y="40"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="380"
-        y="40"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="400"
-        y="40"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="420"
-        y="40"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="440"
-        y="40"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="460"
-        y="40"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="480"
-        y="40"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="500"
-        y="40"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="520"
-        y="40"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="540"
-        y="40"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="0"
-        y="60"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="20"
-        y="60"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="40"
-        y="60"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="60"
-        y="60"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="80"
-        y="60"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="100"
-        y="60"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="120"
-        y="60"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="140"
-        y="60"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="160"
-        y="60"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="180"
-        y="60"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="200"
-        y="60"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="220"
-        y="60"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="240"
-        y="60"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="260"
-        y="60"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="280"
-        y="60"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="300"
-        y="60"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="320"
-        y="60"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="340"
-        y="60"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="360"
-        y="60"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="380"
-        y="60"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="400"
-        y="60"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="420"
-        y="60"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="440"
-        y="60"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="460"
-        y="60"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="480"
-        y="60"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="500"
-        y="60"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="520"
-        y="60"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="540"
-        y="60"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="0"
-        y="80"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="20"
-        y="80"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="40"
-        y="80"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="60"
-        y="80"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="80"
-        y="80"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="100"
-        y="80"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="120"
-        y="80"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="140"
-        y="80"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="160"
-        y="80"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="180"
-        y="80"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="200"
-        y="80"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="220"
-        y="80"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="240"
-        y="80"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="260"
-        y="80"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="280"
-        y="80"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="300"
-        y="80"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="320"
-        y="80"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="340"
-        y="80"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="360"
-        y="80"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="380"
-        y="80"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="400"
-        y="80"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="420"
-        y="80"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="440"
-        y="80"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="460"
-        y="80"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="480"
-        y="80"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="500"
-        y="80"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="520"
-        y="80"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="540"
-        y="80"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="0"
-        y="100"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="20"
-        y="100"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="40"
-        y="100"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="60"
-        y="100"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="80"
-        y="100"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="100"
-        y="100"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="120"
-        y="100"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="140"
-        y="100"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="160"
-        y="100"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="180"
-        y="100"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="200"
-        y="100"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="220"
-        y="100"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="240"
-        y="100"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="260"
-        y="100"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="280"
-        y="100"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="300"
-        y="100"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="320"
-        y="100"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="340"
-        y="100"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="360"
-        y="100"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="380"
-        y="100"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="400"
-        y="100"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="420"
-        y="100"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="440"
-        y="100"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="460"
-        y="100"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="480"
-        y="100"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="500"
-        y="100"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="520"
-        y="100"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="540"
-        y="100"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="0"
-        y="120"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="20"
-        y="120"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="40"
-        y="120"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="60"
-        y="120"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="80"
-        y="120"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="100"
-        y="120"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="120"
-        y="120"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="140"
-        y="120"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="160"
-        y="120"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="180"
-        y="120"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="200"
-        y="120"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="220"
-        y="120"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="240"
-        y="120"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="260"
-        y="120"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="280"
-        y="120"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="300"
-        y="120"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="320"
-        y="120"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="340"
-        y="120"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="360"
-        y="120"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="380"
-        y="120"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="400"
-        y="120"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="420"
-        y="120"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="440"
-        y="120"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-      <rect
-        x="460"
-        y="120"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="480"
-        y="120"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="500"
-        y="120"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="520"
-        y="120"
-        width="16"
-        height="16"
-        rx="4"
-        class="cell"
-      />
-    
-      <rect
-        x="540"
-        y="120"
-        width="16"
-        height="16"
-        rx="4"
-        class="active"
-      />
-    
-<g id="hero" transform="translate(0 0)">
-  <!-- head -->
-  <rect x="4" y="140" width="12" height="12" fill="#111827"/>
-
-  <!-- body -->
-  <rect x="6" y="152" width="8" height="10" fill="#22c55e"/>
-
-  <!-- legs -->
-  <rect x="4" y="162" width="4" height="6" fill="#111827"/>
-  <rect x="12" y="162" width="4" height="6" fill="#111827"/>
-
-  <!-- walk -->
-  <animateTransform
-    attributeName="transform"
-    type="translate"
-    from="0 0"
-    to="540 0"
-    dur="6s"
-    repeatCount="indefinite"
-  />
-</g>
-</svg>
+<rect x="0" y="0" width="16" height="16" rx="4" class="soil"/>
+        <rect x="20" y="0" width="16" height="16" rx="4" class="soil"/>
+        <rect x="27" y="6" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="28" cy="6" r="6" class="tree plant"/>
+      
+        <rect x="40" y="0" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="48" cy="8" r="4" class="sprout plant"/>
+      
+        <rect x="60" y="0" width="16" height="16" rx="4" class="soil"/>
+        <rect x="67" y="6" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="68" cy="6" r="6" class="tree plant"/>
+      <rect x="80" y="0" width="16" height="16" rx="4" class="soil"/>
+        <rect x="100" y="0" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="108" cy="8" r="4" class="sprout plant"/>
+      <rect x="120" y="0" width="16" height="16" rx="4" class="soil"/>
+        <rect x="140" y="0" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="148" cy="8" r="4" class="sprout plant"/>
+      <rect x="160" y="0" width="16" height="16" rx="4" class="soil"/>
+        <rect x="180" y="0" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="188" cy="8" r="4" class="sprout plant"/>
+      
+        <rect x="200" y="0" width="16" height="16" rx="4" class="soil"/>
+        <rect x="204" y="4" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="220" y="0" width="16" height="16" rx="4" class="soil"/>
+        <rect x="224" y="4" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="240" y="0" width="16" height="16" rx="4" class="soil"/>
+        <rect x="244" y="4" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="260" y="0" width="16" height="16" rx="4" class="soil"/>
+        <rect x="264" y="4" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="280" y="0" width="16" height="16" rx="4" class="soil"/>
+        <rect x="284" y="4" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="300" y="0" width="16" height="16" rx="4" class="soil"/>
+        <rect x="304" y="4" width="8" height="8" rx="2" class="bush plant"/>
+      <rect x="320" y="0" width="16" height="16" rx="4" class="soil"/>
+        <rect x="340" y="0" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="348" cy="8" r="4" class="sprout plant"/>
+      
+        <rect x="360" y="0" width="16" height="16" rx="4" class="soil"/>
+        <rect x="367" y="6" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="368" cy="6" r="6" class="tree plant"/>
+      
+        <rect x="380" y="0" width="16" height="16" rx="4" class="soil"/>
+        <rect x="384" y="4" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="400" y="0" width="16" height="16" rx="4" class="soil"/>
+        <rect x="404" y="4" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="420" y="0" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="428" cy="8" r="4" class="sprout plant"/>
+      
+        <rect x="440" y="0" width="16" height="16" rx="4" class="soil"/>
+        <rect x="444" y="4" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="460" y="0" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="468" cy="8" r="4" class="sprout plant"/>
+      
+        <rect x="480" y="0" width="16" height="16" rx="4" class="soil"/>
+        <rect x="484" y="4" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="500" y="0" width="16" height="16" rx="4" class="soil"/>
+        <rect x="507" y="6" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="508" cy="6" r="6" class="tree plant"/>
+      
+        <rect x="520" y="0" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="528" cy="8" r="4" class="sprout plant"/>
+      
+        <rect x="540" y="0" width="16" height="16" rx="4" class="soil"/>
+        <rect x="544" y="4" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="0" y="20" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="8" cy="28" r="4" class="sprout plant"/>
+      
+        <rect x="20" y="20" width="16" height="16" rx="4" class="soil"/>
+        <rect x="24" y="24" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="40" y="20" width="16" height="16" rx="4" class="soil"/>
+        <rect x="44" y="24" width="8" height="8" rx="2" class="bush plant"/>
+      <rect x="60" y="20" width="16" height="16" rx="4" class="soil"/>
+        <rect x="80" y="20" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="88" cy="28" r="4" class="sprout plant"/>
+      
+        <rect x="100" y="20" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="108" cy="28" r="4" class="sprout plant"/>
+      
+        <rect x="120" y="20" width="16" height="16" rx="4" class="soil"/>
+        <rect x="124" y="24" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="140" y="20" width="16" height="16" rx="4" class="soil"/>
+        <rect x="147" y="26" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="148" cy="26" r="6" class="tree plant"/>
+      
+        <rect x="160" y="20" width="16" height="16" rx="4" class="soil"/>
+        <rect x="164" y="24" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="180" y="20" width="16" height="16" rx="4" class="soil"/>
+        <rect x="187" y="26" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="188" cy="26" r="6" class="tree plant"/>
+      
+        <rect x="200" y="20" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="208" cy="28" r="4" class="sprout plant"/>
+      
+        <rect x="220" y="20" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="228" cy="28" r="4" class="sprout plant"/>
+      
+        <rect x="240" y="20" width="16" height="16" rx="4" class="soil"/>
+        <rect x="247" y="26" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="248" cy="26" r="6" class="tree plant"/>
+      
+        <rect x="260" y="20" width="16" height="16" rx="4" class="soil"/>
+        <rect x="264" y="24" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="280" y="20" width="16" height="16" rx="4" class="soil"/>
+        <rect x="284" y="24" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="300" y="20" width="16" height="16" rx="4" class="soil"/>
+        <rect x="304" y="24" width="8" height="8" rx="2" class="bush plant"/>
+      <rect x="320" y="20" width="16" height="16" rx="4" class="soil"/>
+        <rect x="340" y="20" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="348" cy="28" r="4" class="sprout plant"/>
+      
+        <rect x="360" y="20" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="368" cy="28" r="4" class="sprout plant"/>
+      
+        <rect x="380" y="20" width="16" height="16" rx="4" class="soil"/>
+        <rect x="387" y="26" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="388" cy="26" r="6" class="tree plant"/>
+      
+        <rect x="400" y="20" width="16" height="16" rx="4" class="soil"/>
+        <rect x="404" y="24" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="420" y="20" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="428" cy="28" r="4" class="sprout plant"/>
+      
+        <rect x="440" y="20" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="448" cy="28" r="4" class="sprout plant"/>
+      <rect x="460" y="20" width="16" height="16" rx="4" class="soil"/>
+        <rect x="480" y="20" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="488" cy="28" r="4" class="sprout plant"/>
+      
+        <rect x="500" y="20" width="16" height="16" rx="4" class="soil"/>
+        <rect x="504" y="24" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="520" y="20" width="16" height="16" rx="4" class="soil"/>
+        <rect x="524" y="24" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="540" y="20" width="16" height="16" rx="4" class="soil"/>
+        <rect x="547" y="26" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="548" cy="26" r="6" class="tree plant"/>
+      
+        <rect x="0" y="40" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="8" cy="48" r="4" class="sprout plant"/>
+      
+        <rect x="20" y="40" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="28" cy="48" r="4" class="sprout plant"/>
+      
+        <rect x="40" y="40" width="16" height="16" rx="4" class="soil"/>
+        <rect x="44" y="44" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="60" y="40" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="68" cy="48" r="4" class="sprout plant"/>
+      
+        <rect x="80" y="40" width="16" height="16" rx="4" class="soil"/>
+        <rect x="84" y="44" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="100" y="40" width="16" height="16" rx="4" class="soil"/>
+        <rect x="104" y="44" width="8" height="8" rx="2" class="bush plant"/>
+      <rect x="120" y="40" width="16" height="16" rx="4" class="soil"/>
+        <rect x="140" y="40" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="148" cy="48" r="4" class="sprout plant"/>
+      
+        <rect x="160" y="40" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="168" cy="48" r="4" class="sprout plant"/>
+      
+        <rect x="180" y="40" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="188" cy="48" r="4" class="sprout plant"/>
+      
+        <rect x="200" y="40" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="208" cy="48" r="4" class="sprout plant"/>
+      
+        <rect x="220" y="40" width="16" height="16" rx="4" class="soil"/>
+        <rect x="224" y="44" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="240" y="40" width="16" height="16" rx="4" class="soil"/>
+        <rect x="244" y="44" width="8" height="8" rx="2" class="bush plant"/>
+      <rect x="260" y="40" width="16" height="16" rx="4" class="soil"/>
+        <rect x="280" y="40" width="16" height="16" rx="4" class="soil"/>
+        <rect x="287" y="46" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="288" cy="46" r="6" class="tree plant"/>
+      
+        <rect x="300" y="40" width="16" height="16" rx="4" class="soil"/>
+        <rect x="304" y="44" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="320" y="40" width="16" height="16" rx="4" class="soil"/>
+        <rect x="324" y="44" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="340" y="40" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="348" cy="48" r="4" class="sprout plant"/>
+      
+        <rect x="360" y="40" width="16" height="16" rx="4" class="soil"/>
+        <rect x="364" y="44" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="380" y="40" width="16" height="16" rx="4" class="soil"/>
+        <rect x="384" y="44" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="400" y="40" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="408" cy="48" r="4" class="sprout plant"/>
+      
+        <rect x="420" y="40" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="428" cy="48" r="4" class="sprout plant"/>
+      
+        <rect x="440" y="40" width="16" height="16" rx="4" class="soil"/>
+        <rect x="447" y="46" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="448" cy="46" r="6" class="tree plant"/>
+      
+        <rect x="460" y="40" width="16" height="16" rx="4" class="soil"/>
+        <rect x="464" y="44" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="480" y="40" width="16" height="16" rx="4" class="soil"/>
+        <rect x="484" y="44" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="500" y="40" width="16" height="16" rx="4" class="soil"/>
+        <rect x="504" y="44" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="520" y="40" width="16" height="16" rx="4" class="soil"/>
+        <rect x="524" y="44" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="540" y="40" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="548" cy="48" r="4" class="sprout plant"/>
+      
+        <rect x="0" y="60" width="16" height="16" rx="4" class="soil"/>
+        <rect x="7" y="66" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="8" cy="66" r="6" class="tree plant"/>
+      
+        <rect x="20" y="60" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="28" cy="68" r="4" class="sprout plant"/>
+      
+        <rect x="40" y="60" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="48" cy="68" r="4" class="sprout plant"/>
+      
+        <rect x="60" y="60" width="16" height="16" rx="4" class="soil"/>
+        <rect x="67" y="66" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="68" cy="66" r="6" class="tree plant"/>
+      <rect x="80" y="60" width="16" height="16" rx="4" class="soil"/>
+        <rect x="100" y="60" width="16" height="16" rx="4" class="soil"/>
+        <rect x="107" y="66" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="108" cy="66" r="6" class="tree plant"/>
+      <rect x="120" y="60" width="16" height="16" rx="4" class="soil"/>
+        <rect x="140" y="60" width="16" height="16" rx="4" class="soil"/>
+        <rect x="144" y="64" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="160" y="60" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="168" cy="68" r="4" class="sprout plant"/>
+      
+        <rect x="180" y="60" width="16" height="16" rx="4" class="soil"/>
+        <rect x="187" y="66" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="188" cy="66" r="6" class="tree plant"/>
+      
+        <rect x="200" y="60" width="16" height="16" rx="4" class="soil"/>
+        <rect x="207" y="66" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="208" cy="66" r="6" class="tree plant"/>
+      
+        <rect x="220" y="60" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="228" cy="68" r="4" class="sprout plant"/>
+      
+        <rect x="240" y="60" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="248" cy="68" r="4" class="sprout plant"/>
+      
+        <rect x="260" y="60" width="16" height="16" rx="4" class="soil"/>
+        <rect x="267" y="66" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="268" cy="66" r="6" class="tree plant"/>
+      
+        <rect x="280" y="60" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="288" cy="68" r="4" class="sprout plant"/>
+      
+        <rect x="300" y="60" width="16" height="16" rx="4" class="soil"/>
+        <rect x="304" y="64" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="320" y="60" width="16" height="16" rx="4" class="soil"/>
+        <rect x="327" y="66" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="328" cy="66" r="6" class="tree plant"/>
+      
+        <rect x="340" y="60" width="16" height="16" rx="4" class="soil"/>
+        <rect x="347" y="66" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="348" cy="66" r="6" class="tree plant"/>
+      
+        <rect x="360" y="60" width="16" height="16" rx="4" class="soil"/>
+        <rect x="364" y="64" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="380" y="60" width="16" height="16" rx="4" class="soil"/>
+        <rect x="387" y="66" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="388" cy="66" r="6" class="tree plant"/>
+      
+        <rect x="400" y="60" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="408" cy="68" r="4" class="sprout plant"/>
+      
+        <rect x="420" y="60" width="16" height="16" rx="4" class="soil"/>
+        <rect x="427" y="66" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="428" cy="66" r="6" class="tree plant"/>
+      
+        <rect x="440" y="60" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="448" cy="68" r="4" class="sprout plant"/>
+      
+        <rect x="460" y="60" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="468" cy="68" r="4" class="sprout plant"/>
+      
+        <rect x="480" y="60" width="16" height="16" rx="4" class="soil"/>
+        <rect x="484" y="64" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="500" y="60" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="508" cy="68" r="4" class="sprout plant"/>
+      
+        <rect x="520" y="60" width="16" height="16" rx="4" class="soil"/>
+        <rect x="524" y="64" width="8" height="8" rx="2" class="bush plant"/>
+      <rect x="540" y="60" width="16" height="16" rx="4" class="soil"/>
+        <rect x="0" y="80" width="16" height="16" rx="4" class="soil"/>
+        <rect x="7" y="86" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="8" cy="86" r="6" class="tree plant"/>
+      
+        <rect x="20" y="80" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="28" cy="88" r="4" class="sprout plant"/>
+      
+        <rect x="40" y="80" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="48" cy="88" r="4" class="sprout plant"/>
+      <rect x="60" y="80" width="16" height="16" rx="4" class="soil"/>
+        <rect x="80" y="80" width="16" height="16" rx="4" class="soil"/>
+        <rect x="84" y="84" width="8" height="8" rx="2" class="bush plant"/>
+      <rect x="100" y="80" width="16" height="16" rx="4" class="soil"/>
+        <rect x="120" y="80" width="16" height="16" rx="4" class="soil"/>
+        <rect x="127" y="86" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="128" cy="86" r="6" class="tree plant"/>
+      
+        <rect x="140" y="80" width="16" height="16" rx="4" class="soil"/>
+        <rect x="144" y="84" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="160" y="80" width="16" height="16" rx="4" class="soil"/>
+        <rect x="164" y="84" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="180" y="80" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="188" cy="88" r="4" class="sprout plant"/>
+      <rect x="200" y="80" width="16" height="16" rx="4" class="soil"/>
+        <rect x="220" y="80" width="16" height="16" rx="4" class="soil"/>
+        <rect x="224" y="84" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="240" y="80" width="16" height="16" rx="4" class="soil"/>
+        <rect x="244" y="84" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="260" y="80" width="16" height="16" rx="4" class="soil"/>
+        <rect x="264" y="84" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="280" y="80" width="16" height="16" rx="4" class="soil"/>
+        <rect x="284" y="84" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="300" y="80" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="308" cy="88" r="4" class="sprout plant"/>
+      
+        <rect x="320" y="80" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="328" cy="88" r="4" class="sprout plant"/>
+      
+        <rect x="340" y="80" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="348" cy="88" r="4" class="sprout plant"/>
+      <rect x="360" y="80" width="16" height="16" rx="4" class="soil"/>
+        <rect x="380" y="80" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="388" cy="88" r="4" class="sprout plant"/>
+      
+        <rect x="400" y="80" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="408" cy="88" r="4" class="sprout plant"/>
+      
+        <rect x="420" y="80" width="16" height="16" rx="4" class="soil"/>
+        <rect x="424" y="84" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="440" y="80" width="16" height="16" rx="4" class="soil"/>
+        <rect x="447" y="86" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="448" cy="86" r="6" class="tree plant"/>
+      
+        <rect x="460" y="80" width="16" height="16" rx="4" class="soil"/>
+        <rect x="464" y="84" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="480" y="80" width="16" height="16" rx="4" class="soil"/>
+        <rect x="484" y="84" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="500" y="80" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="508" cy="88" r="4" class="sprout plant"/>
+      
+        <rect x="520" y="80" width="16" height="16" rx="4" class="soil"/>
+        <rect x="527" y="86" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="528" cy="86" r="6" class="tree plant"/>
+      <rect x="540" y="80" width="16" height="16" rx="4" class="soil"/>
+        <rect x="0" y="100" width="16" height="16" rx="4" class="soil"/>
+        <rect x="4" y="104" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="20" y="100" width="16" height="16" rx="4" class="soil"/>
+        <rect x="27" y="106" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="28" cy="106" r="6" class="tree plant"/>
+      <rect x="40" y="100" width="16" height="16" rx="4" class="soil"/>
+        <rect x="60" y="100" width="16" height="16" rx="4" class="soil"/>
+        <rect x="64" y="104" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="80" y="100" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="88" cy="108" r="4" class="sprout plant"/>
+      
+        <rect x="100" y="100" width="16" height="16" rx="4" class="soil"/>
+        <rect x="104" y="104" width="8" height="8" rx="2" class="bush plant"/>
+      <rect x="120" y="100" width="16" height="16" rx="4" class="soil"/>
+        <rect x="140" y="100" width="16" height="16" rx="4" class="soil"/>
+        <rect x="147" y="106" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="148" cy="106" r="6" class="tree plant"/>
+      
+        <rect x="160" y="100" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="168" cy="108" r="4" class="sprout plant"/>
+      
+        <rect x="180" y="100" width="16" height="16" rx="4" class="soil"/>
+        <rect x="187" y="106" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="188" cy="106" r="6" class="tree plant"/>
+      
+        <rect x="200" y="100" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="208" cy="108" r="4" class="sprout plant"/>
+      
+        <rect x="220" y="100" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="228" cy="108" r="4" class="sprout plant"/>
+      
+        <rect x="240" y="100" width="16" height="16" rx="4" class="soil"/>
+        <rect x="247" y="106" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="248" cy="106" r="6" class="tree plant"/>
+      
+        <rect x="260" y="100" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="268" cy="108" r="4" class="sprout plant"/>
+      
+        <rect x="280" y="100" width="16" height="16" rx="4" class="soil"/>
+        <rect x="284" y="104" width="8" height="8" rx="2" class="bush plant"/>
+      <rect x="300" y="100" width="16" height="16" rx="4" class="soil"/>
+        <rect x="320" y="100" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="328" cy="108" r="4" class="sprout plant"/>
+      
+        <rect x="340" y="100" width="16" height="16" rx="4" class="soil"/>
+        <rect x="344" y="104" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="360" y="100" width="16" height="16" rx="4" class="soil"/>
+        <rect x="364" y="104" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="380" y="100" width="16" height="16" rx="4" class="soil"/>
+        <rect x="384" y="104" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="400" y="100" width="16" height="16" rx="4" class="soil"/>
+        <rect x="407" y="106" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="408" cy="106" r="6" class="tree plant"/>
+      
+        <rect x="420" y="100" width="16" height="16" rx="4" class="soil"/>
+        <rect x="427" y="106" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="428" cy="106" r="6" class="tree plant"/>
+      
+        <rect x="440" y="100" width="16" height="16" rx="4" class="soil"/>
+        <rect x="444" y="104" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="460" y="100" width="16" height="16" rx="4" class="soil"/>
+        <rect x="464" y="104" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="480" y="100" width="16" height="16" rx="4" class="soil"/>
+        <rect x="487" y="106" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="488" cy="106" r="6" class="tree plant"/>
+      
+        <rect x="500" y="100" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="508" cy="108" r="4" class="sprout plant"/>
+      <rect x="520" y="100" width="16" height="16" rx="4" class="soil"/>
+        <rect x="540" y="100" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="548" cy="108" r="4" class="sprout plant"/>
+      
+        <rect x="0" y="120" width="16" height="16" rx="4" class="soil"/>
+        <rect x="4" y="124" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="20" y="120" width="16" height="16" rx="4" class="soil"/>
+        <rect x="24" y="124" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="40" y="120" width="16" height="16" rx="4" class="soil"/>
+        <rect x="44" y="124" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="60" y="120" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="68" cy="128" r="4" class="sprout plant"/>
+      
+        <rect x="80" y="120" width="16" height="16" rx="4" class="soil"/>
+        <rect x="84" y="124" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="100" y="120" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="108" cy="128" r="4" class="sprout plant"/>
+      
+        <rect x="120" y="120" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="128" cy="128" r="4" class="sprout plant"/>
+      
+        <rect x="140" y="120" width="16" height="16" rx="4" class="soil"/>
+        <rect x="144" y="124" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="160" y="120" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="168" cy="128" r="4" class="sprout plant"/>
+      <rect x="180" y="120" width="16" height="16" rx="4" class="soil"/>
+        <rect x="200" y="120" width="16" height="16" rx="4" class="soil"/>
+        <rect x="204" y="124" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="220" y="120" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="228" cy="128" r="4" class="sprout plant"/>
+      
+        <rect x="240" y="120" width="16" height="16" rx="4" class="soil"/>
+        <rect x="244" y="124" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="260" y="120" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="268" cy="128" r="4" class="sprout plant"/>
+      <rect x="280" y="120" width="16" height="16" rx="4" class="soil"/>
+        <rect x="300" y="120" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="308" cy="128" r="4" class="sprout plant"/>
+      
+        <rect x="320" y="120" width="16" height="16" rx="4" class="soil"/>
+        <rect x="324" y="124" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="340" y="120" width="16" height="16" rx="4" class="soil"/>
+        <rect x="347" y="126" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="348" cy="126" r="6" class="tree plant"/>
+      
+        <rect x="360" y="120" width="16" height="16" rx="4" class="soil"/>
+        <rect x="367" y="126" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="368" cy="126" r="6" class="tree plant"/>
+      
+        <rect x="380" y="120" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="388" cy="128" r="4" class="sprout plant"/>
+      
+        <rect x="400" y="120" width="16" height="16" rx="4" class="soil"/>
+        <rect x="404" y="124" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="420" y="120" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="428" cy="128" r="4" class="sprout plant"/>
+      
+        <rect x="440" y="120" width="16" height="16" rx="4" class="soil"/>
+        <circle cx="448" cy="128" r="4" class="sprout plant"/>
+      
+        <rect x="460" y="120" width="16" height="16" rx="4" class="soil"/>
+        <rect x="464" y="124" width="8" height="8" rx="2" class="bush plant"/>
+      
+        <rect x="480" y="120" width="16" height="16" rx="4" class="soil"/>
+        <rect x="487" y="126" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="488" cy="126" r="6" class="tree plant"/>
+      <rect x="500" y="120" width="16" height="16" rx="4" class="soil"/>
+        <rect x="520" y="120" width="16" height="16" rx="4" class="soil"/>
+        <rect x="524" y="124" width="8" height="8" rx="2" class="bush plant"/>
+      <rect x="540" y="120" width="16" height="16" rx="4" class="soil"/></svg>
