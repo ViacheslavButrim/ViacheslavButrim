@@ -20,19 +20,19 @@ for (let y = 0; y < ROWS; y++) {
     const py = y * (CELL + GAP);
     const commits = Math.floor(Math.random() * 6);
 
-    let color = '#d1d5db';
-    if (commits === 1 || commits === 2) color = '#4ade80';
-    if (commits === 3 || commits === 4) color = '#16a34a';
-    if (commits >= 5) color = '#ca8a04';
+    // Залишаємо барвисті квадратики
+    let color = '#e5e7eb'; // 0 комітів
+    if (commits === 1 || commits === 2) color = '#86efac';
+    if (commits === 3 || commits === 4) color = '#22c55e';
+    if (commits >= 5) color = '#facc15';
 
     svg += `<rect x="${px}" y="${py}" width="${CELL}" height="${CELL}" rx="4" fill="${color}"/>`;
 
     if (commits >= 3) {
-      // Кожен елемент має різну фазу через атрибут begin
-      const phase = ((x + y) * 0.15).toFixed(2);
-      svg += `<circle cx="${px + CELL/2}" cy="${py + CELL/2}" r="2" fill="#ca8a04">
-                <animate attributeName="r" values="2;6;2" dur="1.5s" repeatCount="indefinite" begin="${phase}s"/>
-                <animate attributeName="opacity" values="1;0.5;1" dur="1.5s" repeatCount="indefinite" begin="${phase}s"/>
+      // Темна пульсація всередині квадратика
+      svg += `<circle cx="${px + CELL/2}" cy="${py + CELL/2}" r="2" fill="#1f2937">
+                <animate attributeName="r" values="2;6;2" dur="1.5s" repeatCount="indefinite"/>
+                <animate attributeName="opacity" values="1;0.4;1" dur="1.5s" repeatCount="indefinite"/>
               </circle>`;
     }
   }
@@ -44,4 +44,4 @@ const outputDir = path.resolve(process.cwd(), 'output');
 fs.mkdirSync(outputDir, { recursive: true });
 fs.writeFileSync(path.join(outputDir, 'pixel-fireworks.svg'), svg);
 
-console.log('✔ Pixel Fireworks SVG updated with sequential explosions');
+console.log('✔ Pixel Fireworks SVG updated with dark pulsation inside squares');
