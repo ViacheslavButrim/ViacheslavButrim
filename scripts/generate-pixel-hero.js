@@ -7,7 +7,7 @@ const CELL = 16;
 const GAP = 4;
 
 const WIDTH = COLS * (CELL + GAP);
-const HEIGHT = ROWS * (CELL + GAP) + 30;
+const HEIGHT = ROWS * (CELL + GAP) + 10;
 
 let svg = `
 <svg xmlns="http://www.w3.org/2000/svg"
@@ -16,52 +16,56 @@ let svg = `
      height="${HEIGHT}">
 
 <style>
-  .cell { fill: #e5e7eb; }
-  .active { fill: #22c55e; }
+  .soil { fill: #e5e7eb; }
+  .sprout { fill: #86efac; }
+  .bush { fill: #22c55e; }
+  .tree { fill: #15803d; }
+
+  .plant {
+    animation: grow 2s ease-in-out infinite alternate;
+  }
+
+  @keyframes grow {
+    from { transform: scale(0.9); }
+    to { transform: scale(1.05); }
+  }
 </style>
 `;
 
-// grid
 for (let y = 0; y < ROWS; y++) {
   for (let x = 0; x < COLS; x++) {
-    const active = Math.random() > 0.7;
-    svg += `
-      <rect
-        x="${x * (CELL + GAP)}"
-        y="${y * (CELL + GAP)}"
-        width="${CELL}"
-        height="${CELL}"
-        rx="4"
-        class="${active ? 'active' : 'cell'}"
-      />
-    `;
+    const level = Math.floor(Math.random() * 6); // 0–5 commits (поки random)
+
+    const px = x * (CELL + GAP);
+    const py = y * (CELL + GAP);
+
+    if (level === 0) {
+      svg += `<rect x="${px}" y="${py}" width="${CELL}" height="${CELL}" rx="4" class="soil"/>`;
+    }
+
+    if (level >= 1 && level <= 2) {
+      svg += `
+        <rect x="${px}" y="${py}" width="${CELL}" height="${CELL}" rx="4" class="soil"/>
+        <circle cx="${px + CELL / 2}" cy="${py + CELL / 2}" r="4" class="sprout plant"/>
+      `;
+    }
+
+    if (level >= 3 && level <= 4) {
+      svg += `
+        <rect x="${px}" y="${py}" width="${CELL}" height="${CELL}" rx="4" class="soil"/>
+        <rect x="${px + 4}" y="${py + 4}" width="8" height="8" rx="2" class="bush plant"/>
+      `;
+    }
+
+    if (level >= 5) {
+      svg += `
+        <rect x="${px}" y="${py}" width="${CELL}" height="${CELL}" rx="4" class="soil"/>
+        <rect x="${px + 7}" y="${py + 6}" width="2" height="6" fill="#7c2d12"/>
+        <circle cx="${px + CELL / 2}" cy="${py + 6}" r="6" class="tree plant"/>
+      `;
+    }
   }
 }
-
-// hero INSIDE viewBox
-svg += `
-<g id="hero" transform="translate(0 0)">
-  <!-- head -->
-  <rect x="4" y="${ROWS * (CELL + GAP)}" width="12" height="12" fill="#111827"/>
-
-  <!-- body -->
-  <rect x="6" y="${ROWS * (CELL + GAP) + 12}" width="8" height="10" fill="#22c55e"/>
-
-  <!-- legs -->
-  <rect x="4" y="${ROWS * (CELL + GAP) + 22}" width="4" height="6" fill="#111827"/>
-  <rect x="12" y="${ROWS * (CELL + GAP) + 22}" width="4" height="6" fill="#111827"/>
-
-  <!-- walk -->
-  <animateTransform
-    attributeName="transform"
-    type="translate"
-    from="0 0"
-    to="${WIDTH - 20} 0"
-    dur="6s"
-    repeatCount="indefinite"
-  />
-</g>
-`;
 
 svg += `</svg>`;
 
@@ -69,4 +73,4 @@ const outputDir = path.resolve(process.cwd(), 'output');
 fs.mkdirSync(outputDir, { recursive: true });
 fs.writeFileSync(path.join(outputDir, 'pixel-hero.svg'), svg);
 
-console.log('✔ SVG for GitHub README generated');
+console.log('✔ Commit Garden SVG generated');
