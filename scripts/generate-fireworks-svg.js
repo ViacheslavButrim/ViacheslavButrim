@@ -69,9 +69,12 @@ svg += `
     <animateTransform
       attributeName="transform"
       type="translate"
-      dur="18s"
+      dur="22s"
       repeatCount="indefinite"
-      values="${points.map(p => `${p[0]*STEP + CELL/2} ${p[1]*STEP + CELL/2}`).join(';')}"
+      calcMode="discrete"
+      values="${points
+        .map(p => `${p[0]*STEP + CELL/2} ${p[1]*STEP + CELL/2}`)
+        .join(';')}"
     />
   </polygon>
 </g>
