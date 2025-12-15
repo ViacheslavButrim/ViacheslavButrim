@@ -3,37 +3,52 @@ const path = require('path');
 
 const COLS = 28;
 const ROWS = 7;
-const SIZE = 18;
+const CELL = 16;
 const GAP = 4;
 
-const width = COLS * (SIZE + GAP);
-const height = ROWS * (SIZE + GAP);
+const WIDTH = COLS * (CELL + GAP);
+const HEIGHT = ROWS * (CELL + GAP) + 30;
 
-// background grid
-let svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height + 40}" viewBox="0 0 ${width} ${height + 40}">`;
+let svg = `
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 ${WIDTH} ${HEIGHT}"
+     width="${WIDTH}"
+     height="${HEIGHT}">
+
+<style>
+  .cell { fill: #e5e7eb; }
+  .active { fill: #22c55e; }
+</style>
+`;
 
 // grid
 for (let y = 0; y < ROWS; y++) {
   for (let x = 0; x < COLS; x++) {
-    svg += `<rect x="${x * (SIZE + GAP)}" y="${y * (SIZE + GAP)}"
-      width="${SIZE}" height="${SIZE}" rx="4"
-      fill="#e5e7eb"/>`;
+    const active = Math.random() > 0.7;
+    svg += `
+      <rect
+        x="${x * (CELL + GAP)}"
+        y="${y * (CELL + GAP)}"
+        width="${CELL}"
+        height="${CELL}"
+        rx="4"
+        class="${active ? 'active' : 'cell'}"
+      />
+    `;
   }
 }
 
-// hero (pixel style)
+// hero INSIDE viewBox
 svg += `
-<g id="hero" transform="translate(0 ${height + 10})">
-  <rect x="0" y="0" width="8" height="8" fill="#111827"/>
-  <rect x="8" y="0" width="8" height="8" fill="#111827"/>
-  <rect x="0" y="8" width="8" height="8" fill="#111827"/>
-  <rect x="8" y="8" width="8" height="8" fill="#22c55e"/>
+<g>
+  <rect x="0" y="${ROWS * (CELL + GAP) + 6}" width="10" height="10" fill="#111827"/>
+  <rect x="10" y="${ROWS * (CELL + GAP) + 6}" width="10" height="10" fill="#22c55e"/>
 
   <animateTransform
     attributeName="transform"
     type="translate"
-    from="0 ${height + 10}"
-    to="${width - 16} ${height + 10}"
+    from="0 0"
+    to="${WIDTH - 20} 0"
     dur="6s"
     repeatCount="indefinite"
   />
@@ -42,9 +57,8 @@ svg += `
 
 svg += `</svg>`;
 
-// write file
 const outputDir = path.resolve(process.cwd(), 'output');
 fs.mkdirSync(outputDir, { recursive: true });
 fs.writeFileSync(path.join(outputDir, 'pixel-hero.svg'), svg);
 
-console.log('✔ Pixel Hero animated SVG generated');
+console.log('✔ SVG for GitHub README generated');
