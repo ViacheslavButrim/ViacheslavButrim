@@ -40,10 +40,18 @@ for (let y = 0; y < ROWS; y++) {
 
 // hero INSIDE viewBox
 svg += `
-<g>
-  <rect x="0" y="${ROWS * (CELL + GAP) + 6}" width="10" height="10" fill="#111827"/>
-  <rect x="10" y="${ROWS * (CELL + GAP) + 6}" width="10" height="10" fill="#22c55e"/>
+<g id="hero" transform="translate(0 0)">
+  <!-- head -->
+  <rect x="4" y="${ROWS * (CELL + GAP)}" width="12" height="12" fill="#111827"/>
 
+  <!-- body -->
+  <rect x="6" y="${ROWS * (CELL + GAP) + 12}" width="8" height="10" fill="#22c55e"/>
+
+  <!-- legs -->
+  <rect x="4" y="${ROWS * (CELL + GAP) + 22}" width="4" height="6" fill="#111827"/>
+  <rect x="12" y="${ROWS * (CELL + GAP) + 22}" width="4" height="6" fill="#111827"/>
+
+  <!-- walk -->
   <animateTransform
     attributeName="transform"
     type="translate"
