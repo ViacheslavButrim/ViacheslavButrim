@@ -1,9 +1,9 @@
 name: Pacman Contribution Graph
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 */24 * * *"
-  workflow_dispatch:
 
 jobs:
   generate:
@@ -12,14 +12,15 @@ jobs:
       - uses: Platane/snk@v3
         with:
           github_user_name: ViacheslavButrim
+          snake_color: "#FFD700"
+          snake_outline_color: "#000000"
           outputs: |
             dist/pacman.svg
             dist/pacman-dark.svg?palette=github-dark
 
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3
+      - name: Publish SVG
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: dist
