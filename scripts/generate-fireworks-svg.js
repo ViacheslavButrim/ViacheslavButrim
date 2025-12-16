@@ -117,3 +117,12 @@ fs.mkdirSync('output', { recursive: true });
 fs.writeFileSync('output/pixel-fireworks.svg', svg);
 
 console.log('✔ Neon Hunter generated');
+fs.mkdirSync('output', { recursive: true });
+
+// основний файл (можеш лишити)
+fs.writeFileSync('output/pixel-hero.svg', svg);
+
+// ФАЙЛ ДЛЯ README (БЕЗ КЕШУ)
+fs.writeFileSync('output/pixel-hero-latest.svg', svg);
+
+console.log('✔ Pixel Hero generated');
