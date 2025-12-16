@@ -1,74 +1,52 @@
 const fs = require('fs');
 const path = require('path');
 
-const WIDTH = 28;
-const HEIGHT = 7;
-const CELL = 20;
+const WIDTH = 1200;
+const HEIGHT = 400;
+const NUM_STARS = 500;
 
-const numStars = WIDTH * HEIGHT;
-const pulseDuration = 1.5;
-const shipSpeed = 0.5;
-
-// Функція випадкового числа в діапазоні
 const random = (min, max) => Math.random() * (max - min) + min;
 
-// Генеруємо коміти-зірочки
-let stars = [];
-for (let y = 0; y < HEIGHT; y++) {
-  for (let x = 0; x < WIDTH; x++) {
-    stars.push({
-      x: x * CELL + random(0, CELL-4),
-      y: y * CELL + random(0, CELL-4),
-      color: `hsl(180, 100%, ${random(40, 70)}%)`,
-      delay: random(0, 2)
-    });
-  }
-}
+let svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${WIDTH}" height="${HEIGHT}" style="background:#0b0c1a">\n`;
 
-// Генеруємо SVG
-let svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${WIDTH*CELL}" height="${HEIGHT*CELL}" style="background:#0e0e1f">\n`;
+for (let i = 0; i < NUM_STARS; i++) {
+  const x = random(0, WIDTH);
+  const y = random(0, HEIGHT);
+  const size = random(1, 3);
+  const delay = random(0, 3);
+  const pulseSpeed = random(1, 3);
+  const color = `hsl(${random(170, 200)}, 100%, ${random(40, 80)}%)`;
 
-// Коміти-зірочки
-stars.forEach(star => {
+  // Пульсація
   svg += `
-    <circle cx="${star.x}" cy="${star.y}" r="2" fill="${star.color}">
-      <animate attributeName="r" values="2;5;2" dur="${pulseDuration}s" begin="${star.delay}s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;0.4;1" dur="${pulseDuration}s" begin="${star.delay}s" repeatCount="indefinite"/>
+    <circle cx="${x}" cy="${y}" r="${size}" fill="${color}">
+      <animate attributeName="r" values="${size};${size*2};${size}" dur="${pulseSpeed}s" begin="${delay}s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="${pulseSpeed}s" begin="${delay}s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="${y};${y+random(-10,10)};${y}" dur="${pulseSpeed*2}s" begin="${delay}s" repeatCount="indefinite"/>
     </circle>
   `;
-});
+}
 
-// Корабель
-const pathPoints = stars.map(star => `${star.x},${star.y}`).join(' ');
+// Додаткові спалахи “supernova” для випадкових зірок
+for (let i = 0; i < 50; i++) {
+  const x = random(0, WIDTH);
+  const y = random(0, HEIGHT);
+  const size = random(2,5);
+  const delay = random(0,5);
+  const color = `hsl(${random(180,200)}, 100%, 85%)`;
 
-svg += `
-  <g id="ship">
-    <polygon points="10,0 0,20 20,20" fill="#facc15">
-      <animateMotion dur="${numStars*shipSpeed}s" repeatCount="indefinite">
-        <mpath>
-          <path d="M${pathPoints}" />
-        </mpath>
-      </animateMotion>
-    </polygon>
-
-    <circle r="3" fill="#3b82f6">
-      <animateMotion dur="${numStars*shipSpeed}s" repeatCount="indefinite">
-        <mpath>
-          <path d="M${pathPoints}" />
-        </mpath>
-      </animateMotion>
-      <animate attributeName="r" values="3;0" dur="0.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;0" dur="0.5s" repeatCount="indefinite"/>
+  svg += `
+    <circle cx="${x}" cy="${y}" r="${size}" fill="${color}" opacity="0.5">
+      <animate attributeName="r" values="${size};${size*5};${size}" dur="2s" begin="${delay}s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" begin="${delay}s" repeatCount="indefinite"/>
     </circle>
-  </g>
-`;
+  `;
+}
 
 svg += `</svg>`;
 
-// Створюємо папку та записуємо файл
 const outputDir = path.join(__dirname, '..', 'output');
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
-fs.writeFileSync(path.join(outputDir, 'pixel-galaxy.svg'), svg);
-
-console.log('✔ Neon Galaxy Contribution SVG згенеровано у output/pixel-galaxy.svg');
+fs.writeFileSync(path.join(outputDir, 'epic-starfield.svg'), svg);
+console.log('✔ Epic Starfield SVG згенеровано у output/epic-starfield.svg');
