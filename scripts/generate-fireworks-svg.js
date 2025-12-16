@@ -6,12 +6,10 @@ const HEIGHT = 7;  // тижні
 const CELL = 20;
 const PADDING = 2;
 
-// Параметри комітів
 const colors = ["#0ff", "#22d3ee"];
-const pulseDuration = 1.5; // сек
-const rocketSpeed = 0.5; // сек на коміт (регулює швидкість ракети)
+const pulseDuration = 1.5;
+const rocketSpeed = 0.5;
 
-// Генеруємо коміти
 let svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${WIDTH*CELL}" height="${HEIGHT*CELL}" style="background:#111827">\n`;
 
 let commitPositions = [];
@@ -34,44 +32,29 @@ for (let y = 0; y < HEIGHT; y++) {
   }
 }
 
-// Ракета з хвостом і слідкуванням за комітами
-svg += `<g id="rocket">`;
-svg += `
+// Ракета з коротким хвостом
+svg += `<g id="rocket">
   <polygon points="10,0 0,20 20,20" fill="#facc15">
-    <animateMotion dur="${commitPositions.length*rocketSpeed}s" repeatCount="indefinite" keyPoints="${commitPositions.map((p,i)=>`${p.x/((WIDTH-1)*CELL)};${p.y/((HEIGHT-1)*CELL)}`).join(';')}" keyTimes="${commitPositions.map((_,i)=>i/commitPositions.length).join(';')}" />
+    <animateMotion dur="${commitPositions.length*rocketSpeed}s" repeatCount="indefinite"
+      keyPoints="${commitPositions.map((p,i)=>`${p.x/((WIDTH-1)*CELL)};${p.y/((HEIGHT-1)*CELL)}`).join(';')}"
+      keyTimes="${commitPositions.map((_,i)=>i/commitPositions.length).join(';')}" />
   </polygon>
   <circle r="3" fill="#3b82f6">
-    <animateMotion dur="${commitPositions.length*rocketSpeed}s" repeatCount="indefinite" keyPoints="${commitPositions.map((p,i)=>`${p.x/((WIDTH-1)*CELL)};${p.y/((HEIGHT-1)*CELL)}`).join(';')}" keyTimes="${commitPositions.map((_,i)=>i/commitPositions.length).join(';')}" />
-    <animate attributeName="r" values="3;0" dur="0.5s" repeatCount="indefinite" />
-    <animate attributeName="opacity" values="1;0" dur="0.5s" repeatCount="indefinite" />
+    <animateMotion dur="${commitPositions.length*rocketSpeed}s" repeatCount="indefinite"
+      keyPoints="${commitPositions.map((p,i)=>`${p.x/((WIDTH-1)*CELL)};${p.y/((HEIGHT-1)*CELL)}`).join(';')}"
+      keyTimes="${commitPositions.map((_,i)=>i/commitPositions.length).join(';')}" />
+    <animate attributeName="r" values="3;0" dur="0.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0" dur="0.5s" repeatCount="indefinite"/>
   </circle>
-`;
-svg += `</g>\n`;
-
-const outputDir = path.join(__dirname, '..', 'output');
-if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir);
-
-fs.writeFileSync(path.join(outputDir, 'pixel-contrib-rocket.svg'), svg);
-console.log('✔ Pixel Contribution SVG з ракетою та хвостом згенеровано у output/pixel-contrib-rocket.svg');
+</g>\n`;
 
 svg += `</svg>`;
 
+// Створюємо папку один раз
 const outputDir = path.join(__dirname, '..', 'output');
-if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir);
+if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
+// Записуємо **тільки один файл**, який будемо вставляти у README
 fs.writeFileSync(path.join(outputDir, 'pixel-contrib-rocket.svg'), svg);
-console.log('✔ Pixel Contribution SVG з ракетою та коротким хвостом згенеровано у output/pixel-contrib-rocket.svg');
 
-fs.mkdirSync('output', { recursive: true });
-fs.writeFileSync('output/pixel-fireworks.svg', svg);
-
-console.log('✔ Neon Hunter generated');
-fs.mkdirSync('output', { recursive: true });
-
-// основний файл (можеш лишити)
-fs.writeFileSync('output/pixel-hero.svg', svg);
-
-// ФАЙЛ ДЛЯ README (БЕЗ КЕШУ)
-fs.writeFileSync('output/pixel-hero-latest.svg', svg);
-
-console.log('✔ Pixel Hero generated');
+console.log('✔ Pixel Contribution Rocket згенеровано у output/pixel-contrib-rocket.svg');
