@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=61DAFB&width=650&lines=Hi+there+%F0%9F%91%8B;I'm+Viacheslav+Butrim;Full-Stack+Developer+%F0%9F%9A%80;HTML+%7+CCSS+%7C+JS+%7C+%7CSASS+%7CNext.js+%7CReact+%7C+Node.js+%7C+TypeScript" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=61DAFB&width=650&lines=Hi+there+%F0%9F%91%8B;I'm+Viacheslav+Butrim;Full-Stack+Developer+%F0%9F%9A%80;HTML+%7С+CCSS+%7C+JS+%7C+SASS+%7C+Next.js+%7CReact+%7C+Node.js+%7C+TypeScript" alt="Typing SVG" />
 </p>
 
 <h1 align="center">“Now, here, you see, it takes all the running you can do, to keep in the same place.
