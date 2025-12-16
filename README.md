@@ -7,4 +7,4 @@
 Full-Stack Developer | React, Node.js, TypeScript | Creating modern & scalable web apps 🚀
 </p>
  
-![Pixel Fireworks](https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/pixel-hero.svg?v=10)
+![Pixel Fireworks](https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/pixel-hero.svg?v=2)
