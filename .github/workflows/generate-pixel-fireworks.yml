@@ -14,7 +14,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 20       
+          node-version: 20
 
       - name: Generate Fireworks SVG
         run: node scripts/generate-fireworks-svg.js
@@ -22,10 +22,10 @@ jobs:
       - name: Check output
         run: ls -l output/
 
-   - name: Commit & Push
-  run: |
-    git config user.name "github-actions"
-    git config user.email "github-actions@github.com"
-    git add output
-    git commit -m "Update Pixel Hero SVG" || echo "No changes"
-    git push
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add output
+          git commit -m "Update Pixel Hero SVG" || echo "No changes"
+          git push
