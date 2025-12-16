@@ -17,8 +17,8 @@ If you want to get somewhere else, you must run at least twice as fast as that!â
  
 ![Interactive Starfield](https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/interactive-starfield-hover.svg)
 
- <p align="center">
-  <a href="mailto:viacheslavbutrim@gmail.com" 
+<p align="center">
+  <a href="mailto:your.email@example.com" 
      style="
        display:inline-block;
        background: linear-gradient(90deg, #00fff7, #22d3ee);
@@ -29,12 +29,9 @@ If you want to get somewhere else, you must run at least twice as fast as that!â
        border-radius: 12px;
        text-decoration: none;
        box-shadow: 0 0 10px #22d3ee, 0 0 20px #00fff7;
-       transition: all 0.3s ease;
      "
-     onmouseover="this.style.boxShadow='0 0 20px #22d3ee, 0 0 40px #00fff7'; this.style.transform='scale(1.05)';"
-     onmouseout="this.style.boxShadow='0 0 10px #22d3ee, 0 0 20px #00fff7'; this.style.transform='scale(1)';"
   >
-    ðŸ“© Contact Me
+    ðŸ“© Contact Me â€” your.email@example.com
   </a>
 </p>
 
