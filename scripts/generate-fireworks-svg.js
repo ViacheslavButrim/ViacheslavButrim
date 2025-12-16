@@ -4,7 +4,9 @@ const path = require('path');
 const WIDTH = 1200;
 const HEIGHT = 400;
 const NUM_STARS = 1800;
+const NUM_LAYERS = 3; // передній, середній, задній
 const NUM_SATELLITES = 3;
+const NUM_METEORS = 5;
 
 // Випадкове число
 const random = (min, max) => Math.random() * (max - min) + min;
@@ -12,23 +14,27 @@ const random = (min, max) => Math.random() * (max - min) + min;
 // Генеруємо SVG
 let svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${WIDTH}" height="${HEIGHT}" style="background:#0a0a1f">\n`;
 
-// --- Зірки ---
-for (let i = 0; i < NUM_STARS; i++) {
-  const x = random(0, WIDTH);
-  const y = random(0, HEIGHT);
-  const size = random(0.5, 1.5); // маленькі зірки
-  const delay = random(0, 3);
-  const pulseSpeed = random(1, 3);
-  const color = `hsl(${random(180, 200)}, 100%, ${random(40, 80)}%)`;
+// --- Зоряні шари ---
+for(let layer=0; layer<NUM_LAYERS; layer++){
+  const layerFactor = 0.5 + layer*0.25; // розмір та швидкість пульсації залежить від шару
 
-  svg += `
-    <circle cx="${x}" cy="${y}" r="${size}" fill="${color}">
-      <animate attributeName="r" values="${size};${size*2};${size}" dur="${pulseSpeed}s" begin="${delay}s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.2;1;0.2" dur="${pulseSpeed}s" begin="${delay}s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="${y};${y+random(-2,2)};${y}" dur="${pulseSpeed*2}s" begin="${delay}s" repeatCount="indefinite"/>
-      <animate attributeName="cx" values="${x};${x+random(-1.5,1.5)};${x}" dur="${pulseSpeed*2}s" begin="${delay}s" repeatCount="indefinite"/>
-    </circle>
-  `;
+  for (let i = 0; i < NUM_STARS/NUM_LAYERS; i++) {
+    const x = random(0, WIDTH);
+    const y = random(0, HEIGHT);
+    const size = random(0.5, 1.5) * layerFactor;
+    const delay = random(0, 3);
+    const pulseSpeed = random(1, 3) / layerFactor;
+    const color = `hsl(${random(180,200)}, 100%, ${random(40,80)}%)`;
+
+    svg += `
+      <circle cx="${x}" cy="${y}" r="${size}" fill="${color}">
+        <animate attributeName="r" values="${size};${size*2};${size}" dur="${pulseSpeed}s" begin="${delay}s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.2;1;0.2" dur="${pulseSpeed}s" begin="${delay}s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="${y};${y+random(-2,2)};${y}" dur="${pulseSpeed*2}s" begin="${delay}s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="${x};${x+random(-1.5,1.5)};${x}" dur="${pulseSpeed*2}s" begin="${delay}s" repeatCount="indefinite"/>
+      </circle>
+    `;
+  }
 }
 
 // --- Супутники ---
@@ -37,11 +43,11 @@ for (let i = 0; i < NUM_SATELLITES; i++) {
   const orbitCx = WIDTH/2;
   const orbitCy = HEIGHT/2;
   const size = random(2,3);
-  const delay = i * 2; // рознесені по фазі
-  const speed = random(20,30); // сек на оберт
+  const delay = i * 3; 
+  const speed = random(20,30); 
 
   svg += `
-    <circle r="${size}" fill="hsl(200, 100%, 70%)">
+    <circle r="${size}" fill="hsl(${random(190,220)}, 100%, 70%)">
       <animateMotion dur="${speed}s" repeatCount="indefinite" begin="${delay}s">
         <mpath>
           <path d="M ${orbitCx-orbitRadius},${orbitCy} 
@@ -54,11 +60,31 @@ for (let i = 0; i < NUM_SATELLITES; i++) {
   `;
 }
 
+// --- Метеори / спалахи ---
+for (let i = 0; i < NUM_METEORS; i++){
+  const startX = random(0, WIDTH/2);
+  const startY = random(0, HEIGHT/2);
+  const length = random(50,100);
+  const delay = random(0,10);
+  const duration = random(3,6);
+  const color = `hsl(${random(180,200)}, 100%, 80%)`;
+
+  svg += `
+    <line x1="${startX}" y1="${startY}" x2="${startX+length}" y2="${startY+length}" stroke="${color}" stroke-width="1">
+      <animate attributeName="x1" values="${startX};${startX+length*2}" dur="${duration}s" begin="${delay}s" repeatCount="indefinite"/>
+      <animate attributeName="y1" values="${startY};${startY+length*2}" dur="${duration}s" begin="${delay}s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="${startX+length};${startX+length*3}" dur="${duration}s" begin="${delay}s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="${startY+length};${startY+length*3}" dur="${duration}s" begin="${delay}s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="${duration}s" begin="${delay}s" repeatCount="indefinite"/>
+    </line>
+  `;
+}
+
 svg += `</svg>`;
 
-// --- Записуємо файл ---
+// --- Запис ---
 const outputDir = path.join(__dirname, '..', 'output');
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
-fs.writeFileSync(path.join(outputDir, 'epic-starfield-1800.svg'), svg);
-console.log('✔ Epic Starfield 1800 stars + satellites згенеровано у output/epic-starfield-1800.svg');
+fs.writeFileSync(path.join(outputDir, 'ultimate-starfield.svg'), svg);
+console.log('✔ Ultimate Live Starfield згенеровано у output/ultimate-starfield.svg');
