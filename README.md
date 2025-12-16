@@ -15,4 +15,4 @@ If you want to get somewhere else, you must run at least twice as fast as that!â
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" />
 </p>
  
-![Epic Starfield](https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/epic-starfield.svg)
+![Epic Fractal Starfield](https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/epic-fractal-starfield.svg)
