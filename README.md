@@ -14,10 +14,7 @@ If you want to get somewhere else, you must run at least twice as fast as that!â
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" />
 </p>
- 
-![Interactive Starfield](https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/interactive-starfield-hover.svg)
-
-<p align="center">
+ <p align="center">
   <a href="mailto:your.email@example.com" 
      style="
        display:inline-block;
@@ -37,3 +34,7 @@ If you want to get somewhere else, you must run at least twice as fast as that!â
     ðŸ“© Contact Me
   </a>
 </p>
+ 
+![Interactive Starfield](https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/interactive-starfield-hover.svg)
+
+
