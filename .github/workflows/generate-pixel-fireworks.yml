@@ -42,7 +42,7 @@ jobs:
           git commit -m "Update Neon Hunter SVG (v=${VERSION})" || echo "No changes"
           git push
           - name: Generate SVGs
-  run: |
-    node scripts/generate-fireworks-svg.js
-    node scripts/generate-system-activity-svg.js
-    node scripts/generate-system-status-svg.js
+        run: | 
+          node scripts/generate-fireworks-svg.js
+          node scripts/generate-system-activity-svg.js
+          node scripts/generate-system-status-svg.js
