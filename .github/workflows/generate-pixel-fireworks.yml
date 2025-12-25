@@ -1,4 +1,4 @@
-name: Generate Neon Hunter SVG
+name: Generate Neon Hunter SVGs
 
 on:
   workflow_dispatch:
@@ -14,12 +14,22 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: '20'
 
-      - name: Generate SVGs
+      - name: Install dependencies
         run: |
+          # Якщо у тебе немає package.json, пропусти це
+          npm install
+
+      - name: Generate all SVGs
+        run: |
+          echo "🔥 Generating Fireworks SVG..."
           node scripts/generate-fireworks-svg.js
+
+          echo "📊 Generating System Activity SVG..."
           node scripts/generate-system-activity-svg.js
+
+          echo "⚙️ Generating System Status Footer SVG..."
           node scripts/generate-system-status-svg.js
 
       - name: Bump cache version
@@ -33,7 +43,7 @@ jobs:
           echo $VERSION > $VERSION_FILE
           echo "VERSION=$VERSION" >> $GITHUB_ENV
 
-      - name: Update README cache param
+      - name: Update README cache params
         run: |
           sed -i "s/v=[0-9]\\+/v=${VERSION}/g" README.md
 
@@ -42,5 +52,5 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add output README.md
-          git commit -m "Update Neon Hunter SVG (v=${VERSION})" || echo "No changes"
+          git commit -m "Update SVGs (v=${VERSION})" || echo "No changes"
           git push
