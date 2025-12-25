@@ -17,6 +17,9 @@
 ![Interactive Starfield](https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/interactive-starfield-hover.svg)
 
 <p align="center">
+  <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/system-status-advanced.svg" width="100%" />
+</p>
+<p align="center">
   <a href="mailto:viacheslavbutrim@gmail.com" 
      style="
        display:inline-block;
@@ -32,11 +35,6 @@
   >
     📩 Contact Me — viacheslavbutrim@gmail.com
   </a>
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/system-status.svg?v=23" 
-       width="100%" 
-       style="max-height:150px;"/>
 </p>
 
 
