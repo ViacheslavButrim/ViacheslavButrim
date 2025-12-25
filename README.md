@@ -34,7 +34,9 @@
   </a>
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/system-status.svg?v=20" width="100%" />
+  <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/system-status.svg?v=1" 
+       width="100%" 
+       style="max-height:150px;"/>
 </p>
 
 
