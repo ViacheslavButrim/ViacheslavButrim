@@ -16,8 +16,11 @@ jobs:
         with:
           node-version: 20
 
-      - name: Generate SVG
-        run: node scripts/generate-fireworks-svg.js
+      - name: Generate SVGs
+        run: |
+          node scripts/generate-fireworks-svg.js
+          node scripts/generate-system-activity-svg.js
+          node scripts/generate-system-status-svg.js
 
       - name: Bump cache version
         run: |
@@ -41,8 +44,3 @@ jobs:
           git add output README.md
           git commit -m "Update Neon Hunter SVG (v=${VERSION})" || echo "No changes"
           git push
-          - name: Generate SVGs
-        run: | 
-          node scripts/generate-fireworks-svg.js
-          node scripts/generate-system-activity-svg.js
-          node scripts/generate-system-status-svg.js
