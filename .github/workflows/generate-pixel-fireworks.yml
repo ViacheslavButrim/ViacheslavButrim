@@ -18,8 +18,10 @@ jobs:
 
       - name: Install dependencies
         run: |
-          # Якщо у тебе немає package.json, пропусти це
           npm install
+
+      - name: Fetch GitHub contributions
+        run: node scripts/fetch-contributions.js
 
       - name: Generate all SVGs
         run: |
