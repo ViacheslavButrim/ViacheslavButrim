@@ -33,5 +33,8 @@
     📩 Contact Me — viacheslavbutrim@gmail.com
   </a>
 </p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/system-status.svg?v=1" width="100%" />
+</p>
 
 
