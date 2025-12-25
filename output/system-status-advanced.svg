@@ -1,0 +1,94 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="120"
+     viewBox="0 0 1200 120"
+     style="background:#020617; font-family:Fira Code, monospace; overflow:visible">
+
+  <defs>
+    <linearGradient id="pulse" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#00fff7"/>
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#22d3ee"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#00fff7"/>
+    </filter>
+  </defs>
+
+  <!-- STATUS DOT -->
+  <circle cx="40" cy="60" r="10" fill="#22c55e" filter="url(#glow)">
+    <animate attributeName="r" values="8;12;8" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- STATUS TEXT -->
+  <text x="70" y="65" fill="#c7d2fe" font-size="16">
+    SYSTEM: <tspan fill="#22c55e" font-weight="bold">ONLINE</tspan>
+  </text>
+
+  <!-- UPTIME -->
+  <text x="280" y="65" fill="#c7d2fe" font-size="16">
+    UPTIME: <tspan fill="#38bdf8" font-weight="bold">2185 days</tspan>
+  </text>
+
+  <!-- BUILDS ANIMATION -->
+  <g transform="translate(500,55)">
+    
+      <rect x="0" y="0" width="10" height="20" fill="#facc15">
+        <animate attributeName="height" values="10;25;10" dur="1s" begin="0s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="15" y="0" width="10" height="20" fill="#facc15">
+        <animate attributeName="height" values="10;25;10" dur="1s" begin="0.2s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="30" y="0" width="10" height="20" fill="#facc15">
+        <animate attributeName="height" values="10;25;10" dur="1s" begin="0.4s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="45" y="0" width="10" height="20" fill="#facc15">
+        <animate attributeName="height" values="10;25;10" dur="1s" begin="0.6000000000000001s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="60" y="0" width="10" height="20" fill="#facc15">
+        <animate attributeName="height" values="10;25;10" dur="1s" begin="0.8s" repeatCount="indefinite"/>
+      </rect>
+    
+  </g>
+
+  <text x="580" y="65" fill="#c7d2fe" font-size="16">
+    BUILDS
+  </text>
+
+  <!-- FOCUS BAR -->
+  <rect x="720" y="50" width="200" height="20" rx="10" fill="#020617" stroke="#334155"/>
+  <rect x="720" y="50" width="80" height="20" rx="10" fill="url(#pulse)" filter="url(#glow)">
+    <animate attributeName="x" from="720" to="840" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <text x="940" y="65" fill="#c7d2fe" font-size="16">FOCUS</text>
+
+  <!-- EXTRA PULSING DOTS -->
+  
+    <circle cx="1000" cy="60" r="6" fill="#38bdf8" filter="url(#glow)">
+      <animate attributeName="r" values="4;8;4" dur="1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1s" repeatCount="indefinite"/>
+    </circle>
+  
+    <circle cx="1030" cy="60" r="6" fill="#38bdf8" filter="url(#glow)">
+      <animate attributeName="r" values="4;8;4" dur="1.3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.3s" repeatCount="indefinite"/>
+    </circle>
+  
+    <circle cx="1060" cy="60" r="6" fill="#38bdf8" filter="url(#glow)">
+      <animate attributeName="r" values="4;8;4" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+  
+    <circle cx="1090" cy="60" r="6" fill="#38bdf8" filter="url(#glow)">
+      <animate attributeName="r" values="4;8;4" dur="1.9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.9s" repeatCount="indefinite"/>
+    </circle>
+  
+
+</svg>
