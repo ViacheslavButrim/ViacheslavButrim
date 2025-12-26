@@ -9,10 +9,8 @@ const NUM_METEORS = 5;
 
 const random = (min, max) => Math.random() * (max - min) + min;
 
-// --- SVG header з hover ефектом ---
 let svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${WIDTH}" height="${HEIGHT}" style="background:#0a0a1f;cursor:none" onmousemove="const e=event;document.querySelectorAll('circle.star').forEach(s=>{const dx=(s.cx.baseVal.value-e.offsetX)/15,dy=(s.cy.baseVal.value-e.offsetY)/15;s.setAttribute('cx',s.cx.baseVal.value+dx);s.setAttribute('cy',s.cy.baseVal.value+dy)})">\n`;
 
-// --- Зірки ---
 for (let i = 0; i < NUM_STARS; i++) {
   const x = random(0, WIDTH);
   const y = random(0, HEIGHT);
@@ -31,7 +29,6 @@ for (let i = 0; i < NUM_STARS; i++) {
   `;
 }
 
-// --- Супутники ---
 for (let i = 0; i < NUM_SATELLITES; i++) {
   const orbitRadius = random(100, 180);
   const orbitCx = WIDTH/2;
@@ -52,7 +49,6 @@ for (let i = 0; i < NUM_SATELLITES; i++) {
   `;
 }
 
-// --- Метеори ---
 for (let i = 0; i < NUM_METEORS; i++) {
   const startX = random(0, WIDTH/2);
   const startY = random(0, HEIGHT/2);
@@ -74,7 +70,6 @@ for (let i = 0; i < NUM_METEORS; i++) {
 
 svg += `</svg>`;
 
-// --- Запис ---
 const outputDir = path.join(__dirname, '..', 'output');
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
