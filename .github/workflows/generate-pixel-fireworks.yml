@@ -56,7 +56,7 @@ jobs:
       
       - name: Generate Chess AI GIF with Background
         run: |
-          node scripts/generate-chess-gif-with-background.js
+          node scripts/generate-chess-with-background.js
      
       - name: Bump cache version
         run: |
