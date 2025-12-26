@@ -152,7 +152,7 @@ async function generateGIF() {
   encoder.finish();
   await new Promise(r => writeStream.on('finish', r));
 
-  console.log('✔ chess-ai.gif з фоном і шахівницею згенеровано');
+  console.log('✔ chess-ai-bbb.gif з фоном і шахівницею згенеровано');
 }
 
 generateGIF().catch(err => {
