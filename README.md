@@ -14,16 +14,14 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" />
 </p>
  
-<div align="center" style="margin:0; padding:0; line-height:0;">
-  <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/interactive-starfield-hover.svg" 
-       width="100%" 
-       style="display:block; margin:0; padding:0;" />
-</div>
 
-<div align="center" style="margin:0; padding:0; line-height:0; margin-top: -5px !important;">
-  <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/pixel-rain.svg" 
+<div align="center" style="margin:0; padding:0; line-height:0;">
+  <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/interactive-starfield-hover.svg"
        width="100%" 
-       style="display:block; margin:0; padding:0;" />
+       style="display:block; margin:0; padding:0; vertical-align:bottom;" />
+  <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/pixel-rain.svg"
+       width="100%" 
+       style="display:block; margin:0; padding:0; vertical-align:bottom;" />
 </div>
 
 <p align="center">
