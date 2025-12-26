@@ -60,6 +60,6 @@ svg += `</svg>`;
 const outputDir = path.join(__dirname, '..', 'output');
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
-fs.writeFileSync(path.join(outputDir, 'pixel-rain-readme.svg'), svg);
+fs.writeFileSync(path.join(outputDir, 'pixel-rain-readme-ааа.svg'), svg);
 
 console.log('✔ SVG для README згенеровано');
