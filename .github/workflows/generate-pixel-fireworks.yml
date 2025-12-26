@@ -47,10 +47,12 @@ jobs:
           echo "Generating System Status Footer SVG..."
           node scripts/generate-system-status-svg.js || echo "System Status SVG failed, but continuing"
       
-      - name: Generate Contribution Rain SVG
+       - name: Generate Chess AI GIF
         run: |
-          echo "Generating Contribution Rain SVG..."
-          node scripts/contribution-svg.js || echo "Contribution Rain SVG failed, but continuing"
+          sudo apt-get update
+          sudo apt-get install -y libcairo2-dev libjpeg-dev libpango1.0-dev libgif-dev build-essential
+          npm install canvas gifencoder chess.js
+          node scripts/generate-chess-gif.js || echo "Chess AI GIF failed, but continuing"
      
       - name: Bump cache version
         run: |
