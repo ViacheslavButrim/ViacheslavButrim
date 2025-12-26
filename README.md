@@ -26,7 +26,7 @@
 <p align="center">
   <a href="mailto:viacheslavbutrim@gmail.com" 
      style="
-       display:inline-block;
+       display:block;
        background: linear-gradient(90deg, #00fff7, #22d3ee);
        color:#0a0a1f;
        font-weight:bold;
