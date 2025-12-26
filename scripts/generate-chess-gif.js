@@ -53,17 +53,28 @@ async function loadPieces() {
 }
 
 /* ================= DRAW ================= */
+let boardImage;
+
+async function loadBoard() {
+  const boardPath = path.join(__dirname, '..', 'assets', 'dashboard.png');
+  if (!fs.existsSync(boardPath)) throw new Error(`Missing board PNG: ${boardPath}`);
+  boardImage = await loadImage(boardPath);
+}
+
 function drawBoard(chess) {
+  const boardX = (WIDTH - boardSize) / 2;
+  const boardY = (HEIGHT - boardSize) / 2;
+
+  // малюємо шахівницю з PNG
+  ctx.drawImage(boardImage, boardX, boardY, boardSize, boardSize);
+
+  // малюємо фігури поверх
   for (let y = 0; y < 8; y++) {
     for (let x = 0; x < 8; x++) {
-      const isLight = (x + y) % 2 === 0;
-      ctx.fillStyle = isLight ? '#a0c4ff' : '#2b2b7b';
-      ctx.fillRect(x * squareSize, y * squareSize, squareSize, squareSize);
-
       const square = chess.board()[y][x];
       if (square) {
         const key = square.color + square.type.toUpperCase();
-        ctx.drawImage(pieceImages[key], x * squareSize, y * squareSize, squareSize, squareSize);
+        ctx.drawImage(pieceImages[key], boardX + x * squareSize, boardY + y * squareSize, squareSize, squareSize);
       }
     }
   }
