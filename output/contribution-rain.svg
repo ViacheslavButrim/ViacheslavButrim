@@ -1,451 +1,511 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="180" viewBox="0 0 1200 180" style="background:#020617; display:block">
-    <rect x="740" y="-44.961360565264215" width="18" height="18" fill="#22c55e" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #22c55e); opacity:0;">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="120" viewBox="0 0 1200 120" style="background:#020617; display:block">
+    <rect x="880" y="-62.98673256476758" width="14" height="14" fill="#22c55e" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #22c55e); opacity:0;">
+      <!-- Падіння -->
       <animate attributeName="y" 
-               values="-44.961360565264215;20;20;-44.961360565264215" 
+               values="-62.98673256476758;0;0;-62.98673256476758" 
                keyTimes="0;0.3;0.7;1" 
-               dur="5.43s" 
-               begin="0.48s" 
+               dur="5.41s" 
+               begin="0.46s" 
                repeatCount="indefinite" />
+      <!-- Плавне зникання -->
       <animate attributeName="opacity" 
                values="0;1;1;0" 
                keyTimes="0;0.3;0.7;1" 
-               dur="5.43s" 
-               begin="0.48s" 
+               dur="5.41s" 
+               begin="0.46s" 
                repeatCount="indefinite"/>
     </rect>
   
-    <rect x="360" y="-62.46723641337509" width="18" height="18" fill="#00fff7" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #00fff7); opacity:0;">
+    <rect x="944" y="-53.508189166151375" width="14" height="14" fill="#15bdfa" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #15bdfa); opacity:0;">
+      <!-- Падіння -->
       <animate attributeName="y" 
-               values="-62.46723641337509;100;100;-62.46723641337509" 
+               values="-53.508189166151375;32;32;-53.508189166151375" 
                keyTimes="0;0.3;0.7;1" 
-               dur="5.16s" 
-               begin="1.40s" 
+               dur="5.35s" 
+               begin="2.46s" 
                repeatCount="indefinite" />
+      <!-- Плавне зникання -->
       <animate attributeName="opacity" 
                values="0;1;1;0" 
                keyTimes="0;0.3;0.7;1" 
-               dur="5.16s" 
-               begin="1.40s" 
+               dur="5.35s" 
+               begin="2.46s" 
                repeatCount="indefinite"/>
     </rect>
   
-    <rect x="560" y="-40.362445750339205" width="18" height="18" fill="#22d3ee" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #22d3ee); opacity:0;">
+    <rect x="736" y="-61.94337965273636" width="14" height="14" fill="#15bdfa" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #15bdfa); opacity:0;">
+      <!-- Падіння -->
       <animate attributeName="y" 
-               values="-40.362445750339205;60;60;-40.362445750339205" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="4.90s" 
-               begin="1.78s" 
-               repeatCount="indefinite" />
-      <animate attributeName="opacity" 
-               values="0;1;1;0" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="4.90s" 
-               begin="1.78s" 
-               repeatCount="indefinite"/>
-    </rect>
-  
-    <rect x="480" y="-84.46933161496511" width="18" height="18" fill="#15bdfa" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #15bdfa); opacity:0;">
-      <animate attributeName="y" 
-               values="-84.46933161496511;20;20;-84.46933161496511" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="5.24s" 
-               begin="0.01s" 
-               repeatCount="indefinite" />
-      <animate attributeName="opacity" 
-               values="0;1;1;0" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="5.24s" 
-               begin="0.01s" 
-               repeatCount="indefinite"/>
-    </rect>
-  
-    <rect x="260" y="-59.48688428946041" width="18" height="18" fill="#00fff7" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #00fff7); opacity:0;">
-      <animate attributeName="y" 
-               values="-59.48688428946041;80;80;-59.48688428946041" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="5.09s" 
-               begin="2.51s" 
-               repeatCount="indefinite" />
-      <animate attributeName="opacity" 
-               values="0;1;1;0" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="5.09s" 
-               begin="2.51s" 
-               repeatCount="indefinite"/>
-    </rect>
-  
-    <rect x="160" y="-57.64224143406165" width="18" height="18" fill="#15bdfa" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #15bdfa); opacity:0;">
-      <animate attributeName="y" 
-               values="-57.64224143406165;20;20;-57.64224143406165" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="5.26s" 
-               begin="2.66s" 
-               repeatCount="indefinite" />
-      <animate attributeName="opacity" 
-               values="0;1;1;0" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="5.26s" 
-               begin="2.66s" 
-               repeatCount="indefinite"/>
-    </rect>
-  
-    <rect x="1060" y="-99.57384767499065" width="18" height="18" fill="#22d3ee" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #22d3ee); opacity:0;">
-      <animate attributeName="y" 
-               values="-99.57384767499065;0;0;-99.57384767499065" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="5.67s" 
-               begin="2.82s" 
-               repeatCount="indefinite" />
-      <animate attributeName="opacity" 
-               values="0;1;1;0" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="5.67s" 
-               begin="2.82s" 
-               repeatCount="indefinite"/>
-    </rect>
-  
-    <rect x="640" y="-87.787832069119" width="18" height="18" fill="#00fff7" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #00fff7); opacity:0;">
-      <animate attributeName="y" 
-               values="-87.787832069119;60;60;-87.787832069119" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="5.37s" 
-               begin="2.47s" 
-               repeatCount="indefinite" />
-      <animate attributeName="opacity" 
-               values="0;1;1;0" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="5.37s" 
-               begin="2.47s" 
-               repeatCount="indefinite"/>
-    </rect>
-  
-    <rect x="720" y="-109.30070070774289" width="18" height="18" fill="#22d3ee" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #22d3ee); opacity:0;">
-      <animate attributeName="y" 
-               values="-109.30070070774289;80;80;-109.30070070774289" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="4.27s" 
-               begin="0.90s" 
-               repeatCount="indefinite" />
-      <animate attributeName="opacity" 
-               values="0;1;1;0" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="4.27s" 
-               begin="0.90s" 
-               repeatCount="indefinite"/>
-    </rect>
-  
-    <rect x="660" y="-109.0807729120302" width="18" height="18" fill="#22d3ee" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #22d3ee); opacity:0;">
-      <animate attributeName="y" 
-               values="-109.0807729120302;40;40;-109.0807729120302" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="5.02s" 
-               begin="0.38s" 
-               repeatCount="indefinite" />
-      <animate attributeName="opacity" 
-               values="0;1;1;0" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="5.02s" 
-               begin="0.38s" 
-               repeatCount="indefinite"/>
-    </rect>
-  
-    <rect x="840" y="-53.40337890681988" width="18" height="18" fill="#00fff7" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #00fff7); opacity:0;">
-      <animate attributeName="y" 
-               values="-53.40337890681988;40;40;-53.40337890681988" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="4.49s" 
-               begin="1.84s" 
-               repeatCount="indefinite" />
-      <animate attributeName="opacity" 
-               values="0;1;1;0" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="4.49s" 
-               begin="1.84s" 
-               repeatCount="indefinite"/>
-    </rect>
-  
-    <rect x="840" y="-43.13603655228673" width="18" height="18" fill="#00fff7" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #00fff7); opacity:0;">
-      <animate attributeName="y" 
-               values="-43.13603655228673;100;100;-43.13603655228673" 
+               values="-61.94337965273636;80;80;-61.94337965273636" 
                keyTimes="0;0.3;0.7;1" 
                dur="5.51s" 
-               begin="1.88s" 
+               begin="2.12s" 
                repeatCount="indefinite" />
+      <!-- Плавне зникання -->
       <animate attributeName="opacity" 
                values="0;1;1;0" 
                keyTimes="0;0.3;0.7;1" 
                dur="5.51s" 
-               begin="1.88s" 
+               begin="2.12s" 
                repeatCount="indefinite"/>
     </rect>
   
-    <rect x="520" y="-71.68337550690319" width="18" height="18" fill="#15bdfa" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #15bdfa); opacity:0;">
+    <rect x="352" y="-111.98548824797047" width="14" height="14" fill="#00fff7" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #00fff7); opacity:0;">
+      <!-- Падіння -->
       <animate attributeName="y" 
-               values="-71.68337550690319;20;20;-71.68337550690319" 
+               values="-111.98548824797047;80;80;-111.98548824797047" 
                keyTimes="0;0.3;0.7;1" 
-               dur="4.92s" 
-               begin="0.47s" 
+               dur="4.59s" 
+               begin="1.19s" 
                repeatCount="indefinite" />
+      <!-- Плавне зникання -->
       <animate attributeName="opacity" 
                values="0;1;1;0" 
                keyTimes="0;0.3;0.7;1" 
-               dur="4.92s" 
-               begin="0.47s" 
+               dur="4.59s" 
+               begin="1.19s" 
                repeatCount="indefinite"/>
     </rect>
   
-    <rect x="540" y="-36.29367365870862" width="18" height="18" fill="#00fff7" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #00fff7); opacity:0;">
+    <rect x="800" y="-102.20827325143594" width="14" height="14" fill="#00fff7" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #00fff7); opacity:0;">
+      <!-- Падіння -->
       <animate attributeName="y" 
-               values="-36.29367365870862;20;20;-36.29367365870862" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="5.15s" 
-               begin="0.09s" 
-               repeatCount="indefinite" />
-      <animate attributeName="opacity" 
-               values="0;1;1;0" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="5.15s" 
-               begin="0.09s" 
-               repeatCount="indefinite"/>
-    </rect>
-  
-    <rect x="80" y="-32.777587106262665" width="18" height="18" fill="#00fff7" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #00fff7); opacity:0;">
-      <animate attributeName="y" 
-               values="-32.777587106262665;60;60;-32.777587106262665" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="4.94s" 
-               begin="2.91s" 
-               repeatCount="indefinite" />
-      <animate attributeName="opacity" 
-               values="0;1;1;0" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="4.94s" 
-               begin="2.91s" 
-               repeatCount="indefinite"/>
-    </rect>
-  
-    <rect x="620" y="-60.09103397527485" width="18" height="18" fill="#22d3ee" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #22d3ee); opacity:0;">
-      <animate attributeName="y" 
-               values="-60.09103397527485;20;20;-60.09103397527485" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="5.17s" 
-               begin="2.02s" 
-               repeatCount="indefinite" />
-      <animate attributeName="opacity" 
-               values="0;1;1;0" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="5.17s" 
-               begin="2.02s" 
-               repeatCount="indefinite"/>
-    </rect>
-  
-    <rect x="800" y="-108.31079369655261" width="18" height="18" fill="#00fff7" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #00fff7); opacity:0;">
-      <animate attributeName="y" 
-               values="-108.31079369655261;0;0;-108.31079369655261" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="5.56s" 
-               begin="2.72s" 
-               repeatCount="indefinite" />
-      <animate attributeName="opacity" 
-               values="0;1;1;0" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="5.56s" 
-               begin="2.72s" 
-               repeatCount="indefinite"/>
-    </rect>
-  
-    <rect x="460" y="-66.59282804178797" width="18" height="18" fill="#00fff7" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #00fff7); opacity:0;">
-      <animate attributeName="y" 
-               values="-66.59282804178797;60;60;-66.59282804178797" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="4.60s" 
-               begin="2.68s" 
-               repeatCount="indefinite" />
-      <animate attributeName="opacity" 
-               values="0;1;1;0" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="4.60s" 
-               begin="2.68s" 
-               repeatCount="indefinite"/>
-    </rect>
-  
-    <rect x="480" y="-61.769726166215904" width="18" height="18" fill="#22d3ee" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #22d3ee); opacity:0;">
-      <animate attributeName="y" 
-               values="-61.769726166215904;20;20;-61.769726166215904" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="4.81s" 
-               begin="2.52s" 
-               repeatCount="indefinite" />
-      <animate attributeName="opacity" 
-               values="0;1;1;0" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="4.81s" 
-               begin="2.52s" 
-               repeatCount="indefinite"/>
-    </rect>
-  
-    <rect x="700" y="-86.79720823649743" width="18" height="18" fill="#00fff7" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #00fff7); opacity:0;">
-      <animate attributeName="y" 
-               values="-86.79720823649743;80;80;-86.79720823649743" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="4.90s" 
-               begin="0.07s" 
-               repeatCount="indefinite" />
-      <animate attributeName="opacity" 
-               values="0;1;1;0" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="4.90s" 
-               begin="0.07s" 
-               repeatCount="indefinite"/>
-    </rect>
-  
-    <rect x="300" y="-108.47528610809185" width="18" height="18" fill="#00fff7" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #00fff7); opacity:0;">
-      <animate attributeName="y" 
-               values="-108.47528610809185;20;20;-108.47528610809185" 
+               values="-102.20827325143594;32;32;-102.20827325143594" 
                keyTimes="0;0.3;0.7;1" 
                dur="5.87s" 
-               begin="2.26s" 
+               begin="2.68s" 
                repeatCount="indefinite" />
+      <!-- Плавне зникання -->
       <animate attributeName="opacity" 
                values="0;1;1;0" 
                keyTimes="0;0.3;0.7;1" 
                dur="5.87s" 
-               begin="2.26s" 
+               begin="2.68s" 
                repeatCount="indefinite"/>
     </rect>
   
-    <rect x="300" y="-110.85524878009159" width="18" height="18" fill="#22c55e" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #22c55e); opacity:0;">
+    <rect x="1152" y="-86.9559200688928" width="14" height="14" fill="#22d3ee" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #22d3ee); opacity:0;">
+      <!-- Падіння -->
       <animate attributeName="y" 
-               values="-110.85524878009159;0;0;-110.85524878009159" 
+               values="-86.9559200688928;64;64;-86.9559200688928" 
                keyTimes="0;0.3;0.7;1" 
-               dur="4.05s" 
-               begin="2.36s" 
-               repeatCount="indefinite" />
-      <animate attributeName="opacity" 
-               values="0;1;1;0" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="4.05s" 
-               begin="2.36s" 
-               repeatCount="indefinite"/>
-    </rect>
-  
-    <rect x="880" y="-116.5126594241628" width="18" height="18" fill="#22d3ee" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #22d3ee); opacity:0;">
-      <animate attributeName="y" 
-               values="-116.5126594241628;100;100;-116.5126594241628" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="4.97s" 
-               begin="1.50s" 
-               repeatCount="indefinite" />
-      <animate attributeName="opacity" 
-               values="0;1;1;0" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="4.97s" 
-               begin="1.50s" 
-               repeatCount="indefinite"/>
-    </rect>
-  
-    <rect x="800" y="-43.779037408806644" width="18" height="18" fill="#22c55e" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #22c55e); opacity:0;">
-      <animate attributeName="y" 
-               values="-43.779037408806644;80;80;-43.779037408806644" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="4.93s" 
-               begin="1.28s" 
-               repeatCount="indefinite" />
-      <animate attributeName="opacity" 
-               values="0;1;1;0" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="4.93s" 
-               begin="1.28s" 
-               repeatCount="indefinite"/>
-    </rect>
-  
-    <rect x="860" y="-67.03709365435469" width="18" height="18" fill="#22c55e" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #22c55e); opacity:0;">
-      <animate attributeName="y" 
-               values="-67.03709365435469;60;60;-67.03709365435469" 
-               keyTimes="0;0.3;0.7;1" 
-               dur="4.98s" 
+               dur="5.71s" 
                begin="2.00s" 
                repeatCount="indefinite" />
+      <!-- Плавне зникання -->
       <animate attributeName="opacity" 
                values="0;1;1;0" 
                keyTimes="0;0.3;0.7;1" 
-               dur="4.98s" 
+               dur="5.71s" 
                begin="2.00s" 
                repeatCount="indefinite"/>
     </rect>
   
-    <rect x="580" y="-103.29058354508105" width="18" height="18" fill="#00fff7" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #00fff7); opacity:0;">
+    <rect x="752" y="-57.88380426829388" width="14" height="14" fill="#22c55e" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #22c55e); opacity:0;">
+      <!-- Падіння -->
       <animate attributeName="y" 
-               values="-103.29058354508105;0;0;-103.29058354508105" 
+               values="-57.88380426829388;80;80;-57.88380426829388" 
                keyTimes="0;0.3;0.7;1" 
-               dur="5.73s" 
-               begin="2.52s" 
+               dur="5.76s" 
+               begin="2.43s" 
                repeatCount="indefinite" />
+      <!-- Плавне зникання -->
       <animate attributeName="opacity" 
                values="0;1;1;0" 
                keyTimes="0;0.3;0.7;1" 
-               dur="5.73s" 
-               begin="2.52s" 
+               dur="5.76s" 
+               begin="2.43s" 
                repeatCount="indefinite"/>
     </rect>
   
-    <rect x="160" y="-47.96189731907401" width="18" height="18" fill="#22c55e" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #22c55e); opacity:0;">
+    <rect x="576" y="-64.22888816210019" width="14" height="14" fill="#22d3ee" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #22d3ee); opacity:0;">
+      <!-- Падіння -->
       <animate attributeName="y" 
-               values="-47.96189731907401;60;60;-47.96189731907401" 
+               values="-64.22888816210019;32;32;-64.22888816210019" 
                keyTimes="0;0.3;0.7;1" 
-               dur="5.20s" 
-               begin="2.69s" 
+               dur="5.57s" 
+               begin="0.34s" 
                repeatCount="indefinite" />
+      <!-- Плавне зникання -->
       <animate attributeName="opacity" 
                values="0;1;1;0" 
                keyTimes="0;0.3;0.7;1" 
-               dur="5.20s" 
-               begin="2.69s" 
+               dur="5.57s" 
+               begin="0.34s" 
                repeatCount="indefinite"/>
     </rect>
   
-    <rect x="80" y="-51.9690643212774" width="18" height="18" fill="#22c55e" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #22c55e); opacity:0;">
+    <rect x="672" y="-114.05948456225761" width="14" height="14" fill="#22d3ee" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #22d3ee); opacity:0;">
+      <!-- Падіння -->
       <animate attributeName="y" 
-               values="-51.9690643212774;20;20;-51.9690643212774" 
+               values="-114.05948456225761;64;64;-114.05948456225761" 
                keyTimes="0;0.3;0.7;1" 
-               dur="4.10s" 
-               begin="2.48s" 
+               dur="5.71s" 
+               begin="1.83s" 
                repeatCount="indefinite" />
+      <!-- Плавне зникання -->
       <animate attributeName="opacity" 
                values="0;1;1;0" 
                keyTimes="0;0.3;0.7;1" 
-               dur="4.10s" 
-               begin="2.48s" 
+               dur="5.71s" 
+               begin="1.83s" 
                repeatCount="indefinite"/>
     </rect>
   
-    <rect x="980" y="-74.52874267209995" width="18" height="18" fill="#22c55e" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #22c55e); opacity:0;">
+    <rect x="32" y="-37.1964416944805" width="14" height="14" fill="#00fff7" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #00fff7); opacity:0;">
+      <!-- Падіння -->
       <animate attributeName="y" 
-               values="-74.52874267209995;0;0;-74.52874267209995" 
+               values="-37.1964416944805;0;0;-37.1964416944805" 
                keyTimes="0;0.3;0.7;1" 
-               dur="4.96s" 
+               dur="5.88s" 
+               begin="1.78s" 
+               repeatCount="indefinite" />
+      <!-- Плавне зникання -->
+      <animate attributeName="opacity" 
+               values="0;1;1;0" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="5.88s" 
+               begin="1.78s" 
+               repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="672" y="-51.73004604184917" width="14" height="14" fill="#00fff7" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #00fff7); opacity:0;">
+      <!-- Падіння -->
+      <animate attributeName="y" 
+               values="-51.73004604184917;16;16;-51.73004604184917" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="5.95s" 
+               begin="0.25s" 
+               repeatCount="indefinite" />
+      <!-- Плавне зникання -->
+      <animate attributeName="opacity" 
+               values="0;1;1;0" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="5.95s" 
+               begin="0.25s" 
+               repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="208" y="-32.827238574115235" width="14" height="14" fill="#22d3ee" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #22d3ee); opacity:0;">
+      <!-- Падіння -->
+      <animate attributeName="y" 
+               values="-32.827238574115235;0;0;-32.827238574115235" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="5.39s" 
+               begin="1.07s" 
+               repeatCount="indefinite" />
+      <!-- Плавне зникання -->
+      <animate attributeName="opacity" 
+               values="0;1;1;0" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="5.39s" 
+               begin="1.07s" 
+               repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="1152" y="-103.59267720047986" width="14" height="14" fill="#22c55e" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #22c55e); opacity:0;">
+      <!-- Падіння -->
+      <animate attributeName="y" 
+               values="-103.59267720047986;16;16;-103.59267720047986" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="5.52s" 
+               begin="1.29s" 
+               repeatCount="indefinite" />
+      <!-- Плавне зникання -->
+      <animate attributeName="opacity" 
+               values="0;1;1;0" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="5.52s" 
+               begin="1.29s" 
+               repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="800" y="-40.871725931942244" width="14" height="14" fill="#22d3ee" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #22d3ee); opacity:0;">
+      <!-- Падіння -->
+      <animate attributeName="y" 
+               values="-40.871725931942244;0;0;-40.871725931942244" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="6.02s" 
+               begin="0.24s" 
+               repeatCount="indefinite" />
+      <!-- Плавне зникання -->
+      <animate attributeName="opacity" 
+               values="0;1;1;0" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="6.02s" 
+               begin="0.24s" 
+               repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="96" y="-29.164269064234556" width="14" height="14" fill="#00fff7" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #00fff7); opacity:0;">
+      <!-- Падіння -->
+      <animate attributeName="y" 
+               values="-29.164269064234556;80;80;-29.164269064234556" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="4.94s" 
+               begin="1.84s" 
+               repeatCount="indefinite" />
+      <!-- Плавне зникання -->
+      <animate attributeName="opacity" 
+               values="0;1;1;0" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="4.94s" 
+               begin="1.84s" 
+               repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="80" y="-58.62312228113687" width="14" height="14" fill="#00fff7" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #00fff7); opacity:0;">
+      <!-- Падіння -->
+      <animate attributeName="y" 
+               values="-58.62312228113687;80;80;-58.62312228113687" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="6.15s" 
+               begin="0.78s" 
+               repeatCount="indefinite" />
+      <!-- Плавне зникання -->
+      <animate attributeName="opacity" 
+               values="0;1;1;0" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="6.15s" 
+               begin="0.78s" 
+               repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="736" y="-31.210557821948356" width="14" height="14" fill="#22c55e" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #22c55e); opacity:0;">
+      <!-- Падіння -->
+      <animate attributeName="y" 
+               values="-31.210557821948356;48;48;-31.210557821948356" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="5.81s" 
+               begin="1.79s" 
+               repeatCount="indefinite" />
+      <!-- Плавне зникання -->
+      <animate attributeName="opacity" 
+               values="0;1;1;0" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="5.81s" 
+               begin="1.79s" 
+               repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="384" y="-110.38362642924257" width="14" height="14" fill="#00fff7" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #00fff7); opacity:0;">
+      <!-- Падіння -->
+      <animate attributeName="y" 
+               values="-110.38362642924257;64;64;-110.38362642924257" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="5.29s" 
+               begin="0.77s" 
+               repeatCount="indefinite" />
+      <!-- Плавне зникання -->
+      <animate attributeName="opacity" 
+               values="0;1;1;0" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="5.29s" 
+               begin="0.77s" 
+               repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="32" y="-23.38106466774491" width="14" height="14" fill="#15bdfa" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #15bdfa); opacity:0;">
+      <!-- Падіння -->
+      <animate attributeName="y" 
+               values="-23.38106466774491;80;80;-23.38106466774491" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="6.16s" 
+               begin="2.47s" 
+               repeatCount="indefinite" />
+      <!-- Плавне зникання -->
+      <animate attributeName="opacity" 
+               values="0;1;1;0" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="6.16s" 
+               begin="2.47s" 
+               repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="176" y="-105.56658101439687" width="14" height="14" fill="#00fff7" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #00fff7); opacity:0;">
+      <!-- Падіння -->
+      <animate attributeName="y" 
+               values="-105.56658101439687;48;48;-105.56658101439687" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="5.24s" 
+               begin="0.21s" 
+               repeatCount="indefinite" />
+      <!-- Плавне зникання -->
+      <animate attributeName="opacity" 
+               values="0;1;1;0" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="5.24s" 
+               begin="0.21s" 
+               repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="288" y="-46.4998870424684" width="14" height="14" fill="#00fff7" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #00fff7); opacity:0;">
+      <!-- Падіння -->
+      <animate attributeName="y" 
+               values="-46.4998870424684;48;48;-46.4998870424684" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="5.74s" 
+               begin="2.46s" 
+               repeatCount="indefinite" />
+      <!-- Плавне зникання -->
+      <animate attributeName="opacity" 
+               values="0;1;1;0" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="5.74s" 
+               begin="2.46s" 
+               repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="272" y="-105.97303243978203" width="14" height="14" fill="#22d3ee" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #22d3ee); opacity:0;">
+      <!-- Падіння -->
+      <animate attributeName="y" 
+               values="-105.97303243978203;0;0;-105.97303243978203" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="5.87s" 
+               begin="0.95s" 
+               repeatCount="indefinite" />
+      <!-- Плавне зникання -->
+      <animate attributeName="opacity" 
+               values="0;1;1;0" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="5.87s" 
+               begin="0.95s" 
+               repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="864" y="-86.4550887159709" width="14" height="14" fill="#22c55e" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #22c55e); opacity:0;">
+      <!-- Падіння -->
+      <animate attributeName="y" 
+               values="-86.4550887159709;16;16;-86.4550887159709" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="5.38s" 
+               begin="2.63s" 
+               repeatCount="indefinite" />
+      <!-- Плавне зникання -->
+      <animate attributeName="opacity" 
+               values="0;1;1;0" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="5.38s" 
+               begin="2.63s" 
+               repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="16" y="-68.71781753318088" width="14" height="14" fill="#22c55e" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #22c55e); opacity:0;">
+      <!-- Падіння -->
+      <animate attributeName="y" 
+               values="-68.71781753318088;48;48;-68.71781753318088" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="5.85s" 
+               begin="1.50s" 
+               repeatCount="indefinite" />
+      <!-- Плавне зникання -->
+      <animate attributeName="opacity" 
+               values="0;1;1;0" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="5.85s" 
+               begin="1.50s" 
+               repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="352" y="-33.61982458423033" width="14" height="14" fill="#22d3ee" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #22d3ee); opacity:0;">
+      <!-- Падіння -->
+      <animate attributeName="y" 
+               values="-33.61982458423033;32;32;-33.61982458423033" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="5.39s" 
+               begin="1.22s" 
+               repeatCount="indefinite" />
+      <!-- Плавне зникання -->
+      <animate attributeName="opacity" 
+               values="0;1;1;0" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="5.39s" 
+               begin="1.22s" 
+               repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="688" y="-88.85570623659609" width="14" height="14" fill="#15bdfa" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #15bdfa); opacity:0;">
+      <!-- Падіння -->
+      <animate attributeName="y" 
+               values="-88.85570623659609;64;64;-88.85570623659609" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="4.93s" 
+               begin="2.75s" 
+               repeatCount="indefinite" />
+      <!-- Плавне зникання -->
+      <animate attributeName="opacity" 
+               values="0;1;1;0" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="4.93s" 
+               begin="2.75s" 
+               repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="864" y="-29.431007680799457" width="14" height="14" fill="#22d3ee" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #22d3ee); opacity:0;">
+      <!-- Падіння -->
+      <animate attributeName="y" 
+               values="-29.431007680799457;0;0;-29.431007680799457" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="4.94s" 
                begin="1.47s" 
                repeatCount="indefinite" />
+      <!-- Плавне зникання -->
       <animate attributeName="opacity" 
                values="0;1;1;0" 
                keyTimes="0;0.3;0.7;1" 
-               dur="4.96s" 
+               dur="4.94s" 
                begin="1.47s" 
                repeatCount="indefinite"/>
     </rect>
   
-    <rect x="240" y="-105.3594545729742" width="18" height="18" fill="#15bdfa" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #15bdfa); opacity:0;">
+    <rect x="672" y="-47.69705882205285" width="14" height="14" fill="#15bdfa" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #15bdfa); opacity:0;">
+      <!-- Падіння -->
       <animate attributeName="y" 
-               values="-105.3594545729742;100;100;-105.3594545729742" 
+               values="-47.69705882205285;64;64;-47.69705882205285" 
                keyTimes="0;0.3;0.7;1" 
-               dur="5.06s" 
-               begin="1.45s" 
+               dur="5.59s" 
+               begin="0.44s" 
                repeatCount="indefinite" />
+      <!-- Плавне зникання -->
       <animate attributeName="opacity" 
                values="0;1;1;0" 
                keyTimes="0;0.3;0.7;1" 
-               dur="5.06s" 
-               begin="1.45s" 
+               dur="5.59s" 
+               begin="0.44s" 
+               repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="944" y="-115.72563321877648" width="14" height="14" fill="#15bdfa" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #15bdfa); opacity:0;">
+      <!-- Падіння -->
+      <animate attributeName="y" 
+               values="-115.72563321877648;16;16;-115.72563321877648" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="5.57s" 
+               begin="1.32s" 
+               repeatCount="indefinite" />
+      <!-- Плавне зникання -->
+      <animate attributeName="opacity" 
+               values="0;1;1;0" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="5.57s" 
+               begin="1.32s" 
+               repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="672" y="-103.00765960233528" width="14" height="14" fill="#22c55e" rx="2" ry="2" style="filter:drop-shadow(0 0 6px #22c55e); opacity:0;">
+      <!-- Падіння -->
+      <animate attributeName="y" 
+               values="-103.00765960233528;16;16;-103.00765960233528" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="5.07s" 
+               begin="1.92s" 
+               repeatCount="indefinite" />
+      <!-- Плавне зникання -->
+      <animate attributeName="opacity" 
+               values="0;1;1;0" 
+               keyTimes="0;0.3;0.7;1" 
+               dur="5.07s" 
+               begin="1.92s" 
                repeatCount="indefinite"/>
     </rect>
   </svg>
