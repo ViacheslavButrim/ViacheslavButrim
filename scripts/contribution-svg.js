@@ -1,24 +1,15 @@
 const fs = require('fs');
 const path = require('path');
+
 const WIDTH = 1200;
 const HEIGHT = 120;
-const NUM_LAYERS = 3;
+const NUM_LAYERS = 3; 
 const PIXELS_PER_LAYER = [50, 30, 20];
-const SPEEDS = [4, 6, 8];
+const SPEEDS = [4, 6, 8]; 
 const random = (min, max) => Math.random() * (max - min) + min;
-const outputDir = path.resolve(process.cwd(), 'output');
-const outputFile = 'pixel-rain-advanced-stop.svg';
-const outputPath = path.join(outputDir, outputFile);
-
-fs.mkdirSync(outputDir, { recursive: true });
 
 let svg = `
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="${WIDTH}"
-     height="${HEIGHT}"
-     viewBox="0 0 ${WIDTH} ${HEIGHT}"
-     style="background:#0a0a1f; overflow:visible">
-
+<svg xmlns="http://www.w3.org/2000/svg" width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}" style="background:#0a0a1f; overflow:visible">
   <defs>
     <linearGradient id="pixelGradient" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#22d3ee"/>
@@ -32,46 +23,41 @@ let svg = `
   </defs>
 `;
 
-
+// Генеруємо квадратики
 for (let layer = 0; layer < NUM_LAYERS; layer++) {
   for (let i = 0; i < PIXELS_PER_LAYER[layer]; i++) {
-
-    const size = random(4 + layer * 2, 8 + layer * 3);
+    const size = random(4 + layer*2, 8 + layer*3);
     const x = random(0, WIDTH - size);
-    const fallDuration = random(SPEEDS[layer] - 1, SPEEDS[layer] + 1);
     const delay = random(0, 5);
-    const stopY = random(HEIGHT * 0.45, HEIGHT * 0.9);
-    const fadeDuration = random(1, 3);
+    const duration = random(SPEEDS[layer]-1, SPEEDS[layer]+1);
     const waveAmplitude = random(5, 15);
 
+    // Рандомна точка зупинки
+    const stopY = random(HEIGHT * 0.45, HEIGHT * 0.9);
+
+    // Час стухання
+    const fadeDuration = random(1, 2);
+
     svg += `
-    <rect x="${x}" y="-${size}" width="${size}" height="${size}"
-          fill="url(#pixelGradient)" filter="url(#glow)">
-
-      <animate attributeName="y"
-               from="-${size}"
-               to="${stopY}"
-               dur="${fallDuration}s"
-               begin="${delay}s"
-               fill="freeze"/>
-
-      <animate attributeName="opacity"
-               values="0;1;1;0"
-               dur="${fadeDuration}s"
-               begin="${delay + fallDuration}s"
-               fill="freeze"/>
-    </rect>
+      <rect x="${x}" y="-${size}" width="${size}" height="${size}" fill="url(#pixelGradient)" filter="url(#glow)">
+        <!-- Падіння до випадкової точки -->
+        <animate attributeName="y" values="-${size};${stopY}" dur="${duration}s" begin="${delay}s" repeatCount="indefinite"/>
+        <!-- Легке горизонтальне коливання -->
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; ${waveAmplitude} 0; 0 0" dur="${duration}s" begin="${delay}s" repeatCount="indefinite"/>
+        <!-- Світіння та стухання після зупинки -->
+        <animate attributeName="opacity" values="0;1;1;0" dur="${fadeDuration}s" begin="${delay + duration}s" repeatCount="indefinite"/>
+      </rect>
     `;
   }
 }
 
-svg += `
-</svg>
-`;
+svg += `</svg>`;
 
-fs.writeFileSync(outputPath, svg);
+// Створюємо output
+const outputDir = path.join(__dirname, '..', 'output');
+if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
-console.log('✔ SVG GENERATED');
-console.log('📁 Output dir:', outputDir);
-console.log('📄 File:', outputPath);
-console.log('📦 Output files:', fs.readdirSync(outputDir));
+fs.writeFileSync(path.join(outputDir, 'pixel-rain-fixed.svg'), svg);
+
+console.log('✔ Pixel Rain with fixed points SVG generated');
