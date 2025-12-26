@@ -1,116 +1,157 @@
 const { createCanvas, loadImage } = require('canvas');
 const GIFEncoder = require('gifencoder');
+const { spawn } = require('child_process');
 const { Chess } = require('chess.js');
-const stockfish = require('stockfish');
 const fs = require('fs');
 const path = require('path');
-const boardSize = 400;
-const squareSize = boardSize / 8;
-const MOVES_LIMIT = 60;
-const STOCKFISH_DEPTH = 6;
-const OPENING_RANDOM_MOVES = 4;
-const outputDir = path.join(process.cwd(), 'output');
-if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
-const gifPath = path.join(outputDir, 'chess-ai.gif');
-const encoder = new GIFEncoder(boardSize, boardSize);
-const writeStream = fs.createWriteStream(gifPath);
+/* ================= CONFIG ================= */
 
-encoder.createReadStream().pipe(writeStream);
-encoder.start();
-encoder.setRepeat(0);
-encoder.setDelay(800);
-encoder.setQuality(10);
+const BOARD_SIZE = 400;
+const SQUARE = BOARD_SIZE / 8;
+const FRAMES = 80;
+const DELAY = 800;
 
-const canvas = createCanvas(boardSize, boardSize);
-const ctx = canvas.getContext('2d');
-const chess = new Chess();
-const engine = stockfish();
+const OUTPUT_DIR = path.join(process.cwd(), 'output');
+const GIF_PATH = path.join(OUTPUT_DIR, 'chess-ai.gif');
 
-engine.postMessage('uci');
-engine.postMessage('isready');
+const PIECES_DIR = path.join(process.cwd(), 'assets', 'pieces');
 
-function getBestMove(fen, depth = STOCKFISH_DEPTH) {
-  return new Promise(resolve => {
-    engine.postMessage(`position fen ${fen}`);
-    engine.postMessage(`go depth ${depth}`);
-    
-      engine.onmessage = event => {
-      const line = typeof event === 'string' ? event : event.data;
-      if (line.startsWith('bestmove')) {
-        resolve(line.split(' ')[1]);
+/* ========================================== */
+
+if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+
+/* ============= STOCKFISH ENGINE ============ */
+
+class Stockfish {
+  constructor(depth) {
+    this.depth = depth;
+    this.proc = spawn('stockfish');
+    this.queue = [];
+
+    this.proc.stdout.on('data', data => {
+      const text = data.toString();
+      if (text.includes('bestmove')) {
+        const move = text.split('bestmove ')[1].split(' ')[0];
+        this.queue.shift()?.(move);
       }
-    };
-  });
+    });
+
+    this.proc.stdin.write('uci\n');
+  }
+
+  getMove(fen) {
+    return new Promise(resolve => {
+      this.queue.push(resolve);
+      this.proc.stdin.write(`position fen ${fen}\n`);
+      this.proc.stdin.write(`go depth ${this.depth}\n`);
+    });
+  }
+
+  quit() {
+    this.proc.stdin.write('quit\n');
+  }
 }
 
-const pieces = ['K', 'Q', 'R', 'B', 'N', 'P'];
+/* =============== OPENINGS ================= */
+
+const OPENINGS = [
+  ['e4', 'e5', 'Nf3', 'Nc6'],
+  ['d4', 'd5', 'c4'],
+  ['c4', 'e5'],
+  ['Nf3', 'd5', 'g3'],
+  ['e4', 'c5'],
+];
+
+/* ================ DRAWING ================= */
+
+const canvas = createCanvas(BOARD_SIZE, BOARD_SIZE);
+const ctx = canvas.getContext('2d');
+
+const pieces = ['K','Q','R','B','N','P'];
 const pieceImages = {};
 
 async function loadPieces() {
-  for (const color of ['w', 'b']) {
+  for (const color of ['w','b']) {
     for (const p of pieces) {
-      const imgPath = path.join(__dirname, '..', 'assets/pieces', `${color}${p}.png`);
-      if (!fs.existsSync(imgPath)) {
-        throw new Error(`Missing PNG: ${imgPath}`);
+      const file = path.join(PIECES_DIR, `${color}${p}.png`);
+      if (!fs.existsSync(file)) {
+        throw new Error(`❌ Missing piece: ${file}`);
       }
-      pieceImages[color + p] = await loadImage(imgPath);
+      pieceImages[color + p] = await loadImage(file);
     }
   }
 }
 
-function drawBoard() {
-  const board = chess.board();
-
+function drawBoard(chess) {
   for (let y = 0; y < 8; y++) {
     for (let x = 0; x < 8; x++) {
-      const isLight = (x + y) % 2 === 0;
-      ctx.fillStyle = isLight ? '#a0c4ff' : '#2b2b7b';
-      ctx.fillRect(x * squareSize, y * squareSize, squareSize, squareSize);
+      const light = (x + y) % 2 === 0;
+      ctx.fillStyle = light ? '#a0c4ff' : '#2b2b7b';
+      ctx.fillRect(x * SQUARE, y * SQUARE, SQUARE, SQUARE);
 
-      const square = board[y][x];
+      const square = chess.board()[y][x];
       if (square) {
         const key = square.color + square.type.toUpperCase();
         ctx.drawImage(
           pieceImages[key],
-          x * squareSize,
-          y * squareSize,
-          squareSize,
-          squareSize
+          x * SQUARE,
+          y * SQUARE,
+          SQUARE,
+          SQUARE
         );
       }
     }
   }
 }
 
+/* =============== MAIN ===================== */
 
 async function generateGIF() {
+  console.log('♟️ Generating Chess AI GIF…');
+
   await loadPieces();
 
-  for (let i = 0; i < MOVES_LIMIT; i++) {
-    let move;
+  const encoder = new GIFEncoder(BOARD_SIZE, BOARD_SIZE);
+  const stream = fs.createWriteStream(GIF_PATH);
+  encoder.createReadStream().pipe(stream);
 
-    if (i < OPENING_RANDOM_MOVES) {
-      const moves = chess.moves();
-      move = moves[Math.floor(Math.random() * moves.length)];
-    } else {
-      move = await getBestMove(chess.fen());
-    }
+  encoder.start();
+  encoder.setRepeat(0);
+  encoder.setDelay(DELAY);
+  encoder.setQuality(10);
 
+  const chess = new Chess();
+
+  // opening
+  const opening = OPENINGS[Math.floor(Math.random() * OPENINGS.length)];
+  opening.forEach(m => chess.move(m));
+
+  const white = new Stockfish(10);
+  const black = new Stockfish(7);
+
+  for (let i = 0; i < FRAMES; i++) {
+    if (chess.isGameOver()) break;
+
+    const engine = chess.turn() === 'w' ? white : black;
+    const move = await engine.getMove(chess.fen());
     if (!move) break;
 
     chess.move(move);
-    drawBoard();
+    drawBoard(chess);
     encoder.addFrame(ctx);
   }
 
   encoder.finish();
+  white.quit();
+  black.quit();
 
-  await new Promise(resolve => writeStream.on('finish', resolve));
-  console.log('✔ chess-ai.gif згенеровано у output/');
+  await new Promise(res => stream.on('finish', res));
+
+  console.log('✅ chess-ai.gif generated:', GIF_PATH);
 }
 
 generateGIF().catch(err => {
-  console.error('❌ Error:', err);
+  console.error('❌ ERROR:', err);
   process.exit(1);
 });
