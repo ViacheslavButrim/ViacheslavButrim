@@ -3,9 +3,9 @@ const path = require('path');
 
 const WIDTH = 1200;
 const HEIGHT = 120;
-const NUM_LAYERS = 3; 
+const NUM_LAYERS = 3;
 const PIXELS_PER_LAYER = [50, 30, 20];
-const SPEEDS = [4, 6, 8]; 
+const SPEEDS = [4, 6, 8];
 const random = (min, max) => Math.random() * (max - min) + min;
 
 let svg = `
@@ -20,26 +20,39 @@ let svg = `
 
 for (let layer = 0; layer < NUM_LAYERS; layer++) {
   for (let i = 0; i < PIXELS_PER_LAYER[layer]; i++) {
-    // Зменшений розмір квадратиків
     const size = random(2 + layer, 5 + layer); 
     const x = random(0, WIDTH - size);
-    const delay = random(0, 5);
-    const duration = random(SPEEDS[layer]-1, SPEEDS[layer]+1);
-    const waveAmplitude = random(3, 8);
-
-    // Рандомна точка зупинки
+    const fallDuration = random(SPEEDS[layer]-1, SPEEDS[layer]+1);
     const stopY = random(HEIGHT * 0.45, HEIGHT * 0.9);
     const fadeDuration = random(1, 2);
+    const delay = random(0, 10); // випадкова початкова затримка
+    const waveAmplitude = random(3, 8);
 
     svg += `
       <rect x="${x}" y="-${size}" width="${size}" height="${size}" fill="url(#pixelGradient)">
-        <!-- Падіння -->
-        <animate attributeName="y" values="-${size};${stopY}" dur="${duration}s" begin="${delay}s" repeatCount="indefinite"/>
-        <!-- Легке горизонтальне коливання -->
-        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; ${waveAmplitude} 0; 0 0" dur="${duration}s" begin="${delay}s" repeatCount="indefinite"/>
-        <!-- Світіння та стухання -->
-        <animate attributeName="opacity" values="0;1;1;0" dur="${fadeDuration}s" begin="${delay + duration}s" repeatCount="indefinite"/>
+        <!-- Падіння до випадкової точки -->
+        <animate attributeName="y"
+                 values="-${size};${stopY}"
+                 dur="${fallDuration}s"
+                 begin="${delay}s"
+                 fill="freeze"
+                 repeatCount="indefinite"/>
+                 
+        <!-- Горизонтальні коливання -->
+        <animateTransform attributeName="transform"
+                          type="translate"
+                          values="0 0; ${waveAmplitude} 0; 0 0"
+                          dur="${fallDuration}s"
+                          begin="${delay}s"
+                          repeatCount="indefinite"/>
+        
+        <!-- Плавне стухання після падіння -->
+        <animate attributeName="opacity"
+                 values="1;1;0"
+                 keyTimes="0;${fallDuration/(fallDuration+fadeDuration)};1"
+                 dur="${fallDuration + fadeDuration}s"
+                 begin="${delay}s"
+                 repeatCount="indefinite"/>
       </rect>
     `;
   }
@@ -47,10 +60,10 @@ for (let layer = 0; layer < NUM_LAYERS; layer++) {
 
 svg += `</svg>`;
 
-// Створюємо output
+// Запис в output
 const outputDir = path.join(__dirname, '..', 'output');
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
-fs.writeFileSync(path.join(outputDir, 'pixel-rain-small.svg'), svg);
+fs.writeFileSync(path.join(outputDir, 'pixel-rain-readme.svg'), svg);
 
-console.log('✔ Pixel Rain without glow, smaller squares generated');
+console.log('✔ SVG для README згенеровано');
