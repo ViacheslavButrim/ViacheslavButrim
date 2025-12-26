@@ -20,7 +20,7 @@
        style="display:block; margin:0; padding:0;" />
 </div>
 
-<div align="center" style="margin:0; padding:0; line-height:0; margin-top:-5px !important;">
+<div align="center" style="margin:0; padding:0; line-height:0; margin-top:-5px;!important">
   <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/pixel-rain.svg" 
        width="100%" 
        style="display:block; margin:0; padding:0;" />
