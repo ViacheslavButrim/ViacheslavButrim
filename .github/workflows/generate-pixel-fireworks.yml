@@ -31,8 +31,6 @@ jobs:
         run: |
           echo "Fetching GitHub contributions..."
           node scripts/fetch-contributions.js || echo "Fetch contributions failed, creating empty JSON"
-          # Якщо скрипт не згенерував файл, створюємо порожній
-          mkdir -p output
           if [ ! -f output/contributions.json ]; then
             echo "[]" > output/contributions.json
           fi
