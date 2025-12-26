@@ -16,7 +16,7 @@
  
 ![Interactive Starfield](https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/interactive-starfield-hover.svg)
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/system-status-advanced.svg" width="100%" />
+  <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/pixel-rain.svg" width="100%" />
 </p>
 <p align="center">
   <a href="mailto:viacheslavbutrim@gmail.com" 
