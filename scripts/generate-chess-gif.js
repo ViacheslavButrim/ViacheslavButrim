@@ -5,46 +5,31 @@ const fs = require('fs');
 const path = require('path');
 
 /* ================= CONFIG ================= */
-
 const boardSize = 1200;
 const squareSize = boardSize / 8;
 const MOVES_DELAY_MS = 1000;
 const FRAMES_BETWEEN_GAMES = 5;
 
 /* ================= GAMES ================= */
-
 const GAMES = [
-  `
- [Event "Wch U16"]
-[Site "Wattignies"]
-[Date "1976.08.27"]
-[Round "?"]
-[White "Chandler, Murray G"]
-[Black "Kasparov, Gary"]
-[Result "1-0"]
-[WhiteElo ""]
-[BlackElo ""]
-[ECO "B22"]
-
-1.e4 c5 2.c3 Nf6 3.e5 Nd5 4.d4 Nc6 5.Nf3 cxd4 6.cxd4 e6 7.a3 d6 8.Bd3 Qa5+
-9.Bd2 Qb6 10.Nc3 Nxc3 11.Bxc3 dxe5 12.dxe5 Be7 13.O-O Bd7 14.Nd2 Qc7 15.Qg4 O-O-O
-16.Rfc1 Kb8 17.Qc4 Rc8 18.b4 f6 19.Nf3 Qb6 20.Qe4 f5 21.Qe1 a6 22.Rab1 g5
-23.Nd2 Nd4 24.Qe3 Rxc3 25.Rxc3 f4 26.Qe1 g4 27.Ne4 Bc6 28.Nc5 Ka7 29.a4 Bf3
-30.a5 Qd8 31.Bc4 Bxc5 32.bxc5 Qh4 33.gxf3 gxf3 34.Kh1 Rg8 35.Qe4 Rg7 36.Qxd4 Qg5
-37.c6+ Kb8 38.c7+ Rxc7 39.Rg1 Qh5 40.Rg8+ Rc8 41.Qd6+ Ka7  1-0
-  `
+  `1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6
+   8.c3 O-O 9.h3 Nb8 10.d4 Nbd7 11.Nbd2 Bb7 12.Bc2 Re8 13.Nf1 Bf8 14.Ng3 g6 15.a4 c5 16.d5 c4
+   17.Be3 Qc7 18.Nd2 Nc5 19.f4 exf4 20.Bxf4 Nfd7 21.Nf3 Bg7 22.Nd4 Qb6 23.Kh1 Ne5 24.Rf1 Ned3
+   25.Bc1 Nxc1 26.Rxc1 Be5 27.Nge2 b4 28.cxb4 Qxb4 29.b3 cxb3 30.Bxb3 Nxb3 31.Nxb3 Qxa4 32.Rc7 Rf8
+   33.Rxb7 Qxe4 34.Na5 Rac8 35.Nc6 Rxc6 36.dxc6 Qxc6 37.Rb3 a5 38.Nd4 Qc4 39.Nf3 Qf4 40.Rb5 Rc8 41.Rxa5 Rc1
+   42.Qe2 Rxf1+ 43.Qxf1 h5 44.Ra8+ Kg7 45.Ra7 g5 46.Ra5 g4 47.Nxe5 Qxf1+ 48.Kh2 dxe5 49.hxg4 hxg4 50.Kg3 Qf4+ 51.Kh4 Kg6 52.Ra6+ f6 53.Rxf6+ Kxf6 54.g3 Qg5# 0-1`,
+  // Додаткові PGN-партії можна додати сюди...
 ];
 
 /* ================= SETUP ================= */
-
 const outputDir = path.join(process.cwd(), 'output');
 fs.mkdirSync(outputDir, { recursive: true });
 
 const gifPath = path.join(outputDir, 'chess-ai.gif');
 const encoder = new GIFEncoder(boardSize, boardSize);
 const writeStream = fs.createWriteStream(gifPath);
-
 encoder.createReadStream().pipe(writeStream);
+
 encoder.start();
 encoder.setRepeat(0);
 encoder.setDelay(MOVES_DELAY_MS);
@@ -54,7 +39,6 @@ const canvas = createCanvas(boardSize, boardSize);
 const ctx = canvas.getContext('2d');
 
 /* ================= PIECES ================= */
-
 const pieces = ['K','Q','R','B','N','P'];
 const pieceImages = {};
 
@@ -69,7 +53,6 @@ async function loadPieces() {
 }
 
 /* ================= DRAW ================= */
-
 function drawBoard(chess) {
   for (let y = 0; y < 8; y++) {
     for (let x = 0; x < 8; x++) {
@@ -87,33 +70,20 @@ function drawBoard(chess) {
 }
 
 /* ================= MAIN ================= */
-
-async function playGame(gameData) {
+async function playGame(gamePgn) {
   const chess = new Chess();
+  chess.loadPgn(gamePgn);
 
-  // PGN
-  if (typeof gameData === 'string') {
-    chess.loadPgn(gameData);
-    chess.reset();
-    const moves = chess.history({ verbose: true });
+  const moves = chess.history();
+  chess.reset(); // починаємо з чистої дошки
 
-    for (const move of moves) {
-      chess.move(move);
-      drawBoard(chess);
-      encoder.addFrame(ctx);
-    }
+  for (const move of moves) {
+    chess.move(move);
+    drawBoard(chess);
+    encoder.addFrame(ctx);
   }
 
-  // SAN array
-  if (Array.isArray(gameData)) {
-    for (const san of gameData) {
-      chess.move(san);
-      drawBoard(chess);
-      encoder.addFrame(ctx);
-    }
-  }
-
-  // пауза між партіями
+  // Пауза між партіями
   for (let i = 0; i < FRAMES_BETWEEN_GAMES; i++) {
     drawBoard(chess);
     encoder.addFrame(ctx);
@@ -129,7 +99,6 @@ async function generateGIF() {
 
   encoder.finish();
   await new Promise(r => writeStream.on('finish', r));
-
   console.log('✔ chess-ai.gif з кількома партіями згенеровано');
 }
 
