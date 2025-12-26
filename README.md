@@ -15,7 +15,7 @@
 </p>
  
 ![Interactive Starfield](https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/interactive-starfield-hover.svg)
-<div align="center">
+<div align="center" style="margin:0; padding:0;">
   <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/pixel-rain.svg" width="100%" />
 </div>
 <p align="center">
