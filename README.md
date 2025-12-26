@@ -15,7 +15,6 @@
 </p>
  
 ![Interactive Starfield](https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/interactive-starfield-hover.svg)
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/system-status-advanced.svg" width="100%" />
 </p>
