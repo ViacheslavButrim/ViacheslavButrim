@@ -10,7 +10,10 @@ const outputDir = path.join(process.cwd(), 'output');
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
 const encoder = new GIFEncoder(boardSize, boardSize);
-encoder.createReadStream().pipe(fs.createWriteStream(path.join(outputDir, 'chess-ai.gif')));
+const gifPath = path.join(outputDir, 'chess-ai.gif');
+const writeStream = fs.createWriteStream(gifPath);
+encoder.createReadStream().pipe(writeStream);
+
 encoder.start();
 encoder.setRepeat(0); // нескінченно
 encoder.setDelay(800);
@@ -21,7 +24,6 @@ const ctx = canvas.getContext('2d');
 
 const chess = new Chess();
 
-// Завантажуємо PNG фігури
 const pieces = ['K','Q','R','B','N','P'];
 const pieceImages = {};
 
@@ -29,7 +31,7 @@ async function loadPieces() {
   for(const color of ['w','b']){
     for(const p of pieces){
       const imgPath = path.join(__dirname, '..', 'assets/pieces', `${color}${p}.png`);
-      if (!fs.existsSync(imgPath)) throw new Error(`Missing piece PNG: ${imgPath}`);
+      if (!fs.existsSync(imgPath)) throw new Error(`Missing PNG: ${imgPath}`);
       pieceImages[color+p] = await loadImage(imgPath);
     }
   }
@@ -55,21 +57,22 @@ function drawBoard() {
 async function generateGIF() {
   await loadPieces();
 
-  // Генеруємо гру: комп'ютер vs комп'ютер
-  for(let i=0; i<60; i++){ // кількість ходів у GIF
+  for(let i=0; i<60; i++){ // 60 ходів
     const moves = chess.moves();
-    if(moves.length===0) break;
-    const move = moves[Math.floor(Math.random()*moves.length)];
+    if(moves.length === 0) break;
+    const move = moves[Math.floor(Math.random() * moves.length)];
     chess.move(move);
     drawBoard();
     encoder.addFrame(ctx);
   }
 
   encoder.finish();
-  console.log('✔ GIF шахів згенеровано у output/chess-ai.gif');
+
+  await new Promise(resolve => writeStream.on('finish', resolve));
+  console.log('✔ GIF chess-ai.gif згенеровано у output');
 }
 
 generateGIF().catch(err => {
-  console.error('❌ Error generating GIF:', err);
+  console.error('❌ Error:', err);
   process.exit(1);
 });
