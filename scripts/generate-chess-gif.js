@@ -6,14 +6,14 @@ const path = require('path');
 
 const boardSize = 400;
 const squareSize = boardSize / 8;
-const outputDir = path.join(__dirname, 'output');
+const outputDir = path.join(process.cwd(), 'output');
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
 const encoder = new GIFEncoder(boardSize, boardSize);
 encoder.createReadStream().pipe(fs.createWriteStream(path.join(outputDir, 'chess-ai.gif')));
 encoder.start();
 encoder.setRepeat(0); // нескінченно
-encoder.setDelay(800); // мс між ходами
+encoder.setDelay(800);
 encoder.setQuality(10);
 
 const canvas = createCanvas(boardSize, boardSize);
@@ -28,18 +28,18 @@ const pieceImages = {};
 async function loadPieces() {
   for(const color of ['w','b']){
     for(const p of pieces){
-      const imgPath = path.join(__dirname, 'assets/pieces', `${color}${p}.png`);
+      const imgPath = path.join(__dirname, '..', 'assets/pieces', `${color}${p}.png`);
+      if (!fs.existsSync(imgPath)) throw new Error(`Missing piece PNG: ${imgPath}`);
       pieceImages[color+p] = await loadImage(imgPath);
     }
   }
 }
 
 function drawBoard() {
-  // Малюємо шахівницю
   for(let y=0; y<8; y++){
     for(let x=0; x<8; x++){
       const isLight = (x+y)%2===0;
-      ctx.fillStyle = isLight ? '#a0c4ff' : '#2b2b7b'; // синій фон
+      ctx.fillStyle = isLight ? '#a0c4ff' : '#2b2b7b';
       ctx.fillRect(x*squareSize, y*squareSize, squareSize, squareSize);
 
       const square = chess.board()[y][x];
@@ -54,7 +54,8 @@ function drawBoard() {
 
 async function generateGIF() {
   await loadPieces();
-  // Генеруємо гру: комп'ютер проти себе
+
+  // Генеруємо гру: комп'ютер vs комп'ютер
   for(let i=0; i<60; i++){ // кількість ходів у GIF
     const moves = chess.moves();
     if(moves.length===0) break;
@@ -63,8 +64,12 @@ async function generateGIF() {
     drawBoard();
     encoder.addFrame(ctx);
   }
+
   encoder.finish();
   console.log('✔ GIF шахів згенеровано у output/chess-ai.gif');
 }
 
-generateGIF();
+generateGIF().catch(err => {
+  console.error('❌ Error generating GIF:', err);
+  process.exit(1);
+});
