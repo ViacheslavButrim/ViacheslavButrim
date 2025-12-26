@@ -15,37 +15,30 @@ let svg = `
       <stop offset="0%" stop-color="#22d3ee"/>
       <stop offset="100%" stop-color="#00fff7"/>
     </linearGradient>
-
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#22d3ee"/>
-      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#00fff7"/>
-    </filter>
   </defs>
 `;
 
-// Генеруємо квадратики
 for (let layer = 0; layer < NUM_LAYERS; layer++) {
   for (let i = 0; i < PIXELS_PER_LAYER[layer]; i++) {
-    const size = random(4 + layer*2, 8 + layer*3);
+    // Зменшений розмір квадратиків
+    const size = random(2 + layer, 5 + layer); 
     const x = random(0, WIDTH - size);
     const delay = random(0, 5);
     const duration = random(SPEEDS[layer]-1, SPEEDS[layer]+1);
-    const waveAmplitude = random(5, 15);
+    const waveAmplitude = random(3, 8);
 
     // Рандомна точка зупинки
     const stopY = random(HEIGHT * 0.45, HEIGHT * 0.9);
-
-    // Час стухання
     const fadeDuration = random(1, 2);
 
     svg += `
-      <rect x="${x}" y="-${size}" width="${size}" height="${size}" fill="url(#pixelGradient)" filter="url(#glow)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="${x}" y="-${size}" width="${size}" height="${size}" fill="url(#pixelGradient)">
+        <!-- Падіння -->
         <animate attributeName="y" values="-${size};${stopY}" dur="${duration}s" begin="${delay}s" repeatCount="indefinite"/>
         <!-- Легке горизонтальне коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
           values="0 0; ${waveAmplitude} 0; 0 0" dur="${duration}s" begin="${delay}s" repeatCount="indefinite"/>
-        <!-- Світіння та стухання після зупинки -->
+        <!-- Світіння та стухання -->
         <animate attributeName="opacity" values="0;1;1;0" dur="${fadeDuration}s" begin="${delay + duration}s" repeatCount="indefinite"/>
       </rect>
     `;
@@ -58,6 +51,6 @@ svg += `</svg>`;
 const outputDir = path.join(__dirname, '..', 'output');
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
-fs.writeFileSync(path.join(outputDir, 'pixel-rain-fixed.svg'), svg);
+fs.writeFileSync(path.join(outputDir, 'pixel-rain-small.svg'), svg);
 
-console.log('✔ Pixel Rain with fixed points SVG generated');
+console.log('✔ Pixel Rain without glow, smaller squares generated');
