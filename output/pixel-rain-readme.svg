@@ -7,2603 +7,2303 @@
     </linearGradient>
   </defs>
 
-      <rect x="1043.7772008459247" y="-2.8588430605978603" width="2.8588430605978603" height="2.8588430605978603" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="385.56389904121147" y="-5.7702003924673395" width="5.7702003924673395" height="5.7702003924673395" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-2.8588430605978603;97.48381366876568"
-                 dur="3.5041610812401722s"
-                 begin="8.847796276087337s"
+                 values="-5.7702003924673395;75.54062003166739"
+                 dur="4.77707523164098s"
+                 begin="9.660602198738141s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 6.2174742891829835 0; 0 0"
-                          dur="3.5041610812401722s"
-                          begin="8.847796276087337s"
+                          values="0 0; 7.7237807021528635 0; 0 0"
+                          dur="4.77707523164098s"
+                          begin="9.660602198738141s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7210891490977196;1"
-                 dur="4.859539331058912s"
-                 begin="8.847796276087337s"
+                 keyTimes="0;0.712912936997788;1"
+                 dur="6.700783481021052s"
+                 begin="9.660602198738141s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="355.3267872003892" y="-4.364823423241581" width="4.364823423241581" height="4.364823423241581" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="707.8694423945467" y="-7.5241093172168" width="7.5241093172168" height="7.5241093172168" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.364823423241581;79.44133894834341"
-                 dur="3.715774981563159s"
-                 begin="8.83458107731646s"
+                 values="-7.5241093172168;101.49107951291374"
+                 dur="3.130908823330814s"
+                 begin="6.820646682443088s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 5.81947205029174 0; 0 0"
-                          dur="3.715774981563159s"
-                          begin="8.83458107731646s"
+                          values="0 0; 4.412814577600945 0; 0 0"
+                          dur="3.130908823330814s"
+                          begin="6.820646682443088s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7328603612830317;1"
-                 dur="5.070235992922152s"
-                 begin="8.83458107731646s"
+                 keyTimes="0;0.6863247453766324;1"
+                 dur="4.56184749919322s"
+                 begin="6.820646682443088s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="851.9332466152185" y="-3.300322095657569" width="3.300322095657569" height="3.300322095657569" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="859.049640447636" y="-6.386704203574051" width="6.386704203574051" height="6.386704203574051" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.300322095657569;98.86095557183806"
-                 dur="4.494423247422391s"
-                 begin="9.861111061135585s"
+                 values="-6.386704203574051;73.71750517796916"
+                 dur="3.3303527932450026s"
+                 begin="6.1939546646491035s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 5.124487895270133 0; 0 0"
-                          dur="4.494423247422391s"
-                          begin="9.861111061135585s"
+                          values="0 0; 6.229854842133493 0; 0 0"
+                          dur="3.3303527932450026s"
+                          begin="6.1939546646491035s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7290419456538699;1"
-                 dur="6.164834923718129s"
-                 begin="9.861111061135585s"
+                 keyTimes="0;0.7690452690073714;1"
+                 dur="4.330502933258511s"
+                 begin="6.1939546646491035s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="993.4510265244272" y="-4.081611679521844" width="4.081611679521844" height="4.081611679521844" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="1114.4293074960535" y="-5.290417867427121" width="5.290417867427121" height="5.290417867427121" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.081611679521844;99.84101291017741"
-                 dur="3.9103527232622746s"
-                 begin="9.49406281038091s"
+                 values="-5.290417867427121;78.25386144072309"
+                 dur="4.291840099734497s"
+                 begin="3.678573785922774s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 3.9724908864774164 0; 0 0"
-                          dur="3.9103527232622746s"
-                          begin="9.49406281038091s"
+                          values="0 0; 5.982477366699474 0; 0 0"
+                          dur="4.291840099734497s"
+                          begin="3.678573785922774s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7638208164965417;1"
-                 dur="5.119463411848477s"
-                 begin="9.49406281038091s"
+                 keyTimes="0;0.746295220599466;1"
+                 dur="5.750861028276519s"
+                 begin="3.678573785922774s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="495.67106372053274" y="-2.779778778968031" width="2.779778778968031" height="2.779778778968031" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="378.25844548389995" y="-4.58854431509728" width="4.58854431509728" height="4.58854431509728" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-2.779778778968031;86.13487986641911"
-                 dur="3.2776191318355146s"
-                 begin="2.311764780821415s"
+                 values="-4.58854431509728;66.31195390397497"
+                 dur="3.2327085522804926s"
+                 begin="9.110597042747424s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 5.927819992872163 0; 0 0"
-                          dur="3.2776191318355146s"
-                          begin="2.311764780821415s"
+                          values="0 0; 6.965037632923255 0; 0 0"
+                          dur="3.2327085522804926s"
+                          begin="9.110597042747424s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.6899805632776796;1"
-                 dur="4.750306466990217s"
-                 begin="2.311764780821415s"
+                 keyTimes="0;0.6955861128281478;1"
+                 dur="4.647459879750603s"
+                 begin="9.110597042747424s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="5.0729883894238545" y="-4.467430407554622" width="4.467430407554622" height="4.467430407554622" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="165.42343072435898" y="-6.236025179057139" width="6.236025179057139" height="6.236025179057139" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.467430407554622;73.34909312900048"
-                 dur="4.309243071878645s"
-                 begin="7.153564973959458s"
+                 values="-6.236025179057139;94.11149806451365"
+                 dur="4.612640710583397s"
+                 begin="1.0976348431274219s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 7.157169283789304 0; 0 0"
-                          dur="4.309243071878645s"
-                          begin="7.153564973959458s"
+                          values="0 0; 5.4025935368092375 0; 0 0"
+                          dur="4.612640710583397s"
+                          begin="1.0976348431274219s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7038145229570174;1"
-                 dur="6.122697005133857s"
-                 begin="7.153564973959458s"
+                 keyTimes="0;0.7596966526362587;1"
+                 dur="6.071687553942561s"
+                 begin="1.0976348431274219s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="308.8036431489599" y="-2.2286448857973977" width="2.2286448857973977" height="2.2286448857973977" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="969.3543944626249" y="-7.929853731014905" width="7.929853731014905" height="7.929853731014905" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-2.2286448857973977;72.10947469604272"
-                 dur="4.751113103377724s"
-                 begin="1.5521756263484132s"
+                 values="-7.929853731014905;103.78133474925579"
+                 dur="3.175538835877717s"
+                 begin="9.210612897122378s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 6.105347460372298 0; 0 0"
-                          dur="4.751113103377724s"
-                          begin="1.5521756263484132s"
+                          values="0 0; 7.141230067339618 0; 0 0"
+                          dur="3.175538835877717s"
+                          begin="9.210612897122378s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7938968320169683;1"
-                 dur="5.984547250688836s"
-                 begin="1.5521756263484132s"
+                 keyTimes="0;0.7399257055149342;1"
+                 dur="4.291699574983375s"
+                 begin="9.210612897122378s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1059.3982833302812" y="-3.017198778074504" width="3.017198778074504" height="3.017198778074504" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="468.62097614936795" y="-6.406875442301581" width="6.406875442301581" height="6.406875442301581" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.017198778074504;95.75158538021125"
-                 dur="3.2666849107371076s"
-                 begin="5.97819960850734s"
+                 values="-6.406875442301581;63.3316407146589"
+                 dur="4.284677351797128s"
+                 begin="7.308954240153012s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 5.8654504405055805 0; 0 0"
-                          dur="3.2666849107371076s"
-                          begin="5.97819960850734s"
+                          values="0 0; 5.793716528214338 0; 0 0"
+                          dur="4.284677351797128s"
+                          begin="7.308954240153012s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7527159783504522;1"
-                 dur="4.339863912409459s"
-                 begin="5.97819960850734s"
+                 keyTimes="0;0.7229401738344161;1"
+                 dur="5.926738486632367s"
+                 begin="7.308954240153012s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="974.9921451627031" y="-3.857064813982201" width="3.857064813982201" height="3.857064813982201" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="934.7595909414387" y="-5.7809988370410075" width="5.7809988370410075" height="5.7809988370410075" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.857064813982201;106.82941732980905"
-                 dur="3.789282601168105s"
-                 begin="6.16358678445267s"
+                 values="-5.7809988370410075;57.786115679476865"
+                 dur="3.5045936042890546s"
+                 begin="4.7091499652762785s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 3.7865628727206886 0; 0 0"
-                          dur="3.789282601168105s"
-                          begin="6.16358678445267s"
+                          values="0 0; 4.7405128625578135 0; 0 0"
+                          dur="3.5045936042890546s"
+                          begin="4.7091499652762785s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7608110606233079;1"
-                 dur="4.9805829558572245s"
-                 begin="6.16358678445267s"
+                 keyTimes="0;0.7520134833894965;1"
+                 dur="4.660280276482612s"
+                 begin="4.7091499652762785s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1112.0023882284188" y="-2.121476441370207" width="2.121476441370207" height="2.121476441370207" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="1007.809124768056" y="-4.8434477232785405" width="4.8434477232785405" height="4.8434477232785405" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-2.121476441370207;60.24970936322744"
-                 dur="3.9848625460992833s"
-                 begin="0.6691858144504281s"
+                 values="-4.8434477232785405;65.39769864707552"
+                 dur="3.4649849633282837s"
+                 begin="3.2401778546709137s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 4.656403518359763 0; 0 0"
-                          dur="3.9848625460992833s"
-                          begin="0.6691858144504281s"
+                          values="0 0; 5.2339519383590165 0; 0 0"
+                          dur="3.4649849633282837s"
+                          begin="3.2401778546709137s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7006209484336889;1"
-                 dur="5.687615471686735s"
-                 begin="0.6691858144504281s"
+                 keyTimes="0;0.7282280742540784;1"
+                 dur="4.758104069082281s"
+                 begin="3.2401778546709137s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="865.5730637631796" y="-4.309825242905932" width="4.309825242905932" height="4.309825242905932" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="664.7907432635268" y="-7.1228065030741465" width="7.1228065030741465" height="7.1228065030741465" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.309825242905932;107.02686520034771"
-                 dur="4.057134862148141s"
-                 begin="9.686865206952792s"
+                 values="-7.1228065030741465;68.4851062925718"
+                 dur="3.293223720972662s"
+                 begin="4.977268029364687s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 3.982708758759671 0; 0 0"
-                          dur="4.057134862148141s"
-                          begin="9.686865206952792s"
+                          values="0 0; 7.760314071134201 0; 0 0"
+                          dur="3.293223720972662s"
+                          begin="4.977268029364687s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7364785871092545;1"
-                 dur="5.50882935792168s"
-                 begin="9.686865206952792s"
+                 keyTimes="0;0.7338699333074883;1"
+                 dur="4.487476011083309s"
+                 begin="4.977268029364687s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="933.5200442355725" y="-4.236474686467965" width="4.236474686467965" height="4.236474686467965" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="301.6968891539217" y="-7.106602329787667" width="7.106602329787667" height="7.106602329787667" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.236474686467965;95.48612540691795"
-                 dur="3.473246877607982s"
-                 begin="6.616209524709944s"
+                 values="-7.106602329787667;67.44137058118889"
+                 dur="3.528511946825387s"
+                 begin="3.0255676377720153s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 7.404023264756878 0; 0 0"
-                          dur="3.473246877607982s"
-                          begin="6.616209524709944s"
+                          values="0 0; 3.223095496416439 0; 0 0"
+                          dur="3.528511946825387s"
+                          begin="3.0255676377720153s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.6662517186617427;1"
-                 dur="5.213115073961042s"
-                 begin="6.616209524709944s"
+                 keyTimes="0;0.7173007040070815;1"
+                 dur="4.919153051312985s"
+                 begin="3.0255676377720153s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="287.40966571550877" y="-2.2776080513053962" width="2.2776080513053962" height="2.2776080513053962" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="1004.8047183629717" y="-4.787735679085629" width="4.787735679085629" height="4.787735679085629" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-2.2776080513053962;93.20475576077459"
-                 dur="3.5861381011519673s"
-                 begin="7.067037081448899s"
+                 values="-4.787735679085629;77.10544294963256"
+                 dur="3.2937023050824927s"
+                 begin="9.163236776722014s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 4.520817031209295 0; 0 0"
-                          dur="3.5861381011519673s"
-                          begin="7.067037081448899s"
+                          values="0 0; 6.077245843784545 0; 0 0"
+                          dur="3.2937023050824927s"
+                          begin="9.163236776722014s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7160490352547022;1"
-                 dur="5.008229778392705s"
-                 begin="7.067037081448899s"
+                 keyTimes="0;0.6669497014155705;1"
+                 dur="4.9384568252924606s"
+                 begin="9.163236776722014s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="9.318810821017175" y="-2.521442115235476" width="2.521442115235476" height="2.521442115235476" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="175.54966543527772" y="-6.622431667172006" width="6.622431667172006" height="6.622431667172006" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-2.521442115235476;104.34057046812842"
-                 dur="4.04976407799289s"
-                 begin="2.1596990509629954s"
+                 values="-6.622431667172006;103.94656410217684"
+                 dur="3.873040182293656s"
+                 begin="2.69133807369929s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 6.05606882431351 0; 0 0"
-                          dur="4.04976407799289s"
-                          begin="2.1596990509629954s"
+                          values="0 0; 7.781776132078091 0; 0 0"
+                          dur="3.873040182293656s"
+                          begin="2.69133807369929s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.798090860184239;1"
-                 dur="5.074314567464165s"
-                 begin="2.1596990509629954s"
+                 keyTimes="0;0.699289209881452;1"
+                 dur="5.538538458144147s"
+                 begin="2.69133807369929s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="908.2740020106569" y="-4.8105081090183255" width="4.8105081090183255" height="4.8105081090183255" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="252.94253543375862" y="-7.811548836110562" width="7.811548836110562" height="7.811548836110562" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.8105081090183255;96.0060137863467"
-                 dur="3.2242401111144696s"
-                 begin="9.636026943482962s"
+                 values="-7.811548836110562;65.13518634145315"
+                 dur="4.990569170020482s"
+                 begin="4.180529998811688s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 6.480997794118633 0; 0 0"
-                          dur="3.2242401111144696s"
-                          begin="9.636026943482962s"
+                          values="0 0; 6.763227037501954 0; 0 0"
+                          dur="4.990569170020482s"
+                          begin="4.180529998811688s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.6888848392843934;1"
-                 dur="4.680376061786724s"
-                 begin="9.636026943482962s"
+                 keyTimes="0;0.7256821315645932;1"
+                 dur="6.877073243157662s"
+                 begin="4.180529998811688s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="705.3101425709056" y="-4.668500656918093" width="4.668500656918093" height="4.668500656918093" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="1146.8478915768299" y="-6.114863002566503" width="6.114863002566503" height="6.114863002566503" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.668500656918093;54.16272458001853"
-                 dur="4.921700121143456s"
-                 begin="5.9111541080869s"
+                 values="-6.114863002566503;54.46024195895846"
+                 dur="4.865006592156098s"
+                 begin="2.4748266792290563s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 6.889761979590194 0; 0 0"
-                          dur="4.921700121143456s"
-                          begin="5.9111541080869s"
+                          values="0 0; 4.560124371403165 0; 0 0"
+                          dur="4.865006592156098s"
+                          begin="2.4748266792290563s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7235646950460406;1"
-                 dur="6.802018057045039s"
-                 begin="5.9111541080869s"
+                 keyTimes="0;0.8059079545891568;1"
+                 dur="6.036677717911626s"
+                 begin="2.4748266792290563s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1127.5378708595495" y="-2.2388533112823206" width="2.2388533112823206" height="2.2388533112823206" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="1022.587199885619" y="-5.975013283761563" width="5.975013283761563" height="5.975013283761563" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-2.2388533112823206;106.94117881235384"
-                 dur="4.629681635667947s"
-                 begin="8.229205895263487s"
+                 values="-5.975013283761563;104.95922729663502"
+                 dur="3.6060092232988055s"
+                 begin="6.828738215223275s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 7.755550744279017 0; 0 0"
-                          dur="4.629681635667947s"
-                          begin="8.229205895263487s"
+                          values="0 0; 3.1834238825217893 0; 0 0"
+                          dur="3.6060092232988055s"
+                          begin="6.828738215223275s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8101174605855995;1"
-                 dur="5.714827615641498s"
-                 begin="8.229205895263487s"
+                 keyTimes="0;0.6965850125242203;1"
+                 dur="5.176696538778064s"
+                 begin="6.828738215223275s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="786.1218579610378" y="-2.1584141873768043" width="2.1584141873768043" height="2.1584141873768043" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="736.9501633139619" y="-7.187760076841555" width="7.187760076841555" height="7.187760076841555" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-2.1584141873768043;58.66583767787394"
-                 dur="3.1966106264603606s"
-                 begin="7.024274224218916s"
+                 values="-7.187760076841555;72.17056706470764"
+                 dur="4.237835597584688s"
+                 begin="6.631542537689943s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 3.598819412342635 0; 0 0"
-                          dur="3.1966106264603606s"
-                          begin="7.024274224218916s"
+                          values="0 0; 3.6338133715848073 0; 0 0"
+                          dur="4.237835597584688s"
+                          begin="6.631542537689943s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.6234477693139621;1"
-                 dur="5.127311033573656s"
-                 begin="7.024274224218916s"
+                 keyTimes="0;0.6880158533731344;1"
+                 dur="6.159502832395296s"
+                 begin="6.631542537689943s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="673.711764170838" y="-3.7927692683954906" width="3.7927692683954906" height="3.7927692683954906" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="938.9130488154159" y="-7.811990965623942" width="7.811990965623942" height="7.811990965623942" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.7927692683954906;106.18973231614464"
-                 dur="4.7747428036156325s"
-                 begin="3.833122512294309s"
+                 values="-7.811990965623942;67.30066720375027"
+                 dur="3.3157111063948808s"
+                 begin="8.85876951406516s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 5.399658994112459 0; 0 0"
-                          dur="4.7747428036156325s"
-                          begin="3.833122512294309s"
+                          values="0 0; 5.786099191021737 0; 0 0"
+                          dur="3.3157111063948808s"
+                          begin="8.85876951406516s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7447836001626505;1"
-                 dur="6.410912918293171s"
-                 begin="3.833122512294309s"
+                 keyTimes="0;0.6676368487989601;1"
+                 dur="4.9663392791450205s"
+                 begin="8.85876951406516s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="505.8404763469912" y="-3.2889367784442434" width="3.2889367784442434" height="3.2889367784442434" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="985.8064485917322" y="-5.143431256066299" width="5.143431256066299" height="5.143431256066299" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.2889367784442434;103.55630998028678"
-                 dur="3.6102312354660238s"
-                 begin="7.269035188508999s"
+                 values="-5.143431256066299;103.96703716180735"
+                 dur="3.4392124732267475s"
+                 begin="5.9818487694922595s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 5.76885079986773 0; 0 0"
-                          dur="3.6102312354660238s"
-                          begin="7.269035188508999s"
+                          values="0 0; 7.250618976022951 0; 0 0"
+                          dur="3.4392124732267475s"
+                          begin="5.9818487694922595s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.6450264174620975;1"
-                 dur="5.597028490198489s"
-                 begin="7.269035188508999s"
+                 keyTimes="0;0.7716973595051669;1"
+                 dur="4.456685552782068s"
+                 begin="5.9818487694922595s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="969.649322071511" y="-3.211303942652882" width="3.211303942652882" height="3.211303942652882" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="1087.0352297316751" y="-6.639722303385718" width="6.639722303385718" height="6.639722303385718" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.211303942652882;83.0899095848761"
-                 dur="3.76312179267227s"
-                 begin="1.9621835417031552s"
+                 values="-6.639722303385718;107.12684030514652"
+                 dur="3.6095497755023036s"
+                 begin="3.4921399726258406s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 5.720560938236943 0; 0 0"
-                          dur="3.76312179267227s"
-                          begin="1.9621835417031552s"
+                          values="0 0; 7.597600857956622 0; 0 0"
+                          dur="3.6095497755023036s"
+                          begin="3.4921399726258406s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.731923232265851;1"
-                 dur="5.141415966566039s"
-                 begin="1.9621835417031552s"
+                 keyTimes="0;0.6477565716513126;1"
+                 dur="5.572386191776568s"
+                 begin="3.4921399726258406s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1147.5516981110618" y="-4.6477406069233815" width="4.6477406069233815" height="4.6477406069233815" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="102.32582481848999" y="-4.486702764681475" width="4.486702764681475" height="4.486702764681475" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.6477406069233815;90.65425043360622"
-                 dur="4.513320406462213s"
-                 begin="1.6998671331130755s"
+                 values="-4.486702764681475;60.62616245304401"
+                 dur="4.087670208856068s"
+                 begin="1.227046327525847s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 3.179580607834642 0; 0 0"
-                          dur="4.513320406462213s"
-                          begin="1.6998671331130755s"
+                          values="0 0; 6.150104094511615 0; 0 0"
+                          dur="4.087670208856068s"
+                          begin="1.227046327525847s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7657439174043039;1"
-                 dur="5.894033636938747s"
-                 begin="1.6998671331130755s"
+                 keyTimes="0;0.7934737504537621;1"
+                 dur="5.151613656429668s"
+                 begin="1.227046327525847s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1007.2918687875679" y="-3.636047241995298" width="3.636047241995298" height="3.636047241995298" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="598.5743402093277" y="-6.1561146823009425" width="6.1561146823009425" height="6.1561146823009425" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.636047241995298;104.28022231735083"
-                 dur="4.245371762172969s"
-                 begin="0.48694709454242036s"
+                 values="-6.1561146823009425;61.24958433021966"
+                 dur="3.2142543967776462s"
+                 begin="5.273286571248912s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 6.816246971160874 0; 0 0"
-                          dur="4.245371762172969s"
-                          begin="0.48694709454242036s"
+                          values="0 0; 6.002304955498248 0; 0 0"
+                          dur="3.2142543967776462s"
+                          begin="5.273286571248912s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7778431623684986;1"
-                 dur="5.4578763014975875s"
-                 begin="0.48694709454242036s"
+                 keyTimes="0;0.6470082908816946;1"
+                 dur="4.967872038235399s"
+                 begin="5.273286571248912s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1127.422048757965" y="-3.315702824860379" width="3.315702824860379" height="3.315702824860379" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="120.06786144728613" y="-5.562382930357388" width="5.562382930357388" height="5.562382930357388" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.315702824860379;73.51559068119778"
-                 dur="4.674859127999751s"
-                 begin="5.887205895500265s"
+                 values="-5.562382930357388;67.16019876880664"
+                 dur="4.129376153267398s"
+                 begin="3.884364348315974s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 4.107369874324673 0; 0 0"
-                          dur="4.674859127999751s"
-                          begin="5.887205895500265s"
+                          values="0 0; 5.148924871465269 0; 0 0"
+                          dur="4.129376153267398s"
+                          begin="3.884364348315974s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7047013655995857;1"
-                 dur="6.633815905865614s"
-                 begin="5.887205895500265s"
+                 keyTimes="0;0.7171082875570204;1"
+                 dur="5.758371817644142s"
+                 begin="3.884364348315974s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="688.2931643722684" y="-2.427643730974697" width="2.427643730974697" height="2.427643730974697" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="758.389510840171" y="-5.8948781270545085" width="5.8948781270545085" height="5.8948781270545085" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-2.427643730974697;55.582605196821916"
-                 dur="4.47234417047627s"
-                 begin="1.870276165694429s"
+                 values="-5.8948781270545085;54.11776125886256"
+                 dur="3.3846697611142753s"
+                 begin="6.136291865353554s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 6.143479812972431 0; 0 0"
-                          dur="4.47234417047627s"
-                          begin="1.870276165694429s"
+                          values="0 0; 7.188863269408144 0; 0 0"
+                          dur="3.3846697611142753s"
+                          begin="6.136291865353554s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7546745843706105;1"
-                 dur="5.926188933745729s"
-                 begin="1.870276165694429s"
+                 keyTimes="0;0.7443376833089811;1"
+                 dur="4.547223440398179s"
+                 begin="6.136291865353554s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="452.33255893020515" y="-4.011417559417665" width="4.011417559417665" height="4.011417559417665" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="589.8614748729888" y="-5.832446690942627" width="5.832446690942627" height="5.832446690942627" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.011417559417665;54.271669023079255"
-                 dur="3.3893113086332787s"
-                 begin="4.488879454172405s"
+                 values="-5.832446690942627;93.08390798344061"
+                 dur="3.031260266162439s"
+                 begin="7.4754356904272035s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 5.552491727772919 0; 0 0"
-                          dur="3.3893113086332787s"
-                          begin="4.488879454172405s"
+                          values="0 0; 6.6908030210056095 0; 0 0"
+                          dur="3.031260266162439s"
+                          begin="7.4754356904272035s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.701504629163368;1"
-                 dur="4.83148815806883s"
-                 begin="4.488879454172405s"
+                 keyTimes="0;0.6097162022802656;1"
+                 dur="4.971592119129996s"
+                 begin="7.4754356904272035s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="394.7587275047939" y="-3.006834976872815" width="3.006834976872815" height="3.006834976872815" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="412.9569009783642" y="-7.010611897412913" width="7.010611897412913" height="7.010611897412913" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.006834976872815;100.95807537613696"
-                 dur="4.221867231542086s"
-                 begin="5.0166166369253045s"
+                 values="-7.010611897412913;105.98693370480875"
+                 dur="4.310095130938404s"
+                 begin="2.1494503324139647s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 4.845909681911647 0; 0 0"
-                          dur="4.221867231542086s"
-                          begin="5.0166166369253045s"
+                          values="0 0; 3.737070114870483 0; 0 0"
+                          dur="4.310095130938404s"
+                          begin="2.1494503324139647s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7599401856893447;1"
-                 dur="5.5555256993185775s"
-                 begin="5.0166166369253045s"
+                 keyTimes="0;0.757406096159189;1"
+                 dur="5.690600000178138s"
+                 begin="2.1494503324139647s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="649.8793496575263" y="-3.7363488526596655" width="3.7363488526596655" height="3.7363488526596655" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="502.2019583679639" y="-7.788225592638332" width="7.788225592638332" height="7.788225592638332" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.7363488526596655;82.12242497310329"
-                 dur="3.945596074862655s"
-                 begin="2.2344569732321085s"
+                 values="-7.788225592638332;106.99527984848906"
+                 dur="4.304271041729521s"
+                 begin="2.9779808224212534s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 7.6595848886479505 0; 0 0"
-                          dur="3.945596074862655s"
-                          begin="2.2344569732321085s"
+                          values="0 0; 4.220167664007853 0; 0 0"
+                          dur="4.304271041729521s"
+                          begin="2.9779808224212534s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.6772607686139772;1"
-                 dur="5.825815192185674s"
-                 begin="2.2344569732321085s"
+                 keyTimes="0;0.7005422728076491;1"
+                 dur="6.14419887108135s"
+                 begin="2.9779808224212534s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="685.9384187696536" y="-3.5570689414133962" width="3.5570689414133962" height="3.5570689414133962" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="26.877288092674416" y="-4.53178754504512" width="4.53178754504512" height="4.53178754504512" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.5570689414133962;83.49318746175253"
-                 dur="3.326709568310946s"
-                 begin="6.116809134763548s"
+                 values="-4.53178754504512;60.08275748052428"
+                 dur="3.7702756573629297s"
+                 begin="5.373446486795701s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 6.252601200095225 0; 0 0"
-                          dur="3.326709568310946s"
-                          begin="6.116809134763548s"
+                          values="0 0; 3.821643864385279 0; 0 0"
+                          dur="3.7702756573629297s"
+                          begin="5.373446486795701s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.6981338094965645;1"
-                 dur="4.765146055180868s"
-                 begin="6.116809134763548s"
+                 keyTimes="0;0.7831727235193613;1"
+                 dur="4.814104914711987s"
+                 begin="5.373446486795701s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="976.7688565188099" y="-2.916401190925645" width="2.916401190925645" height="2.916401190925645" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="1000.9718310168121" y="-7.2883918023093" width="7.2883918023093" height="7.2883918023093" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-2.916401190925645;67.4137721788737"
-                 dur="3.172769197075536s"
-                 begin="5.849982069388617s"
+                 values="-7.2883918023093;58.952700031504364"
+                 dur="4.832336409150358s"
+                 begin="7.448938655620072s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 6.776095726677495 0; 0 0"
-                          dur="3.172769197075536s"
-                          begin="5.849982069388617s"
+                          values="0 0; 5.926567870670688 0; 0 0"
+                          dur="4.832336409150358s"
+                          begin="7.448938655620072s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7534096604414638;1"
-                 dur="4.211213850399048s"
-                 begin="5.849982069388617s"
+                 keyTimes="0;0.8230258973388498;1"
+                 dur="5.871426919584313s"
+                 begin="7.448938655620072s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="717.6160177191122" y="-4.6468223481692" width="4.6468223481692" height="4.6468223481692" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="777.6583805006837" y="-6.6320736465691414" width="6.6320736465691414" height="6.6320736465691414" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.6468223481692;89.88395676299568"
-                 dur="4.182875855924804s"
-                 begin="8.281923918819752s"
+                 values="-6.6320736465691414;79.05127104163721"
+                 dur="4.363280207728593s"
+                 begin="0.6061536208256646s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 6.559166376523505 0; 0 0"
-                          dur="4.182875855924804s"
-                          begin="8.281923918819752s"
+                          values="0 0; 7.266328919463654 0; 0 0"
+                          dur="4.363280207728593s"
+                          begin="0.6061536208256646s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7806205015326712;1"
-                 dur="5.358398668382576s"
-                 begin="8.281923918819752s"
+                 keyTimes="0;0.6875347797743518;1"
+                 dur="6.346268343196568s"
+                 begin="0.6061536208256646s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="464.6097272407833" y="-3.6316138184945466" width="3.6316138184945466" height="3.6316138184945466" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="147.9706026628468" y="-5.023059644870747" width="5.023059644870747" height="5.023059644870747" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.6316138184945466;88.11661764706878"
-                 dur="4.6522558286547895s"
-                 begin="4.745672236630563s"
+                 values="-5.023059644870747;70.7204173018873"
+                 dur="3.4462145341942336s"
+                 begin="7.663732363550477s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 7.484570130169045 0; 0 0"
-                          dur="4.6522558286547895s"
-                          begin="4.745672236630563s"
+                          values="0 0; 4.63386446821376 0; 0 0"
+                          dur="3.4462145341942336s"
+                          begin="7.663732363550477s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7336235303558739;1"
-                 dur="6.341475751736076s"
-                 begin="4.745672236630563s"
+                 keyTimes="0;0.7525206773735296;1"
+                 dur="4.579561250359679s"
+                 begin="7.663732363550477s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="658.4993096447373" y="-3.0857059065279184" width="3.0857059065279184" height="3.0857059065279184" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="863.0099121735738" y="-6.126782952888557" width="6.126782952888557" height="6.126782952888557" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.0857059065279184;57.56378206287719"
-                 dur="4.703081139876046s"
-                 begin="5.8007889847510015s"
+                 values="-6.126782952888557;79.46066756011744"
+                 dur="4.552852861421225s"
+                 begin="6.656760460303848s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 3.0608965358434888 0; 0 0"
-                          dur="4.703081139876046s"
-                          begin="5.8007889847510015s"
+                          values="0 0; 3.5044245879166978 0; 0 0"
+                          dur="4.552852861421225s"
+                          begin="6.656760460303848s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7043441695017669;1"
-                 dur="6.677248628611311s"
-                 begin="5.8007889847510015s"
+                 keyTimes="0;0.7271128149612607;1"
+                 dur="6.261549470371792s"
+                 begin="6.656760460303848s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="527.7341357812713" y="-4.076102430069901" width="4.076102430069901" height="4.076102430069901" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="1159.0406511657222" y="-4.906976956303596" width="4.906976956303596" height="4.906976956303596" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.076102430069901;107.75081686575633"
-                 dur="3.386479363452691s"
-                 begin="0.9892700145608613s"
+                 values="-4.906976956303596;61.3793002418781"
+                 dur="4.449205274879194s"
+                 begin="3.321299025765594s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 3.5761058403570605 0; 0 0"
-                          dur="3.386479363452691s"
-                          begin="0.9892700145608613s"
+                          values="0 0; 5.454519759884393 0; 0 0"
+                          dur="4.449205274879194s"
+                          begin="3.321299025765594s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7388159146334035;1"
-                 dur="4.583657845449965s"
-                 begin="0.9892700145608613s"
+                 keyTimes="0;0.6927326333405553;1"
+                 dur="6.42268757200574s"
+                 begin="3.321299025765594s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="726.7065007761873" y="-3.1608176480044623" width="3.1608176480044623" height="3.1608176480044623" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="414.01740298327223" y="-7.762795851537909" width="7.762795851537909" height="7.762795851537909" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.1608176480044623;94.26802294902038"
-                 dur="4.461422744619165s"
-                 begin="7.893151469931857s"
+                 values="-7.762795851537909;70.60865789252708"
+                 dur="3.3106864839335945s"
+                 begin="7.052195181401153s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 7.005175327762995 0; 0 0"
-                          dur="4.461422744619165s"
-                          begin="7.893151469931857s"
+                          values="0 0; 3.949520117918653 0; 0 0"
+                          dur="3.3106864839335945s"
+                          begin="7.052195181401153s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7899196498769476;1"
-                 dur="5.647945009741381s"
-                 begin="7.893151469931857s"
+                 keyTimes="0;0.6321168229363009;1"
+                 dur="5.237459855212896s"
+                 begin="7.052195181401153s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="29.435478698054563" y="-3.6011087516722773" width="3.6011087516722773" height="3.6011087516722773" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="510.3877956787097" y="-6.729337295007913" width="6.729337295007913" height="6.729337295007913" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.6011087516722773;96.42599503392688"
-                 dur="3.3015479226230826s"
-                 begin="0.5223569487099677s"
+                 values="-6.729337295007913;88.46174568947748"
+                 dur="3.1736502255374703s"
+                 begin="9.218788017377795s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 3.2662110330455123 0; 0 0"
-                          dur="3.3015479226230826s"
-                          begin="0.5223569487099677s"
+                          values="0 0; 4.355270748238711 0; 0 0"
+                          dur="3.1736502255374703s"
+                          begin="9.218788017377795s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7668793414598283;1"
-                 dur="4.305172592520578s"
-                 begin="0.5223569487099677s"
+                 keyTimes="0;0.655252993781534;1"
+                 dur="4.843396757673705s"
+                 begin="9.218788017377795s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="538.1601655218468" y="-2.3873063800136767" width="2.3873063800136767" height="2.3873063800136767" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="721.4457248867711" y="-5.563455010618808" width="5.563455010618808" height="5.563455010618808" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-2.3873063800136767;87.75472677006553"
-                 dur="4.158040231323303s"
-                 begin="8.784600752728242s"
+                 values="-5.563455010618808;90.54145161522919"
+                 dur="4.737732440938286s"
+                 begin="2.2879067524216112s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 6.018731115307677 0; 0 0"
-                          dur="4.158040231323303s"
-                          begin="8.784600752728242s"
+                          values="0 0; 4.532924504335763 0; 0 0"
+                          dur="4.737732440938286s"
+                          begin="2.2879067524216112s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7870620954325102;1"
-                 dur="5.282988795233948s"
-                 begin="8.784600752728242s"
+                 keyTimes="0;0.7057282143532921;1"
+                 dur="6.713253550844358s"
+                 begin="2.2879067524216112s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="480.806525981855" y="-2.3342169768782695" width="2.3342169768782695" height="2.3342169768782695" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="729.8026136100442" y="-4.658864674658256" width="4.658864674658256" height="4.658864674658256" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-2.3342169768782695;97.34018488862758"
-                 dur="4.9294790148037055s"
-                 begin="8.43827449993281s"
+                 values="-4.658864674658256;78.68288940627889"
+                 dur="4.119838291022832s"
+                 begin="6.656547332870193s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 4.878501846832337 0; 0 0"
-                          dur="4.9294790148037055s"
-                          begin="8.43827449993281s"
+                          values="0 0; 6.343150766689259 0; 0 0"
+                          dur="4.119838291022832s"
+                          begin="6.656547332870193s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7485441480697016;1"
-                 dur="6.585421885289645s"
-                 begin="8.43827449993281s"
+                 keyTimes="0;0.7663271820842597;1"
+                 dur="5.376082680269386s"
+                 begin="6.656547332870193s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="278.37712001285985" y="-4.204212552282584" width="4.204212552282584" height="4.204212552282584" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="302.23121653250456" y="-4.2637601227212105" width="4.2637601227212105" height="4.2637601227212105" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.204212552282584;86.90106468727663"
-                 dur="4.728399599623099s"
-                 begin="0.3999248710433134s"
+                 values="-4.2637601227212105;65.33702604934898"
+                 dur="4.533827204263115s"
+                 begin="8.080371233207206s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 5.1742652186552345 0; 0 0"
-                          dur="4.728399599623099s"
-                          begin="0.3999248710433134s"
+                          values="0 0; 6.036684998170086 0; 0 0"
+                          dur="4.533827204263115s"
+                          begin="8.080371233207206s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7169630808967661;1"
-                 dur="6.595039166743275s"
-                 begin="0.3999248710433134s"
+                 keyTimes="0;0.7723159732756988;1"
+                 dur="5.870430447053106s"
+                 begin="8.080371233207206s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="250.2826506348942" y="-4.001285127820555" width="4.001285127820555" height="4.001285127820555" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="36.30505830227023" y="-6.243333269282462" width="6.243333269282462" height="6.243333269282462" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.001285127820555;83.60523153015664"
-                 dur="3.1931353881232782s"
-                 begin="0.043980635843696714s"
+                 values="-6.243333269282462;65.87823468510388"
+                 dur="4.4425173262132756s"
+                 begin="7.090918996557352s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 4.062443320674794 0; 0 0"
-                          dur="3.1931353881232782s"
-                          begin="0.043980635843696714s"
+                          values="0 0; 7.915308488041882 0; 0 0"
+                          dur="4.4425173262132756s"
+                          begin="7.090918996557352s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7309754194653059;1"
-                 dur="4.368321154299544s"
-                 begin="0.043980635843696714s"
+                 keyTimes="0;0.7521700846988275;1"
+                 dur="5.906266968849314s"
+                 begin="7.090918996557352s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="820.2365395974671" y="-3.0804103921931025" width="3.0804103921931025" height="3.0804103921931025" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="1189.7662671764717" y="-7.547911489835142" width="7.547911489835142" height="7.547911489835142" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.0804103921931025;78.12985394396173"
-                 dur="4.074259157175733s"
-                 begin="0.7634341769210673s"
+                 values="-7.547911489835142;55.06858327751568"
+                 dur="3.689330641440081s"
+                 begin="9.254226711683524s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 6.197007069639824 0; 0 0"
-                          dur="4.074259157175733s"
-                          begin="0.7634341769210673s"
+                          values="0 0; 6.463421877404269 0; 0 0"
+                          dur="3.689330641440081s"
+                          begin="9.254226711683524s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7472372724165054;1"
-                 dur="5.452430315741486s"
-                 begin="0.7634341769210673s"
+                 keyTimes="0;0.6574170142103215;1"
+                 dur="5.611857560260506s"
+                 begin="9.254226711683524s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1109.8230851066487" y="-2.9667964759609973" width="2.9667964759609973" height="2.9667964759609973" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="1153.500855179135" y="-7.599783293624253" width="7.599783293624253" height="7.599783293624253" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-2.9667964759609973;87.16388954543713"
-                 dur="4.198410308234033s"
-                 begin="1.1078712076026331s"
+                 values="-7.599783293624253;77.9214013720214"
+                 dur="4.745702697633411s"
+                 begin="8.520583170879092s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 3.93098463650373 0; 0 0"
-                          dur="4.198410308234033s"
-                          begin="1.1078712076026331s"
+                          values="0 0; 6.087780383443668 0; 0 0"
+                          dur="4.745702697633411s"
+                          begin="8.520583170879092s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7731527138832608;1"
-                 dur="5.430247133385806s"
-                 begin="1.1078712076026331s"
+                 keyTimes="0;0.7466123851551459;1"
+                 dur="6.356313921376023s"
+                 begin="8.520583170879092s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="331.61006103656945" y="-4.590772485663847" width="4.590772485663847" height="4.590772485663847" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="416.5580179859743" y="-4.967501867242136" width="4.967501867242136" height="4.967501867242136" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.590772485663847;74.57598289513346"
-                 dur="4.067351358510187s"
-                 begin="3.745480284137279s"
+                 values="-4.967501867242136;60.605702968286906"
+                 dur="3.960225133455328s"
+                 begin="8.601659220108447s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 5.045243753421724 0; 0 0"
-                          dur="4.067351358510187s"
-                          begin="3.745480284137279s"
+                          values="0 0; 4.612833109310942 0; 0 0"
+                          dur="3.960225133455328s"
+                          begin="8.601659220108447s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7106258157003017;1"
-                 dur="5.723618912580494s"
-                 begin="3.745480284137279s"
+                 keyTimes="0;0.7255642301623761;1"
+                 dur="5.458131711604715s"
+                 begin="8.601659220108447s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="667.3745000521645" y="-4.19786055691256" width="4.19786055691256" height="4.19786055691256" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="585.9983848349301" y="-4.375019830887849" width="4.375019830887849" height="4.375019830887849" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.19786055691256;97.670195675782"
-                 dur="4.005281856278206s"
-                 begin="5.0587938931442515s"
+                 values="-4.375019830887849;66.9338490985657"
+                 dur="4.538952262622567s"
+                 begin="4.346449196118918s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 5.37822671112572 0; 0 0"
-                          dur="4.005281856278206s"
-                          begin="5.0587938931442515s"
+                          values="0 0; 6.630807616800226 0; 0 0"
+                          dur="4.538952262622567s"
+                          begin="4.346449196118918s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7060250593606965;1"
-                 dur="5.673002400091827s"
-                 begin="5.0587938931442515s"
+                 keyTimes="0;0.7460144382977044;1"
+                 dur="6.084268654343729s"
+                 begin="4.346449196118918s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="56.064983937048844" y="-3.4785446614201803" width="3.4785446614201803" height="3.4785446614201803" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="1049.794560465925" y="-7.371607783085791" width="7.371607783085791" height="7.371607783085791" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.4785446614201803;100.04719024281974"
-                 dur="4.652912294750801s"
-                 begin="0.328072310147407s"
+                 values="-7.371607783085791;105.74423044750665"
+                 dur="3.8887623021060858s"
+                 begin="3.389505470748122s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 7.985117999197498 0; 0 0"
-                          dur="4.652912294750801s"
-                          begin="0.328072310147407s"
+                          values="0 0; 5.757306241405223 0; 0 0"
+                          dur="3.8887623021060858s"
+                          begin="3.389505470748122s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7187768437498087;1"
-                 dur="6.473375339245603s"
-                 begin="0.328072310147407s"
+                 keyTimes="0;0.6715735541668032;1"
+                 dur="5.790523283679226s"
+                 begin="3.389505470748122s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="111.84254957046207" y="-3.933480856454767" width="3.933480856454767" height="3.933480856454767" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="976.2456808488137" y="-4.166810425497218" width="4.166810425497218" height="4.166810425497218" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.933480856454767;75.56570120094736"
-                 dur="3.757015664043537s"
-                 begin="5.647662598731074s"
+                 values="-4.166810425497218;91.18360688910441"
+                 dur="3.2798707424751097s"
+                 begin="6.364980657159844s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 6.37110700247806 0; 0 0"
-                          dur="3.757015664043537s"
-                          begin="5.647662598731074s"
+                          values="0 0; 7.220097477086026 0; 0 0"
+                          dur="3.2798707424751097s"
+                          begin="6.364980657159844s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7473622714649542;1"
-                 dur="5.027034153970821s"
-                 begin="5.647662598731074s"
+                 keyTimes="0;0.7027282804608711;1"
+                 dur="4.667338477290352s"
+                 begin="6.364980657159844s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="161.8977199682899" y="-4.340196961183585" width="4.340196961183585" height="4.340196961183585" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="134.0971641087266" y="-7.863264824959705" width="7.863264824959705" height="7.863264824959705" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.340196961183585;96.66712714497005"
-                 dur="4.149833550874789s"
-                 begin="9.845200073311865s"
+                 values="-7.863264824959705;65.3789537038944"
+                 dur="4.5340409722974595s"
+                 begin="7.34687160807775s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 6.2390350273614255 0; 0 0"
-                          dur="4.149833550874789s"
-                          begin="9.845200073311865s"
+                          values="0 0; 5.278140693519345 0; 0 0"
+                          dur="4.5340409722974595s"
+                          begin="7.34687160807775s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7518863876576881;1"
-                 dur="5.519229525889603s"
-                 begin="9.845200073311865s"
+                 keyTimes="0;0.8090933482589682;1"
+                 dur="5.603853970687001s"
+                 begin="7.34687160807775s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1068.1064248352939" y="-3.363664094606184" width="3.363664094606184" height="3.363664094606184" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="703.5869946339213" y="-6.898372862130888" width="6.898372862130888" height="6.898372862130888" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.363664094606184;61.715316907608994"
-                 dur="3.023994106621405s"
-                 begin="0.817631591924799s"
+                 values="-6.898372862130888;61.62857084865806"
+                 dur="4.076906359119917s"
+                 begin="2.745895651599448s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 3.6330121020937405 0; 0 0"
-                          dur="3.023994106621405s"
-                          begin="0.817631591924799s"
+                          values="0 0; 6.164565412401302 0; 0 0"
+                          dur="4.076906359119917s"
+                          begin="2.745895651599448s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7239878784501707;1"
-                 dur="4.17685737100298s"
-                 begin="0.817631591924799s"
+                 keyTimes="0;0.7502338500161496;1"
+                 dur="5.434180767812806s"
+                 begin="2.745895651599448s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="774.0539041591143" y="-4.491108015290937" width="4.491108015290937" height="4.491108015290937" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="718.5689183222454" y="-5.002430745245598" width="5.002430745245598" height="5.002430745245598" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.491108015290937;101.95557562942247"
-                 dur="3.2288538032162424s"
-                 begin="2.1081810268340573s"
+                 values="-5.002430745245598;78.00231850030016"
+                 dur="4.090944843759926s"
+                 begin="2.5813480173240055s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 4.149691170304141 0; 0 0"
-                          dur="3.2288538032162424s"
-                          begin="2.1081810268340573s"
+                          values="0 0; 6.566650410412513 0; 0 0"
+                          dur="4.090944843759926s"
+                          begin="2.5813480173240055s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.6512773805320095;1"
-                 dur="4.957724465386294s"
-                 begin="2.1081810268340573s"
+                 keyTimes="0;0.7184392024609509;1"
+                 dur="5.694211604470846s"
+                 begin="2.5813480173240055s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="473.1294033123687" y="-2.365278624078358" width="2.365278624078358" height="2.365278624078358" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="925.4548095113036" y="-7.263576575262779" width="7.263576575262779" height="7.263576575262779" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-2.365278624078358;73.89751787667123"
-                 dur="4.918611421819671s"
-                 begin="7.837428035123322s"
+                 values="-7.263576575262779;98.19917047802551"
+                 dur="3.424509316835131s"
+                 begin="4.665969600040789s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 5.239640974956673 0; 0 0"
-                          dur="4.918611421819671s"
-                          begin="7.837428035123322s"
+                          values="0 0; 7.135588407265845 0; 0 0"
+                          dur="3.424509316835131s"
+                          begin="4.665969600040789s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7444707385976367;1"
-                 dur="6.606856612101215s"
-                 begin="7.837428035123322s"
+                 keyTimes="0;0.7163284180949147;1"
+                 dur="4.780641435310721s"
+                 begin="4.665969600040789s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="239.0936079822782" y="-4.518528425524035" width="4.518528425524035" height="4.518528425524035" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="751.3008442156301" y="-9.464308431286387" width="9.464308431286387" height="9.464308431286387" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.518528425524035;60.1889803484904"
-                 dur="6.117932615568816s"
-                 begin="8.561898808087424s"
+                 values="-9.464308431286387;103.3492304594369"
+                 dur="5.638914168891054s"
+                 begin="1.2434209363251414s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 3.37908153289546 0; 0 0"
-                          dur="6.117932615568816s"
-                          begin="8.561898808087424s"
+                          values="0 0; 4.626979518728906 0; 0 0"
+                          dur="5.638914168891054s"
+                          begin="1.2434209363251414s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7970066457320222;1"
-                 dur="7.67613751821318s"
-                 begin="8.561898808087424s"
+                 keyTimes="0;0.7493153471426898;1"
+                 dur="7.525421960718567s"
+                 begin="1.2434209363251414s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="412.83660954567983" y="-5.668681444587444" width="5.668681444587444" height="5.668681444587444" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="152.5916857350793" y="-6.1080228600586155" width="6.1080228600586155" height="6.1080228600586155" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-5.668681444587444;82.46097752941213"
-                 dur="5.336652652187408s"
-                 begin="0.34774577885950064s"
+                 values="-6.1080228600586155;101.55156507720791"
+                 dur="5.506832456100655s"
+                 begin="6.6205610839139055s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 4.9355986467357695 0; 0 0"
-                          dur="5.336652652187408s"
-                          begin="0.34774577885950064s"
+                          values="0 0; 5.9871781619331905 0; 0 0"
+                          dur="5.506832456100655s"
+                          begin="6.6205610839139055s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7516399343588385;1"
-                 dur="7.100012131127204s"
-                 begin="0.34774577885950064s"
+                 keyTimes="0;0.798942561112493;1"
+                 dur="6.892651266985488s"
+                 begin="6.6205610839139055s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="742.6599375516071" y="-4.161911499949402" width="4.161911499949402" height="4.161911499949402" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="860.6806532972746" y="-6.875889727225504" width="6.875889727225504" height="6.875889727225504" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.161911499949402;93.67094263008062"
-                 dur="5.572368551602985s"
-                 begin="2.9751684826878244s"
+                 values="-6.875889727225504;80.749389296383"
+                 dur="5.477508702710955s"
+                 begin="1.502281235012326s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 7.378972897655855 0; 0 0"
-                          dur="5.572368551602985s"
-                          begin="2.9751684826878244s"
+                          values="0 0; 5.592055305805529 0; 0 0"
+                          dur="5.477508702710955s"
+                          begin="1.502281235012326s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7583472813602837;1"
-                 dur="7.348043157229443s"
-                 begin="2.9751684826878244s"
+                 keyTimes="0;0.7789005665327232;1"
+                 dur="7.032359376876681s"
+                 begin="1.502281235012326s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="600.8950201649201" y="-3.631544209053339" width="3.631544209053339" height="3.631544209053339" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="529.6189628782671" y="-10.751225303633506" width="10.751225303633506" height="10.751225303633506" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.631544209053339;82.47775983685322"
-                 dur="6.940626454620054s"
-                 begin="8.473994282799724s"
+                 values="-10.751225303633506;66.0799060862996"
+                 dur="5.731888261551825s"
+                 begin="5.558930296599214s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 5.434652084852366 0; 0 0"
-                          dur="6.940626454620054s"
-                          begin="8.473994282799724s"
+                          values="0 0; 6.6849338999730765 0; 0 0"
+                          dur="5.731888261551825s"
+                          begin="5.558930296599214s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7984987462315418;1"
-                 dur="8.692094367556427s"
-                 begin="8.473994282799724s"
+                 keyTimes="0;0.8513590825363274;1"
+                 dur="6.732633008948073s"
+                 begin="5.558930296599214s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="75.98274077150386" y="-3.3870264961954764" width="3.3870264961954764" height="3.3870264961954764" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="212.94646626756875" y="-8.916163000432203" width="8.916163000432203" height="8.916163000432203" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.3870264961954764;54.342441235158255"
-                 dur="5.915804688348967s"
-                 begin="7.814894447611243s"
+                 values="-8.916163000432203;98.90753667235944"
+                 dur="5.033033546701751s"
+                 begin="5.421792280751905s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 4.016196332851789 0; 0 0"
-                          dur="5.915804688348967s"
-                          begin="7.814894447611243s"
+                          values="0 0; 4.424667274949788 0; 0 0"
+                          dur="5.033033546701751s"
+                          begin="5.421792280751905s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8174738423427363;1"
-                 dur="7.236689887709814s"
-                 begin="7.814894447611243s"
+                 keyTimes="0;0.7869945966609296;1"
+                 dur="6.395258071727516s"
+                 begin="5.421792280751905s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="947.869168686253" y="-3.894594922793779" width="3.894594922793779" height="3.894594922793779" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="1064.6728092929445" y="-10.327679205029806" width="10.327679205029806" height="10.327679205029806" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.894594922793779;107.01126881088302"
-                 dur="6.541092220499678s"
-                 begin="8.915584703111216s"
+                 values="-10.327679205029806;104.21668814666951"
+                 dur="6.977968638442104s"
+                 begin="5.632277277963372s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 7.1088448027388775 0; 0 0"
-                          dur="6.541092220499678s"
-                          begin="8.915584703111216s"
+                          values="0 0; 5.109883496560415 0; 0 0"
+                          dur="6.977968638442104s"
+                          begin="5.632277277963372s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8027949157483023;1"
-                 dur="8.147899410153322s"
-                 begin="8.915584703111216s"
+                 keyTimes="0;0.7876131179597967;1"
+                 dur="8.859639941647456s"
+                 begin="5.632277277963372s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="244.0681467960242" y="-5.440271222549923" width="5.440271222549923" height="5.440271222549923" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="938.7908953759625" y="-9.827939778174974" width="9.827939778174974" height="9.827939778174974" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-5.440271222549923;97.40123841385139"
-                 dur="5.582150860635078s"
-                 begin="4.716320477652001s"
+                 values="-9.827939778174974;84.53553565576998"
+                 dur="5.0134685148118425s"
+                 begin="2.045214749961086s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 6.359403758549314 0; 0 0"
-                          dur="5.582150860635078s"
-                          begin="4.716320477652001s"
+                          values="0 0; 7.469137823138407 0; 0 0"
+                          dur="5.0134685148118425s"
+                          begin="2.045214749961086s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7442519694905991;1"
-                 dur="7.500350807879975s"
-                 begin="4.716320477652001s"
+                 keyTimes="0;0.7279584000542261;1"
+                 dur="6.887026119127667s"
+                 begin="2.045214749961086s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="857.8764241600365" y="-4.774667953793287" width="4.774667953793287" height="4.774667953793287" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="1072.1442180439053" y="-7.666904403414179" width="7.666904403414179" height="7.666904403414179" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.774667953793287;76.38901769294567"
-                 dur="5.067285575272102s"
-                 begin="4.633268364823846s"
+                 values="-7.666904403414179;68.22350296324821"
+                 dur="6.755627710203534s"
+                 begin="4.7437026640184925s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 6.740971611522095 0; 0 0"
-                          dur="5.067285575272102s"
-                          begin="4.633268364823846s"
+                          values="0 0; 6.7966851686349266 0; 0 0"
+                          dur="6.755627710203534s"
+                          begin="4.7437026640184925s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8133323533049789;1"
-                 dur="6.230276657114609s"
-                 begin="4.633268364823846s"
+                 keyTimes="0;0.8657531271058617;1"
+                 dur="7.803180258542081s"
+                 begin="4.7437026640184925s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="931.2360164874424" y="-3.011293097245881" width="3.011293097245881" height="3.011293097245881" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="705.575086592424" y="-7.987750453028774" width="7.987750453028774" height="7.987750453028774" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.011293097245881;99.70235312909196"
-                 dur="5.897694756482932s"
-                 begin="2.5916979337972035s"
+                 values="-7.987750453028774;103.60208945576593"
+                 dur="5.222473604807121s"
+                 begin="8.6635975862861s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 6.02519950808991 0; 0 0"
-                          dur="5.897694756482932s"
-                          begin="2.5916979337972035s"
+                          values="0 0; 4.419119698680717 0; 0 0"
+                          dur="5.222473604807121s"
+                          begin="8.6635975862861s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8145878257878139;1"
-                 dur="7.240096856074523s"
-                 begin="2.5916979337972035s"
+                 keyTimes="0;0.7990985351666298;1"
+                 dur="6.535456361108357s"
+                 begin="8.6635975862861s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1139.119569753416" y="-4.032791198144806" width="4.032791198144806" height="4.032791198144806" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="801.6388039914552" y="-6.70899408585122" width="6.70899408585122" height="6.70899408585122" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.032791198144806;77.66390651938426"
-                 dur="5.821333589805123s"
-                 begin="4.859286931390199s"
+                 values="-6.70899408585122;99.5127136514138"
+                 dur="6.0779371320358715s"
+                 begin="4.603906213828086s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 4.665325444054044 0; 0 0"
-                          dur="5.821333589805123s"
-                          begin="4.859286931390199s"
+                          values="0 0; 7.768394420345713 0; 0 0"
+                          dur="6.0779371320358715s"
+                          begin="4.603906213828086s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8094404465103131;1"
-                 dur="7.191799736351516s"
-                 begin="4.859286931390199s"
+                 keyTimes="0;0.7699058670725166;1"
+                 dur="7.894389940352795s"
+                 begin="4.603906213828086s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="492.7083642305102" y="-4.067469994806164" width="4.067469994806164" height="4.067469994806164" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="451.4557857919623" y="-10.460335610553098" width="10.460335610553098" height="10.460335610553098" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.067469994806164;78.45397113393538"
-                 dur="5.408328300475787s"
-                 begin="1.452724153653735s"
+                 values="-10.460335610553098;70.58765726452091"
+                 dur="6.903016201106203s"
+                 begin="4.9933516755876095s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 5.5810579566393965 0; 0 0"
-                          dur="5.408328300475787s"
-                          begin="1.452724153653735s"
+                          values="0 0; 7.956717659659068 0; 0 0"
+                          dur="6.903016201106203s"
+                          begin="4.9933516755876095s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8366260190175772;1"
-                 dur="6.4644514723874025s"
-                 begin="1.452724153653735s"
+                 keyTimes="0;0.7940794770493931;1"
+                 dur="8.693104910299581s"
+                 begin="4.9933516755876095s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="675.6904896440051" y="-4.84387894948986" width="4.84387894948986" height="4.84387894948986" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="794.4046195829394" y="-8.551684977315116" width="8.551684977315116" height="8.551684977315116" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.84387894948986;60.620308223492074"
-                 dur="6.208409450301766s"
-                 begin="3.7868153549551042s"
+                 values="-8.551684977315116;58.64119659873665"
+                 dur="5.9357481895259125s"
+                 begin="2.608568351684777s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 5.278454076842555 0; 0 0"
-                          dur="6.208409450301766s"
-                          begin="3.7868153549551042s"
+                          values="0 0; 6.280302905598324 0; 0 0"
+                          dur="5.9357481895259125s"
+                          begin="2.608568351684777s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8010102372289181;1"
-                 dur="7.750724225173024s"
-                 begin="3.7868153549551042s"
+                 keyTimes="0;0.7542043585246548;1"
+                 dur="7.870211995509004s"
+                 begin="2.608568351684777s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1149.1556180302239" y="-4.964668644590791" width="4.964668644590791" height="4.964668644590791" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="184.95353400620215" y="-8.739347465006112" width="8.739347465006112" height="8.739347465006112" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.964668644590791;106.6924317893901"
-                 dur="5.677637345339006s"
-                 begin="0.3673156943700162s"
+                 values="-8.739347465006112;78.88479566625416"
+                 dur="5.277700789701187s"
+                 begin="5.114065524542227s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 4.554440285253948 0; 0 0"
-                          dur="5.677637345339006s"
-                          begin="0.3673156943700162s"
+                          values="0 0; 4.889811190436246 0; 0 0"
+                          dur="5.277700789701187s"
+                          begin="5.114065524542227s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8140243251753776;1"
-                 dur="6.974776022959494s"
-                 begin="0.3673156943700162s"
+                 keyTimes="0;0.7314897458524593;1"
+                 dur="7.215003107870898s"
+                 begin="5.114065524542227s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="530.3460403296486" y="-3.135244239328385" width="3.135244239328385" height="3.135244239328385" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="1092.3562622177294" y="-6.9492974418705735" width="6.9492974418705735" height="6.9492974418705735" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.135244239328385;60.66916256313945"
-                 dur="5.4506121308376s"
-                 begin="3.757109561280705s"
+                 values="-6.9492974418705735;92.86214905482507"
+                 dur="6.7815757384117585s"
+                 begin="6.759351532028659s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 4.0302154848814995 0; 0 0"
-                          dur="5.4506121308376s"
-                          begin="3.757109561280705s"
+                          values="0 0; 6.981969643507387 0; 0 0"
+                          dur="6.7815757384117585s"
+                          begin="6.759351532028659s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7767232634297203;1"
-                 dur="7.017444162506128s"
-                 begin="3.757109561280705s"
+                 keyTimes="0;0.8587034938626731;1"
+                 dur="7.897459119336356s"
+                 begin="6.759351532028659s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="125.12527442675454" y="-3.362092766256355" width="3.362092766256355" height="3.362092766256355" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="977.8791846756881" y="-6.726822932147238" width="6.726822932147238" height="6.726822932147238" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.362092766256355;69.24720956363618"
-                 dur="6.7207879651122235s"
-                 begin="6.8640040064423165s"
+                 values="-6.726822932147238;84.73658657084314"
+                 dur="6.5371776076447965s"
+                 begin="1.842113519320372s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 3.893227759939199 0; 0 0"
-                          dur="6.7207879651122235s"
-                          begin="6.8640040064423165s"
+                          values="0 0; 3.457275707338974 0; 0 0"
+                          dur="6.5371776076447965s"
+                          begin="1.842113519320372s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8688816584078938;1"
-                 dur="7.73498657737481s"
-                 begin="6.8640040064423165s"
+                 keyTimes="0;0.8211212134453006;1"
+                 dur="7.961282086740624s"
+                 begin="1.842113519320372s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="808.2172145642347" y="-3.4313473646923116" width="3.4313473646923116" height="3.4313473646923116" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="99.6527700197067" y="-8.076022219945681" width="8.076022219945681" height="8.076022219945681" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.4313473646923116;84.13831262267786"
-                 dur="6.557420327783442s"
-                 begin="8.514779738222241s"
+                 values="-8.076022219945681;87.17028159115335"
+                 dur="5.8233161180386865s"
+                 begin="6.709611021848203s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 7.938885875346442 0; 0 0"
-                          dur="6.557420327783442s"
-                          begin="8.514779738222241s"
+                          values="0 0; 6.0496297265074865 0; 0 0"
+                          dur="5.8233161180386865s"
+                          begin="6.709611021848203s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7989473509258381;1"
-                 dur="8.207575030049922s"
-                 begin="8.514779738222241s"
+                 keyTimes="0;0.782691362997748;1"
+                 dur="7.440118025239332s"
+                 begin="6.709611021848203s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="230.36287192601768" y="-5.987297007546316" width="5.987297007546316" height="5.987297007546316" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="171.62563189452487" y="-7.198464060986231" width="7.198464060986231" height="7.198464060986231" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-5.987297007546316;81.40743453954846"
-                 dur="5.876305520196743s"
-                 begin="3.7811359368259945s"
+                 values="-7.198464060986231;66.99561062523208"
+                 dur="6.623217782284122s"
+                 begin="0.7531090779365046s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 4.7551835992217875 0; 0 0"
-                          dur="5.876305520196743s"
-                          begin="3.7811359368259945s"
+                          values="0 0; 4.1392644997967105 0; 0 0"
+                          dur="6.623217782284122s"
+                          begin="0.7531090779365046s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8144802769210743;1"
-                 dur="7.214791673544939s"
-                 begin="3.7811359368259945s"
+                 keyTimes="0;0.8146147330094604;1"
+                 dur="8.130491033246761s"
+                 begin="0.7531090779365046s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="293.04102810289277" y="-3.6728385693639574" width="3.6728385693639574" height="3.6728385693639574" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="252.22796370540428" y="-9.502291204078379" width="9.502291204078379" height="9.502291204078379" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.6728385693639574;94.35568503204425"
-                 dur="6.897345294256421s"
-                 begin="9.608166684882933s"
+                 values="-9.502291204078379;70.00419977846947"
+                 dur="6.196017291842804s"
+                 begin="6.654340989141585s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 5.233270800887897 0; 0 0"
-                          dur="6.897345294256421s"
-                          begin="9.608166684882933s"
+                          values="0 0; 4.047289782411122 0; 0 0"
+                          dur="6.196017291842804s"
+                          begin="6.654340989141585s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8535754168801597;1"
-                 dur="8.080534136592636s"
-                 begin="9.608166684882933s"
+                 keyTimes="0;0.8392874145337005;1"
+                 dur="7.382473732535651s"
+                 begin="6.654340989141585s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="185.6202515839219" y="-3.67754772095385" width="3.67754772095385" height="3.67754772095385" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="729.8310270911303" y="-10.759965791485847" width="10.759965791485847" height="10.759965791485847" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.67754772095385;97.58651585837697"
-                 dur="5.792619104603608s"
-                 begin="9.020240605554859s"
+                 values="-10.759965791485847;91.36268942929591"
+                 dur="6.814629680400885s"
+                 begin="3.70335927339579s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 5.76958108713865 0; 0 0"
-                          dur="5.792619104603608s"
-                          begin="9.020240605554859s"
+                          values="0 0; 6.118178701807837 0; 0 0"
+                          dur="6.814629680400885s"
+                          begin="3.70335927339579s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8044666827156066;1"
-                 dur="7.200570550727708s"
-                 begin="9.020240605554859s"
+                 keyTimes="0;0.8703677876031075;1"
+                 dur="7.829597760238334s"
+                 begin="3.70335927339579s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="488.1302120606992" y="-5.787376830805674" width="5.787376830805674" height="5.787376830805674" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="1114.0950514923622" y="-10.96435776182319" width="10.96435776182319" height="10.96435776182319" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-5.787376830805674;82.90453141689224"
-                 dur="5.574935388691417s"
-                 begin="2.9168394529380715s"
+                 values="-10.96435776182319;61.89563618774678"
+                 dur="6.32603471753414s"
+                 begin="7.977110834840868s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 7.1245729401777655 0; 0 0"
-                          dur="5.574935388691417s"
-                          begin="2.9168394529380715s"
+                          values="0 0; 3.548194448666479 0; 0 0"
+                          dur="6.32603471753414s"
+                          begin="7.977110834840868s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7856867904156187;1"
-                 dur="7.095620617144834s"
-                 begin="2.9168394529380715s"
+                 keyTimes="0;0.8104482837548573;1"
+                 dur="7.8055994988665125s"
+                 begin="7.977110834840868s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1130.2548284948298" y="-3.5570711056615743" width="3.5570711056615743" height="3.5570711056615743" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="613.9253152375901" y="-6.598585490390064" width="6.598585490390064" height="6.598585490390064" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.5570711056615743;58.782121715088536"
-                 dur="5.692336923217104s"
-                 begin="7.394170455381699s"
+                 values="-6.598585490390064;69.31522935387156"
+                 dur="6.713557547197393s"
+                 begin="0.13400285169444137s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 4.381955105335786 0; 0 0"
-                          dur="5.692336923217104s"
-                          begin="7.394170455381699s"
+                          values="0 0; 3.724766144477903 0; 0 0"
+                          dur="6.713557547197393s"
+                          begin="0.13400285169444137s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8399244518032465;1"
-                 dur="6.777201105404349s"
-                 begin="7.394170455381699s"
+                 keyTimes="0;0.773698895874364;1"
+                 dur="8.677222603000281s"
+                 begin="0.13400285169444137s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="889.3940948699251" y="-4.757289444789755" width="4.757289444789755" height="4.757289444789755" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="220.81844085075502" y="-9.045220220517725" width="9.045220220517725" height="9.045220220517725" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.757289444789755;107.30578377209466"
-                 dur="5.0119176302545405s"
-                 begin="3.6996214415398865s"
+                 values="-9.045220220517725;77.82493460956788"
+                 dur="6.227898874985474s"
+                 begin="2.0733838251231385s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 5.432814777797896 0; 0 0"
-                          dur="5.0119176302545405s"
-                          begin="3.6996214415398865s"
+                          values="0 0; 6.551921656230642 0; 0 0"
+                          dur="6.227898874985474s"
+                          begin="2.0733838251231385s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7390836328713176;1"
-                 dur="6.781259125957629s"
-                 begin="3.6996214415398865s"
+                 keyTimes="0;0.8398966848848933;1"
+                 dur="7.415077338755062s"
+                 begin="2.0733838251231385s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="922.3737408696624" y="-4.2390404802384705" width="4.2390404802384705" height="4.2390404802384705" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="1069.8496915996552" y="-9.034391467406293" width="9.034391467406293" height="9.034391467406293" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.2390404802384705;78.14684336972618"
-                 dur="5.474168435157029s"
-                 begin="1.2461564175379847s"
+                 values="-9.034391467406293;78.29640673417805"
+                 dur="6.88323821095008s"
+                 begin="3.432350148463479s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 5.200659974828928 0; 0 0"
-                          dur="5.474168435157029s"
-                          begin="1.2461564175379847s"
+                          values="0 0; 4.007797563161905 0; 0 0"
+                          dur="6.88323821095008s"
+                          begin="3.432350148463479s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7671221774525961;1"
-                 dur="7.135979894800137s"
-                 begin="1.2461564175379847s"
+                 keyTimes="0;0.7882931131658424;1"
+                 dur="8.731825885559871s"
+                 begin="3.432350148463479s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1092.3939542006583" y="-5.40510128782656" width="5.40510128782656" height="5.40510128782656" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="89.7524238365919" y="-8.269577422308817" width="8.269577422308817" height="8.269577422308817" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-5.40510128782656;79.31424501378854"
-                 dur="6.0473227531955445s"
-                 begin="3.824156879895735s"
+                 values="-8.269577422308817;67.87919484811843"
+                 dur="6.094003583403236s"
+                 begin="4.42351691532799s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 5.212947173954056 0; 0 0"
-                          dur="6.0473227531955445s"
-                          begin="3.824156879895735s"
+                          values="0 0; 5.991549467821147 0; 0 0"
+                          dur="6.094003583403236s"
+                          begin="4.42351691532799s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8193468191663325;1"
-                 dur="7.380663000984813s"
-                 begin="3.824156879895735s"
+                 keyTimes="0;0.7765931725841358;1"
+                 dur="7.847099097105459s"
+                 begin="4.42351691532799s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1097.742681869869" y="-5.69110177417587" width="5.69110177417587" height="5.69110177417587" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="478.3731355902812" y="-6.519854991093797" width="6.519854991093797" height="6.519854991093797" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-5.69110177417587;102.06144412338146"
-                 dur="5.972520458114001s"
-                 begin="8.773710230411718s"
+                 values="-6.519854991093797;98.33521325949187"
+                 dur="5.129842382502842s"
+                 begin="9.914922148939603s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 7.9652382937089845 0; 0 0"
-                          dur="5.972520458114001s"
-                          begin="8.773710230411718s"
+                          values="0 0; 3.590746576301525 0; 0 0"
+                          dur="5.129842382502842s"
+                          begin="9.914922148939603s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7899886474044117;1"
-                 dur="7.560261122406413s"
-                 begin="8.773710230411718s"
+                 keyTimes="0;0.7553258834441833;1"
+                 dur="6.791561754922866s"
+                 begin="9.914922148939603s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="623.456844630588" y="-5.596297059934617" width="5.596297059934617" height="5.596297059934617" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="541.7782059792667" y="-7.911121909983088" width="7.911121909983088" height="7.911121909983088" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-5.596297059934617;66.2320011267392"
-                 dur="6.055367200846479s"
-                 begin="0.563471367842765s"
+                 values="-7.911121909983088;75.19938928944711"
+                 dur="5.865851517147963s"
+                 begin="4.4181308254340035s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 4.193063292190736 0; 0 0"
-                          dur="6.055367200846479s"
-                          begin="0.563471367842765s"
+                          values="0 0; 6.965872185520127 0; 0 0"
+                          dur="5.865851517147963s"
+                          begin="4.4181308254340035s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8300948954572618;1"
-                 dur="7.294789106624792s"
-                 begin="0.563471367842765s"
+                 keyTimes="0;0.7609845330844824;1"
+                 dur="7.7082401312048106s"
+                 begin="4.4181308254340035s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="493.71089096158084" y="-5.954292587067672" width="5.954292587067672" height="5.954292587067672" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="9.616365355916946" y="-8.63168229876506" width="8.63168229876506" height="8.63168229876506" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-5.954292587067672;79.81700047856273"
-                 dur="5.940652830202962s"
-                 begin="2.3279164852932133s"
+                 values="-8.63168229876506;64.83709631778208"
+                 dur="5.988506311703947s"
+                 begin="1.8915437510102384s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 4.709124332975428 0; 0 0"
-                          dur="5.940652830202962s"
-                          begin="2.3279164852932133s"
+                          values="0 0; 3.106299411084593 0; 0 0"
+                          dur="5.988506311703947s"
+                          begin="1.8915437510102384s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7838357679332271;1"
-                 dur="7.578950940025273s"
-                 begin="2.3279164852932133s"
+                 keyTimes="0;0.7598727141657392;1"
+                 dur="7.880933477495242s"
+                 begin="1.8915437510102384s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="581.3147469621412" y="-4.557117787339484" width="4.557117787339484" height="4.557117787339484" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="11.962064313662838" y="-10.483821877651097" width="10.483821877651097" height="10.483821877651097" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.557117787339484;60.29095369514273"
-                 dur="6.516905839128564s"
-                 begin="2.1286229782555477s"
+                 values="-10.483821877651097;56.68104903365119"
+                 dur="5.9252532882949644s"
+                 begin="1.2804675417143097s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 6.693305847857399 0; 0 0"
-                          dur="6.516905839128564s"
-                          begin="2.1286229782555477s"
+                          values="0 0; 4.94019401708272 0; 0 0"
+                          dur="5.9252532882949644s"
+                          begin="1.2804675417143097s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8174887764265546;1"
-                 dur="7.971859708723549s"
-                 begin="2.1286229782555477s"
+                 keyTimes="0;0.835481642352415;1"
+                 dur="7.092020922939239s"
+                 begin="1.2804675417143097s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="834.9745549337298" y="-5.151946391136177" width="5.151946391136177" height="5.151946391136177" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="821.5327915744513" y="-6.455838639243624" width="6.455838639243624" height="6.455838639243624" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-5.151946391136177;89.90660154903003"
-                 dur="5.963220713712694s"
-                 begin="8.262065077940175s"
+                 values="-6.455838639243624;55.813644162004394"
+                 dur="5.816975310391642s"
+                 begin="3.4259286195271255s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 5.732342268645155 0; 0 0"
-                          dur="5.963220713712694s"
-                          begin="8.262065077940175s"
+                          values="0 0; 3.1352245884695757 0; 0 0"
+                          dur="5.816975310391642s"
+                          begin="3.4259286195271255s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7499937533808906;1"
-                 dur="7.951027174334641s"
-                 begin="8.262065077940175s"
+                 keyTimes="0;0.8053801381296939;1"
+                 dur="7.222645599257266s"
+                 begin="3.4259286195271255s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="892.3164653616004" y="-3.5939359964624593" width="3.5939359964624593" height="3.5939359964624593" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="624.0391091965039" y="-9.290070279435442" width="9.290070279435442" height="9.290070279435442" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-3.5939359964624593;72.24175660986103"
-                 dur="6.68141611988762s"
-                 begin="2.7077888958276475s"
+                 values="-9.290070279435442;74.7159354665635"
+                 dur="5.829976383967336s"
+                 begin="2.2401760657108305s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 6.019809856757217 0; 0 0"
-                          dur="6.68141611988762s"
-                          begin="2.7077888958276475s"
+                          values="0 0; 3.3320357617929623 0; 0 0"
+                          dur="5.829976383967336s"
+                          begin="2.2401760657108305s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7784875120821453;1"
-                 dur="8.582560434421719s"
-                 begin="2.7077888958276475s"
+                 keyTimes="0;0.7716799096438696;1"
+                 dur="7.554915336150025s"
+                 begin="2.2401760657108305s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1080.9617961448168" y="-4.185218267158034" width="4.185218267158034" height="4.185218267158034" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="726.0715253737975" y="-12.459924640345855" width="12.459924640345855" height="12.459924640345855" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.185218267158034;76.38554681897828"
-                 dur="7.343652668740427s"
-                 begin="6.057629443281725s"
+                 values="-12.459924640345855;55.07583476707546"
+                 dur="8.035416281112436s"
+                 begin="7.060491583640324s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 5.493360015115491 0; 0 0"
-                          dur="7.343652668740427s"
-                          begin="6.057629443281725s"
+                          values="0 0; 7.298789071087846 0; 0 0"
+                          dur="8.035416281112436s"
+                          begin="7.060491583640324s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8733779118256196;1"
-                 dur="8.408333402192424s"
-                 begin="6.057629443281725s"
+                 keyTimes="0;0.8712860312769543;1"
+                 dur="9.222478029787478s"
+                 begin="7.060491583640324s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="645.8631846975783" y="-5.532903695186362" width="5.532903695186362" height="5.532903695186362" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="502.2536625695363" y="-8.074633660366445" width="8.074633660366445" height="8.074633660366445" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-5.532903695186362;102.43641151741717"
-                 dur="8.896990532471984s"
-                 begin="8.061613703583987s"
+                 values="-8.074633660366445;72.770868855077"
+                 dur="8.583503158998335s"
+                 begin="1.7725850680414323s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 3.8588567145539483 0; 0 0"
-                          dur="8.896990532471984s"
-                          begin="8.061613703583987s"
+                          values="0 0; 7.711341580987591 0; 0 0"
+                          dur="8.583503158998335s"
+                          begin="1.7725850680414323s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8495024778706276;1"
-                 dur="10.473177847312794s"
-                 begin="8.061613703583987s"
+                 keyTimes="0;0.8655654798005598;1"
+                 dur="9.916642194390784s"
+                 begin="1.7725850680414323s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="741.4818976528472" y="-4.773637290506743" width="4.773637290506743" height="4.773637290506743" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="360.40403442001923" y="-13.269338538535317" width="13.269338538535317" height="13.269338538535317" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.773637290506743;85.69585639824214"
-                 dur="8.69237023070793s"
-                 begin="8.286207219393066s"
+                 values="-13.269338538535317;63.1957380380741"
+                 dur="8.8089634410643s"
+                 begin="4.193678974174862s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 7.074808461885134 0; 0 0"
-                          dur="8.69237023070793s"
-                          begin="8.286207219393066s"
+                          values="0 0; 7.203426899876486 0; 0 0"
+                          dur="8.8089634410643s"
+                          begin="4.193678974174862s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8823775754757838;1"
-                 dur="9.851077897147315s"
-                 begin="8.286207219393066s"
+                 keyTimes="0;0.8420703814480848;1"
+                 dur="10.46107740533015s"
+                 begin="4.193678974174862s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="49.73202586342905" y="-5.122713454965285" width="5.122713454965285" height="5.122713454965285" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="935.1611365164533" y="-11.054650003703536" width="11.054650003703536" height="11.054650003703536" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-5.122713454965285;68.86386560826688"
-                 dur="7.823361452706698s"
-                 begin="5.445443813936583s"
+                 values="-11.054650003703536;60.3907273634658"
+                 dur="7.307482343474421s"
+                 begin="5.942937845102181s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 7.489190562243212 0; 0 0"
-                          dur="7.823361452706698s"
-                          begin="5.445443813936583s"
+                          values="0 0; 7.534859317819074 0; 0 0"
+                          dur="7.307482343474421s"
+                          begin="5.942937845102181s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8308582864079475;1"
-                 dur="9.415999792852118s"
-                 begin="5.445443813936583s"
+                 keyTimes="0;0.8672909746565186;1"
+                 dur="8.425640940594905s"
+                 begin="5.942937845102181s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1096.2429535994556" y="-5.913175989863938" width="5.913175989863938" height="5.913175989863938" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="980.7816288180753" y="-10.724012863476638" width="10.724012863476638" height="10.724012863476638" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-5.913175989863938;103.89207787485542"
-                 dur="8.04168863321745s"
-                 begin="4.216975578819262s"
+                 values="-10.724012863476638;84.22011533058104"
+                 dur="8.729139203625916s"
+                 begin="2.216735508010881s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 3.7017852706056216 0; 0 0"
-                          dur="8.04168863321745s"
-                          begin="4.216975578819262s"
+                          values="0 0; 6.465261300203643 0; 0 0"
+                          dur="8.729139203625916s"
+                          begin="2.216735508010881s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8869085463877697;1"
-                 dur="9.0671001716805s"
-                 begin="4.216975578819262s"
+                 keyTimes="0;0.8794049076866249;1"
+                 dur="9.926188866274256s"
+                 begin="2.216735508010881s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="343.0034901828418" y="-6.871073986725269" width="6.871073986725269" height="6.871073986725269" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="358.33377063370693" y="-11.89546169306602" width="11.89546169306602" height="11.89546169306602" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-6.871073986725269;63.89214228631553"
-                 dur="8.431996354993643s"
-                 begin="9.717556417023324s"
+                 values="-11.89546169306602;104.21419942706268"
+                 dur="8.945705192213657s"
+                 begin="6.835552454705818s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 7.232085831787034 0; 0 0"
-                          dur="8.431996354993643s"
-                          begin="9.717556417023324s"
+                          values="0 0; 7.228397734297714 0; 0 0"
+                          dur="8.945705192213657s"
+                          begin="6.835552454705818s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8130657949218628;1"
-                 dur="10.370619951862535s"
-                 begin="9.717556417023324s"
+                 keyTimes="0;0.8771167481822119;1"
+                 dur="10.198990283509305s"
+                 begin="6.835552454705818s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1123.2643089572914" y="-4.2032482119220065" width="4.2032482119220065" height="4.2032482119220065" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="486.6731114231067" y="-11.661798179378911" width="11.661798179378911" height="11.661798179378911" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.2032482119220065;56.10388976939081"
-                 dur="7.247422932222168s"
-                 begin="7.722826113445446s"
+                 values="-11.661798179378911;75.82689517599493"
+                 dur="7.345155440988525s"
+                 begin="5.377238481297349s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 5.021537108874021 0; 0 0"
-                          dur="7.247422932222168s"
-                          begin="7.722826113445446s"
+                          values="0 0; 5.277583184427479 0; 0 0"
+                          dur="7.345155440988525s"
+                          begin="5.377238481297349s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7961001558513265;1"
-                 dur="9.10365722070734s"
-                 begin="7.722826113445446s"
+                 keyTimes="0;0.8318190430653521;1"
+                 dur="8.830232371118546s"
+                 begin="5.377238481297349s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="23.056195869871868" y="-4.426890560912188" width="4.426890560912188" height="4.426890560912188" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="878.35227331087" y="-10.270069802001967" width="10.270069802001967" height="10.270069802001967" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.426890560912188;55.08854655972443"
-                 dur="8.653401839666857s"
-                 begin="4.156662489116181s"
+                 values="-10.270069802001967;87.07860946112183"
+                 dur="7.469384163793785s"
+                 begin="2.1450342710220416s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 3.86595062616871 0; 0 0"
-                          dur="8.653401839666857s"
-                          begin="4.156662489116181s"
+                          values="0 0; 6.507187379039088 0; 0 0"
+                          dur="7.469384163793785s"
+                          begin="2.1450342710220416s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8656500906061109;1"
-                 dur="9.996419954866427s"
-                 begin="4.156662489116181s"
+                 keyTimes="0;0.8327236863106293;1"
+                 dur="8.969823107694687s"
+                 begin="2.1450342710220416s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="701.7842716315452" y="-4.7370937366705945" width="4.7370937366705945" height="4.7370937366705945" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="933.9061797405459" y="-8.901023843424477" width="8.901023843424477" height="8.901023843424477" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.7370937366705945;55.34805157534437"
-                 dur="7.171664891131214s"
-                 begin="5.771595394631632s"
+                 values="-8.901023843424477;87.12487302577918"
+                 dur="8.391240921676115s"
+                 begin="0.6469944291647178s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 6.975107624810881 0; 0 0"
-                          dur="7.171664891131214s"
-                          begin="5.771595394631632s"
+                          values="0 0; 3.5623649117543863 0; 0 0"
+                          dur="8.391240921676115s"
+                          begin="0.6469944291647178s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8077661048545957;1"
-                 dur="8.87839295067001s"
-                 begin="5.771595394631632s"
+                 keyTimes="0;0.8229450294568713;1"
+                 dur="10.196599555640042s"
+                 begin="0.6469944291647178s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="667.8325915990088" y="-5.898192873788754" width="5.898192873788754" height="5.898192873788754" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="317.08055430938623" y="-11.662760660360279" width="11.662760660360279" height="11.662760660360279" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-5.898192873788754;76.49252683057327"
-                 dur="8.11880794343276s"
-                 begin="5.690295532789111s"
+                 values="-11.662760660360279;91.92707584294287"
+                 dur="8.645565519721723s"
+                 begin="5.10031506156537s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 6.516110187070653 0; 0 0"
-                          dur="8.11880794343276s"
-                          begin="5.690295532789111s"
+                          values="0 0; 3.3770565984887906 0; 0 0"
+                          dur="8.645565519721723s"
+                          begin="5.10031506156537s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8753615040317839;1"
-                 dur="9.274805787139082s"
-                 begin="5.690295532789111s"
+                 keyTimes="0;0.8580315949835837;1"
+                 dur="10.0760456494462s"
+                 begin="5.10031506156537s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="263.41142324342763" y="-4.487176077784923" width="4.487176077784923" height="4.487176077784923" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="864.3754704287745" y="-13.292045191151258" width="13.292045191151258" height="13.292045191151258" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.487176077784923;71.62802582330279"
-                 dur="7.177037245930075s"
-                 begin="8.355967524759695s"
+                 values="-13.292045191151258;82.48330622592854"
+                 dur="8.285569667065666s"
+                 begin="4.966420939242426s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 6.655746846913165 0; 0 0"
-                          dur="7.177037245930075s"
-                          begin="8.355967524759695s"
+                          values="0 0; 7.892324011094782 0; 0 0"
+                          dur="8.285569667065666s"
+                          begin="4.966420939242426s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8660256034623909;1"
-                 dur="8.287326861049038s"
-                 begin="8.355967524759695s"
+                 keyTimes="0;0.8747464019807059;1"
+                 dur="9.471967702072833s"
+                 begin="4.966420939242426s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="649.7513030135249" y="-5.884947707099592" width="5.884947707099592" height="5.884947707099592" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="842.6748782763351" y="-9.702395061006083" width="9.702395061006083" height="9.702395061006083" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-5.884947707099592;91.26053089691868"
-                 dur="7.869228427124851s"
-                 begin="4.5971892866050545s"
+                 values="-9.702395061006083;103.4170581251694"
+                 dur="7.033841604171563s"
+                 begin="4.158296548080614s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 4.83317783411172 0; 0 0"
-                          dur="7.869228427124851s"
-                          begin="4.5971892866050545s"
+                          values="0 0; 4.763761807292161 0; 0 0"
+                          dur="7.033841604171563s"
+                          begin="4.158296548080614s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8730514469126192;1"
-                 dur="9.013476187403256s"
-                 begin="4.5971892866050545s"
+                 keyTimes="0;0.8271750336214732;1"
+                 dur="8.503450078004104s"
+                 begin="4.158296548080614s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1026.0931468856438" y="-4.428096670082806" width="4.428096670082806" height="4.428096670082806" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="463.65263587400125" y="-11.620585678891453" width="11.620585678891453" height="11.620585678891453" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.428096670082806;70.38149629958454"
-                 dur="7.566181115147197s"
-                 begin="4.319649826538445s"
+                 values="-11.620585678891453;68.47540330014886"
+                 dur="8.059820054284845s"
+                 begin="9.64568328737673s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 3.7640805897796055 0; 0 0"
-                          dur="7.566181115147197s"
-                          begin="4.319649826538445s"
+                          values="0 0; 4.743059467907926 0; 0 0"
+                          dur="8.059820054284845s"
+                          begin="9.64568328737673s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8080915847878766;1"
-                 dur="9.363024263064581s"
-                 begin="4.319649826538445s"
+                 keyTimes="0;0.8733746228770513;1"
+                 dur="9.228365289266552s"
+                 begin="9.64568328737673s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="146.00098541958775" y="-6.2361522792212565" width="6.2361522792212565" height="6.2361522792212565" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="906.467382515975" y="-10.623431981284948" width="10.623431981284948" height="10.623431981284948" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-6.2361522792212565;88.55913738848844"
-                 dur="8.270809891835741s"
-                 begin="7.199024938346154s"
+                 values="-10.623431981284948;67.46763523552683"
+                 dur="8.404886513158006s"
+                 begin="2.701231157120476s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 7.523931494622247 0; 0 0"
-                          dur="8.270809891835741s"
-                          begin="7.199024938346154s"
+                          values="0 0; 7.778524130830797 0; 0 0"
+                          dur="8.404886513158006s"
+                          begin="2.701231157120476s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8220933685924778;1"
-                 dur="10.0606697582251s"
-                 begin="7.199024938346154s"
+                 keyTimes="0;0.8409137055026785;1"
+                 dur="9.994945329299588s"
+                 begin="2.701231157120476s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="479.63242938278046" y="-4.642221120860276" width="4.642221120860276" height="4.642221120860276" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="1134.4285501902243" y="-10.57880511749972" width="10.57880511749972" height="10.57880511749972" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.642221120860276;80.51524777319378"
-                 dur="7.561829350538285s"
-                 begin="2.869094642842751s"
+                 values="-10.57880511749972;68.09566330270107"
+                 dur="8.283639965930039s"
+                 begin="0.6589128793668331s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 5.06741218320145 0; 0 0"
-                          dur="7.561829350538285s"
-                          begin="2.869094642842751s"
+                          values="0 0; 4.851108194021897 0; 0 0"
+                          dur="8.283639965930039s"
+                          begin="0.6589128793668331s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8628296730560747;1"
-                 dur="8.763988521343826s"
-                 begin="2.869094642842751s"
+                 keyTimes="0;0.8475506752444649;1"
+                 dur="9.773622047484926s"
+                 begin="0.6589128793668331s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="365.17696867655" y="-4.810378097306639" width="4.810378097306639" height="4.810378097306639" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="223.89345686631287" y="-11.328419506850336" width="11.328419506850336" height="11.328419506850336" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-4.810378097306639;67.62787553146926"
-                 dur="8.586769521274391s"
-                 begin="7.389149460949083s"
+                 values="-11.328419506850336;90.2887654412543"
+                 dur="8.808630073189333s"
+                 begin="1.7539659991817458s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 7.015331475665328 0; 0 0"
-                          dur="8.586769521274391s"
-                          begin="7.389149460949083s"
+                          values="0 0; 6.736968788738011 0; 0 0"
+                          dur="8.808630073189333s"
+                          begin="1.7539659991817458s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8807253964326643;1"
-                 dur="9.749655858744038s"
-                 begin="7.389149460949083s"
+                 keyTimes="0;0.8284892146865257;1"
+                 dur="10.632160222534994s"
+                 begin="1.7539659991817458s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="575.5420447393419" y="-6.3714256513098775" width="6.3714256513098775" height="6.3714256513098775" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="989.3449250692582" y="-10.146734081686116" width="10.146734081686116" height="10.146734081686116" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-6.3714256513098775;91.24480310366394"
-                 dur="7.064771824889937s"
-                 begin="6.821149388635281s"
+                 values="-10.146734081686116;60.06985553593282"
+                 dur="8.907376165853272s"
+                 begin="3.5702255178432174s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 6.987902202600425 0; 0 0"
-                          dur="7.064771824889937s"
-                          begin="6.821149388635281s"
+                          values="0 0; 7.724185966870047 0; 0 0"
+                          dur="8.907376165853272s"
+                          begin="3.5702255178432174s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.7974795677225176;1"
-                 dur="8.85887502430422s"
-                 begin="6.821149388635281s"
+                 keyTimes="0;0.8570577933990539;1"
+                 dur="10.392970269282548s"
+                 begin="3.5702255178432174s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="141.94110168175047" y="-5.931885281234075" width="5.931885281234075" height="5.931885281234075" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="1123.5030509492503" y="-13.807956240958706" width="13.807956240958706" height="13.807956240958706" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-5.931885281234075;74.51488402271764"
-                 dur="7.405170807062648s"
-                 begin="1.3883817683698618s"
+                 values="-13.807956240958706;97.32520570373028"
+                 dur="7.646781526038881s"
+                 begin="1.678548800000097s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 3.2024980667082388 0; 0 0"
-                          dur="7.405170807062648s"
-                          begin="1.3883817683698618s"
+                          values="0 0; 7.56010873916542 0; 0 0"
+                          dur="7.646781526038881s"
+                          begin="1.678548800000097s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.852232881668563;1"
-                 dur="8.689139983151401s"
-                 begin="1.3883817683698618s"
+                 keyTimes="0;0.8665064999014184;1"
+                 dur="8.824840352506124s"
+                 begin="1.678548800000097s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="84.24306415458922" y="-5.692323944169799" width="5.692323944169799" height="5.692323944169799" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="171.08108461675505" y="-8.118652183242412" width="8.118652183242412" height="8.118652183242412" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-5.692323944169799;80.48002836432889"
-                 dur="7.690044129459308s"
-                 begin="1.4481609004929452s"
+                 values="-8.118652183242412;79.56138148560538"
+                 dur="7.445628666068856s"
+                 begin="2.097658649873768s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 4.513943284102771 0; 0 0"
-                          dur="7.690044129459308s"
-                          begin="1.4481609004929452s"
+                          values="0 0; 6.806658478429437 0; 0 0"
+                          dur="7.445628666068856s"
+                          begin="2.097658649873768s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8655640113785796;1"
-                 dur="8.884431455521598s"
-                 begin="1.4481609004929452s"
+                 keyTimes="0;0.8040917407204463;1"
+                 dur="9.259675592983653s"
+                 begin="2.097658649873768s"
                  repeatCount="indefinite"/>
       </rect>
     
-      <rect x="986.4491166926391" y="-6.004638587526295" width="6.004638587526295" height="6.004638587526295" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
+      <rect x="1112.697795531436" y="-10.412806917880394" width="10.412806917880394" height="10.412806917880394" fill="url(#pixelGradient)">
         <animate attributeName="y"
-                 values="-6.004638587526295;98.24294296018645"
-                 dur="8.884744533980559s"
-                 begin="8.052893008830491s"
+                 values="-10.412806917880394;81.63069510132249"
+                 dur="7.99499534708597s"
+                 begin="6.6491345546283s"
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0 0; 3.5146858431800636 0; 0 0"
-                          dur="8.884744533980559s"
-                          begin="8.052893008830491s"
+                          values="0 0; 5.333997268109362 0; 0 0"
+                          dur="7.99499534708597s"
+                          begin="6.6491345546283s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
-                 keyTimes="0;0.8679328214151738;1"
-                 dur="10.236673063583293s"
-                 begin="8.052893008830491s"
+                 keyTimes="0;0.843328715266489;1"
+                 dur="9.480283550595782s"
+                 begin="6.6491345546283s"
                  repeatCount="indefinite"/>
       </rect>
     </svg>
