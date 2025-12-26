@@ -1,0 +1,409 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="100" viewBox="0 0 1200 100" style="background:#0a0a1f; overflow:visible">
+  <defs>
+    <linearGradient id="pixelGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#00fff7"/>
+    </linearGradient>
+  </defs>
+
+    <rect x="184.29165204853692" y="-7.943598112215593" width="7.943598112215593" height="7.943598112215593" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-7.943598112215593" to="100" dur="5.293159275169027s" begin="2.488092743896919s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.293159275169027s" begin="2.488092743896919s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="909.7946399027254" y="-9.273772867581213" width="9.273772867581213" height="9.273772867581213" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-9.273772867581213" to="100" dur="5.462691401601302s" begin="2.198400096054206s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.462691401601302s" begin="2.198400096054206s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="690.1272573922465" y="-9.219361036110119" width="9.219361036110119" height="9.219361036110119" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-9.219361036110119" to="100" dur="3.6926886739756215s" begin="0.3024239906583104s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3.6926886739756215s" begin="0.3024239906583104s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="902.7425704222467" y="-6.668905644686596" width="6.668905644686596" height="6.668905644686596" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-6.668905644686596" to="100" dur="5.046732531268963s" begin="0.8061567508819478s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.046732531268963s" begin="0.8061567508819478s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="325.84000959153485" y="-8.302873632020322" width="8.302873632020322" height="8.302873632020322" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-8.302873632020322" to="100" dur="5.8994678295827665s" begin="4.642511083873306s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.8994678295827665s" begin="4.642511083873306s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="622.3074842850198" y="-8.457700350122112" width="8.457700350122112" height="8.457700350122112" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-8.457700350122112" to="100" dur="3.5715127572314707s" begin="4.689345832263014s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3.5715127572314707s" begin="4.689345832263014s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="1167.8372707213794" y="-4.286036328860879" width="4.286036328860879" height="4.286036328860879" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-4.286036328860879" to="100" dur="5.860737757064831s" begin="2.258960918406049s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.860737757064831s" begin="2.258960918406049s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="647.2430782186724" y="-6.2257185904217245" width="6.2257185904217245" height="6.2257185904217245" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-6.2257185904217245" to="100" dur="4.329896154371165s" begin="0.07472922837925333s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="4.329896154371165s" begin="0.07472922837925333s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="862.3939663174655" y="-5.895720663640684" width="5.895720663640684" height="5.895720663640684" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-5.895720663640684" to="100" dur="5.4791916538558105s" begin="4.12362230062347s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.4791916538558105s" begin="4.12362230062347s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="992.5610768047223" y="-5.656943756664118" width="5.656943756664118" height="5.656943756664118" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-5.656943756664118" to="100" dur="3.5307122832581284s" begin="2.2262644137794907s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3.5307122832581284s" begin="2.2262644137794907s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="280.84493690761894" y="-7.438309800098011" width="7.438309800098011" height="7.438309800098011" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-7.438309800098011" to="100" dur="3.046536926072836s" begin="1.1727062364008978s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3.046536926072836s" begin="1.1727062364008978s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="245.020872940355" y="-9.300883174650089" width="9.300883174650089" height="9.300883174650089" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-9.300883174650089" to="100" dur="3.9601701734468655s" begin="4.170452961481697s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3.9601701734468655s" begin="4.170452961481697s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="430.39754017585193" y="-7.091469434599706" width="7.091469434599706" height="7.091469434599706" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-7.091469434599706" to="100" dur="5.2490469774367945s" begin="0.545362094072781s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.2490469774367945s" begin="0.545362094072781s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="985.9534924763724" y="-8.59343148280816" width="8.59343148280816" height="8.59343148280816" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-8.59343148280816" to="100" dur="3.3651833113251897s" begin="1.5688104973383976s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3.3651833113251897s" begin="1.5688104973383976s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="1126.5722389422194" y="-5.815589165437329" width="5.815589165437329" height="5.815589165437329" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-5.815589165437329" to="100" dur="5.1199732470574695s" begin="0.6507042712698841s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.1199732470574695s" begin="0.6507042712698841s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="167.0466486842008" y="-4.843396453344159" width="4.843396453344159" height="4.843396453344159" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-4.843396453344159" to="100" dur="5.496119877126179s" begin="4.853085857216961s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.496119877126179s" begin="4.853085857216961s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="1155.4157472846784" y="-9.323955461367873" width="9.323955461367873" height="9.323955461367873" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-9.323955461367873" to="100" dur="5.734476983788015s" begin="4.373869175724092s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.734476983788015s" begin="4.373869175724092s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="331.94939221953365" y="-8.65139776267476" width="8.65139776267476" height="8.65139776267476" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-8.65139776267476" to="100" dur="5.286663293781278s" begin="4.8950853804664485s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.286663293781278s" begin="4.8950853804664485s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="638.8985673699602" y="-6.0142889878237265" width="6.0142889878237265" height="6.0142889878237265" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-6.0142889878237265" to="100" dur="5.279900004455064s" begin="4.679976222396574s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.279900004455064s" begin="4.679976222396574s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="595.6427078744628" y="-5.987467464034608" width="5.987467464034608" height="5.987467464034608" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-5.987467464034608" to="100" dur="5.448620281309529s" begin="0.2211076779027643s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.448620281309529s" begin="0.2211076779027643s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="1082.981191200833" y="-8.254001743569047" width="8.254001743569047" height="8.254001743569047" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-8.254001743569047" to="100" dur="5.981767606154268s" begin="3.826796751004735s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.981767606154268s" begin="3.826796751004735s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="975.4059688386556" y="-6.910207739936968" width="6.910207739936968" height="6.910207739936968" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-6.910207739936968" to="100" dur="3.879151027805052s" begin="1.365460105772508s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3.879151027805052s" begin="1.365460105772508s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="88.45841076186849" y="-6.455235618470097" width="6.455235618470097" height="6.455235618470097" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-6.455235618470097" to="100" dur="5.314510005724712s" begin="3.155511532835823s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.314510005724712s" begin="3.155511532835823s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="608.5009428875677" y="-5.569080848172169" width="5.569080848172169" height="5.569080848172169" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-5.569080848172169" to="100" dur="5.1088628559563265s" begin="0.000389076664921717s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.1088628559563265s" begin="0.000389076664921717s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="1135.6148610056482" y="-5.162541226047326" width="5.162541226047326" height="5.162541226047326" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-5.162541226047326" to="100" dur="4.896501303350732s" begin="2.8171034620531943s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="4.896501303350732s" begin="2.8171034620531943s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="1137.641252963533" y="-8.71980352521316" width="8.71980352521316" height="8.71980352521316" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-8.71980352521316" to="100" dur="5.212058141085954s" begin="3.3370861807765193s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.212058141085954s" begin="3.3370861807765193s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="511.12224780420615" y="-4.217489132353819" width="4.217489132353819" height="4.217489132353819" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-4.217489132353819" to="100" dur="3.6437776407285214s" begin="4.976879718282074s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3.6437776407285214s" begin="4.976879718282074s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="1122.062752792899" y="-9.193172943231692" width="9.193172943231692" height="9.193172943231692" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-9.193172943231692" to="100" dur="3.364495996038903s" begin="2.1798988369174896s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3.364495996038903s" begin="2.1798988369174896s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="134.01094753096007" y="-4.235168960464832" width="4.235168960464832" height="4.235168960464832" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-4.235168960464832" to="100" dur="5.787995235768413s" begin="1.589436698700376s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.787995235768413s" begin="1.589436698700376s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="628.9594501121306" y="-7.4962623088962825" width="7.4962623088962825" height="7.4962623088962825" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-7.4962623088962825" to="100" dur="3.733818586693446s" begin="4.191797835807223s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3.733818586693446s" begin="4.191797835807223s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="932.9128051290506" y="-6.113753537753002" width="6.113753537753002" height="6.113753537753002" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-6.113753537753002" to="100" dur="5.931763363047546s" begin="0.7938275988111676s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.931763363047546s" begin="0.7938275988111676s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="636.3708019047378" y="-9.152492510785384" width="9.152492510785384" height="9.152492510785384" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-9.152492510785384" to="100" dur="3.849006047295285s" begin="2.0813460427240815s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3.849006047295285s" begin="2.0813460427240815s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="424.1184051579242" y="-5.668239516107551" width="5.668239516107551" height="5.668239516107551" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-5.668239516107551" to="100" dur="3.1102465540534316s" begin="4.9046617147674585s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3.1102465540534316s" begin="4.9046617147674585s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="388.8314190433122" y="-5.034532643077387" width="5.034532643077387" height="5.034532643077387" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-5.034532643077387" to="100" dur="4.838596793159026s" begin="4.7120008235074735s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="4.838596793159026s" begin="4.7120008235074735s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="1016.8286859734962" y="-6.182625840861416" width="6.182625840861416" height="6.182625840861416" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-6.182625840861416" to="100" dur="5.84584154861628s" begin="0.4271683471122334s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.84584154861628s" begin="0.4271683471122334s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="720.6522696096761" y="-8.896790074773978" width="8.896790074773978" height="8.896790074773978" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-8.896790074773978" to="100" dur="5.376485840601952s" begin="0.33831736074239505s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.376485840601952s" begin="0.33831736074239505s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="271.66040675386904" y="-4.693883132117588" width="4.693883132117588" height="4.693883132117588" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-4.693883132117588" to="100" dur="3.0827895521729007s" begin="1.3938184901993689s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3.0827895521729007s" begin="1.3938184901993689s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="161.63769487940777" y="-4.48756422563636" width="4.48756422563636" height="4.48756422563636" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-4.48756422563636" to="100" dur="3.1793878973912957s" begin="4.712465870990828s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3.1793878973912957s" begin="4.712465870990828s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="269.2921799509078" y="-9.366759650723264" width="9.366759650723264" height="9.366759650723264" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-9.366759650723264" to="100" dur="3.085085981123854s" begin="1.3683984324423148s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3.085085981123854s" begin="1.3683984324423148s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="393.1697949819832" y="-7.393443417979482" width="7.393443417979482" height="7.393443417979482" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-7.393443417979482" to="100" dur="3.3552278153293993s" begin="2.3523180078433157s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3.3552278153293993s" begin="2.3523180078433157s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="279.50783232381457" y="-6.435510343231149" width="6.435510343231149" height="6.435510343231149" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-6.435510343231149" to="100" dur="5.326178602355652s" begin="2.1638919098779885s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.326178602355652s" begin="2.1638919098779885s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="137.11934669354235" y="-4.382739635871523" width="4.382739635871523" height="4.382739635871523" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-4.382739635871523" to="100" dur="4.817925546835725s" begin="3.9157609767487846s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="4.817925546835725s" begin="3.9157609767487846s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="155.65616325185124" y="-4.083395046015684" width="4.083395046015684" height="4.083395046015684" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-4.083395046015684" to="100" dur="3.6980550228395312s" begin="2.048646384774541s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3.6980550228395312s" begin="2.048646384774541s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="32.700967910163484" y="-9.608456006661203" width="9.608456006661203" height="9.608456006661203" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-9.608456006661203" to="100" dur="4.664657727055819s" begin="0.02637798180708084s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="4.664657727055819s" begin="0.02637798180708084s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="65.0956407478838" y="-9.1498029316109" width="9.1498029316109" height="9.1498029316109" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-9.1498029316109" to="100" dur="5.255234806659604s" begin="2.7999015734550206s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.255234806659604s" begin="2.7999015734550206s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="886.6639059365227" y="-7.850099931652066" width="7.850099931652066" height="7.850099931652066" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-7.850099931652066" to="100" dur="4.00749919312975s" begin="0.6159186524202465s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="4.00749919312975s" begin="0.6159186524202465s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="520.2298368557083" y="-7.740703565798324" width="7.740703565798324" height="7.740703565798324" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-7.740703565798324" to="100" dur="4.427139980526267s" begin="2.3600146400382904s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="4.427139980526267s" begin="2.3600146400382904s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="248.63408138580905" y="-5.188206072263416" width="5.188206072263416" height="5.188206072263416" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-5.188206072263416" to="100" dur="3.5619491626123185s" begin="3.173593072608157s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3.5619491626123185s" begin="3.173593072608157s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="692.5649899067839" y="-4.220781698073795" width="4.220781698073795" height="4.220781698073795" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-4.220781698073795" to="100" dur="4.696143445345857s" begin="1.4643274624333735s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="4.696143445345857s" begin="1.4643274624333735s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="1172.756785411223" y="-4.2662399163900915" width="4.2662399163900915" height="4.2662399163900915" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-4.2662399163900915" to="100" dur="4.903958904341027s" begin="1.836662104807495s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="4.903958904341027s" begin="1.836662104807495s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="869.2428974475333" y="-8.76884018007664" width="8.76884018007664" height="8.76884018007664" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-8.76884018007664" to="100" dur="5.561152141951721s" begin="1.9336688915151334s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.561152141951721s" begin="1.9336688915151334s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="452.2184159361089" y="-5.489399567629784" width="5.489399567629784" height="5.489399567629784" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-5.489399567629784" to="100" dur="5.747146565654621s" begin="1.7303371601417172s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.747146565654621s" begin="1.7303371601417172s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="908.7224650131761" y="-9.545264562108724" width="9.545264562108724" height="9.545264562108724" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-9.545264562108724" to="100" dur="4.82243093748309s" begin="1.4125230281877499s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="4.82243093748309s" begin="1.4125230281877499s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="924.3189939572287" y="-9.76956796067525" width="9.76956796067525" height="9.76956796067525" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-9.76956796067525" to="100" dur="3.996005373541908s" begin="1.3183268541319448s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3.996005373541908s" begin="1.3183268541319448s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="967.8544308821863" y="-9.102842041981326" width="9.102842041981326" height="9.102842041981326" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-9.102842041981326" to="100" dur="4.868299623433081s" begin="0.7315404403662917s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="4.868299623433081s" begin="0.7315404403662917s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="238.29439178700733" y="-6.348185148681746" width="6.348185148681746" height="6.348185148681746" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-6.348185148681746" to="100" dur="3.644163243484149s" begin="3.2894265618004703s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3.644163243484149s" begin="3.2894265618004703s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="1005.0024440383297" y="-9.63228206579364" width="9.63228206579364" height="9.63228206579364" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-9.63228206579364" to="100" dur="5.0081164131439255s" begin="0.6884265064426232s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.0081164131439255s" begin="0.6884265064426232s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="379.8415445298131" y="-7.849420811320076" width="7.849420811320076" height="7.849420811320076" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-7.849420811320076" to="100" dur="5.325045778701952s" begin="1.689902329089853s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.325045778701952s" begin="1.689902329089853s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="701.9844560727112" y="-7.575076194068686" width="7.575076194068686" height="7.575076194068686" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-7.575076194068686" to="100" dur="3.537111846891009s" begin="0.6494993996780085s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3.537111846891009s" begin="0.6494993996780085s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="209.3138874694384" y="-6.0632298108009515" width="6.0632298108009515" height="6.0632298108009515" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-6.0632298108009515" to="100" dur="3.1895336423827727s" begin="0.9717096513572521s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3.1895336423827727s" begin="0.9717096513572521s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="920.2149721243011" y="-4.51670915577941" width="4.51670915577941" height="4.51670915577941" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-4.51670915577941" to="100" dur="5.59377616237116s" begin="0.4923884836754744s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.59377616237116s" begin="0.4923884836754744s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="473.56404740434164" y="-5.248264706881335" width="5.248264706881335" height="5.248264706881335" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-5.248264706881335" to="100" dur="5.252834982022788s" begin="4.264086210374507s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.252834982022788s" begin="4.264086210374507s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="213.11977604264706" y="-6.618706115368337" width="6.618706115368337" height="6.618706115368337" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-6.618706115368337" to="100" dur="3.6138564755723657s" begin="1.385584483481782s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3.6138564755723657s" begin="1.385584483481782s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="662.757253619809" y="-6.2590535992082215" width="6.2590535992082215" height="6.2590535992082215" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-6.2590535992082215" to="100" dur="5.919205678546279s" begin="0.8307628509014842s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.919205678546279s" begin="0.8307628509014842s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="408.54512401506946" y="-7.3999474458908665" width="7.3999474458908665" height="7.3999474458908665" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-7.3999474458908665" to="100" dur="4.937714776173193s" begin="0.25837647498094807s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="4.937714776173193s" begin="0.25837647498094807s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="357.5468861397967" y="-6.038560926632002" width="6.038560926632002" height="6.038560926632002" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-6.038560926632002" to="100" dur="3.4530220510924003s" begin="0.15505022671383095s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3.4530220510924003s" begin="0.15505022671383095s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="968.8924222710993" y="-9.69830449082752" width="9.69830449082752" height="9.69830449082752" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-9.69830449082752" to="100" dur="3.8080155299341136s" begin="3.010835442013271s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3.8080155299341136s" begin="3.010835442013271s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="130.8903365707966" y="-9.346414134861696" width="9.346414134861696" height="9.346414134861696" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-9.346414134861696" to="100" dur="3.337979735674288s" begin="0.9051774853416317s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3.337979735674288s" begin="0.9051774853416317s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="375.9925440271917" y="-9.756264251110187" width="9.756264251110187" height="9.756264251110187" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-9.756264251110187" to="100" dur="3.859435553951419s" begin="1.2512689217603623s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3.859435553951419s" begin="1.2512689217603623s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="922.7815823269716" y="-7.048739715347319" width="7.048739715347319" height="7.048739715347319" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-7.048739715347319" to="100" dur="3.4229381344511602s" begin="0.5330916436198574s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3.4229381344511602s" begin="0.5330916436198574s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="942.1364260632362" y="-9.962423376447088" width="9.962423376447088" height="9.962423376447088" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-9.962423376447088" to="100" dur="5.23870562728463s" begin="4.462513222567392s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.23870562728463s" begin="4.462513222567392s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="1050.7042024256864" y="-6.0733432975114106" width="6.0733432975114106" height="6.0733432975114106" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-6.0733432975114106" to="100" dur="5.317000701216534s" begin="0.4656390462275828s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.317000701216534s" begin="0.4656390462275828s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="620.5164436263193" y="-4.38421629844381" width="4.38421629844381" height="4.38421629844381" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-4.38421629844381" to="100" dur="5.227553365663343s" begin="0.14069233832334604s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.227553365663343s" begin="0.14069233832334604s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="986.2694862908435" y="-5.732373104235524" width="5.732373104235524" height="5.732373104235524" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-5.732373104235524" to="100" dur="5.001681891318134s" begin="4.319902226859957s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.001681891318134s" begin="4.319902226859957s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="770.5810298244489" y="-4.730308343239578" width="4.730308343239578" height="4.730308343239578" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-4.730308343239578" to="100" dur="4.3012074356883785s" begin="3.8226774170817923s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="4.3012074356883785s" begin="3.8226774170817923s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="635.1858857206892" y="-4.675390210981279" width="4.675390210981279" height="4.675390210981279" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-4.675390210981279" to="100" dur="5.253172560637555s" begin="3.823932615576404s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.253172560637555s" begin="3.823932615576404s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="404.15086766939066" y="-6.91948360277674" width="6.91948360277674" height="6.91948360277674" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-6.91948360277674" to="100" dur="5.426965837911194s" begin="4.580634087759055s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.426965837911194s" begin="4.580634087759055s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="166.15534215736503" y="-5.352044225949236" width="5.352044225949236" height="5.352044225949236" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-5.352044225949236" to="100" dur="5.847041399615699s" begin="0.22818569431638291s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.847041399615699s" begin="0.22818569431638291s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="870.0275306279055" y="-7.946859040467729" width="7.946859040467729" height="7.946859040467729" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-7.946859040467729" to="100" dur="4.599731126549501s" begin="1.5969492500756766s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="4.599731126549501s" begin="1.5969492500756766s" repeatCount="indefinite"/>
+    </rect>
+  
+    <rect x="44.39675522572131" y="-7.679365000755304" width="7.679365000755304" height="7.679365000755304" fill="url(#pixelGradient)">
+      <animate attributeName="y" from="-7.679365000755304" to="100" dur="5.126198936146097s" begin="0.21525181482325628s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.126198936146097s" begin="0.21525181482325628s" repeatCount="indefinite"/>
+    </rect>
+  </svg>
