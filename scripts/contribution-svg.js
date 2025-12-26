@@ -1,64 +1,70 @@
+const { createCanvas, loadImage } = require('canvas');
+const GIFEncoder = require('gifencoder');
+const Chess = require('chess.js').Chess;
 const fs = require('fs');
 const path = require('path');
 
-const WIDTH = 1200;
-const HEIGHT = 120;
-const NUM_LAYERS = 3;
-const PIXELS_PER_LAYER = [50, 30, 20];
-const SPEEDS = [4, 6, 8];
-const random = (min, max) => Math.random() * (max - min) + min;
+const boardSize = 400;
+const squareSize = boardSize / 8;
+const outputDir = path.join(__dirname, 'output');
+if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
-let svg = `
-<svg xmlns="http://www.w3.org/2000/svg" width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}" style="background:#0a0a1f; overflow:visible">
-  <defs>
-    <linearGradient id="pixelGradient" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#22d3ee"/>
-      <stop offset="100%" stop-color="#00fff7"/>
-    </linearGradient>
-  </defs>
-`;
+const encoder = new GIFEncoder(boardSize, boardSize);
+encoder.createReadStream().pipe(fs.createWriteStream(path.join(outputDir, 'chess-ai.gif')));
+encoder.start();
+encoder.setRepeat(0); // нескінченно
+encoder.setDelay(800); // мс між ходами
+encoder.setQuality(10);
 
-for (let layer = 0; layer < NUM_LAYERS; layer++) {
-  for (let i = 0; i < PIXELS_PER_LAYER[layer]; i++) {
-    const x = random(0, WIDTH);
-    const size = random(4 + layer*2, 8 + layer*3);
-    const delay = random(0, 5);
-    const duration = random(SPEEDS[layer]-1, SPEEDS[layer]+1);
-    const waveAmplitude = random(5, 15);
-    const waveFrequency = random(1, 3);
+const canvas = createCanvas(boardSize, boardSize);
+const ctx = canvas.getContext('2d');
 
-    svg += `
-      <rect x="${x}" y="-${size}" width="${size}" height="${size}" fill="url(#pixelGradient)">
-        <animate attributeName="y"
-                 values="-${size};${stopY}"
-                 dur="${fallDuration}s"
-                 begin="${delay}s"
-                 fill="freeze"
-                 repeatCount="indefinite"/>
-                 
-        <animateTransform attributeName="transform"
-                          type="translate"
-                          values="0 0; ${waveAmplitude} 0; 0 0"
-                          dur="${fallDuration}s"
-                          begin="${delay}s"
-                          repeatCount="indefinite"/>
-        
-        <animate attributeName="opacity"
-                 values="1;1;0"
-                 keyTimes="0;${fallDuration/(fallDuration+fadeDuration)};1"
-                 dur="${fallDuration + fadeDuration}s"
-                 begin="${delay}s"
-                 repeatCount="indefinite"/>
-      </rect>
-    `;
+const chess = new Chess();
+
+// Завантажуємо PNG фігури
+const pieces = ['K','Q','R','B','N','P'];
+const pieceImages = {};
+
+async function loadPieces() {
+  for(const color of ['w','b']){
+    for(const p of pieces){
+      const imgPath = path.join(__dirname, 'assets/pieces', `${color}${p}.png`);
+      pieceImages[color+p] = await loadImage(imgPath);
+    }
   }
 }
 
-svg += `</svg>`;
+function drawBoard() {
+  // Малюємо шахівницю
+  for(let y=0; y<8; y++){
+    for(let x=0; x<8; x++){
+      const isLight = (x+y)%2===0;
+      ctx.fillStyle = isLight ? '#a0c4ff' : '#2b2b7b'; // синій фон
+      ctx.fillRect(x*squareSize, y*squareSize, squareSize, squareSize);
 
-const outputDir = path.join(__dirname, '..', 'output');
-if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
+      const square = chess.board()[y][x];
+      if(square){
+        const key = square.color + square.type.toUpperCase();
+        const img = pieceImages[key];
+        if(img) ctx.drawImage(img, x*squareSize, y*squareSize, squareSize, squareSize);
+      }
+    }
+  }
+}
 
-fs.writeFileSync(path.join(outputDir, 'pixel-rain-readme-ff.svg'), svg);
+async function generateGIF() {
+  await loadPieces();
+  // Генеруємо гру: комп'ютер проти себе
+  for(let i=0; i<60; i++){ // кількість ходів у GIF
+    const moves = chess.moves();
+    if(moves.length===0) break;
+    const move = moves[Math.floor(Math.random()*moves.length)];
+    chess.move(move);
+    drawBoard();
+    encoder.addFrame(ctx);
+  }
+  encoder.finish();
+  console.log('✔ GIF шахів згенеровано у output/chess-ai.gif');
+}
 
-console.log('✔ SVG для README згенеровано');
+generateGIF();
