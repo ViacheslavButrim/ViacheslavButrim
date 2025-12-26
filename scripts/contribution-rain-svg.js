@@ -3,9 +3,9 @@ const path = require('path');
 
 const WIDTH = 1200;
 const HEIGHT = 120;
-const NUM_LAYERS = 3; // кількість шарів пікселів
-const PIXELS_PER_LAYER = [50, 30, 20]; // пікселі в кожному шарі
-const SPEEDS = [4, 6, 8]; // швидкість падіння шарів
+const NUM_LAYERS = 3;
+const PIXELS_PER_LAYER = [50, 30, 20];
+const SPEEDS = [4, 6, 8];
 
 const random = (min, max) => Math.random() * (max - min) + min;
 
@@ -28,20 +28,28 @@ let svg = `
 for (let layer = 0; layer < NUM_LAYERS; layer++) {
   for (let i = 0; i < PIXELS_PER_LAYER[layer]; i++) {
     const x = random(0, WIDTH);
-    const size = random(4 + layer*2, 8 + layer*3); // більші пікселі в дальньому шарі
+    const size = random(4 + layer*2, 8 + layer*3);
     const delay = random(0, 5);
     const duration = random(SPEEDS[layer]-1, SPEEDS[layer]+1);
 
-    // додаємо невеликі хвилі у падіння
+    // рандомна точка зупинки
+    const stopY = random(HEIGHT * 0.5, HEIGHT * 0.9);
+
+    // час стухання
+    const fadeDuration = random(1, 2);
+
+    // хвилі
     const waveAmplitude = random(5, 15);
-    const waveFrequency = random(1, 3);
 
     svg += `
       <rect x="${x}" y="-${size}" width="${size}" height="${size}" fill="url(#pixelGradient)" filter="url(#glow)">
-        <animate attributeName="y" from="-${size}" to="${HEIGHT}" dur="${duration}s" begin="${delay}s" repeatCount="indefinite"/>
+        <!-- падіння до випадкової точки -->
+        <animate attributeName="y" from="-${size}" to="${stopY}" dur="${duration}s" begin="${delay}s" repeatCount="indefinite"/>
+        <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
           values="0 0; ${waveAmplitude} 0; 0 0" dur="${duration}s" begin="${delay}s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;0" dur="${duration}s" begin="${delay}s" repeatCount="indefinite"/>
+        <!-- світіння і стухання -->
+        <animate attributeName="opacity" values="0;1;0" dur="${fadeDuration}s" begin="${delay + duration}s" repeatCount="indefinite"/>
       </rect>
     `;
   }
@@ -52,6 +60,6 @@ svg += `</svg>`;
 const outputDir = path.join(__dirname, '..', 'output');
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
-fs.writeFileSync(path.join(outputDir, 'pixel-rain-advanced.svg'), svg);
+fs.writeFileSync(path.join(outputDir, 'pixel-rain-advanced-stop.svg'), svg);
 
-console.log('✔ Advanced Pixel Rain SVG generated');
+console.log('✔ Advanced Pixel Rain SVG with stopping pixels generated');
