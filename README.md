@@ -23,7 +23,11 @@
        width="100%" 
        style="display:block; margin:0; padding:0; vertical-align:bottom;" />
 </div>
-
+<div align="center" style="margin:0; padding:0; line-height:0;">
+  <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/contribution-rain.svg"
+       width="100%"
+       style="display:block; margin:0; padding:0;" />
+</div>
 <p align="center">
   <a href="mailto:viacheslavbutrim@gmail.com" 
      style="

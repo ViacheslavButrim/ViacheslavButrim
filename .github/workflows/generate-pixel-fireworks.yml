@@ -55,7 +55,13 @@ jobs:
         run: |
           echo "⚙️ Generating System Status Footer SVG..."
           node scripts/generate-system-status-svg.js || echo "⚠️ System Status SVG failed, but continuing"
-
+      
+      # 7️⃣ Генерація Contribution Rain SVG
+      - name: Generate Contribution Rain SVG
+        run: |
+          echo "🌧 Generating Contribution Rain SVG..."
+          node scripts/contribution-rain-svg.js || echo "⚠️ Contribution Rain SVG failed, but continuing"
+      
       # 8️⃣ Bump cache version
       - name: Bump cache version
         run: |
