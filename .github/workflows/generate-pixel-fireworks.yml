@@ -41,17 +41,17 @@ jobs:
 
       - name: Generate System Activity SVG
         run: |
-          echo "📈 Generating System Activity SVG..."
+          echo "Generating System Activity SVG..."
           node scripts/generate-system-activity-svg.js || echo "System Activity SVG failed, but continuing"
 
       - name: Generate System Status SVG
         run: |
-          echo "⚙️ Generating System Status Footer SVG..."
+          echo "Generating System Status Footer SVG..."
           node scripts/generate-system-status-svg.js || echo "System Status SVG failed, but continuing"
       
       - name: Generate Contribution Rain SVG
         run: |
-          echo "🌧 Generating Contribution Rain SVG..."
+          echo "Generating Contribution Rain SVG..."
           node scripts/contribution-rain-svg.js || echo "Contribution Rain SVG failed, but continuing"
      
       - name: Bump cache version
