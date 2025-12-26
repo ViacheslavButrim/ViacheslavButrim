@@ -10,32 +10,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Клонування репозиторію
       - uses: actions/checkout@v3
 
-      # 2️⃣ Node.js
       - uses: actions/setup-node@v3
         with:
           node-version: '20'
 
-      # 3️⃣ Встановлення залежностей (якщо є package.json)
       - name: Install dependencies
         run: |
           if [ -f package.json ]; then
             npm install
           fi
 
-      # 4️⃣ Генерація Fireworks SVG
       - name: Generate Fireworks SVG
         run: |
-          echo "🔥 Generating Fireworks SVG..."
-          node scripts/generate-fireworks-svg.js || echo "⚠️ Fireworks SVG failed, but continuing"
+          echo "Generating Fireworks SVG..."
+          node scripts/generate-fireworks-svg.js || echo "Fireworks SVG failed, but continuing"
 
-      # 5️⃣ Fetch GitHub contributions
       - name: Fetch GitHub contributions
         run: |
-          echo "📊 Fetching GitHub contributions..."
-          node scripts/fetch-contributions.js || echo "⚠️ Fetch contributions failed, creating empty JSON"
+          echo "Fetching GitHub contributions..."
+          node scripts/fetch-contributions.js || echo "Fetch contributions failed, creating empty JSON"
           # Якщо скрипт не згенерував файл, створюємо порожній
           mkdir -p output
           if [ ! -f output/contributions.json ]; then
@@ -44,25 +39,21 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 6️⃣ Генерація System Activity SVG
       - name: Generate System Activity SVG
         run: |
           echo "📈 Generating System Activity SVG..."
-          node scripts/generate-system-activity-svg.js || echo "⚠️ System Activity SVG failed, but continuing"
+          node scripts/generate-system-activity-svg.js || echo "System Activity SVG failed, but continuing"
 
-      # 7️⃣ Генерація System Status Footer SVG
       - name: Generate System Status SVG
         run: |
           echo "⚙️ Generating System Status Footer SVG..."
-          node scripts/generate-system-status-svg.js || echo "⚠️ System Status SVG failed, but continuing"
+          node scripts/generate-system-status-svg.js || echo "System Status SVG failed, but continuing"
       
-      # 7️⃣ Генерація Contribution Rain SVG
       - name: Generate Contribution Rain SVG
         run: |
           echo "🌧 Generating Contribution Rain SVG..."
-          node scripts/contribution-rain-svg.js || echo "⚠️ Contribution Rain SVG failed, but continuing"
-      
-      # 8️⃣ Bump cache version
+          node scripts/contribution-rain-svg.js || echo "Contribution Rain SVG failed, but continuing"
+     
       - name: Bump cache version
         run: |
           VERSION_FILE=output/version.txt
@@ -74,12 +65,10 @@ jobs:
           echo $VERSION > $VERSION_FILE
           echo "VERSION=$VERSION" >> $GITHUB_ENV
 
-      # 9️⃣ Update README cache params
       - name: Update README cache params
         run: |
           sed -i "s/v=[0-9]\+/v=${VERSION}/g" README.md
 
-      # 🔟 Commit & Push
       - name: Commit & Push
         run: |
           git config user.name "github-actions"
