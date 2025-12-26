@@ -12,1003 +12,1003 @@
     </filter>
   </defs>
 
-      <rect x="1185.6046425785455" y="-7.1649933936889205" width="7.1649933936889205" height="7.1649933936889205" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="696.1446656824329" y="-5.896104498405839" width="5.896104498405839" height="5.896104498405839" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-7.1649933936889205" to="81.17344328404194" dur="4.351870972022111s" begin="3.531087941156703s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-5.896104498405839" to="81.66043362877102" dur="3.5981810528261637s" begin="0.5363988659323271s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 5.273690578728325 0; 0 0" dur="4.351870972022111s" begin="3.531087941156703s" repeatCount="indefinite"/>
+          values="0 0; 10.95742475447918 0; 0 0" dur="3.5981810528261637s" begin="0.5363988659323271s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.2336956142494437s" begin="7.882958913178814s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.9510330913517187s" begin="4.134579918758491s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="737.4353357656429" y="-6.364386582763154" width="6.364386582763154" height="6.364386582763154" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="343.7793925230908" y="-7.6193090499641265" width="7.6193090499641265" height="7.6193090499641265" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-6.364386582763154" to="65.18568089657543" dur="3.9828335950017113s" begin="0.20290315239131718s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-7.6193090499641265" to="96.02589808325138" dur="4.749128851224997s" begin="0.5348108466362334s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 13.203695013644818 0; 0 0" dur="3.9828335950017113s" begin="0.20290315239131718s" repeatCount="indefinite"/>
+          values="0 0; 6.26082439709543 0; 0 0" dur="4.749128851224997s" begin="0.5348108466362334s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.878241124884945s" begin="4.185736747393029s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.7889123960450077s" begin="5.28393969786123s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="563.6939465569687" y="-5.015150984246422" width="5.015150984246422" height="5.015150984246422" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="95.48892859243222" y="-5.4063226843222045" width="5.4063226843222045" height="5.4063226843222045" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-5.015150984246422" to="86.0429624706603" dur="4.696968163971006s" begin="3.797057258942508s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-5.4063226843222045" to="100.75572127149972" dur="3.2099135027728503s" begin="1.475083245548705s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 11.405411434059804 0; 0 0" dur="4.696968163971006s" begin="3.797057258942508s" repeatCount="indefinite"/>
+          values="0 0; 5.818816213694335 0; 0 0" dur="3.2099135027728503s" begin="1.475083245548705s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.6495687913140507s" begin="8.494025422913513s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.1225144699531973s" begin="4.684996748321556s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="892.3015214048471" y="-4.02500062477056" width="4.02500062477056" height="4.02500062477056" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="943.9518586516807" y="-4.190544518932412" width="4.190544518932412" height="4.190544518932412" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-4.02500062477056" to="92.45784226638186" dur="4.290456709530532s" begin="0.5006144344581243s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-4.190544518932412" to="82.41323384761968" dur="3.663072347371539s" begin="3.2687255042588346s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 5.866501909467874 0; 0 0" dur="4.290456709530532s" begin="0.5006144344581243s" repeatCount="indefinite"/>
+          values="0 0; 8.503784529817501 0; 0 0" dur="3.663072347371539s" begin="3.2687255042588346s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.7776303063813752s" begin="4.791071143988656s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.3138456880372305s" begin="6.931797851630374s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="693.1154624819396" y="-7.19262279872965" width="7.19262279872965" height="7.19262279872965" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="665.2594350417183" y="-4.5169176855936275" width="4.5169176855936275" height="4.5169176855936275" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-7.19262279872965" to="71.422072280308" dur="3.579407750832665s" begin="3.61830705499664s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-4.5169176855936275" to="88.76779200654259" dur="4.1765734440715985s" begin="0.08579293409595401s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 9.702687627879875 0; 0 0" dur="3.579407750832665s" begin="3.61830705499664s" repeatCount="indefinite"/>
+          values="0 0; 11.747170625145984 0; 0 0" dur="4.1765734440715985s" begin="0.08579293409595401s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.0421429258007922s" begin="7.197714805829305s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.777604792684153s" begin="4.2623663781675525s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1010.6605976045532" y="-6.87023262733192" width="6.87023262733192" height="6.87023262733192" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="916.4355264051793" y="-6.822096280104877" width="6.822096280104877" height="6.822096280104877" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-6.87023262733192" to="75.6024426699995" dur="4.614175223080072s" begin="4.402282539083666s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-6.822096280104877" to="83.79153518765045" dur="4.299293257595966s" begin="4.892601104482649s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 12.480878012286194 0; 0 0" dur="4.614175223080072s" begin="4.402282539083666s" repeatCount="indefinite"/>
+          values="0 0; 6.895100554210211 0; 0 0" dur="4.299293257595966s" begin="4.892601104482649s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.7377365983407123s" begin="9.01645776216374s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.8721538818959673s" begin="9.191894362078616s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="339.31621941262" y="-6.095564100864896" width="6.095564100864896" height="6.095564100864896" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="370.6337397028406" y="-4.826407573082723" width="4.826407573082723" height="4.826407573082723" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-6.095564100864896" to="81.26453795672236" dur="4.629160564988041s" begin="4.886955740590828s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-4.826407573082723" to="101.0246857793595" dur="3.4676412514221022s" begin="3.0761503580821845s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 12.315684330873642 0; 0 0" dur="4.629160564988041s" begin="4.886955740590828s" repeatCount="indefinite"/>
+          values="0 0; 14.678852981929758 0; 0 0" dur="3.4676412514221022s" begin="3.0761503580821845s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.0208084158122708s" begin="9.51611630557887s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.4610759723556603s" begin="6.543791609504287s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="991.4598123717595" y="-4.2014443356219955" width="4.2014443356219955" height="4.2014443356219955" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="725.5671652200656" y="-4.754277879902037" width="4.754277879902037" height="4.754277879902037" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-4.2014443356219955" to="107.33574981060892" dur="3.7485311450606766s" begin="2.464541572351524s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-4.754277879902037" to="86.78059731280943" dur="3.359031237188114s" begin="1.148636080911305s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 11.9849369595093 0; 0 0" dur="3.7485311450606766s" begin="2.464541572351524s" repeatCount="indefinite"/>
+          values="0 0; 7.370659206257484 0; 0 0" dur="3.359031237188114s" begin="1.148636080911305s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.5036078856045254s" begin="6.213072717412201s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.6501240754988995s" begin="4.5076673180994185s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="955.7636226618265" y="-6.113399502739617" width="6.113399502739617" height="6.113399502739617" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="96.25676479438718" y="-7.672695523519697" width="7.672695523519697" height="7.672695523519697" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-6.113399502739617" to="86.69912021752772" dur="4.955366487858116s" begin="0.12285130781133469s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-7.672695523519697" to="107.89890639188165" dur="3.1368099534310994s" begin="2.236327859519295s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 7.207652123149764 0; 0 0" dur="4.955366487858116s" begin="0.12285130781133469s" repeatCount="indefinite"/>
+          values="0 0; 5.665183401523026 0; 0 0" dur="3.1368099534310994s" begin="2.236327859519295s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.3969606243541364s" begin="5.078217795669451s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.6629392240448757s" begin="5.373137812950395s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="315.5621221062053" y="-6.353258927912619" width="6.353258927912619" height="6.353258927912619" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="493.51298621264135" y="-7.036291992404112" width="7.036291992404112" height="7.036291992404112" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-6.353258927912619" to="71.56191705765147" dur="3.228223293894012s" begin="1.6492230016534792s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-7.036291992404112" to="63.769903874599365" dur="4.952704103719018s" begin="3.001689151823469s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 10.756597576590412 0; 0 0" dur="3.228223293894012s" begin="1.6492230016534792s" repeatCount="indefinite"/>
+          values="0 0; 12.186552031106219 0; 0 0" dur="4.952704103719018s" begin="3.001689151823469s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.635094345565776s" begin="4.877446295547491s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.4173616800423496s" begin="7.954393255542487s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="341.3977822970749" y="-6.649032805136922" width="6.649032805136922" height="6.649032805136922" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="1044.2885420725713" y="-5.94650558686695" width="5.94650558686695" height="5.94650558686695" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-6.649032805136922" to="74.20516746295377" dur="3.4457776699769993s" begin="2.5185623059054163s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-5.94650558686695" to="100.1569973647679" dur="4.198626126532524s" begin="3.7227529956825522s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 8.190456666750801 0; 0 0" dur="3.4457776699769993s" begin="2.5185623059054163s" repeatCount="indefinite"/>
+          values="0 0; 11.688402127665544 0; 0 0" dur="4.198626126532524s" begin="3.7227529956825522s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.0714184495258539s" begin="5.964339975882416s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.129276803868067s" begin="7.921379122215076s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="395.6613195407308" y="-4.831238361014376" width="4.831238361014376" height="4.831238361014376" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="261.7619622294125" y="-5.526129717494548" width="5.526129717494548" height="5.526129717494548" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-4.831238361014376" to="72.05647458650381" dur="4.599590259853395s" begin="0.8356334538575705s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-5.526129717494548" to="87.06830443591846" dur="3.1271030616870954s" begin="2.824874983286426s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 12.302762380246236 0; 0 0" dur="4.599590259853395s" begin="0.8356334538575705s" repeatCount="indefinite"/>
+          values="0 0; 7.517447995343407 0; 0 0" dur="3.1271030616870954s" begin="2.824874983286426s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.9260313966704405s" begin="5.435223713710966s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.6263284833675835s" begin="5.951978044973521s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="150.13052964070974" y="-5.682724448428823" width="5.682724448428823" height="5.682724448428823" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="1130.3777312871703" y="-4.055330609649763" width="4.055330609649763" height="4.055330609649763" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-5.682724448428823" to="64.81691327333156" dur="4.860259750705886s" begin="2.1187628242276624s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-4.055330609649763" to="99.77181330592715" dur="3.6981849534163884s" begin="3.350383846894993s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 13.590853379757228 0; 0 0" dur="4.860259750705886s" begin="2.1187628242276624s" repeatCount="indefinite"/>
+          values="0 0; 9.747355555764985 0; 0 0" dur="3.6981849534163884s" begin="3.350383846894993s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.8822001323495179s" begin="6.979022574933548s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.8405157748777266s" begin="7.048568800311381s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1155.693740796177" y="-6.827064323353749" width="6.827064323353749" height="6.827064323353749" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="939.0071013731564" y="-7.656277350805803" width="7.656277350805803" height="7.656277350805803" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-6.827064323353749" to="62.639384023954634" dur="3.4134851551349734s" begin="4.700337468627424s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-7.656277350805803" to="96.44933016284337" dur="4.353969584525876s" begin="1.486401218650275s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 9.35258154115024 0; 0 0" dur="3.4134851551349734s" begin="4.700337468627424s" repeatCount="indefinite"/>
+          values="0 0; 11.99076551331105 0; 0 0" dur="4.353969584525876s" begin="1.486401218650275s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.413579979501795s" begin="8.113822623762397s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.336861875416158s" begin="5.840370803176151s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="943.0390564578469" y="-4.273598536393534" width="4.273598536393534" height="4.273598536393534" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="26.508218848866427" y="-6.6800571025180515" width="6.6800571025180515" height="6.6800571025180515" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-4.273598536393534" to="61.06533446407606" dur="4.189688597981949s" begin="0.8780961957489553s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-6.6800571025180515" to="62.2915131476323" dur="3.329202969994355s" begin="4.156697082683046s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 5.802530815560532 0; 0 0" dur="4.189688597981949s" begin="0.8780961957489553s" repeatCount="indefinite"/>
+          values="0 0; 12.063681820051393 0; 0 0" dur="3.329202969994355s" begin="4.156697082683046s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.7087779234189535s" begin="5.067784793730904s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.4404112504074s" begin="7.485900052677401s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="590.1054181742468" y="-7.9838502847104404" width="7.9838502847104404" height="7.9838502847104404" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="465.0569420462637" y="-4.970860916657184" width="4.970860916657184" height="4.970860916657184" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-7.9838502847104404" to="68.15537125436708" dur="4.853735618396492s" begin="3.3529777282876494s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-4.970860916657184" to="79.48430202735695" dur="4.264112425385889s" begin="1.6152352459153718s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 6.265119169306049 0; 0 0" dur="4.853735618396492s" begin="3.3529777282876494s" repeatCount="indefinite"/>
+          values="0 0; 5.533678524366343 0; 0 0" dur="4.264112425385889s" begin="1.6152352459153718s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.92186059699194s" begin="8.206713346684142s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.5788065577075308s" begin="5.879347671301261s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1024.8533345267886" y="-4.979971297944565" width="4.979971297944565" height="4.979971297944565" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="139.81969597817195" y="-4.1998968659214295" width="4.1998968659214295" height="4.1998968659214295" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-4.979971297944565" to="82.45605683534885" dur="4.833190956518197s" begin="4.950398265799535s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-4.1998968659214295" to="75.24087016241178" dur="4.73370772707176s" begin="2.813067140746125s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 13.233862294242458 0; 0 0" dur="4.833190956518197s" begin="4.950398265799535s" repeatCount="indefinite"/>
+          values="0 0; 12.29921279180559 0; 0 0" dur="4.73370772707176s" begin="2.813067140746125s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.9165107569465136s" begin="9.783589222317733s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.5655930174544803s" begin="7.546774867817885s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="456.53434007638293" y="-6.132436863759198" width="6.132436863759198" height="6.132436863759198" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="198.11296481597003" y="-6.402443426416784" width="6.402443426416784" height="6.402443426416784" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-6.132436863759198" to="69.0590248002134" dur="4.43394349232219s" begin="4.121703640799343s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-6.402443426416784" to="89.03445992625471" dur="3.6979014047480785s" begin="2.0284574207563235s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 5.197810219384835 0; 0 0" dur="4.43394349232219s" begin="4.121703640799343s" repeatCount="indefinite"/>
+          values="0 0; 13.062658755956612 0; 0 0" dur="3.6979014047480785s" begin="2.0284574207563235s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.0328297092276524s" begin="8.555647133121532s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.0447803479541622s" begin="5.726358825504402s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1027.736068266203" y="-4.247836503292416" width="4.247836503292416" height="4.247836503292416" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="915.2009044880026" y="-6.9153684224893155" width="6.9153684224893155" height="6.9153684224893155" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-4.247836503292416" to="79.14719289305489" dur="3.3497404858021924s" begin="1.0913367196256674s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-6.9153684224893155" to="91.37808090302678" dur="3.288417504877456s" begin="2.897672384890212s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 9.671922838135973 0; 0 0" dur="3.3497404858021924s" begin="1.0913367196256674s" repeatCount="indefinite"/>
+          values="0 0; 11.917393326192155 0; 0 0" dur="3.288417504877456s" begin="2.897672384890212s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.9861113683653655s" begin="4.4410772054278596s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.0594235120906292s" begin="6.186089889767668s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="510.03168624929936" y="-7.9349426636579885" width="7.9349426636579885" height="7.9349426636579885" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="550.708693661484" y="-5.921666500312623" width="5.921666500312623" height="5.921666500312623" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-7.9349426636579885" to="94.84226061791964" dur="4.596927913671378s" begin="0.41840643262697763s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-5.921666500312623" to="98.94596346213461" dur="3.9336647646946004s" begin="4.180607110143573s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 8.478803545701162 0; 0 0" dur="4.596927913671378s" begin="0.41840643262697763s" repeatCount="indefinite"/>
+          values="0 0; 13.176086535566597 0; 0 0" dur="3.9336647646946004s" begin="4.180607110143573s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.0477895110393156s" begin="5.0153343462983555s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.386738521609892s" begin="8.114271874838174s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="527.9704780826868" y="-5.134557428188361" width="5.134557428188361" height="5.134557428188361" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="26.033408804737412" y="-6.457600730545646" width="6.457600730545646" height="6.457600730545646" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-5.134557428188361" to="105.57409175674573" dur="4.176949610905162s" begin="3.3546844590110547s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-6.457600730545646" to="70.88596783832429" dur="4.855253312272314s" begin="0.38465174720303197s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 13.615460973443685 0; 0 0" dur="4.176949610905162s" begin="3.3546844590110547s" repeatCount="indefinite"/>
+          values="0 0; 10.238297540520588 0; 0 0" dur="4.855253312272314s" begin="0.38465174720303197s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.3263300909383697s" begin="7.531634069916216s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.7939237487898136s" begin="5.239905059475346s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1114.1271665686293" y="-7.1268443935429495" width="7.1268443935429495" height="7.1268443935429495" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="236.38894518438116" y="-4.339935127103143" width="4.339935127103143" height="4.339935127103143" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-7.1268443935429495" to="72.11479842527827" dur="3.833702789713907s" begin="1.5760281426016998s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-4.339935127103143" to="107.22702750047736" dur="3.964947385615244s" begin="3.8213687484301895s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 8.626305309112702 0; 0 0" dur="3.833702789713907s" begin="1.5760281426016998s" repeatCount="indefinite"/>
+          values="0 0; 7.452655501884795 0; 0 0" dur="3.964947385615244s" begin="3.8213687484301895s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.262392331391828s" begin="5.409730932315607s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.294369553783854s" begin="7.786316134045434s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="400.043147811275" y="-6.627892795350241" width="6.627892795350241" height="6.627892795350241" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="308.9480216503045" y="-5.2394214578927905" width="5.2394214578927905" height="5.2394214578927905" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-6.627892795350241" to="68.97145792764417" dur="4.153001411563455s" begin="1.6602031338717205s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-5.2394214578927905" to="106.73610145672147" dur="4.0783651008290445s" begin="3.9667050671631463s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 5.653138904452495 0; 0 0" dur="4.153001411563455s" begin="1.6602031338717205s" repeatCount="indefinite"/>
+          values="0 0; 9.41823954202124 0; 0 0" dur="4.0783651008290445s" begin="3.9667050671631463s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.628276957479266s" begin="5.813204545435175s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.486951597001059s" begin="8.04507016799219s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="190.59099151251075" y="-7.5006541462648135" width="7.5006541462648135" height="7.5006541462648135" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="434.10362963993714" y="-4.202044072436247" width="4.202044072436247" height="4.202044072436247" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-7.5006541462648135" to="94.91883146191454" dur="4.3529873493550895s" begin="0.26336715991523985s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-4.202044072436247" to="73.44062576178683" dur="3.5959364946934755s" begin="2.859288309855165s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 14.59572050326357 0; 0 0" dur="4.3529873493550895s" begin="0.26336715991523985s" repeatCount="indefinite"/>
+          values="0 0; 13.056851886899292 0; 0 0" dur="3.5959364946934755s" begin="2.859288309855165s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.5340894012178279s" begin="4.616354509270329s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.6944930228110309s" begin="6.4552248045486404s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1074.904145467791" y="-4.220079479530646" width="4.220079479530646" height="4.220079479530646" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="1144.029170749484" y="-4.994074832303694" width="4.994074832303694" height="4.994074832303694" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-4.220079479530646" to="96.48383475798866" dur="4.534628521784786s" begin="1.3744823194631528s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-4.994074832303694" to="91.9730386072886" dur="3.079907156592083s" begin="4.330222658215311s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 8.581130780750774 0; 0 0" dur="4.534628521784786s" begin="1.3744823194631528s" repeatCount="indefinite"/>
+          values="0 0; 6.081746772494392 0; 0 0" dur="3.079907156592083s" begin="4.330222658215311s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.6345976165299845s" begin="5.909110841247939s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.2800550344659354s" begin="7.4101298148073935s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="379.00767233893384" y="-5.7363521537623186" width="5.7363521537623186" height="5.7363521537623186" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="918.093198461336" y="-6.4466425273045145" width="6.4466425273045145" height="6.4466425273045145" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-5.7363521537623186" to="92.24912862173265" dur="4.484151232918495s" begin="3.1485245349081215s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-6.4466425273045145" to="60.107026294341836" dur="4.599277421240734s" begin="4.990050569652576s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 10.508998624771845 0; 0 0" dur="4.484151232918495s" begin="3.1485245349081215s" repeatCount="indefinite"/>
+          values="0 0; 11.10540961044022 0; 0 0" dur="4.599277421240734s" begin="4.990050569652576s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.84625039186667s" begin="7.632675767826616s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.338269544182453s" begin="9.58932799089331s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="618.4744602056629" y="-4.172424804406177" width="4.172424804406177" height="4.172424804406177" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="978.8603928072278" y="-6.416018885084396" width="6.416018885084396" height="6.416018885084396" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-4.172424804406177" to="71.67324830216032" dur="3.6030896205607736s" begin="2.2470337058429433s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-6.416018885084396" to="98.8214266250873" dur="3.4176176487171834s" begin="4.68826516175781s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 13.413182970380323 0; 0 0" dur="3.6030896205607736s" begin="2.2470337058429433s" repeatCount="indefinite"/>
+          values="0 0; 13.413435894511714 0; 0 0" dur="3.4176176487171834s" begin="4.68826516175781s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.5489212274365665s" begin="5.8501233264037165s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.5346140203260266s" begin="8.105882810474993s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="465.33439940222223" y="-7.799510611327611" width="7.799510611327611" height="7.799510611327611" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="642.1780358565129" y="-7.802440488290364" width="7.802440488290364" height="7.802440488290364" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-7.799510611327611" to="74.99259585401083" dur="3.039703807786709s" begin="4.052431804758224s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-7.802440488290364" to="81.34312081983316" dur="3.772439320313123s" begin="4.414583206259769s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 9.49270800090936 0; 0 0" dur="3.039703807786709s" begin="4.052431804758224s" repeatCount="indefinite"/>
+          values="0 0; 7.4429724804642206 0; 0 0" dur="3.772439320313123s" begin="4.414583206259769s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.6105804250951041s" begin="7.092135612544933s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.5866711760085033s" begin="8.187022526572893s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="192.44839303108998" y="-6.209856434515655" width="6.209856434515655" height="6.209856434515655" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="62.407157150132875" y="-6.816286340152604" width="6.816286340152604" height="6.816286340152604" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-6.209856434515655" to="99.78361918779885" dur="4.816588931032362s" begin="1.8292277906599619s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-6.816286340152604" to="105.4130883032637" dur="4.5221577136457825s" begin="1.742396877051785s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 7.5935507048698225 0; 0 0" dur="4.816588931032362s" begin="1.8292277906599619s" repeatCount="indefinite"/>
+          values="0 0; 13.893772626395096 0; 0 0" dur="4.5221577136457825s" begin="1.742396877051785s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.5729571199141612s" begin="6.645816721692324s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.1638418552820649s" begin="6.264554590697568s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="411.0044759140421" y="-5.394640111441089" width="5.394640111441089" height="5.394640111441089" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="884.4011971460792" y="-5.172260798545696" width="5.172260798545696" height="5.172260798545696" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-5.394640111441089" to="84.56532554018511" dur="4.717062494504619s" begin="2.8964529061704436s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-5.172260798545696" to="80.42430263221033" dur="4.440220758469309s" begin="1.317608777572744s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 5.715946704036472 0; 0 0" dur="4.717062494504619s" begin="2.8964529061704436s" repeatCount="indefinite"/>
+          values="0 0; 14.281436791561328 0; 0 0" dur="4.440220758469309s" begin="1.317608777572744s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.057347695527066s" begin="7.6135154006750625s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.9865127989190536s" begin="5.757829536042053s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="51.69497876789606" y="-7.522251591549499" width="7.522251591549499" height="7.522251591549499" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="796.0335333470601" y="-7.239359637906562" width="7.239359637906562" height="7.239359637906562" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-7.522251591549499" to="72.44189763645886" dur="3.834334036920623s" begin="0.5669772425302433s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-7.239359637906562" to="69.85053519984302" dur="4.859063676948421s" begin="0.42596605443278923s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 6.769668276970582 0; 0 0" dur="3.834334036920623s" begin="0.5669772425302433s" repeatCount="indefinite"/>
+          values="0 0; 13.343730934354031 0; 0 0" dur="4.859063676948421s" begin="0.42596605443278923s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.2173018600755023s" begin="4.401311279450867s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.1852400256739248s" begin="5.28502973138121s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="91.04948574707699" y="-6.421459505044168" width="6.421459505044168" height="6.421459505044168" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="267.9487845994065" y="-4.233237688180496" width="4.233237688180496" height="4.233237688180496" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-6.421459505044168" to="104.51561065901296" dur="3.3220140078691385s" begin="0.4668430202849738s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-4.233237688180496" to="91.97445671187828" dur="3.025837650162897s" begin="4.848528988609012s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 6.467504461561671 0; 0 0" dur="3.3220140078691385s" begin="0.4668430202849738s" repeatCount="indefinite"/>
+          values="0 0; 13.196807665728494 0; 0 0" dur="3.025837650162897s" begin="4.848528988609012s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.2482701520560158s" begin="3.788857028154112s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.8500205801461318s" begin="7.874366638771909s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="550.1229907934863" y="-7.16191606702064" width="7.16191606702064" height="7.16191606702064" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="327.17289486994747" y="-7.568867892860201" width="7.568867892860201" height="7.568867892860201" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-7.16191606702064" to="94.62698784631323" dur="3.4197713871385824s" begin="0.9573445050465512s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-7.568867892860201" to="91.17729548547221" dur="3.666172756134492s" begin="3.7384039880637463s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 9.618391627092537 0; 0 0" dur="3.4197713871385824s" begin="0.9573445050465512s" repeatCount="indefinite"/>
+          values="0 0; 14.981458956667847 0; 0 0" dur="3.666172756134492s" begin="3.7384039880637463s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.4979630645479434s" begin="4.377115892185134s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.9863655639352173s" begin="7.404576744198238s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1186.9009430281478" y="-5.308077739029741" width="5.308077739029741" height="5.308077739029741" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="592.8991542028092" y="-4.435052205211218" width="4.435052205211218" height="4.435052205211218" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-5.308077739029741" to="77.43088343135139" dur="3.6752914534726173s" begin="3.1472564107477674s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-4.435052205211218" to="70.80017359802727" dur="3.3542993080321204s" begin="1.0877843622635808s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 9.834817975278142 0; 0 0" dur="3.6752914534726173s" begin="3.1472564107477674s" repeatCount="indefinite"/>
+          values="0 0; 12.26684290745721 0; 0 0" dur="3.3542993080321204s" begin="1.0877843622635808s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.3807440306435521s" begin="6.822547864220384s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.1415506829450257s" begin="4.442083670295701s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="877.711290967372" y="-6.224518445590803" width="6.224518445590803" height="6.224518445590803" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="516.608610781253" y="-5.550589425598382" width="5.550589425598382" height="5.550589425598382" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-6.224518445590803" to="76.19383941928324" dur="3.925867877409442s" begin="3.4305361536518033s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-5.550589425598382" to="80.08145183708042" dur="4.214422489471993s" begin="4.428511223996302s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 14.803385832333841 0; 0 0" dur="3.925867877409442s" begin="3.4305361536518033s" repeatCount="indefinite"/>
+          values="0 0; 14.215334947590076 0; 0 0" dur="4.214422489471993s" begin="4.428511223996302s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.7200577969389241s" begin="7.3564040310612455s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.7495783937919542s" begin="8.642933713468295s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1144.4154328813547" y="-5.608755782529975" width="5.608755782529975" height="5.608755782529975" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="452.82557565310543" y="-6.418570551514437" width="6.418570551514437" height="6.418570551514437" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-5.608755782529975" to="87.3959596335119" dur="3.648938420025352s" begin="1.07769170306943s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-6.418570551514437" to="94.68829156873495" dur="3.5556830073735046s" begin="3.2823534737465776s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 11.740162433026322 0; 0 0" dur="3.648938420025352s" begin="1.07769170306943s" repeatCount="indefinite"/>
+          values="0 0; 14.206490961706344 0; 0 0" dur="3.5556830073735046s" begin="3.2823534737465776s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.1969306410294156s" begin="4.7266301230947825s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.0517034470642173s" begin="6.838036481120082s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="197.82238574773982" y="-4.363962922161619" width="4.363962922161619" height="4.363962922161619" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="629.481751201839" y="-6.225527710358091" width="6.225527710358091" height="6.225527710358091" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-4.363962922161619" to="104.34519962885653" dur="4.87507869240558s" begin="4.533271094287178s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-6.225527710358091" to="70.33954615133672" dur="3.0113660310750423s" begin="0.5062181172074909s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 9.892825484783659 0; 0 0" dur="4.87507869240558s" begin="4.533271094287178s" repeatCount="indefinite"/>
+          values="0 0; 10.733627906464138 0; 0 0" dur="3.0113660310750423s" begin="0.5062181172074909s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.0697622437993368s" begin="9.408349786692758s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.0807486756641596s" begin="3.517584148282533s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="975.0427346270163" y="-6.060396758127089" width="6.060396758127089" height="6.060396758127089" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="590.8860640878555" y="-6.3859779620109975" width="6.3859779620109975" height="6.3859779620109975" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-6.060396758127089" to="62.88269299250599" dur="4.258223669432667s" begin="3.4962391128471335s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-6.3859779620109975" to="83.84241088384445" dur="3.0649243982667365s" begin="1.1167781789866582s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 9.41488665614358 0; 0 0" dur="4.258223669432667s" begin="3.4962391128471335s" repeatCount="indefinite"/>
+          values="0 0; 10.92349128241274 0; 0 0" dur="3.0649243982667365s" begin="1.1167781789866582s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.1424180912572064s" begin="7.7544627822798s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.2900827215730721s" begin="4.181702577253395s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="798.4771723794066" y="-4.152480994469767" width="4.152480994469767" height="4.152480994469767" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="731.6595922825178" y="-7.017949004806543" width="7.017949004806543" height="7.017949004806543" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-4.152480994469767" to="63.01567794335212" dur="4.647086607848415s" begin="0.8112552997440226s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-7.017949004806543" to="85.62859589729985" dur="3.541160474094365s" begin="0.2909215256412201s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 10.117813324203816 0; 0 0" dur="4.647086607848415s" begin="0.8112552997440226s" repeatCount="indefinite"/>
+          values="0 0; 8.777672891211065 0; 0 0" dur="3.541160474094365s" begin="0.2909215256412201s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.412722667414613s" begin="5.4583419075924375s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.3602549516706501s" begin="3.8320819997355855s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1119.0459274247517" y="-6.595878026653012" width="6.595878026653012" height="6.595878026653012" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="358.99492805698634" y="-6.843747425586591" width="6.843747425586591" height="6.843747425586591" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-6.595878026653012" to="96.28270191777597" dur="4.813049519495092s" begin="2.8930973185223596s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-6.843747425586591" to="60.666572950739315" dur="3.5167252184403623s" begin="1.5885625226653877s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 14.256841575528432 0; 0 0" dur="4.813049519495092s" begin="2.8930973185223596s" repeatCount="indefinite"/>
+          values="0 0; 9.655730973354043 0; 0 0" dur="3.5167252184403623s" begin="1.5885625226653877s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.6678293363169359s" begin="7.706146838017451s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.257202983110316s" begin="5.10528774110575s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="812.9224662041015" y="-4.72658845611684" width="4.72658845611684" height="4.72658845611684" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="697.918171852822" y="-6.010120577017408" width="6.010120577017408" height="6.010120577017408" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-4.72658845611684" to="63.835504066247246" dur="3.7815548944045574s" begin="3.033907471056052s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-6.010120577017408" to="82.62362740295548" dur="4.69034827912663s" begin="4.151923509365858s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 5.062703413248957 0; 0 0" dur="3.7815548944045574s" begin="3.033907471056052s" repeatCount="indefinite"/>
+          values="0 0; 9.848549901148314 0; 0 0" dur="4.69034827912663s" begin="4.151923509365858s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.478882317848618s" begin="6.8154623654606095s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.4623340175863448s" begin="8.84227178849249s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="456.23990576876395" y="-6.239278285984349" width="6.239278285984349" height="6.239278285984349" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="896.4055121860363" y="-5.846673825837665" width="5.846673825837665" height="5.846673825837665" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-6.239278285984349" to="94.47816782769402" dur="4.3770524762488305s" begin="2.7054032043147913s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-5.846673825837665" to="78.87861183011034" dur="4.685700559408884s" begin="1.1043113135235472s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 14.692123804665052 0; 0 0" dur="4.3770524762488305s" begin="2.7054032043147913s" repeatCount="indefinite"/>
+          values="0 0; 10.732508155565949 0; 0 0" dur="4.685700559408884s" begin="1.1043113135235472s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.9590138132345942s" begin="7.082455680563622s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.5896486219025956s" begin="5.790011872932432s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="828.4716709333147" y="-5.079685236752096" width="5.079685236752096" height="5.079685236752096" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="96.1968992153393" y="-6.970227346502886" width="6.970227346502886" height="6.970227346502886" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-5.079685236752096" to="87.44773203663688" dur="4.2427067898903825s" begin="4.1661805680862285s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-6.970227346502886" to="98.03929019957238" dur="4.895957410231448s" begin="4.752639145081385s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 6.86953040701651 0; 0 0" dur="4.2427067898903825s" begin="4.1661805680862285s" repeatCount="indefinite"/>
+          values="0 0; 5.477800521208145 0; 0 0" dur="4.895957410231448s" begin="4.752639145081385s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.4703194448167511s" begin="8.40888735797661s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.9003031096447902s" begin="9.648596555312833s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="742.5464327379227" y="-7.844652309506967" width="7.844652309506967" height="7.844652309506967" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="1182.3596603193175" y="-4.521607312182423" width="4.521607312182423" height="4.521607312182423" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-7.844652309506967" to="84.44587595917082" dur="3.9938590646010055s" begin="2.615580515821306s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-4.521607312182423" to="78.53842712195109" dur="3.547700097870843s" begin="4.090476064450542s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 13.505343018281184 0; 0 0" dur="3.9938590646010055s" begin="2.615580515821306s" repeatCount="indefinite"/>
+          values="0 0; 10.321017485348023 0; 0 0" dur="3.547700097870843s" begin="4.090476064450542s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.511252701149776s" begin="6.609439580422311s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.0894193882705465s" begin="7.638176162321384s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1170.021577241308" y="-5.153826434150688" width="5.153826434150688" height="5.153826434150688" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="457.6962944876796" y="-7.285586945399547" width="7.285586945399547" height="7.285586945399547" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-5.153826434150688" to="107.62156314973504" dur="3.114622095421973s" begin="3.412854147592398s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-7.285586945399547" to="62.639221628536845" dur="3.7035691037009046s" begin="1.19126830043766s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 13.305569106273756 0; 0 0" dur="3.114622095421973s" begin="3.412854147592398s" repeatCount="indefinite"/>
+          values="0 0; 6.946868789119991 0; 0 0" dur="3.7035691037009046s" begin="1.19126830043766s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.4420495640860194s" begin="6.527476243014371s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.8406437054102347s" begin="4.894837404138565s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="278.2254153508777" y="-5.699878459905715" width="5.699878459905715" height="5.699878459905715" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="683.443517528405" y="-4.351912361789473" width="4.351912361789473" height="4.351912361789473" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-5.699878459905715" to="72.5606123936864" dur="4.133486796037957s" begin="4.023977875687054s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-4.351912361789473" to="91.23343770026233" dur="4.132437568652241s" begin="4.588743107681629s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 14.732177536133165 0; 0 0" dur="4.133486796037957s" begin="4.023977875687054s" repeatCount="indefinite"/>
+          values="0 0; 5.923439454135925 0; 0 0" dur="4.132437568652241s" begin="4.588743107681629s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.4638973810353064s" begin="8.15746467172501s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.4415091076998463s" begin="8.72118067633387s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="243.28776375264437" y="-7.07537272211995" width="7.07537272211995" height="7.07537272211995" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="560.3942966968975" y="-5.822798290335877" width="5.822798290335877" height="5.822798290335877" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-7.07537272211995" to="96.70279333655155" dur="3.3325805801940507s" begin="4.385761077804733s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-5.822798290335877" to="61.06394673847939" dur="4.431390369621244s" begin="3.0037144453667497s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 6.42091995230289 0; 0 0" dur="3.3325805801940507s" begin="4.385761077804733s" repeatCount="indefinite"/>
+          values="0 0; 8.410821486544247 0; 0 0" dur="4.431390369621244s" begin="3.0037144453667497s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.920340539288252s" begin="7.718341657998783s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.1333265978510136s" begin="7.435104814987994s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="92.10274612391612" y="-5.194385759000587" width="5.194385759000587" height="5.194385759000587" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="671.1630789770021" y="-4.654908630219862" width="4.654908630219862" height="4.654908630219862" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-5.194385759000587" to="88.01660583082455" dur="4.298870421868051s" begin="2.7706425312286975s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-4.654908630219862" to="85.00297283203932" dur="3.378962181831821s" begin="2.523448560309489s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 8.918290895341379 0; 0 0" dur="4.298870421868051s" begin="2.7706425312286975s" repeatCount="indefinite"/>
+          values="0 0; 5.1152631633810985 0; 0 0" dur="3.378962181831821s" begin="2.523448560309489s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.3270167562189155s" begin="7.069512953096748s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.2204865876867965s" begin="5.90241074214131s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="38.646161432269196" y="-6.837582994097451" width="6.837582994097451" height="6.837582994097451" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="243.7023692760862" y="-6.56331090072731" width="6.56331090072731" height="6.56331090072731" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-6.837582994097451" to="76.82855749604012" dur="4.0098055543562765s" begin="1.5046810747124373s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-6.56331090072731" to="76.82499434144297" dur="3.094675567945642s" begin="3.5364306785123976s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 10.349929466759495 0; 0 0" dur="4.0098055543562765s" begin="1.5046810747124373s" repeatCount="indefinite"/>
+          values="0 0; 6.931155495302428 0; 0 0" dur="3.094675567945642s" begin="3.5364306785123976s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.8046529393105404s" begin="5.514486629068713s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.796899509449503s" begin="6.63110624645804s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="164.88095269096848" y="-6.021237452531729" width="6.021237452531729" height="6.021237452531729" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="807.5204826174945" y="-7.154753842990145" width="7.154753842990145" height="7.154753842990145" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-6.021237452531729" to="67.44934744824545" dur="3.2349883223193947s" begin="4.582268765476593s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-7.154753842990145" to="73.83339118414698" dur="3.219580848901605s" begin="0.015501616080730862s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 5.165091704477578 0; 0 0" dur="3.2349883223193947s" begin="4.582268765476593s" repeatCount="indefinite"/>
+          values="0 0; 5.406431088143961 0; 0 0" dur="3.219580848901605s" begin="0.015501616080730862s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.8362923784763032s" begin="7.817257087795988s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.344568020623682s" begin="3.235082464982336s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="618.821144575266" y="-6.071169444404634" width="6.071169444404634" height="6.071169444404634" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="729.0914709743324" y="-6.607476567307202" width="6.607476567307202" height="6.607476567307202" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-6.071169444404634" to="75.71670433859714" dur="5.865344160372091s" begin="0.39566432101741156s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-6.607476567307202" to="76.17046025827376" dur="5.368867524559726s" begin="3.604705473695401s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 9.28033094729013 0; 0 0" dur="5.865344160372091s" begin="0.39566432101741156s" repeatCount="indefinite"/>
+          values="0 0; 9.099336128797852 0; 0 0" dur="5.368867524559726s" begin="3.604705473695401s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.9139859475762333s" begin="6.261008481389503s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.3618732866209078s" begin="8.973572998255127s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1160.3229693374099" y="-10.158818309558217" width="10.158818309558217" height="10.158818309558217" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="536.0749159316429" y="-8.823672616502863" width="8.823672616502863" height="8.823672616502863" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-10.158818309558217" to="78.59276247539569" dur="6.186262480907235s" begin="1.030620987621227s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-8.823672616502863" to="85.37795010537647" dur="5.655901234534857s" begin="4.541640901651532s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 12.534890859358693 0; 0 0" dur="6.186262480907235s" begin="1.030620987621227s" repeatCount="indefinite"/>
+          values="0 0; 5.527434196282536 0; 0 0" dur="5.655901234534857s" begin="4.541640901651532s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.1921953883973977s" begin="7.2168834685284615s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.3355916148374358s" begin="10.197542136186389s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="837.806405549062" y="-6.823065248513403" width="6.823065248513403" height="6.823065248513403" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="450.6746606724076" y="-7.4070231599758385" width="7.4070231599758385" height="7.4070231599758385" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-6.823065248513403" to="93.28256870199945" dur="5.443890078107401s" begin="4.9397476866350845s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-7.4070231599758385" to="62.855772552833045" dur="5.98114375215982s" begin="0.6165148125560305s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 12.855194830450152 0; 0 0" dur="5.443890078107401s" begin="4.9397476866350845s" repeatCount="indefinite"/>
+          values="0 0; 6.420378370731052 0; 0 0" dur="5.98114375215982s" begin="0.6165148125560305s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.4904813714106548s" begin="10.383637764742485s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.5933349008154782s" begin="6.59765856471585s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="587.2908766228363" y="-7.433254473955056" width="7.433254473955056" height="7.433254473955056" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="892.2673779810066" y="-10.060191712095179" width="10.060191712095179" height="10.060191712095179" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-7.433254473955056" to="68.45035459668073" dur="5.623633120776191s" begin="4.4172268128156755s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-10.060191712095179" to="61.27182886208989" dur="6.433882949170194s" begin="2.6042526702645463s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 7.960497874971679 0; 0 0" dur="5.623633120776191s" begin="4.4172268128156755s" repeatCount="indefinite"/>
+          values="0 0; 14.490647680944342 0; 0 0" dur="6.433882949170194s" begin="2.6042526702645463s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.9823749781324165s" begin="10.040859933591866s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.7279949239977634s" begin="9.03813561943474s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="478.9621121793906" y="-6.7303554017619405" width="6.7303554017619405" height="6.7303554017619405" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="205.70975129882748" y="-7.948699790100564" width="7.948699790100564" height="7.948699790100564" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-6.7303554017619405" to="77.12782857183402" dur="6.414444089785736s" begin="0.32241244749971143s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-7.948699790100564" to="72.08057956219334" dur="6.319957836756199s" begin="3.2040512100095375s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 14.030524618315301 0; 0 0" dur="6.414444089785736s" begin="0.32241244749971143s" repeatCount="indefinite"/>
+          values="0 0; 13.294383274081795 0; 0 0" dur="6.319957836756199s" begin="3.2040512100095375s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.87726605625589s" begin="6.736856537285448s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.8714795371112731s" begin="9.524009046765737s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="284.9554192490855" y="-8.667674616550247" width="8.667674616550247" height="8.667674616550247" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="349.93034717508937" y="-6.688329184909662" width="6.688329184909662" height="6.688329184909662" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-8.667674616550247" to="103.71617033949454" dur="6.742467374497532s" begin="3.582199819421886s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-6.688329184909662" to="86.21189096525097" dur="5.456727115730013s" begin="1.3885701785396953s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 5.665128929165415 0; 0 0" dur="6.742467374497532s" begin="3.582199819421886s" repeatCount="indefinite"/>
+          values="0 0; 9.157028606576995 0; 0 0" dur="5.456727115730013s" begin="1.3885701785396953s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.4288784693434262s" begin="10.324667193919417s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.7111830747121504s" begin="6.845297294269709s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="358.50837568745754" y="-8.858818059636281" width="8.858818059636281" height="8.858818059636281" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="495.29867795526945" y="-7.427875931486705" width="7.427875931486705" height="7.427875931486705" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-8.858818059636281" to="94.4869766617295" dur="5.654390607044469s" begin="4.484253664815111s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-7.427875931486705" to="80.77193786221794" dur="6.224059678145647s" begin="3.4919587207991953s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 11.179698464635992 0; 0 0" dur="5.654390607044469s" begin="4.484253664815111s" repeatCount="indefinite"/>
+          values="0 0; 5.703576080950434 0; 0 0" dur="6.224059678145647s" begin="3.4919587207991953s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.8979722269811705s" begin="10.13864427185958s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.0944796699528374s" begin="9.716018398944842s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="900.7698632622673" y="-9.219486462904303" width="9.219486462904303" height="9.219486462904303" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="623.7115229330959" y="-7.243218576231198" width="7.243218576231198" height="7.243218576231198" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-9.219486462904303" to="80.51766001518519" dur="6.0930238253351s" begin="0.563512724241666s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-7.243218576231198" to="86.25990499025177" dur="6.877460888040542s" begin="2.3753605857918303s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 6.805195011806249 0; 0 0" dur="6.0930238253351s" begin="0.563512724241666s" repeatCount="indefinite"/>
+          values="0 0; 13.227829848891854 0; 0 0" dur="6.877460888040542s" begin="2.3753605857918303s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.0926208427131965s" begin="6.656536549576766s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.7003563414756893s" begin="9.252821473832372s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1034.704527211866" y="-9.059196132627761" width="9.059196132627761" height="9.059196132627761" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="413.64229572912683" y="-8.487143254336214" width="8.487143254336214" height="8.487143254336214" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-9.059196132627761" to="84.52173221056358" dur="5.525984601644987s" begin="2.7809869090471517s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-8.487143254336214" to="72.51228525424601" dur="5.11917744170147s" begin="0.5413563476634053s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 11.85864814171325 0; 0 0" dur="5.525984601644987s" begin="2.7809869090471517s" repeatCount="indefinite"/>
+          values="0 0; 13.466576311870316 0; 0 0" dur="5.11917744170147s" begin="0.5413563476634053s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.236194252000993s" begin="8.30697151069214s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.3765922997012636s" begin="5.660533789364875s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="118.5770332760944" y="-10.777919804894596" width="10.777919804894596" height="10.777919804894596" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="692.4528364666312" y="-8.556739323483212" width="8.556739323483212" height="8.556739323483212" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-10.777919804894596" to="103.25379072631199" dur="6.731889215764129s" begin="4.776576816559533s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-8.556739323483212" to="103.653050775448" dur="6.113788103681943s" begin="4.561169130817814s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 9.681790419462814 0; 0 0" dur="6.731889215764129s" begin="4.776576816559533s" repeatCount="indefinite"/>
+          values="0 0; 6.09122705688057 0; 0 0" dur="6.113788103681943s" begin="4.561169130817814s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.8969608389861046s" begin="11.508466032323662s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.4107810330618649s" begin="10.674957234499757s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="233.71462428049617" y="-8.621497363371827" width="8.621497363371827" height="8.621497363371827" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="435.3720446029177" y="-9.466684796010677" width="9.466684796010677" height="9.466684796010677" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-8.621497363371827" to="85.34032465265888" dur="5.417027403596752s" begin="0.1495305827497062s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-9.466684796010677" to="106.32028544784252" dur="6.420334307005594s" begin="4.25394189619209s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 14.972513988118315 0; 0 0" dur="5.417027403596752s" begin="0.1495305827497062s" repeatCount="indefinite"/>
+          values="0 0; 11.265833334847342 0; 0 0" dur="6.420334307005594s" begin="4.25394189619209s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.4669631448603477s" begin="5.566557986346458s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.6314968929778222s" begin="10.674276203197683s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1144.9710111217075" y="-7.9591596333196115" width="7.9591596333196115" height="7.9591596333196115" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="1184.4509110104846" y="-9.249430047797535" width="9.249430047797535" height="9.249430047797535" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-7.9591596333196115" to="81.81993100168924" dur="5.911001984137691s" begin="1.6559742502142316s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-9.249430047797535" to="89.71715394116711" dur="5.445405045211999s" begin="3.573589874502492s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 11.678132689769708 0; 0 0" dur="5.911001984137691s" begin="1.6559742502142316s" repeatCount="indefinite"/>
+          values="0 0; 9.600760511194153 0; 0 0" dur="5.445405045211999s" begin="3.573589874502492s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.3969897503954098s" begin="7.566976234351923s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.3091999182237275s" begin="9.01899491971449s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="88.92872799485332" y="-6.370265047458872" width="6.370265047458872" height="6.370265047458872" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="1161.7558195534832" y="-6.638484737430027" width="6.638484737430027" height="6.638484737430027" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-6.370265047458872" to="107.66609867459324" dur="6.343041285283281s" begin="4.184840820508713s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-6.638484737430027" to="83.54746914277547" dur="6.1473650606816435s" begin="2.1753392927992388s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 5.870440336236847 0; 0 0" dur="6.343041285283281s" begin="4.184840820508713s" repeatCount="indefinite"/>
+          values="0 0; 8.530244469058065 0; 0 0" dur="6.1473650606816435s" begin="2.1753392927992388s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.6823170164073173s" begin="10.527882105791994s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.5814599374135123s" begin="8.322704353480882s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="703.8179658847921" y="-9.23855587686447" width="9.23855587686447" height="9.23855587686447" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="40.1774559674716" y="-8.355324128533733" width="8.355324128533733" height="8.355324128533733" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-9.23855587686447" to="93.50705807754703" dur="6.143728201294177s" begin="4.740100952956974s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-8.355324128533733" to="98.01353333469373" dur="6.34894723288213s" begin="0.35989963079327225s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 12.039589343660841 0; 0 0" dur="6.143728201294177s" begin="4.740100952956974s" repeatCount="indefinite"/>
+          values="0 0; 8.061677732069183 0; 0 0" dur="6.34894723288213s" begin="0.35989963079327225s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.5426150160949648s" begin="10.883829154251151s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.9154903349895651s" begin="6.708846863675403s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="972.8078519008361" y="-7.405484220007736" width="7.405484220007736" height="7.405484220007736" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="428.798321614192" y="-8.387349333418001" width="8.387349333418001" height="8.387349333418001" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-7.405484220007736" to="88.9978432753882" dur="5.631906202331439s" begin="3.1517041687397374s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-8.387349333418001" to="77.59482522846977" dur="5.688806940333324s" begin="2.9381184074735875s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 12.047747844326558 0; 0 0" dur="5.631906202331439s" begin="3.1517041687397374s" repeatCount="indefinite"/>
+          values="0 0; 6.850633208314454 0; 0 0" dur="5.688806940333324s" begin="2.9381184074735875s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.2963302738969398s" begin="8.783610371071177s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.8354840055660233s" begin="8.62692534780691s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="646.2340539834044" y="-8.865087797415296" width="8.865087797415296" height="8.865087797415296" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="162.3790518289246" y="-8.66134054755636" width="8.66134054755636" height="8.66134054755636" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-8.865087797415296" to="97.43450699641355" dur="5.511099593281507s" begin="3.79547110116887s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-8.66134054755636" to="81.18231686437089" dur="5.628661594200064s" begin="0.2905879263394917s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 12.424273392380146 0; 0 0" dur="5.511099593281507s" begin="3.79547110116887s" repeatCount="indefinite"/>
+          values="0 0; 7.898370021425625 0; 0 0" dur="5.628661594200064s" begin="0.2905879263394917s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.5761484008746138s" begin="9.306570694450377s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.767178165222151s" begin="5.919249520539556s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="770.019369500771" y="-6.4826575587198" width="6.4826575587198" height="6.4826575587198" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="717.7622925202779" y="-7.714700769872529" width="7.714700769872529" height="7.714700769872529" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-6.4826575587198" to="94.52126869658574" dur="5.381658399288025s" begin="2.2198258650765346s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-7.714700769872529" to="91.69601950291784" dur="5.63123824713167s" begin="0.5832051183984521s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 9.211408155594249 0; 0 0" dur="5.381658399288025s" begin="2.2198258650765346s" repeatCount="indefinite"/>
+          values="0 0; 8.96260928685971 0; 0 0" dur="5.63123824713167s" begin="0.5832051183984521s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.895409992894129s" begin="7.60148426436456s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.3312264294599345s" begin="6.214443365530123s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="785.4603998741779" y="-6.288866019301456" width="6.288866019301456" height="6.288866019301456" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="814.6443287502583" y="-8.162793069213905" width="8.162793069213905" height="8.162793069213905" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-6.288866019301456" to="70.90719643621264" dur="5.395214923475203s" begin="3.526756236779791s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-8.162793069213905" to="84.2555701109745" dur="6.937651383537806s" begin="1.9615832881472028s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 12.431833216448503 0; 0 0" dur="5.395214923475203s" begin="3.526756236779791s" repeatCount="indefinite"/>
+          values="0 0; 7.190255065107554 0; 0 0" dur="6.937651383537806s" begin="1.9615832881472028s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.0423653136929418s" begin="8.921971160254994s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.6443615991972316s" begin="8.899234671685008s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="576.4597615526686" y="-9.549970056568842" width="9.549970056568842" height="9.549970056568842" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="1167.1928498346506" y="-8.72953825728787" width="8.72953825728787" height="8.72953825728787" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-9.549970056568842" to="105.04282192422286" dur="6.652998664932918s" begin="2.8096576055628573s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-8.72953825728787" to="102.75011727097439" dur="6.254290596923777s" begin="1.1341597345131593s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 7.88410076094916 0; 0 0" dur="6.652998664932918s" begin="2.8096576055628573s" repeatCount="indefinite"/>
+          values="0 0; 10.738449100317208 0; 0 0" dur="6.254290596923777s" begin="1.1341597345131593s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.6708132662269608s" begin="9.462656270495774s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.461427235358391s" begin="7.388450331436936s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1045.3708991904853" y="-9.52887876910235" width="9.52887876910235" height="9.52887876910235" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="218.9233003849127" y="-8.661486985374347" width="8.661486985374347" height="8.661486985374347" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-9.52887876910235" to="68.08191140026291" dur="5.688766238219687s" begin="0.32066910474608745s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-8.661486985374347" to="61.8437494440414" dur="6.573547378513284s" begin="1.5908992093038876s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 9.3402463812161 0; 0 0" dur="5.688766238219687s" begin="0.32066910474608745s" repeatCount="indefinite"/>
+          values="0 0; 7.12597626574796 0; 0 0" dur="6.573547378513284s" begin="1.5908992093038876s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.785998431043409s" begin="6.009435342965775s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.0979896605329948s" begin="8.164446587817173s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1114.5086712618872" y="-8.303755858854302" width="8.303755858854302" height="8.303755858854302" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="27.21722128793056" y="-7.272917060549373" width="7.272917060549373" height="7.272917060549373" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-8.303755858854302" to="79.20897265401396" dur="5.750177230164288s" begin="1.5336995355578442s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-7.272917060549373" to="67.75350696184141" dur="5.440206025776264s" begin="3.05611660845043s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 9.365517528455175 0; 0 0" dur="5.750177230164288s" begin="1.5336995355578442s" repeatCount="indefinite"/>
+          values="0 0; 6.786185519109744 0; 0 0" dur="5.440206025776264s" begin="3.05611660845043s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.5588204308763811s" begin="7.283876765722132s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.029642711662905s" begin="8.496322634226694s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="130.42044366685755" y="-7.597530929943528" width="7.597530929943528" height="7.597530929943528" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="453.212970402549" y="-6.872375596634738" width="6.872375596634738" height="6.872375596634738" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-7.597530929943528" to="86.77281400740924" dur="5.980989100170785s" begin="3.3965712226764353s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-6.872375596634738" to="65.74482478768306" dur="6.4857587407217405s" begin="1.382931496003873s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 9.617948922660734 0; 0 0" dur="5.980989100170785s" begin="3.3965712226764353s" repeatCount="indefinite"/>
+          values="0 0; 6.997962762099618 0; 0 0" dur="6.4857587407217405s" begin="1.382931496003873s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.6686857158608213s" begin="9.37756032284722s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.5373774958407895s" begin="7.868690236725613s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1046.174384406963" y="-6.204710148794737" width="6.204710148794737" height="6.204710148794737" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="148.81291075268734" y="-9.075406369599248" width="9.075406369599248" height="9.075406369599248" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-6.204710148794737" to="92.618941903485" dur="6.38405558730799s" begin="1.7485717237532916s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-9.075406369599248" to="107.2430552549916" dur="6.047826580577162s" begin="0.8734009752269212s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 13.977427678425286 0; 0 0" dur="6.38405558730799s" begin="1.7485717237532916s" repeatCount="indefinite"/>
+          values="0 0; 13.563767512918991 0; 0 0" dur="6.047826580577162s" begin="0.8734009752269212s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.3834372158016772s" begin="8.132627311061281s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.988773048290902s" begin="6.921227555804084s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="121.54006255330768" y="-8.100134295635732" width="8.100134295635732" height="8.100134295635732" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="1135.8338111982632" y="-9.797500730434988" width="9.797500730434988" height="9.797500730434988" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-8.100134295635732" to="77.1486567468114" dur="6.228460262912906s" begin="1.2073915583527184s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-9.797500730434988" to="102.02342802588481" dur="6.009530419789026s" begin="1.1136850706976686s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 11.430281680525663 0; 0 0" dur="6.228460262912906s" begin="1.2073915583527184s" repeatCount="indefinite"/>
+          values="0 0; 8.19586166309811 0; 0 0" dur="6.009530419789026s" begin="1.1136850706976686s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.7653840806958339s" begin="7.435851821265624s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.6388133478735896s" begin="7.123215490486694s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="876.0876939881169" y="-9.608997256348857" width="9.608997256348857" height="9.608997256348857" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="232.33434173563774" y="-8.091369655289398" width="8.091369655289398" height="8.091369655289398" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-9.608997256348857" to="82.34938559667849" dur="6.610597124660185s" begin="2.513681358128493s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-8.091369655289398" to="84.99722871573238" dur="6.168590955218582s" begin="1.4309972984574026s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 9.321110441298313 0; 0 0" dur="6.610597124660185s" begin="2.513681358128493s" repeatCount="indefinite"/>
+          values="0 0; 5.261266954539494 0; 0 0" dur="6.168590955218582s" begin="1.4309972984574026s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.1906622097980495s" begin="9.124278482788679s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.0962296763453134s" begin="7.599588253675984s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="43.39833357058902" y="-10.716393702314583" width="10.716393702314583" height="10.716393702314583" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="596.2123459981703" y="-6.324030763204347" width="6.324030763204347" height="6.324030763204347" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-10.716393702314583" to="60.68296175444557" dur="5.933621590449615s" begin="1.3194666703057867s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-6.324030763204347" to="98.99500225457317" dur="6.203762840282646s" begin="3.775212575967778s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 12.252697099085179 0; 0 0" dur="5.933621590449615s" begin="1.3194666703057867s" repeatCount="indefinite"/>
+          values="0 0; 11.462280137641574 0; 0 0" dur="6.203762840282646s" begin="3.775212575967778s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.939030947281928s" begin="7.253088260755401s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.0894518210765367s" begin="9.978975416250425s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="407.17436619321523" y="-6.726600164249708" width="6.726600164249708" height="6.726600164249708" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="166.94949571806904" y="-10.989201709401398" width="10.989201709401398" height="10.989201709401398" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-6.726600164249708" to="62.26171167581188" dur="6.783354500998847s" begin="0.8553298379804941s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-10.989201709401398" to="61.938616886832776" dur="6.4863853887181016s" begin="2.1729395996824854s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 5.252146522635853 0; 0 0" dur="6.783354500998847s" begin="0.8553298379804941s" repeatCount="indefinite"/>
+          values="0 0; 5.196906812631166 0; 0 0" dur="6.4863853887181016s" begin="2.1729395996824854s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.871443893464957s" begin="7.638684338979341s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.4037370473600834s" begin="8.659324988400588s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="570.3578893905744" y="-8.236524255385994" width="8.236524255385994" height="8.236524255385994" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="637.3154492923012" y="-7.632462631485931" width="7.632462631485931" height="7.632462631485931" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-8.236524255385994" to="97.4316440704094" dur="6.963803852304546s" begin="4.131252674074708s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-7.632462631485931" to="63.4367306964558" dur="5.975144022473735s" begin="1.681980198468952s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 11.561518177138696 0; 0 0" dur="6.963803852304546s" begin="4.131252674074708s" repeatCount="indefinite"/>
+          values="0 0; 12.32436672992912 0; 0 0" dur="5.975144022473735s" begin="1.681980198468952s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.0136447248539848s" begin="11.095056526379253s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.5455074185222488s" begin="7.657124220942687s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="605.4517002855044" y="-7.8794532281242935" width="7.8794532281242935" height="7.8794532281242935" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="729.5891289685603" y="-6.582338715807657" width="6.582338715807657" height="6.582338715807657" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-7.8794532281242935" to="75.94140518583194" dur="5.108278824195628s" begin="0.70000991869825s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-6.582338715807657" to="82.75702588573174" dur="6.544112894653095s" begin="1.1623196256470225s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 6.730326822367465 0; 0 0" dur="5.108278824195628s" begin="0.70000991869825s" repeatCount="indefinite"/>
+          values="0 0; 6.322041211919194 0; 0 0" dur="6.544112894653095s" begin="1.1623196256470225s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.1831511809642945s" begin="5.808288742893877s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.8318431861851143s" begin="7.706432520300117s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="201.2058959931603" y="-8.048019428007972" width="8.048019428007972" height="8.048019428007972" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="972.6232377821798" y="-10.219270475739108" width="10.219270475739108" height="10.219270475739108" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-8.048019428007972" to="62.590839319854" dur="5.226446531713875s" begin="4.612389016119025s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-10.219270475739108" to="77.59565686870984" dur="6.226341351249361s" begin="0.8526725992924578s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 10.112234879386078 0; 0 0" dur="5.226446531713875s" begin="4.612389016119025s" repeatCount="indefinite"/>
+          values="0 0; 5.263927250927289 0; 0 0" dur="6.226341351249361s" begin="0.8526725992924578s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.9994650999752928s" begin="9.8388355478329s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.384861903106872s" begin="7.079013950541818s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="643.8145572456827" y="-8.605593494102157" width="8.605593494102157" height="8.605593494102157" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="167.14228835165494" y="-9.968742463516548" width="9.968742463516548" height="9.968742463516548" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-8.605593494102157" to="67.32340875743891" dur="8.625929429501028s" begin="2.6290452994481095s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-9.968742463516548" to="83.4929268860191" dur="7.283484610100002s" begin="4.177670268567761s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 9.857503807002132 0; 0 0" dur="8.625929429501028s" begin="2.6290452994481095s" repeatCount="indefinite"/>
+          values="0 0; 13.660116404728653 0; 0 0" dur="7.283484610100002s" begin="4.177670268567761s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.8623806442266304s" begin="11.254974728949136s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.5473252335199945s" begin="11.461154878667763s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1117.0325242848967" y="-11.684408230181107" width="11.684408230181107" height="11.684408230181107" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="295.01716154743275" y="-11.042325533668953" width="11.042325533668953" height="11.042325533668953" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-11.684408230181107" to="66.91690025546345" dur="8.527283749396283s" begin="0.16803293464391467s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-11.042325533668953" to="91.7826549811453" dur="8.684886367545293s" begin="4.841421415919357s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 9.645476272150509 0; 0 0" dur="8.527283749396283s" begin="0.16803293464391467s" repeatCount="indefinite"/>
+          values="0 0; 5.384389504857743 0; 0 0" dur="8.684886367545293s" begin="4.841421415919357s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.6373035035721146s" begin="8.695316684040197s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.9132637492733142s" begin="13.526307783464649s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="872.4969058778124" y="-12.207296250328605" width="12.207296250328605" height="12.207296250328605" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="560.2955234835798" y="-11.992863532288814" width="11.992863532288814" height="11.992863532288814" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-12.207296250328605" to="74.71233607103665" dur="8.477540839540604s" begin="4.511405577418738s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-11.992863532288814" to="69.98223021713844" dur="8.703040543703334s" begin="3.7654223197449777s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 6.946175663407916 0; 0 0" dur="8.477540839540604s" begin="4.511405577418738s" repeatCount="indefinite"/>
+          values="0 0; 5.631899228905215 0; 0 0" dur="8.703040543703334s" begin="3.7654223197449777s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.0271298837154927s" begin="12.98894641695934s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.3562031648771071s" begin="12.468462863448313s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="306.0994810043474" y="-8.820861334738035" width="8.820861334738035" height="8.820861334738035" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="61.2646971180018" y="-8.233410893345937" width="8.233410893345937" height="8.233410893345937" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-8.820861334738035" to="74.7788989127608" dur="7.144853984100875s" begin="2.901998737049799s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-8.233410893345937" to="72.09253013345474" dur="8.754643583275103s" begin="2.2068825087140533s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 10.077241031785231 0; 0 0" dur="7.144853984100875s" begin="2.901998737049799s" repeatCount="indefinite"/>
+          values="0 0; 6.221149357331523 0; 0 0" dur="8.754643583275103s" begin="2.2068825087140533s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.7126027244185251s" begin="10.046852721150675s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.0491525737805862s" begin="10.961526091989157s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="335.2122456271913" y="-9.462143637543852" width="9.462143637543852" height="9.462143637543852" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="479.3618859232109" y="-8.689820808648935" width="8.689820808648935" height="8.689820808648935" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-9.462143637543852" to="71.76467896453758" dur="8.236701648491s" begin="0.23237254940294716s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-8.689820808648935" to="61.705429310296026" dur="7.36378652947833s" begin="2.3495096047407205s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 5.791641779909655 0; 0 0" dur="8.236701648491s" begin="0.23237254940294716s" repeatCount="indefinite"/>
+          values="0 0; 10.682802156244984 0; 0 0" dur="7.36378652947833s" begin="2.3495096047407205s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.4190172905626914s" begin="8.469074197893947s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.433282767137779s" begin="9.71329613421905s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="96.01427362190051" y="-9.182047507674874" width="9.182047507674874" height="9.182047507674874" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="620.648787150154" y="-10.439299932843339" width="10.439299932843339" height="10.439299932843339" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-9.182047507674874" to="77.7313284550963" dur="8.99809821177168s" begin="3.1224624668002843s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-10.439299932843339" to="76.95164964309993" dur="7.9702308890433535s" begin="1.7312292494897452s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 12.62431311168179 0; 0 0" dur="8.99809821177168s" begin="3.1224624668002843s" repeatCount="indefinite"/>
+          values="0 0; 8.915330292391994 0; 0 0" dur="7.9702308890433535s" begin="1.7312292494897452s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.9718509137672613s" begin="12.120560678571964s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.1548225888878345s" begin="9.701460138533099s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="375.1362449785751" y="-12.881162831794672" width="12.881162831794672" height="12.881162831794672" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="685.7156495466392" y="-9.869829219881977" width="9.869829219881977" height="9.869829219881977" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-12.881162831794672" to="86.98888569426988" dur="7.715930936695197s" begin="2.308628536918876s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-9.869829219881977" to="68.54997299625406" dur="8.808297506482651s" begin="4.341089138300518s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 8.28351719719387 0; 0 0" dur="7.715930936695197s" begin="2.308628536918876s" repeatCount="indefinite"/>
+          values="0 0; 14.162545602608077 0; 0 0" dur="8.808297506482651s" begin="4.341089138300518s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.0277952939771997s" begin="10.024559473614072s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.572366874856222s" begin="13.149386644783169s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="354.68360375031426" y="-9.276195881449926" width="9.276195881449926" height="9.276195881449926" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="82.06921753112172" y="-12.740335363802284" width="12.740335363802284" height="12.740335363802284" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-9.276195881449926" to="98.40318431346043" dur="8.72313549793795s" begin="4.81343897914064s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-12.740335363802284" to="77.13608404025933" dur="8.587742849364641s" begin="0.9061360118313122s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 6.5090334433316865 0; 0 0" dur="8.72313549793795s" begin="4.81343897914064s" repeatCount="indefinite"/>
+          values="0 0; 7.59435160673304 0; 0 0" dur="8.587742849364641s" begin="0.9061360118313122s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.914350626197973s" begin="13.53657447707859s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.7668067608363294s" begin="9.493878861195954s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="669.1121947313529" y="-13.261533701002273" width="13.261533701002273" height="13.261533701002273" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="1162.6614322064731" y="-9.240674417149108" width="9.240674417149108" height="9.240674417149108" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-13.261533701002273" to="87.20554412879153" dur="8.368307830581696s" begin="1.5347654380436293s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-9.240674417149108" to="82.71059558155171" dur="8.957455027045595s" begin="3.696409132447708s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 5.401275775829988 0; 0 0" dur="8.368307830581696s" begin="1.5347654380436293s" repeatCount="indefinite"/>
+          values="0 0; 13.564142837537254 0; 0 0" dur="8.957455027045595s" begin="3.696409132447708s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.124699965964038s" begin="9.903073268625326s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.0796527378082912s" begin="12.653864159493303s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="292.9993870615173" y="-12.204628369673381" width="12.204628369673381" height="12.204628369673381" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="49.349609317138565" y="-13.406708394407403" width="13.406708394407403" height="13.406708394407403" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-12.204628369673381" to="101.43372471082299" dur="8.453453145880344s" begin="1.8478171981370695s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-13.406708394407403" to="91.84223881409412" dur="8.969415871566193s" begin="3.840028142339932s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 7.009324116167532 0; 0 0" dur="8.453453145880344s" begin="1.8478171981370695s" repeatCount="indefinite"/>
+          values="0 0; 8.127480895547619 0; 0 0" dur="8.969415871566193s" begin="3.840028142339932s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.8272443661524205s" begin="10.301270344017414s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.8496117052975s" begin="12.809444013906125s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="143.53337185014016" y="-10.763971574642614" width="10.763971574642614" height="10.763971574642614" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="569.4495593684937" y="-10.58651228767409" width="10.58651228767409" height="10.58651228767409" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-10.763971574642614" to="80.79089889063779" dur="7.487143745379045s" begin="3.711055418121818s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-10.58651228767409" to="85.59952246785832" dur="8.249439277726538s" begin="4.233207589981073s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 13.796222828543037 0; 0 0" dur="7.487143745379045s" begin="3.711055418121818s" repeatCount="indefinite"/>
+          values="0 0; 9.67007804086043 0; 0 0" dur="8.249439277726538s" begin="4.233207589981073s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.0432858893997885s" begin="11.198199163500863s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.6007292934867738s" begin="12.482646867707611s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="188.73864550687153" y="-10.713940426660226" width="10.713940426660226" height="10.713940426660226" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="719.850607123999" y="-9.659516090962015" width="9.659516090962015" height="9.659516090962015" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-10.713940426660226" to="71.72501582086983" dur="7.754606314076948s" begin="3.515602891487041s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-9.659516090962015" to="63.28323183779811" dur="8.787951769766787s" begin="2.59282610291822s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 8.613381109296531 0; 0 0" dur="7.754606314076948s" begin="3.515602891487041s" repeatCount="indefinite"/>
+          values="0 0; 13.866802982027004 0; 0 0" dur="8.787951769766787s" begin="2.59282610291822s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.6507344211146804s" begin="11.27020920556399s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.5082306225125595s" begin="11.380777872685007s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="802.8560139143714" y="-9.662030953503383" width="9.662030953503383" height="9.662030953503383" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="604.5731843214767" y="-8.13899951404935" width="8.13899951404935" height="8.13899951404935" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-9.662030953503383" to="82.7653665608086" dur="7.386092205961379s" begin="1.932729220386239s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-8.13899951404935" to="65.51750446825534" dur="7.88134070096897s" begin="3.2607466818171726s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 5.077864301002208 0; 0 0" dur="7.386092205961379s" begin="1.932729220386239s" repeatCount="indefinite"/>
+          values="0 0; 13.906367156251285 0; 0 0" dur="7.88134070096897s" begin="3.2607466818171726s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.2178532480106028s" begin="9.318821426347618s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.7439065965925327s" begin="11.142087382786142s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="327.13715356382744" y="-11.22403869889413" width="11.22403869889413" height="11.22403869889413" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="292.9542146960518" y="-8.65687568804371" width="8.65687568804371" height="8.65687568804371" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-11.22403869889413" to="64.72603272927088" dur="7.681215410688154s" begin="1.7802873798418628s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-8.65687568804371" to="69.7013228733714" dur="8.180311234213942s" begin="3.3314350454768302s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 11.5865943790436 0; 0 0" dur="7.681215410688154s" begin="1.7802873798418628s" repeatCount="indefinite"/>
+          values="0 0; 7.27303973235768 0; 0 0" dur="8.180311234213942s" begin="3.3314350454768302s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.3951622448802286s" begin="9.461502790530016s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.8912850918767s" begin="11.511746279690772s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="48.16672053926112" y="-8.810030342071128" width="8.810030342071128" height="8.810030342071128" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="849.0349415117169" y="-12.560070254377713" width="12.560070254377713" height="12.560070254377713" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-8.810030342071128" to="102.30477101124015" dur="7.461695279072635s" begin="1.298998841767307s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-12.560070254377713" to="73.74903617447757" dur="7.404277490524255s" begin="1.3132370741769173s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 7.933289912092096 0; 0 0" dur="7.461695279072635s" begin="1.298998841767307s" repeatCount="indefinite"/>
+          values="0 0; 12.211584785715035 0; 0 0" dur="7.404277490524255s" begin="1.3132370741769173s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.2760772239787161s" begin="8.760694120839942s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.224863322211156s" begin="8.717514564701172s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="619.4443041193939" y="-8.640350458331461" width="8.640350458331461" height="8.640350458331461" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="35.749701416398416" y="-9.071507863347625" width="9.071507863347625" height="9.071507863347625" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-8.640350458331461" to="106.52543604747441" dur="8.646935618426468s" begin="2.1762233602544567s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-9.071507863347625" to="96.83587174631421" dur="8.177603428395283s" begin="2.4642546946119914s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 11.741253937163652 0; 0 0" dur="8.646935618426468s" begin="2.1762233602544567s" repeatCount="indefinite"/>
+          values="0 0; 12.669197529502208 0; 0 0" dur="8.177603428395283s" begin="2.4642546946119914s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.9961677593687392s" begin="10.823158978680926s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.175422607991752s" begin="10.641858123007275s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="734.4686235598758" y="-11.404179307654815" width="11.404179307654815" height="11.404179307654815" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="131.4339574692479" y="-10.715837243230345" width="10.715837243230345" height="10.715837243230345" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-11.404179307654815" to="99.48601708172538" dur="8.245415903169274s" begin="4.567161733937367s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-10.715837243230345" to="76.65939854678399" dur="8.076960982267709s" begin="1.1575158421496912s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 8.125873630016367 0; 0 0" dur="8.245415903169274s" begin="4.567161733937367s" repeatCount="indefinite"/>
+          values="0 0; 8.539355390195318 0; 0 0" dur="8.076960982267709s" begin="1.1575158421496912s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.343940625873091s" begin="12.812577637106642s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.4853461595479842s" begin="9.2344768244174s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="480.1395079523614" y="-11.042469537747216" width="11.042469537747216" height="11.042469537747216" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="736.3654708681016" y="-11.38877535361252" width="11.38877535361252" height="11.38877535361252" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-11.042469537747216" to="105.26599578391543" dur="7.716437415483231s" begin="2.7187904263171205s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-11.38877535361252" to="61.851583916207005" dur="7.707314289476982s" begin="4.634708689528785s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 11.252148905792902 0; 0 0" dur="7.716437415483231s" begin="2.7187904263171205s" repeatCount="indefinite"/>
+          values="0 0; 14.593959333581923 0; 0 0" dur="7.707314289476982s" begin="4.634708689528785s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.9507508695736036s" begin="10.435227841800351s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.6040438161216248s" begin="12.342022979005767s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="893.6546700871221" y="-11.716380477602636" width="11.716380477602636" height="11.716380477602636" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="189.06416115913575" y="-10.816245542567168" width="10.816245542567168" height="10.816245542567168" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-11.716380477602636" to="74.11892693955917" dur="8.279608375710799s" begin="3.63384580756388s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-10.816245542567168" to="99.14275951711241" dur="8.227759033702206s" begin="1.3531792657685238s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 11.825010202959842 0; 0 0" dur="8.279608375710799s" begin="3.63384580756388s" repeatCount="indefinite"/>
+          values="0 0; 9.539443949285646 0; 0 0" dur="8.227759033702206s" begin="1.3531792657685238s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.3794141456710556s" begin="11.913454183274679s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.1943808180058781s" begin="9.58093829947073s" repeatCount="indefinite"/>
       </rect>
     
-      <rect x="1.9965380174117087" y="-11.941328783486139" width="11.941328783486139" height="11.941328783486139" fill="url(#pixelGradient)" filter="url(#glow)">
+      <rect x="516.2391430732956" y="-8.510307833048632" width="8.510307833048632" height="8.510307833048632" fill="url(#pixelGradient)" filter="url(#glow)">
         <!-- падіння до випадкової точки -->
-        <animate attributeName="y" from="-11.941328783486139" to="81.88793677326923" dur="8.014070732810254s" begin="3.90052583054481s" repeatCount="indefinite"/>
+        <animate attributeName="y" from="-8.510307833048632" to="100.40253348289275" dur="8.352603136945714s" begin="0.14758913874293178s" repeatCount="indefinite"/>
         <!-- невеликі горизонтальні коливання -->
         <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-          values="0 0; 8.728987873081472 0; 0 0" dur="8.014070732810254s" begin="3.90052583054481s" repeatCount="indefinite"/>
+          values="0 0; 8.498669505844878 0; 0 0" dur="8.352603136945714s" begin="0.14758913874293178s" repeatCount="indefinite"/>
         <!-- світіння і стухання -->
-        <animate attributeName="opacity" values="0;1;0" dur="1.9211444997365499s" begin="11.914596563355063s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.2409886456619437s" begin="8.500192275688645s" repeatCount="indefinite"/>
       </rect>
     </svg>
