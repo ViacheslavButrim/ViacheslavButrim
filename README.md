@@ -15,7 +15,7 @@
 </p>
  
 
-<div align="center" style="margin:0; padding:0; line-height:0;">
+<div style="margin:0; padding:0; line-height:0;">
   <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/interactive-starfield-hover.svg"
        width="100%" 
        style="display:block; margin:0; padding:0; vertical-align:bottom;" />
