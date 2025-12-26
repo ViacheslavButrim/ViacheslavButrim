@@ -6,21 +6,32 @@ const path = require('path');
 
 /* ================= CONFIG ================= */
 
-const boardSize = 400;
+const boardSize = 1200;
 const squareSize = boardSize / 8;
-const MOVES_DELAY_MS = 800;
+const MOVES_DELAY_MS = 1000;
 const FRAMES_BETWEEN_GAMES = 5;
 
 /* ================= GAMES ================= */
 
 const GAMES = [
   `
-  [Event "Italian Game"]
-  1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6
-  `,
-  `
-  [Event "Queen's Gambit"]
-  1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Be7
+ [Event "Wch U16"]
+[Site "Wattignies"]
+[Date "1976.08.27"]
+[Round "?"]
+[White "Chandler, Murray G"]
+[Black "Kasparov, Gary"]
+[Result "1-0"]
+[WhiteElo ""]
+[BlackElo ""]
+[ECO "B22"]
+
+1.e4 c5 2.c3 Nf6 3.e5 Nd5 4.d4 Nc6 5.Nf3 cxd4 6.cxd4 e6 7.a3 d6 8.Bd3 Qa5+
+9.Bd2 Qb6 10.Nc3 Nxc3 11.Bxc3 dxe5 12.dxe5 Be7 13.O-O Bd7 14.Nd2 Qc7 15.Qg4 O-O-O
+16.Rfc1 Kb8 17.Qc4 Rc8 18.b4 f6 19.Nf3 Qb6 20.Qe4 f5 21.Qe1 a6 22.Rab1 g5
+23.Nd2 Nd4 24.Qe3 Rxc3 25.Rxc3 f4 26.Qe1 g4 27.Ne4 Bc6 28.Nc5 Ka7 29.a4 Bf3
+30.a5 Qd8 31.Bc4 Bxc5 32.bxc5 Qh4 33.gxf3 gxf3 34.Kh1 Rg8 35.Qe4 Rg7 36.Qxd4 Qg5
+37.c6+ Kb8 38.c7+ Rxc7 39.Rg1 Qh5 40.Rg8+ Rc8 41.Qd6+ Ka7  1-0
   `
 ];
 
