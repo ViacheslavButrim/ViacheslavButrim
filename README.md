@@ -15,7 +15,7 @@
 </p>
  
 
-<div align="center" style="display:flex; gap:0; margin:0; padding:0; line-height:0;">
+<div align="center" style="display:flex; gap:0; margin-top:-5px; padding:0; line-height:0;">
   <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/interactive-starfield-hover.svg"
        width="100%" 
        style="display:block; margin:0; padding:0; vertical-align:bottom;" />
