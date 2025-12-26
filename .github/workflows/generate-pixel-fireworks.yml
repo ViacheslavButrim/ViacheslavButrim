@@ -53,17 +53,6 @@ jobs:
           sudo apt-get install -y libcairo2-dev libjpeg-dev libpango1.0-dev libgif-dev build-essential
           npm install canvas gifencoder chess.js
           node scripts/generate-chess-gif.js || echo "Chess AI GIF failed, but continuing"
-
-      - name: Install system deps for canvas + stockfish
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y \
-          libcairo2-dev \
-          libpango1.0-dev \
-          libjpeg-dev \
-          libgif-dev \
-          librsvg2-dev \
-          stockfish
      
       - name: Bump cache version
         run: |
