@@ -52,7 +52,7 @@ jobs:
       - name: Generate Contribution Rain SVG
         run: |
           echo "Generating Contribution Rain SVG..."
-          node scripts/contribution-rain-svg.js || echo "Contribution Rain SVG failed, but continuing"
+          node scripts/contribution-svg.js || echo "Contribution Rain SVG failed, but continuing"
      
       - name: Bump cache version
         run: |
