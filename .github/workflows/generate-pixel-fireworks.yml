@@ -53,10 +53,6 @@ jobs:
           sudo apt-get install -y libcairo2-dev libjpeg-dev libpango1.0-dev libgif-dev build-essential
           npm install canvas gifencoder chess.js
           node scripts/generate-chess-gif.js || echo "Chess AI GIF failed, but continuing"
-      
-      - name: Generate Chess AI GIF with Background
-        run: |
-          node scripts/generate-chess-with-background.js
      
       - name: Bump cache version
         run: |
