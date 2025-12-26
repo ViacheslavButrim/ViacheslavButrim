@@ -18,7 +18,7 @@
   <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/interactive-starfield-hover.svg" width="100%" style="display:block; margin:0; padding:0;" />
 </div>
 <div align="center" style="margin:0; padding:0;">
-  <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/pixel-rain.svg" width="100%" />
+  <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/pixel-rain.svg" width="100%" style="display:block; margin:0; padding:0;" />
 </div>
 <p align="center">
   <a href="mailto:viacheslavbutrim@gmail.com" 
