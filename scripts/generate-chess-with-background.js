@@ -6,8 +6,8 @@ const path = require('path');
 
 /* ================= CONFIG ================= */
 const WIDTH = 1200;
-const HEIGHT = 1200; // робимо квадрат, щоб фон і дошка співпадали
-const boardSize = 400;
+const HEIGHT = 1200;
+const boardSize = 400;           // шахівниця 400x400
 const squareSize = boardSize / 8;
 const MOVES_DELAY_MS = 1000;
 const FRAMES_BETWEEN_GAMES = 5;
@@ -16,17 +16,19 @@ const FRAMES_BETWEEN_GAMES = 5;
 const NUM_LAYERS = 3;
 const PIXELS_PER_LAYER = [50, 30, 20];
 const SPEEDS = [4, 6, 8];
+const COLORS = ['#22d3ee', '#0ff', '#0f0'];
+
 const random = (min, max) => Math.random() * (max - min) + min;
 
 const backgroundPixels = [];
-
 for (let layer = 0; layer < NUM_LAYERS; layer++) {
   for (let i = 0; i < PIXELS_PER_LAYER[layer]; i++) {
     backgroundPixels.push({
       x: random(0, WIDTH),
       y: random(-HEIGHT, 0),
       size: random(4 + layer*2, 8 + layer*3),
-      speed: random(SPEEDS[layer]-1, SPEEDS[layer]+1)
+      speed: random(SPEEDS[layer]-1, SPEEDS[layer]+1),
+      color: COLORS[layer]
     });
   }
 }
@@ -74,24 +76,31 @@ async function loadPieces() {
 
 /* ================= DRAW BACKGROUND ================= */
 function drawBackground() {
-  ctx.fillStyle = '#0a0a1f';
-  ctx.fillRect(0, 0, WIDTH, HEIGHT);
-
   const boardX = (WIDTH - boardSize) / 2;
   const boardY = (HEIGHT - boardSize) / 2;
 
+  // фон навколо шахівниці
+  ctx.fillStyle = '#0a0a1f';
+  // верх
+  ctx.fillRect(0, 0, WIDTH, boardY);
+  // низ
+  ctx.fillRect(0, boardY + boardSize, WIDTH, HEIGHT - (boardY + boardSize));
+  // ліво
+  ctx.fillRect(0, boardY, boardX, boardSize);
+  // право
+  ctx.fillRect(boardX + boardSize, boardY, WIDTH - (boardX + boardSize), boardSize);
+
+  // падаючі квадрати
   for (const px of backgroundPixels) {
     const pxRight = px.x + px.size;
     const pxBottom = px.y + px.size;
 
-    const overlapsBoard = 
-      px.x < boardX + boardSize &&
-      pxRight > boardX &&
-      px.y < boardY + boardSize &&
-      pxBottom > boardY;
+    const outsideBoard =
+      pxRight < boardX || px.x > boardX + boardSize ||
+      pxBottom < boardY || px.y > boardY + boardSize;
 
-    if (!overlapsBoard) {
-      ctx.fillStyle = '#22d3ee';
+    if (outsideBoard) {
+      ctx.fillStyle = px.color;
       ctx.fillRect(px.x, px.y, px.size, px.size);
     }
 
@@ -152,7 +161,7 @@ async function generateGIF() {
   encoder.finish();
   await new Promise(r => writeStream.on('finish', r));
 
-  console.log('✔ chess-ai-bbb.gif з фоном і шахівницею згенеровано');
+  console.log('✔ chess-ai.gif з анімацією фон + шахівниця згенеровано');
 }
 
 generateGIF().catch(err => {
