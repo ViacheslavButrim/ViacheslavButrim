@@ -14,13 +14,13 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" />
 </p>
  
-<div align="center" style="margin:0; padding:0; line-height:0; display:flex; flex-direction:column;">
+<div align="center" style="margin:0; padding:0; line-height:0;">
   <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/interactive-starfield-hover.svg" 
        width="100%" 
        style="display:block; margin:0; padding:0;" />
   <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/pixel-rain.svg" 
        width="100%"
-       style="display:block; margin-top:-5px; padding:0;" />
+       style="display:block; margin:0; padding:0; margin-top:-5px;" />
 </div>
 
 <p align="center">
