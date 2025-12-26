@@ -25,7 +25,7 @@
 </div>
 <div style="margin:0; padding:0; line-height:0;">
   <img 
-    src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/contribution-rain.svg" 
+    src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/contribution-rain.svg?ver=2" 
     width="100%" 
     style="display:block; margin:0; padding:0;" 
     alt="Contribution Rain SVG"
