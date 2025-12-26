@@ -20,7 +20,7 @@ let svg = `
 
 for (let layer = 0; layer < NUM_LAYERS; layer++) {
   for (let i = 0; i < PIXELS_PER_LAYER[layer]; i++) {
-    const size = random(2 + layer, 5 + layer); 
+    const size = random(4 + layer*2, 8 + layer*3);
     const x = random(0, WIDTH - size);
     const fallDuration = random(SPEEDS[layer]-1, SPEEDS[layer]+1);
     const stopY = random(HEIGHT * 0.45, HEIGHT * 0.9);
@@ -30,7 +30,6 @@ for (let layer = 0; layer < NUM_LAYERS; layer++) {
 
     svg += `
       <rect x="${x}" y="-${size}" width="${size}" height="${size}" fill="url(#pixelGradient)">
-        <!-- Падіння до випадкової точки -->
         <animate attributeName="y"
                  values="-${size};${stopY}"
                  dur="${fallDuration}s"
@@ -38,7 +37,6 @@ for (let layer = 0; layer < NUM_LAYERS; layer++) {
                  fill="freeze"
                  repeatCount="indefinite"/>
                  
-        <!-- Горизонтальні коливання -->
         <animateTransform attributeName="transform"
                           type="translate"
                           values="0 0; ${waveAmplitude} 0; 0 0"
@@ -46,7 +44,6 @@ for (let layer = 0; layer < NUM_LAYERS; layer++) {
                           begin="${delay}s"
                           repeatCount="indefinite"/>
         
-        <!-- Плавне стухання після падіння -->
         <animate attributeName="opacity"
                  values="1;1;0"
                  keyTimes="0;${fallDuration/(fallDuration+fadeDuration)};1"
@@ -60,7 +57,6 @@ for (let layer = 0; layer < NUM_LAYERS; layer++) {
 
 svg += `</svg>`;
 
-// Запис в output
 const outputDir = path.join(__dirname, '..', 'output');
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
