@@ -1,12 +1,10 @@
 const fs = require('fs');
 const path = require('path');
-
 const WIDTH = 1200;
 const HEIGHT = 120;
 const NUM_LAYERS = 3; 
 const PIXELS_PER_LAYER = [50, 30, 20];
 const SPEEDS = [4, 6, 8]; 
-
 const random = (min, max) => Math.random() * (max - min) + min;
 
 let svg = `
@@ -30,7 +28,6 @@ for (let layer = 0; layer < NUM_LAYERS; layer++) {
     const size = random(4 + layer*2, 8 + layer*3);
     const delay = random(0, 5);
     const duration = random(SPEEDS[layer]-1, SPEEDS[layer]+1);
-
     const waveAmplitude = random(5, 15);
     const waveFrequency = random(1, 3);
 

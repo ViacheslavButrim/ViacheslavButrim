@@ -1,12 +1,10 @@
 const fs = require('fs');
 const path = require('path');
-
 const WIDTH = 1200;
 const HEIGHT = 400;
 const NUM_STARS = 1000;
 const NUM_SATELLITES = 3;
 const NUM_METEORS = 5;
-
 const random = (min, max) => Math.random() * (max - min) + min;
 
 let svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${WIDTH}" height="${HEIGHT}" style="background:#0a0a1f;cursor:none" onmousemove="const e=event;document.querySelectorAll('circle.star').forEach(s=>{const dx=(s.cx.baseVal.value-e.offsetX)/15,dy=(s.cy.baseVal.value-e.offsetY)/15;s.setAttribute('cx',s.cx.baseVal.value+dx);s.setAttribute('cy',s.cy.baseVal.value+dy)})">\n`;
