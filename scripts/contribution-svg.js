@@ -20,13 +20,12 @@ let svg = `
 
 for (let layer = 0; layer < NUM_LAYERS; layer++) {
   for (let i = 0; i < PIXELS_PER_LAYER[layer]; i++) {
+    const x = random(0, WIDTH);
     const size = random(4 + layer*2, 8 + layer*3);
-    const x = random(0, WIDTH - size);
-    const fallDuration = random(SPEEDS[layer]-1, SPEEDS[layer]+1);
-    const stopY = random(HEIGHT * 0.45, HEIGHT * 0.9);
-    const fadeDuration = random(1, 2);
-    const delay = random(0, 10); // випадкова початкова затримка
-    const waveAmplitude = random(3, 8);
+    const delay = random(0, 5);
+    const duration = random(SPEEDS[layer]-1, SPEEDS[layer]+1);
+    const waveAmplitude = random(5, 15);
+    const waveFrequency = random(1, 3);
 
     svg += `
       <rect x="${x}" y="-${size}" width="${size}" height="${size}" fill="url(#pixelGradient)">
@@ -60,6 +59,6 @@ svg += `</svg>`;
 const outputDir = path.join(__dirname, '..', 'output');
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
-fs.writeFileSync(path.join(outputDir, 'pixel-rain-readme-ааа.svg'), svg);
+fs.writeFileSync(path.join(outputDir, 'pixel-rain-readme-ff.svg'), svg);
 
 console.log('✔ SVG для README згенеровано');
