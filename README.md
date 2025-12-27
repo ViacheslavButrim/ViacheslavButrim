@@ -24,12 +24,9 @@
        style="display:block; margin:0; padding:0; vertical-align:bottom;" />
 </div>
 
-<img 
-  align="center"
-  src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/chess-ai.gif"
-  alt="Chess AI"
-  width="400"
-/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/chess-ai.gif" alt="Chess AI" width="400">
+</p>
 
 <p align="center">
   <a href="mailto:viacheslavbutrim@gmail.com" 
