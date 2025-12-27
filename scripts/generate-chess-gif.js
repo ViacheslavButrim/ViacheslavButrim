@@ -1,121 +1,204 @@
+
+
 const { createCanvas, loadImage } = require('canvas');
 const GIFEncoder = require('gifencoder');
 const { Chess } = require('chess.js');
 const fs = require('fs');
 const path = require('path');
 
-/* ================= CONFIG ================= */
 const boardSize = 600;
-const squareSize = boardSize / 8;
-const MOVES_DELAY_MS = 1000;
-const FRAMES_BETWEEN_GAMES = 5;
+const sideWidth = 300;
+const canvasWidth = boardSize + sideWidth * 2;
+const canvasHeight = boardSize;
 
-/* ================= GAMES ================= */
+const squareSize = boardSize / 8;
+
+const MOVE_DELAY = 1000;        
+const RAIN_DELAY = 60;         
+const RAIN_FRAMES = 3;        
+
 const GAMES = [
-  `1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6
-   8.c3 O-O 9.h3 Nb8 10.d4 Nbd7 11.Nbd2 Bb7 12.Bc2 Re8 13.Nf1 Bf8 14.Ng3 g6 15.a4 c5 16.d5 c4
-   17.Be3 Qc7 18.Nd2 Nc5 19.f4 exf4 20.Bxf4 Nfd7 21.Nf3 Bg7 22.Nd4 Qb6 23.Kh1 Ne5 24.Rf1 Ned3
-   25.Bc1 Nxc1 26.Rxc1 Be5 27.Nge2 b4 28.cxb4 Qxb4 29.b3 cxb3 30.Bxb3 Nxb3 31.Nxb3 Qxa4 32.Rc7 Rf8
-   33.Rxb7 Qxe4 34.Na5 Rac8 35.Nc6 Rxc6 36.dxc6 Qxc6 37.Rb3 a5 38.Nd4 Qc4 39.Nf3 Qf4 40.Rb5 Rc8 41.Rxa5 Rc1
-   42.Qe2 Rxf1+ 43.Qxf1 h5 44.Ra8+ Kg7 45.Ra7 g5 46.Ra5 g4 47.Nxe5 Qxf1+ 48.Kh2 dxe5 49.hxg4 hxg4 50.Kg3 Qf4+ 51.Kh4 Kg6 52.Ra6+ f6 53.Rxf6+ Kxf6 54.g3 Qg5# 0-1`,
+  
 ];
 
-/* ================= SETUP ================= */
-const outputDir = path.join(process.cwd(), 'output');
-fs.mkdirSync(outputDir, { recursive: true });
+// ================= RANDOM START =================
+function shuffle(arr) {
+  return arr
+    .map(v => ({ v, r: Math.random() }))
+    .sort((a, b) => a.r - b.r)
+    .map(o => o.v);
+}
 
-const gifPath = path.join(outputDir, 'chess-ai.gif');
-const encoder = new GIFEncoder(boardSize, boardSize);
-const writeStream = fs.createWriteStream(gifPath);
-encoder.createReadStream().pipe(writeStream);
+function rotateArray(arr, startIndex) {
+  return [...arr.slice(startIndex), ...arr.slice(0, startIndex)];
+}
 
-encoder.start();
-encoder.setRepeat(0);
-encoder.setDelay(MOVES_DELAY_MS);
-encoder.setQuality(10);
+const startIndex = Math.floor(Math.random() * GAMES.length);
 
-const canvas = createCanvas(boardSize, boardSize);
-const ctx = canvas.getContext('2d');
+const RANDOMIZED_GAMES = rotateArray(GAMES, startIndex);
 
-/* ================= PIECES ================= */
-const pieces = ['K','Q','R','B','N','P'];
-const pieceImages = {};
 
-async function loadPieces() {
-  for (const color of ['w','b']) {
-    for (const p of pieces) {
-      const imgPath = path.join(__dirname, '..', 'assets/pieces', `${color}${p}.png`);
-      if (!fs.existsSync(imgPath)) throw new Error(`Missing PNG: ${imgPath}`);
-      pieceImages[color+p] = await loadImage(imgPath);
+for (const game of RANDOMIZED_GAMES) {
+  const chess = new Chess();
+  const moves = chess.moves({ verbose: true });
+  for (const move of moves) {
+    chess.move(move);
+    for (let i = 0; i < FRAMES_PER_MOVE; i++) {
+      drawFrame(chess);
+      encoder.addFrame(ctx);
     }
   }
 }
 
-/* ================= BOARD ================= */
+const outputDir = path.join(process.cwd(), 'output');
+fs.mkdirSync(outputDir, { recursive: true });
+
+const gifPath = path.join(outputDir, 'chess-ai.gif');
+const encoder = new GIFEncoder(canvasWidth, canvasHeight);
+encoder.createReadStream().pipe(fs.createWriteStream(gifPath));
+
+encoder.start();
+encoder.setRepeat(0);
+encoder.setQuality(10);
+
+const canvas = createCanvas(canvasWidth, canvasHeight);
+const ctx = canvas.getContext('2d');
+
+const pieces = ['K','Q','R','B','N','P'];
+const pieceImages = {};
 let boardImage;
 
-async function loadBoard() {
-  const boardPath = path.join(__dirname, '..', 'assets/board.png'); // обов'язково PNG 600x600
-  if (!fs.existsSync(boardPath)) throw new Error(`Missing board PNG: ${boardPath}`);
-  boardImage = await loadImage(boardPath);
+async function loadAssets() {
+  for (const c of ['w','b']) {
+    for (const p of pieces) {
+      pieceImages[c+p] = await loadImage(
+        path.join(__dirname, '..', 'assets/pieces', ${c}${p}.png)
+      );
+    }
+  }
+  boardImage = await loadImage(
+    path.join(__dirname, '..', 'assets', 'dashboard.png')
+  );
 }
 
-/* ================= DRAW ================= */
-function drawBoard(chess) {
-  ctx.clearRect(0, 0, boardSize, boardSize);
-  ctx.drawImage(boardImage, 0, 0, boardSize, boardSize);
+const PIXEL_LAYERS = [
+  { count: 30, speed: 2, size: [4, 8], alpha: 0.8 },
+  { count: 20, speed: 3.5, size: [6, 12], alpha: 0.6 },
+  { count: 10, speed: 5, size: [8, 14], alpha: 0.4 },
+];
 
+const COLORS = ['#22d3ee', '#00fff7'];
+
+function createRain(xStart, width) {
+  const arr = [];
+  for (const l of PIXEL_LAYERS) {
+    for (let i = 0; i < l.count; i++) {
+      arr.push({
+        xStart,
+        width,
+        x: xStart + Math.random() * width,
+        y: Math.random() * canvasHeight,
+        speed: l.speed * (0.8 + Math.random()),
+        size: l.size[0] + Math.random() * (l.size[1] - l.size[0]),
+        alpha: l.alpha,
+        drift: Math.random() * 1.5 - 0.75,
+        color: COLORS[Math.random() * COLORS.length | 0]
+      });
+    }
+  }
+  return arr;
+}
+
+const leftRain = createRain(0, sideWidth);
+const rightRain = createRain(sideWidth + boardSize, sideWidth);
+
+function updateRain(rain) {
+  for (const p of rain) {
+    p.y += p.speed;
+    p.x += p.drift;
+    if (p.y > canvasHeight) {
+      p.y = -p.size;
+      p.x = p.xStart + Math.random() * p.width;
+    }
+  }
+}
+
+function drawRain(rain) {
+  for (const p of rain) {
+    ctx.globalAlpha = p.alpha;
+    ctx.shadowBlur = 12;
+    ctx.shadowColor = p.color;
+    ctx.fillStyle = p.color;
+    ctx.fillRect(p.x, p.y, p.size, p.size);
+  }
+  ctx.globalAlpha = 1;
+  ctx.shadowBlur = 0;
+}
+
+function drawFrame(chess) {
+  ctx.fillStyle = '#0a0a1f';
+  ctx.fillRect(0, 0, canvasWidth, canvasHeight);
+
+  drawRain(leftRain);
+  drawRain(rightRain);
+
+  const boardX = sideWidth;
+  ctx.drawImage(boardImage, boardX, 0, boardSize, boardSize);
+
+  const b = chess.board();
   for (let y = 0; y < 8; y++) {
     for (let x = 0; x < 8; x++) {
-      const square = chess.board()[y][x];
-      if (square) {
-        const key = square.color + square.type.toUpperCase();
-        ctx.drawImage(pieceImages[key], x * squareSize, y * squareSize, squareSize, squareSize);
+      const s = b[y][x];
+      if (s) {
+        ctx.drawImage(
+          pieceImages[s.color + s.type.toUpperCase()],
+          boardX + x * squareSize,
+          y * squareSize,
+          squareSize,
+          squareSize
+        );
       }
     }
   }
 }
 
-/* ================= MAIN ================= */
-async function playGame(gamePgn) {
+async function playGame(pgn) {
   const chess = new Chess();
-  chess.loadPgn(gamePgn);
-
+  chess.loadPgn(pgn);
   const moves = chess.history();
   chess.reset();
 
-  for (const move of moves) {
-    chess.move(move);
-    drawBoard(chess);
+  for (const m of moves) {
+    chess.move(m);
+
+    encoder.setDelay(MOVE_DELAY);
+    drawFrame(chess);
     encoder.addFrame(ctx);
+
+    encoder.setDelay(RAIN_DELAY);
+    for (let i = 0; i < RAIN_FRAMES; i++) {
+      updateRain(leftRain);
+      updateRain(rightRain);
+      drawFrame(chess);
+      encoder.addFrame(ctx);
+    }
   }
 
-  // Пауза між партіями
-  for (let i = 0; i < FRAMES_BETWEEN_GAMES; i++) {
-    drawBoard(chess);
+  for (let i = 0; i < END_FRAMES; i++) {
+    updateRain(leftRain);
+    updateRain(rightRain);
+    drawFrame(chess);
     encoder.addFrame(ctx);
   }
 }
 
-async function generateGIF() {
-  await loadPieces();
-  await loadBoard();
+(async () => {
+  await loadAssets();
 
-  let currentIndex = Math.floor(Math.random() * GAMES.length); // стартуємо з випадкової партії
-
-  for (let i = 0; i < GAMES.length; i++) {
-    const game = GAMES[currentIndex];
-    await playGame(game);
-
-    // переходимо до наступної партії по порядку, циклічно
-    currentIndex = (currentIndex + 1) % GAMES.length;
+  for (const g of RANDOM_GAMES) {
+    await playGame(g);
   }
 
   encoder.finish();
-  await new Promise(r => writeStream.on('finish', r));
-  console.log('✔ chess-ai.gif з кількома партіями згенеровано');
-}
-generateGIF().catch(err => {
-  console.error('❌ Error:', err);
-  process.exit(1);
-});
+  console.log('✔ chess-ai.gif (optimized, random games) generated');
+})(); 
