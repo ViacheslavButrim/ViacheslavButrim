@@ -1,0 +1,714 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" style="background:#0a0a1f; overflow:visible">
+  <defs>
+    <linearGradient id="pixelGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#00fff7"/>
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#22d3ee"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#00fff7"/>
+    </filter>
+  </defs>
+
+      <rect x="712.3028907748397" y="-7.624692308036892" width="7.624692308036892" height="7.624692308036892" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-7.624692308036892" to="120" dur="4.223028345424753s" begin="4.162394788751492s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 5.294469958618349 0; 0 0" dur="4.223028345424753s" begin="4.162394788751492s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="4.223028345424753s" begin="4.162394788751492s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="147.3178727464113" y="-4.381081845110797" width="4.381081845110797" height="4.381081845110797" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-4.381081845110797" to="120" dur="4.360573779927951s" begin="3.6402724623612226s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 11.33154477139982 0; 0 0" dur="4.360573779927951s" begin="3.6402724623612226s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="4.360573779927951s" begin="3.6402724623612226s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="1050.7230237199503" y="-7.240565359909262" width="7.240565359909262" height="7.240565359909262" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-7.240565359909262" to="120" dur="3.5985795975837105s" begin="1.544217095528052s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 11.7087348186807 0; 0 0" dur="3.5985795975837105s" begin="1.544217095528052s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="3.5985795975837105s" begin="1.544217095528052s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="658.2842896646637" y="-4.642681221881034" width="4.642681221881034" height="4.642681221881034" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-4.642681221881034" to="120" dur="3.6499005323121767s" begin="0.5656127485725493s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 9.87724327951228 0; 0 0" dur="3.6499005323121767s" begin="0.5656127485725493s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="3.6499005323121767s" begin="0.5656127485725493s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="803.099734122069" y="-6.38541552410344" width="6.38541552410344" height="6.38541552410344" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-6.38541552410344" to="120" dur="4.91065370156773s" begin="0.521780944676431s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 13.542804962872735 0; 0 0" dur="4.91065370156773s" begin="0.521780944676431s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="4.91065370156773s" begin="0.521780944676431s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="102.21841897956364" y="-4.437573098830485" width="4.437573098830485" height="4.437573098830485" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-4.437573098830485" to="120" dur="4.56455429617084s" begin="2.577324831461584s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 9.02029893065617 0; 0 0" dur="4.56455429617084s" begin="2.577324831461584s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="4.56455429617084s" begin="2.577324831461584s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="1151.0685632278467" y="-7.416292569157495" width="7.416292569157495" height="7.416292569157495" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-7.416292569157495" to="120" dur="3.1603349117479023s" begin="2.8654597644075475s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 9.50957054858614 0; 0 0" dur="3.1603349117479023s" begin="2.8654597644075475s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="3.1603349117479023s" begin="2.8654597644075475s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="133.50289715898748" y="-5.899189916435892" width="5.899189916435892" height="5.899189916435892" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-5.899189916435892" to="120" dur="3.526813943130647s" begin="4.664769496607515s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 9.657630745875547 0; 0 0" dur="3.526813943130647s" begin="4.664769496607515s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="3.526813943130647s" begin="4.664769496607515s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="9.117656193195689" y="-4.334757527344589" width="4.334757527344589" height="4.334757527344589" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-4.334757527344589" to="120" dur="4.991775261797942s" begin="0.48881831952117816s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 10.193218453919355 0; 0 0" dur="4.991775261797942s" begin="0.48881831952117816s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="4.991775261797942s" begin="0.48881831952117816s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="530.6378343931759" y="-5.77474863224327" width="5.77474863224327" height="5.77474863224327" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-5.77474863224327" to="120" dur="3.169234770613356s" begin="2.333096544778118s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 14.72508383062394 0; 0 0" dur="3.169234770613356s" begin="2.333096544778118s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="3.169234770613356s" begin="2.333096544778118s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="191.82734706891011" y="-4.678033610189502" width="4.678033610189502" height="4.678033610189502" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-4.678033610189502" to="120" dur="4.047821489979436s" begin="2.1993794736320114s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 14.756050031027566 0; 0 0" dur="4.047821489979436s" begin="2.1993794736320114s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="4.047821489979436s" begin="2.1993794736320114s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="1029.612663265652" y="-4.284423239914932" width="4.284423239914932" height="4.284423239914932" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-4.284423239914932" to="120" dur="4.938802929642959s" begin="0.15780672781526284s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 7.102955309296981 0; 0 0" dur="4.938802929642959s" begin="0.15780672781526284s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="4.938802929642959s" begin="0.15780672781526284s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="964.080985621892" y="-5.2625684360688805" width="5.2625684360688805" height="5.2625684360688805" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-5.2625684360688805" to="120" dur="4.499795794399022s" begin="2.8286040148405944s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 5.903548263217086 0; 0 0" dur="4.499795794399022s" begin="2.8286040148405944s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="4.499795794399022s" begin="2.8286040148405944s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="1192.9750500879154" y="-5.654293277393406" width="5.654293277393406" height="5.654293277393406" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-5.654293277393406" to="120" dur="4.311913933417376s" begin="0.42964608088902456s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 11.085241035832194 0; 0 0" dur="4.311913933417376s" begin="0.42964608088902456s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="4.311913933417376s" begin="0.42964608088902456s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="716.7278412180518" y="-5.557450400585296" width="5.557450400585296" height="5.557450400585296" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-5.557450400585296" to="120" dur="4.896899554705784s" begin="4.739999198316211s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 6.53172034442467 0; 0 0" dur="4.896899554705784s" begin="4.739999198316211s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="4.896899554705784s" begin="4.739999198316211s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="213.70661611828314" y="-4.734495428205039" width="4.734495428205039" height="4.734495428205039" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-4.734495428205039" to="120" dur="4.570108130861236s" begin="1.0881317898804077s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 7.385012815957868 0; 0 0" dur="4.570108130861236s" begin="1.0881317898804077s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="4.570108130861236s" begin="1.0881317898804077s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="882.7182899019158" y="-6.147476500594182" width="6.147476500594182" height="6.147476500594182" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-6.147476500594182" to="120" dur="4.983059132347277s" begin="3.388175723021792s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 14.14398757151045 0; 0 0" dur="4.983059132347277s" begin="3.388175723021792s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="4.983059132347277s" begin="3.388175723021792s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="1158.016713820737" y="-5.521805773818592" width="5.521805773818592" height="5.521805773818592" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-5.521805773818592" to="120" dur="3.353258199881293s" begin="0.2283326486839954s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 6.594244308494472 0; 0 0" dur="3.353258199881293s" begin="0.2283326486839954s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="3.353258199881293s" begin="0.2283326486839954s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="1101.687255950028" y="-5.860693582784532" width="5.860693582784532" height="5.860693582784532" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-5.860693582784532" to="120" dur="3.5362650328025973s" begin="3.159917737017708s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 9.933871753220613 0; 0 0" dur="3.5362650328025973s" begin="3.159917737017708s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="3.5362650328025973s" begin="3.159917737017708s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="197.85876682772096" y="-6.421876374854196" width="6.421876374854196" height="6.421876374854196" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-6.421876374854196" to="120" dur="3.951148042079002s" begin="4.59286055078727s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 5.529520060349055 0; 0 0" dur="3.951148042079002s" begin="4.59286055078727s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="3.951148042079002s" begin="4.59286055078727s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="566.5026708769016" y="-5.576782159358406" width="5.576782159358406" height="5.576782159358406" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-5.576782159358406" to="120" dur="4.244782026697237s" begin="3.7579839591835693s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 8.268882094771214 0; 0 0" dur="4.244782026697237s" begin="3.7579839591835693s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="4.244782026697237s" begin="3.7579839591835693s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="326.16995493053304" y="-7.143401928377342" width="7.143401928377342" height="7.143401928377342" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-7.143401928377342" to="120" dur="4.700641279662955s" begin="2.8306107090168817s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 6.316339266215481 0; 0 0" dur="4.700641279662955s" begin="2.8306107090168817s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="4.700641279662955s" begin="2.8306107090168817s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="73.81744089853485" y="-5.603103680811425" width="5.603103680811425" height="5.603103680811425" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-5.603103680811425" to="120" dur="4.01258275283584s" begin="0.09751405065105856s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 9.638427439427517 0; 0 0" dur="4.01258275283584s" begin="0.09751405065105856s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="4.01258275283584s" begin="0.09751405065105856s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="1174.443679615524" y="-7.092947446662203" width="7.092947446662203" height="7.092947446662203" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-7.092947446662203" to="120" dur="3.7043157324123985s" begin="4.158064675521985s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 10.86587917484323 0; 0 0" dur="3.7043157324123985s" begin="4.158064675521985s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="3.7043157324123985s" begin="4.158064675521985s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="190.25784315571866" y="-6.369141446628667" width="6.369141446628667" height="6.369141446628667" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-6.369141446628667" to="120" dur="3.891231786406238s" begin="4.6535166014320986s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 13.391265023997224 0; 0 0" dur="3.891231786406238s" begin="4.6535166014320986s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="3.891231786406238s" begin="4.6535166014320986s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="973.2289447041924" y="-7.801427022571381" width="7.801427022571381" height="7.801427022571381" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-7.801427022571381" to="120" dur="4.482039886669201s" begin="3.0834195787174448s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 9.714136536986492 0; 0 0" dur="4.482039886669201s" begin="3.0834195787174448s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="4.482039886669201s" begin="3.0834195787174448s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="567.4121277020803" y="-7.677300842654548" width="7.677300842654548" height="7.677300842654548" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-7.677300842654548" to="120" dur="3.425290824003649s" begin="4.300502721411187s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 12.062415324838371 0; 0 0" dur="3.425290824003649s" begin="4.300502721411187s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="3.425290824003649s" begin="4.300502721411187s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="1094.613853390304" y="-6.519129465240252" width="6.519129465240252" height="6.519129465240252" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-6.519129465240252" to="120" dur="4.4292879146372455s" begin="0.38452527265465997s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 10.709524412728111 0; 0 0" dur="4.4292879146372455s" begin="0.38452527265465997s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="4.4292879146372455s" begin="0.38452527265465997s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="458.8895693221572" y="-5.9294025872661" width="5.9294025872661" height="5.9294025872661" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-5.9294025872661" to="120" dur="3.3562132319825384s" begin="3.8197671460178806s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 6.649056394765019 0; 0 0" dur="3.3562132319825384s" begin="3.8197671460178806s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="3.3562132319825384s" begin="3.8197671460178806s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="1053.9621621433873" y="-6.585061092153353" width="6.585061092153353" height="6.585061092153353" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-6.585061092153353" to="120" dur="3.880085502519296s" begin="4.708817425985662s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 9.284124281800972 0; 0 0" dur="3.880085502519296s" begin="4.708817425985662s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="3.880085502519296s" begin="4.708817425985662s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="709.6421108600824" y="-7.212175980354281" width="7.212175980354281" height="7.212175980354281" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-7.212175980354281" to="120" dur="3.1709673878440894s" begin="4.583158307649008s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 10.550778439864406 0; 0 0" dur="3.1709673878440894s" begin="4.583158307649008s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="3.1709673878440894s" begin="4.583158307649008s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="1195.6933163020553" y="-7.533275822948628" width="7.533275822948628" height="7.533275822948628" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-7.533275822948628" to="120" dur="3.7469257178046464s" begin="1.1543912584524274s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 11.146264047592984 0; 0 0" dur="3.7469257178046464s" begin="1.1543912584524274s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="3.7469257178046464s" begin="1.1543912584524274s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="692.1533458287777" y="-6.842409787696808" width="6.842409787696808" height="6.842409787696808" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-6.842409787696808" to="120" dur="3.5425011455604287s" begin="1.4273473232453515s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 8.6911527165372 0; 0 0" dur="3.5425011455604287s" begin="1.4273473232453515s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="3.5425011455604287s" begin="1.4273473232453515s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="223.10685275915966" y="-5.837836196510546" width="5.837836196510546" height="5.837836196510546" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-5.837836196510546" to="120" dur="4.710878640732021s" begin="2.7971582608121848s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 5.433962786716329 0; 0 0" dur="4.710878640732021s" begin="2.7971582608121848s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="4.710878640732021s" begin="2.7971582608121848s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="680.9012253453332" y="-5.704469636246184" width="5.704469636246184" height="5.704469636246184" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-5.704469636246184" to="120" dur="4.4240457382316345s" begin="2.0163348955310942s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 12.915272842406075 0; 0 0" dur="4.4240457382316345s" begin="2.0163348955310942s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="4.4240457382316345s" begin="2.0163348955310942s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="1085.3486145498343" y="-5.322835042706497" width="5.322835042706497" height="5.322835042706497" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-5.322835042706497" to="120" dur="3.493245042047388s" begin="3.99747937808848s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 7.384170063341591 0; 0 0" dur="3.493245042047388s" begin="3.99747937808848s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="3.493245042047388s" begin="3.99747937808848s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="872.4532181409933" y="-6.77495647451009" width="6.77495647451009" height="6.77495647451009" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-6.77495647451009" to="120" dur="4.399613639321337s" begin="0.45447058222310877s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 11.593449174703924 0; 0 0" dur="4.399613639321337s" begin="0.45447058222310877s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="4.399613639321337s" begin="0.45447058222310877s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="228.54821400957758" y="-6.736504956422177" width="6.736504956422177" height="6.736504956422177" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-6.736504956422177" to="120" dur="3.686031986211795s" begin="1.5014629513878375s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 14.024680834703862 0; 0 0" dur="3.686031986211795s" begin="1.5014629513878375s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="3.686031986211795s" begin="1.5014629513878375s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="731.9277280843716" y="-6.915987946454977" width="6.915987946454977" height="6.915987946454977" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-6.915987946454977" to="120" dur="4.250460793089869s" begin="3.4033617586289058s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 8.36882155596852 0; 0 0" dur="4.250460793089869s" begin="3.4033617586289058s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="4.250460793089869s" begin="3.4033617586289058s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="838.2821981251684" y="-7.727858043855839" width="7.727858043855839" height="7.727858043855839" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-7.727858043855839" to="120" dur="4.898014695175765s" begin="3.684228586222341s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 5.501218151896485 0; 0 0" dur="4.898014695175765s" begin="3.684228586222341s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="4.898014695175765s" begin="3.684228586222341s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="469.71220356788217" y="-4.525353146839186" width="4.525353146839186" height="4.525353146839186" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-4.525353146839186" to="120" dur="3.9460905844252445s" begin="4.322232960035553s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 5.354948850640775 0; 0 0" dur="3.9460905844252445s" begin="4.322232960035553s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="3.9460905844252445s" begin="4.322232960035553s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="367.3373816178115" y="-6.617552647069384" width="6.617552647069384" height="6.617552647069384" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-6.617552647069384" to="120" dur="3.3290566800271453s" begin="0.9830462083931535s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 7.440664946067603 0; 0 0" dur="3.3290566800271453s" begin="0.9830462083931535s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="3.3290566800271453s" begin="0.9830462083931535s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="912.3342247264043" y="-7.1028587855586425" width="7.1028587855586425" height="7.1028587855586425" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-7.1028587855586425" to="120" dur="4.6004490667964335s" begin="4.501787950952906s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 8.723169047153307 0; 0 0" dur="4.6004490667964335s" begin="4.501787950952906s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="4.6004490667964335s" begin="4.501787950952906s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="1150.9994160667356" y="-6.308195523068793" width="6.308195523068793" height="6.308195523068793" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-6.308195523068793" to="120" dur="4.618236432574676s" begin="4.186831527467936s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 13.454113905664931 0; 0 0" dur="4.618236432574676s" begin="4.186831527467936s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="4.618236432574676s" begin="4.186831527467936s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="1128.553716053518" y="-7.548496957738045" width="7.548496957738045" height="7.548496957738045" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-7.548496957738045" to="120" dur="4.2353821632164514s" begin="0.712819825054033s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 13.691962234987265 0; 0 0" dur="4.2353821632164514s" begin="0.712819825054033s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="4.2353821632164514s" begin="0.712819825054033s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="786.528754841111" y="-6.59630440501304" width="6.59630440501304" height="6.59630440501304" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-6.59630440501304" to="120" dur="4.153922396003953s" begin="2.0244874951135072s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 9.023755281642236 0; 0 0" dur="4.153922396003953s" begin="2.0244874951135072s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="4.153922396003953s" begin="2.0244874951135072s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="354.2633184825674" y="-6.392120795164616" width="6.392120795164616" height="6.392120795164616" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-6.392120795164616" to="120" dur="3.496945991857176s" begin="0.805272449958544s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 13.30184430887671 0; 0 0" dur="3.496945991857176s" begin="0.805272449958544s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="3.496945991857176s" begin="0.805272449958544s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="374.29347361734483" y="-4.004497917419483" width="4.004497917419483" height="4.004497917419483" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-4.004497917419483" to="120" dur="4.6904297748894015s" begin="2.6169280950525553s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 11.02780196734744 0; 0 0" dur="4.6904297748894015s" begin="2.6169280950525553s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="4.6904297748894015s" begin="2.6169280950525553s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="893.7347926234277" y="-4.215280803187559" width="4.215280803187559" height="4.215280803187559" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-4.215280803187559" to="120" dur="3.188033435033471s" begin="2.31133089686143s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 11.589834424475915 0; 0 0" dur="3.188033435033471s" begin="2.31133089686143s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="3.188033435033471s" begin="2.31133089686143s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="721.7588730997684" y="-4.592125765102008" width="4.592125765102008" height="4.592125765102008" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-4.592125765102008" to="120" dur="4.192161611428027s" begin="2.701847083601032s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 5.015415040114233 0; 0 0" dur="4.192161611428027s" begin="2.701847083601032s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="4.192161611428027s" begin="2.701847083601032s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="964.8654534329476" y="-8.697926704405882" width="8.697926704405882" height="8.697926704405882" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-8.697926704405882" to="120" dur="6.540623016082874s" begin="0.1650800172441902s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 14.012179579417591 0; 0 0" dur="6.540623016082874s" begin="0.1650800172441902s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="6.540623016082874s" begin="0.1650800172441902s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="766.6657698710923" y="-6.58816899615914" width="6.58816899615914" height="6.58816899615914" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-6.58816899615914" to="120" dur="6.689405523754646s" begin="3.099231802016699s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 10.372427474224967 0; 0 0" dur="6.689405523754646s" begin="3.099231802016699s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="6.689405523754646s" begin="3.099231802016699s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="46.86466403931533" y="-6.587742423055983" width="6.587742423055983" height="6.587742423055983" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-6.587742423055983" to="120" dur="6.721574390171513s" begin="3.038471668197351s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 10.040980310912314 0; 0 0" dur="6.721574390171513s" begin="3.038471668197351s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="6.721574390171513s" begin="3.038471668197351s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="595.4184793067717" y="-8.358182745325522" width="8.358182745325522" height="8.358182745325522" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-8.358182745325522" to="120" dur="6.53933677601683s" begin="3.109885974639149s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 12.379265906528584 0; 0 0" dur="6.53933677601683s" begin="3.109885974639149s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="6.53933677601683s" begin="3.109885974639149s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="283.2409554231121" y="-10.220138000032565" width="10.220138000032565" height="10.220138000032565" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-10.220138000032565" to="120" dur="5.1372197099535s" begin="4.455966354251144s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 7.581863066540244 0; 0 0" dur="5.1372197099535s" begin="4.455966354251144s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="5.1372197099535s" begin="4.455966354251144s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="908.5131367293947" y="-7.455224256499896" width="7.455224256499896" height="7.455224256499896" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-7.455224256499896" to="120" dur="6.476565369290858s" begin="4.9878701292642535s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 9.316125121532915 0; 0 0" dur="6.476565369290858s" begin="4.9878701292642535s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="6.476565369290858s" begin="4.9878701292642535s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="397.66142754965557" y="-6.007035551558862" width="6.007035551558862" height="6.007035551558862" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-6.007035551558862" to="120" dur="6.027983395369345s" begin="1.8399530899217542s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 8.29900567340504 0; 0 0" dur="6.027983395369345s" begin="1.8399530899217542s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="6.027983395369345s" begin="1.8399530899217542s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="982.7290993902828" y="-10.22737173304931" width="10.22737173304931" height="10.22737173304931" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-10.22737173304931" to="120" dur="5.995258993597174s" begin="1.87918389654268s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 12.206298891275056 0; 0 0" dur="5.995258993597174s" begin="1.87918389654268s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="5.995258993597174s" begin="1.87918389654268s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="403.1474841504716" y="-9.584517322105052" width="9.584517322105052" height="9.584517322105052" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-9.584517322105052" to="120" dur="6.7121598736301s" begin="2.131227582229794s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 7.990473484249332 0; 0 0" dur="6.7121598736301s" begin="2.131227582229794s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="6.7121598736301s" begin="2.131227582229794s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="511.3712765634323" y="-6.874579663329693" width="6.874579663329693" height="6.874579663329693" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-6.874579663329693" to="120" dur="6.412316018355191s" begin="0.6565465785174807s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 14.898140915893796 0; 0 0" dur="6.412316018355191s" begin="0.6565465785174807s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="6.412316018355191s" begin="0.6565465785174807s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="619.145568896155" y="-7.887239012513955" width="7.887239012513955" height="7.887239012513955" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-7.887239012513955" to="120" dur="5.087344199597592s" begin="1.4794502757553163s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 5.948977884153512 0; 0 0" dur="5.087344199597592s" begin="1.4794502757553163s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="5.087344199597592s" begin="1.4794502757553163s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="380.39915106343864" y="-8.182603913494084" width="8.182603913494084" height="8.182603913494084" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-8.182603913494084" to="120" dur="6.315626532157445s" begin="2.022612898361836s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 12.074117040905382 0; 0 0" dur="6.315626532157445s" begin="2.022612898361836s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="6.315626532157445s" begin="2.022612898361836s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="315.18106169785796" y="-6.55093167593976" width="6.55093167593976" height="6.55093167593976" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-6.55093167593976" to="120" dur="6.4813921647055475s" begin="3.5417741033478123s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 14.453002182850287 0; 0 0" dur="6.4813921647055475s" begin="3.5417741033478123s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="6.4813921647055475s" begin="3.5417741033478123s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="1077.4880195722587" y="-10.822729323170153" width="10.822729323170153" height="10.822729323170153" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-10.822729323170153" to="120" dur="6.427406197863954s" begin="3.869848747450675s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 11.30140879087885 0; 0 0" dur="6.427406197863954s" begin="3.869848747450675s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="6.427406197863954s" begin="3.869848747450675s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="528.5056148351176" y="-8.150792532519517" width="8.150792532519517" height="8.150792532519517" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-8.150792532519517" to="120" dur="6.691146870739626s" begin="3.199078285645671s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 13.435408679343075 0; 0 0" dur="6.691146870739626s" begin="3.199078285645671s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="6.691146870739626s" begin="3.199078285645671s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="704.6806891060095" y="-10.800624950152612" width="10.800624950152612" height="10.800624950152612" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-10.800624950152612" to="120" dur="6.58774535460216s" begin="2.8107338688902814s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 5.117587185547478 0; 0 0" dur="6.58774535460216s" begin="2.8107338688902814s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="6.58774535460216s" begin="2.8107338688902814s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="734.3038105423921" y="-6.920715040911353" width="6.920715040911353" height="6.920715040911353" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-6.920715040911353" to="120" dur="5.49161088872707s" begin="2.9213393621463215s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 10.368173281076928 0; 0 0" dur="5.49161088872707s" begin="2.9213393621463215s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="5.49161088872707s" begin="2.9213393621463215s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="143.24093411431224" y="-10.715472935787421" width="10.715472935787421" height="10.715472935787421" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-10.715472935787421" to="120" dur="6.264870139376874s" begin="3.478557686268342s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 5.1378858856840655 0; 0 0" dur="6.264870139376874s" begin="3.478557686268342s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="6.264870139376874s" begin="3.478557686268342s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="611.9459839121339" y="-10.506718292445836" width="10.506718292445836" height="10.506718292445836" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-10.506718292445836" to="120" dur="6.1122889977591335s" begin="1.7509104255409924s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 10.453601313750445 0; 0 0" dur="6.1122889977591335s" begin="1.7509104255409924s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="6.1122889977591335s" begin="1.7509104255409924s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="864.6910385647875" y="-10.231784443942663" width="10.231784443942663" height="10.231784443942663" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-10.231784443942663" to="120" dur="6.146534830073115s" begin="4.176301185642528s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 8.66140974062459 0; 0 0" dur="6.146534830073115s" begin="4.176301185642528s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="6.146534830073115s" begin="4.176301185642528s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="808.8445799012409" y="-8.28518680942858" width="8.28518680942858" height="8.28518680942858" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-8.28518680942858" to="120" dur="5.358128284993735s" begin="3.6941250522623026s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 14.82683708610975 0; 0 0" dur="5.358128284993735s" begin="3.6941250522623026s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="5.358128284993735s" begin="3.6941250522623026s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="86.39468862137889" y="-7.456493187152407" width="7.456493187152407" height="7.456493187152407" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-7.456493187152407" to="120" dur="6.752753114839245s" begin="3.9895961171033223s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 11.05913724290806 0; 0 0" dur="6.752753114839245s" begin="3.9895961171033223s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="6.752753114839245s" begin="3.9895961171033223s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="447.103200787936" y="-10.55283497902088" width="10.55283497902088" height="10.55283497902088" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-10.55283497902088" to="120" dur="5.509300010102425s" begin="3.630828297741785s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 11.678388501209218 0; 0 0" dur="5.509300010102425s" begin="3.630828297741785s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="5.509300010102425s" begin="3.630828297741785s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="466.5208754914783" y="-7.210951727640212" width="7.210951727640212" height="7.210951727640212" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-7.210951727640212" to="120" dur="5.667186583132181s" begin="0.9739711423052888s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 10.618069076062394 0; 0 0" dur="5.667186583132181s" begin="0.9739711423052888s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="5.667186583132181s" begin="0.9739711423052888s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="374.3228730922823" y="-10.738939980179609" width="10.738939980179609" height="10.738939980179609" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-10.738939980179609" to="120" dur="5.496586727047256s" begin="2.482963060845761s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 11.740197348232487 0; 0 0" dur="5.496586727047256s" begin="2.482963060845761s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="5.496586727047256s" begin="2.482963060845761s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="741.959303422433" y="-6.028123168812613" width="6.028123168812613" height="6.028123168812613" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-6.028123168812613" to="120" dur="6.241453507893084s" begin="4.813148028542004s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 6.882417615156471 0; 0 0" dur="6.241453507893084s" begin="4.813148028542004s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="6.241453507893084s" begin="4.813148028542004s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="617.8016602049172" y="-7.775543068182586" width="7.775543068182586" height="7.775543068182586" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-7.775543068182586" to="120" dur="5.436561979226704s" begin="3.961507128410362s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 12.2503259996078 0; 0 0" dur="5.436561979226704s" begin="3.961507128410362s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="5.436561979226704s" begin="3.961507128410362s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="144.86186909672344" y="-7.1763270786433955" width="7.1763270786433955" height="7.1763270786433955" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-7.1763270786433955" to="120" dur="6.603584968302497s" begin="0.8146512774045955s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 9.012673507942203 0; 0 0" dur="6.603584968302497s" begin="0.8146512774045955s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="6.603584968302497s" begin="0.8146512774045955s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="1152.832672055116" y="-6.1100385790824365" width="6.1100385790824365" height="6.1100385790824365" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-6.1100385790824365" to="120" dur="6.420723071691375s" begin="3.8694758487668857s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 14.136207821512306 0; 0 0" dur="6.420723071691375s" begin="3.8694758487668857s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="6.420723071691375s" begin="3.8694758487668857s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="951.495271390073" y="-9.502209379843473" width="9.502209379843473" height="9.502209379843473" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-9.502209379843473" to="120" dur="5.901057232813828s" begin="1.0294445164016541s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 14.551005006681093 0; 0 0" dur="5.901057232813828s" begin="1.0294445164016541s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="5.901057232813828s" begin="1.0294445164016541s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="342.4182547790765" y="-13.693508674429888" width="13.693508674429888" height="13.693508674429888" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-13.693508674429888" to="120" dur="8.204674043073291s" begin="1.2606120002929866s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 8.596426875596123 0; 0 0" dur="8.204674043073291s" begin="1.2606120002929866s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="8.204674043073291s" begin="1.2606120002929866s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="781.5007876139275" y="-11.807732250039901" width="11.807732250039901" height="11.807732250039901" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-11.807732250039901" to="120" dur="8.567256213067592s" begin="2.07106318040244s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 9.766492660127287 0; 0 0" dur="8.567256213067592s" begin="2.07106318040244s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="8.567256213067592s" begin="2.07106318040244s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="581.3249496714649" y="-11.031359015903584" width="11.031359015903584" height="11.031359015903584" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-11.031359015903584" to="120" dur="8.950136176283262s" begin="2.777102858261941s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 6.424125823452318 0; 0 0" dur="8.950136176283262s" begin="2.777102858261941s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="8.950136176283262s" begin="2.777102858261941s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="1189.940653123563" y="-11.529401282102137" width="11.529401282102137" height="11.529401282102137" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-11.529401282102137" to="120" dur="7.05649715920206s" begin="4.129078816952385s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 12.373873482409083 0; 0 0" dur="7.05649715920206s" begin="4.129078816952385s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="7.05649715920206s" begin="4.129078816952385s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="1122.27253792247" y="-9.87072874813883" width="9.87072874813883" height="9.87072874813883" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-9.87072874813883" to="120" dur="7.674351728948997s" begin="1.2296942582166026s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 6.259979349081535 0; 0 0" dur="7.674351728948997s" begin="1.2296942582166026s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="7.674351728948997s" begin="1.2296942582166026s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="594.1686908692643" y="-8.196512294839607" width="8.196512294839607" height="8.196512294839607" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-8.196512294839607" to="120" dur="8.783203257490587s" begin="0.8882751565630487s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 6.237984702673369 0; 0 0" dur="8.783203257490587s" begin="0.8882751565630487s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="8.783203257490587s" begin="0.8882751565630487s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="529.3089490165235" y="-12.47927339760971" width="12.47927339760971" height="12.47927339760971" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-12.47927339760971" to="120" dur="7.527241240955963s" begin="4.83654631381103s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 12.401244685272987 0; 0 0" dur="7.527241240955963s" begin="4.83654631381103s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="7.527241240955963s" begin="4.83654631381103s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="34.81624953203397" y="-12.634274427885147" width="12.634274427885147" height="12.634274427885147" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-12.634274427885147" to="120" dur="8.552982455472424s" begin="2.5991536857695907s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 11.91978329324895 0; 0 0" dur="8.552982455472424s" begin="2.5991536857695907s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="8.552982455472424s" begin="2.5991536857695907s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="312.10940305279917" y="-9.877967768877095" width="9.877967768877095" height="9.877967768877095" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-9.877967768877095" to="120" dur="8.354488539989502s" begin="1.5426989558295712s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 7.176190410210063 0; 0 0" dur="8.354488539989502s" begin="1.5426989558295712s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="8.354488539989502s" begin="1.5426989558295712s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="420.9673961702331" y="-13.250092771198236" width="13.250092771198236" height="13.250092771198236" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-13.250092771198236" to="120" dur="8.171597876152852s" begin="4.326102968044897s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 13.64596555882406 0; 0 0" dur="8.171597876152852s" begin="4.326102968044897s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="8.171597876152852s" begin="4.326102968044897s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="661.1817961928851" y="-8.273876495414815" width="8.273876495414815" height="8.273876495414815" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-8.273876495414815" to="120" dur="8.572712670809548s" begin="3.9289756481206117s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 13.242434055553442 0; 0 0" dur="8.572712670809548s" begin="3.9289756481206117s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="8.572712670809548s" begin="3.9289756481206117s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="332.4672063286149" y="-9.580714219973785" width="9.580714219973785" height="9.580714219973785" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-9.580714219973785" to="120" dur="7.844027714188649s" begin="4.964465488906385s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 12.812114161680906 0; 0 0" dur="7.844027714188649s" begin="4.964465488906385s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="7.844027714188649s" begin="4.964465488906385s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="142.39797094930086" y="-12.662188502165924" width="12.662188502165924" height="12.662188502165924" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-12.662188502165924" to="120" dur="8.387510756005648s" begin="3.0965633830100705s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 5.97366478293456 0; 0 0" dur="8.387510756005648s" begin="3.0965633830100705s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="8.387510756005648s" begin="3.0965633830100705s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="132.8185731994145" y="-11.172806860828883" width="11.172806860828883" height="11.172806860828883" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-11.172806860828883" to="120" dur="7.555909826596629s" begin="0.2984384175018451s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 12.654811793928182 0; 0 0" dur="7.555909826596629s" begin="0.2984384175018451s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="7.555909826596629s" begin="0.2984384175018451s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="1046.5347321252007" y="-10.065578187615374" width="10.065578187615374" height="10.065578187615374" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-10.065578187615374" to="120" dur="8.442031853887006s" begin="0.5025318983265115s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 14.40222301339523 0; 0 0" dur="8.442031853887006s" begin="0.5025318983265115s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="8.442031853887006s" begin="0.5025318983265115s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="136.91763519709568" y="-8.58680389256996" width="8.58680389256996" height="8.58680389256996" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-8.58680389256996" to="120" dur="8.783246379223279s" begin="2.9411337214237996s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 12.009807534708239 0; 0 0" dur="8.783246379223279s" begin="2.9411337214237996s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="8.783246379223279s" begin="2.9411337214237996s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="1143.9804773785615" y="-13.745867446150577" width="13.745867446150577" height="13.745867446150577" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-13.745867446150577" to="120" dur="7.608180679228348s" begin="0.6084085209493828s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 6.353244112595105 0; 0 0" dur="7.608180679228348s" begin="0.6084085209493828s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="7.608180679228348s" begin="0.6084085209493828s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="194.92435564652703" y="-8.987856891367676" width="8.987856891367676" height="8.987856891367676" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-8.987856891367676" to="120" dur="7.273574260134398s" begin="2.8943881939825253s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 13.058891862086984 0; 0 0" dur="7.273574260134398s" begin="2.8943881939825253s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="7.273574260134398s" begin="2.8943881939825253s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="806.4985903858413" y="-10.196395399511673" width="10.196395399511673" height="10.196395399511673" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-10.196395399511673" to="120" dur="8.840561941034284s" begin="4.880518336671996s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 8.973396382323484 0; 0 0" dur="8.840561941034284s" begin="4.880518336671996s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="8.840561941034284s" begin="4.880518336671996s" repeatCount="indefinite"/>
+      </rect>
+    
+      <rect x="382.60226660546357" y="-9.209289949784111" width="9.209289949784111" height="9.209289949784111" fill="url(#pixelGradient)" filter="url(#glow)">
+        <animate attributeName="y" from="-9.209289949784111" to="120" dur="7.144178332479336s" begin="4.382187431560873s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" 
+          values="0 0; 5.779278137946471 0; 0 0" dur="7.144178332479336s" begin="4.382187431560873s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="7.144178332479336s" begin="4.382187431560873s" repeatCount="indefinite"/>
+      </rect>
+    </svg>
