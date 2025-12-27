@@ -16,7 +16,6 @@ const RAIN_FRAMES = 3;
 const END_FRAMES = 20;
 
 const GAMES = [
-  // сюди вставляй PGN партій
   `[Event "Random Game"]
   1. e4 e5 2. Nf3 Nc6 3. Bb5 a6`,
   `[Event "Another Game"]
@@ -49,13 +48,17 @@ let boardImage;
 // ============== Load Assets ==============
 async function loadAssets() {
   try {
+    // assets відносно теки, з якої запускається скрипт
+    const assetsDir = path.join(process.cwd(), 'assets');
+
     for (const c of ['w','b']) {
       for (const p of pieces) {
-        const imgPath = path.join(__dirname, 'assets', 'pieces', `${c}${p}.png`);
+        const imgPath = path.join(assetsDir, 'pieces', `${c}${p}.png`);
         pieceImages[c+p] = await loadImage(imgPath);
       }
     }
-    boardImage = await loadImage(path.join(__dirname, 'assets', 'dashboard.png'));
+
+    boardImage = await loadImage(path.join(assetsDir, 'dashboard.png'));
     console.log('✔ Assets loaded');
   } catch (err) {
     console.error('❌ Error loading assets:', err);
@@ -172,7 +175,7 @@ async function playGame(pgn) {
 (async () => {
   await loadAssets();
 
-  const outputDir = path.join(process.cwd(), 'assets');
+  const outputDir = path.join(process.cwd(), 'output');
   fs.mkdirSync(outputDir, { recursive: true });
   const gifPath = path.join(outputDir, 'chess-ai.gif');
 
