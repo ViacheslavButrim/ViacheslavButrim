@@ -172,7 +172,7 @@ async function playGame(pgn) {
 (async () => {
   await loadAssets();
 
-  const outputDir = path.join(process.cwd(), 'output');
+  const outputDir = path.join(process.cwd(), 'assets');
   fs.mkdirSync(outputDir, { recursive: true });
   const gifPath = path.join(outputDir, 'chess-ai.gif');
 
