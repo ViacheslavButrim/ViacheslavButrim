@@ -5,24 +5,15 @@ const fs = require('fs');
 const path = require('path');
 
 const boardSize = 600;
-const sideWidth = 600;
+const sideWidth = 300;
 const canvasWidth = boardSize + sideWidth * 2;
 const canvasHeight = boardSize;
 
 const squareSize = boardSize / 8;
-const MOVES_DELAY_MS = 900;
-const FRAMES_BETWEEN_GAMES = 6;
-const FPS = 20;
-const FRAMES_PER_MOVE = Math.floor((MOVES_DELAY_MS / 1000) * FPS);
-encoder.setDelay(1000 / FPS);
 
-const PIXEL_LAYERS = [
-  { count: 40, speed: 2.2, size: [4, 8], alpha: 0.8 },
-  { count: 25, speed: 3.6, size: [6, 12], alpha: 0.6 },
-  { count: 15, speed: 5.2, size: [8, 16], alpha: 0.4 },
-];
-
-const NEON_COLORS = ['#22d3ee', '#00fff7'];
+const MOVE_DELAY = 1000;        
+const RAIN_DELAY = 60;         
+const RAIN_FRAMES = 3;        
 
 const GAMES = [
   `1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6
@@ -506,6 +497,15 @@ const GAMES = [
 30.Kd2 Ke7  1/2-1/2`
 ];
 
+function shuffle(arr) {
+  return arr
+    .map(v => ({ v, r: Math.random() }))
+    .sort((a, b) => a.r - b.r)
+    .map(o => o.v);
+}
+
+const RANDOM_GAMES = shuffle(GAMES);
+
 const outputDir = path.join(process.cwd(), 'output');
 fs.mkdirSync(outputDir, { recursive: true });
 
@@ -515,7 +515,6 @@ encoder.createReadStream().pipe(fs.createWriteStream(gifPath));
 
 encoder.start();
 encoder.setRepeat(0);
-encoder.setDelay(MOVES_DELAY_MS);
 encoder.setQuality(10);
 
 const canvas = createCanvas(canvasWidth, canvasHeight);
@@ -525,85 +524,90 @@ const pieces = ['K','Q','R','B','N','P'];
 const pieceImages = {};
 let boardImage;
 
-async function loadPieces() {
+async function loadAssets() {
   for (const c of ['w','b']) {
     for (const p of pieces) {
-      const img = path.join(__dirname, '..', 'assets/pieces', `${c}${p}.png`);
-      if (!fs.existsSync(img)) throw new Error(`Missing piece: ${img}`);
-      pieceImages[c+p] = await loadImage(img);
+      pieceImages[c+p] = await loadImage(
+        path.join(__dirname, '..', 'assets/pieces', `${c}${p}.png`)
+      );
     }
   }
+  boardImage = await loadImage(
+    path.join(__dirname, '..', 'assets', 'dashboard.png')
+  );
 }
 
-async function loadBoard() {
-  const img = path.join(__dirname, '..', 'assets', 'dashboard.png');
-  if (!fs.existsSync(img)) throw new Error(`Missing board: ${img}`);
-  boardImage = await loadImage(img);
-}
+const PIXEL_LAYERS = [
+  { count: 30, speed: 2, size: [4, 8], alpha: 0.8 },
+  { count: 20, speed: 3.5, size: [6, 12], alpha: 0.6 },
+  { count: 10, speed: 5, size: [8, 14], alpha: 0.4 },
+];
 
-/* ================= PIXEL RAIN ================= */
-function createPixelRain(xStart, width) {
-  const pixels = [];
-  for (const layer of PIXEL_LAYERS) {
-    for (let i = 0; i < layer.count; i++) {
-      pixels.push({
+const COLORS = ['#22d3ee', '#00fff7'];
+
+function createRain(xStart, width) {
+  const arr = [];
+  for (const l of PIXEL_LAYERS) {
+    for (let i = 0; i < l.count; i++) {
+      arr.push({
         xStart,
         width,
         x: xStart + Math.random() * width,
         y: Math.random() * canvasHeight,
-        speed: layer.speed * (0.8 + Math.random()),
-        size: layer.size[0] + Math.random() * (layer.size[1] - layer.size[0]),
-        alpha: layer.alpha,
-        drift: Math.random() * 2 - 1,
-        color: NEON_COLORS[Math.floor(Math.random() * NEON_COLORS.length)],
+        speed: l.speed * (0.8 + Math.random()),
+        size: l.size[0] + Math.random() * (l.size[1] - l.size[0]),
+        alpha: l.alpha,
+        drift: Math.random() * 1.5 - 0.75,
+        color: COLORS[Math.random() * COLORS.length | 0]
       });
     }
   }
-  return pixels;
+  return arr;
 }
 
-const leftRain = createPixelRain(0, sideWidth);
-const rightRain = createPixelRain(sideWidth + boardSize, sideWidth);
+const leftRain = createRain(0, sideWidth);
+const rightRain = createRain(sideWidth + boardSize, sideWidth);
 
-function drawPixelRain(pixels) {
-  for (const p of pixels) {
-    ctx.globalAlpha = p.alpha;
-    ctx.shadowBlur = 14;
-    ctx.shadowColor = p.color;
-    ctx.fillStyle = p.color;
-
-    ctx.fillRect(p.x, p.y, p.size, p.size);
-
+function updateRain(rain) {
+  for (const p of rain) {
     p.y += p.speed;
-    p.x += p.drift * 0.3;
-
+    p.x += p.drift;
     if (p.y > canvasHeight) {
       p.y = -p.size;
       p.x = p.xStart + Math.random() * p.width;
     }
   }
+}
+
+function drawRain(rain) {
+  for (const p of rain) {
+    ctx.globalAlpha = p.alpha;
+    ctx.shadowBlur = 12;
+    ctx.shadowColor = p.color;
+    ctx.fillStyle = p.color;
+    ctx.fillRect(p.x, p.y, p.size, p.size);
+  }
   ctx.globalAlpha = 1;
   ctx.shadowBlur = 0;
 }
 
-/* ================= DRAW FRAME ================= */
 function drawFrame(chess) {
   ctx.fillStyle = '#0a0a1f';
   ctx.fillRect(0, 0, canvasWidth, canvasHeight);
 
-  drawPixelRain(leftRain);
-  drawPixelRain(rightRain);
+  drawRain(leftRain);
+  drawRain(rightRain);
 
   const boardX = sideWidth;
   ctx.drawImage(boardImage, boardX, 0, boardSize, boardSize);
 
+  const b = chess.board();
   for (let y = 0; y < 8; y++) {
     for (let x = 0; x < 8; x++) {
-      const sq = chess.board()[y][x];
-      if (sq) {
-        const key = sq.color + sq.type.toUpperCase();
+      const s = b[y][x];
+      if (s) {
         ctx.drawImage(
-          pieceImages[key],
+          pieceImages[s.color + s.type.toUpperCase()],
           boardX + x * squareSize,
           y * squareSize,
           squareSize,
@@ -614,42 +618,43 @@ function drawFrame(chess) {
   }
 }
 
-/* ================= GAME LOOP ================= */
 async function playGame(pgn) {
   const chess = new Chess();
   chess.loadPgn(pgn);
   const moves = chess.history();
   chess.reset();
 
-for (const move of moves) {
-  chess.move(move);
+  for (const m of moves) {
+    chess.move(m);
 
-  // Основний кадр з ходом
-  encoder.setDelay(MOVES_DELAY_MS);
-  drawFrame(chess);
-  encoder.addFrame(ctx);
-
-  // Кілька легких кадрів ТІЛЬКИ для Pixel Rain
-  encoder.setDelay(RAIN_DELAY);
-  for (let i = 0; i < RAIN_FRAMES; i++) {
-    drawFrame(chess);   // шахи ті самі, рухається тільки дощ
+    encoder.setDelay(MOVE_DELAY);
+    drawFrame(chess);
     encoder.addFrame(ctx);
-  }
-}
 
-  for (let i = 0; i < FRAMES_BETWEEN_GAMES; i++) {
+    encoder.setDelay(RAIN_DELAY);
+    for (let i = 0; i < RAIN_FRAMES; i++) {
+      updateRain(leftRain);
+      updateRain(rightRain);
+      drawFrame(chess);
+      encoder.addFrame(ctx);
+    }
+  }
+
+  for (let i = 0; i < END_FRAMES; i++) {
+    updateRain(leftRain);
+    updateRain(rightRain);
     drawFrame(chess);
     encoder.addFrame(ctx);
   }
 }
 
-/* ================= MAIN ================= */
 (async () => {
-  await loadPieces();
-  await loadBoard();
+  await loadAssets();
 
-  for (const g of GAMES) await playGame(g);
+  for (const g of RANDOM_GAMES) {
+    await playGame(g);
+  }
 
   encoder.finish();
-  console.log('✔ chess-ai.gif з Pixel Rain секціями згенеровано');
+  console.log('✔ chess-ai.gif (optimized, random games) generated');
 })();
