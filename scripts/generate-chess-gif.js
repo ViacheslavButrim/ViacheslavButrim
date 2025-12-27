@@ -6,7 +6,7 @@ const path = require('path');
 
 /* ================= CONFIG ================= */
 const boardSize = 600;
-const sideWidth = 180;
+const sideWidth = 300;
 const canvasWidth = boardSize + sideWidth * 2;
 const canvasHeight = boardSize;
 
