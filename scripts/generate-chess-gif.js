@@ -44,7 +44,7 @@ const pieceImages = {};
 async function loadPieces() {
   for (const color of ['w','b']) {
     for (const p of pieces) {
-      const imgPath = path.join(__dirname, 'assets/pieces', `${color}${p}.png`);
+      const imgPath = path.join(__dirname, '..', 'assets/pieces', `${color}${p}.png`);
       if (!fs.existsSync(imgPath)) throw new Error(`Missing PNG: ${imgPath}`);
       pieceImages[color+p] = await loadImage(imgPath);
     }
@@ -55,7 +55,7 @@ async function loadPieces() {
 let boardImage;
 
 async function loadBoard() {
-  const boardPath = path.join(__dirname, 'assets/board.png'); // обов'язково PNG 600x600
+  const boardPath = path.join(__dirname, '..', 'assets/board.png'); // обов'язково PNG 600x600
   if (!fs.existsSync(boardPath)) throw new Error(`Missing board PNG: ${boardPath}`);
   boardImage = await loadImage(boardPath);
 }
