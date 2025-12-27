@@ -4,7 +4,7 @@ const { Chess } = require('chess.js');
 const fs = require('fs');
 const path = require('path');
 
-const boardSize = 600;
+const boardSize = 400;
 const canvasWidth = boardSize;
 const canvasHeight = boardSize;
 
