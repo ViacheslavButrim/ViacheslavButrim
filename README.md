@@ -28,10 +28,6 @@
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/chess-ai.gif" alt="Chess AI" width="600">
-</p>
-
-<p align="center">
   <a href="mailto:viacheslavbutrim@gmail.com" 
      style="
        display:block;
