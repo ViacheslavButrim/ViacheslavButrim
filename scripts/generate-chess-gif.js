@@ -162,8 +162,15 @@ async function playGame(pgn) {
 for (const move of moves) {
   chess.move(move);
 
-  for (let i = 0; i < FRAMES_PER_MOVE; i++) {
-    drawFrame(chess);
+  // Основний кадр з ходом
+  encoder.setDelay(MOVES_DELAY_MS);
+  drawFrame(chess);
+  encoder.addFrame(ctx);
+
+  // Кілька легких кадрів ТІЛЬКИ для Pixel Rain
+  encoder.setDelay(RAIN_DELAY);
+  for (let i = 0; i < RAIN_FRAMES; i++) {
+    drawFrame(chess);   // шахи ті самі, рухається тільки дощ
     encoder.addFrame(ctx);
   }
 }
