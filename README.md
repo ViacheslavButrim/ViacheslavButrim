@@ -20,7 +20,7 @@
        width="100%" 
        style="display:block; margin:0; padding:0; vertical-align:bottom;" />
 
-  <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/chess-ai.gif" alt="Chess AI" width="600" />
+  <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/chess-ai.gif" alt="Chess AI" width="400" />
 
   <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/pixel-rain.svg"
        width="100%" 
