@@ -1,5 +1,3 @@
-
-
 const { createCanvas, loadImage } = require('canvas');
 const GIFEncoder = require('gifencoder');
 const { Chess } = require('chess.js');
