@@ -497,16 +497,34 @@ const GAMES = [
 30.Kd2 Ke7  1/2-1/2`
 ];
 
+// ================= RANDOM START =================
 function shuffle(arr) {
-  const a = [...arr]; // не мутуємо оригінал
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
+  return arr
+    .map(v => ({ v, r: Math.random() }))
+    .sort((a, b) => a.r - b.r)
+    .map(o => o.v);
 }
 
-const RANDOM_GAMES = shuffle(GAMES);
+function rotateArray(arr, startIndex) {
+  return [...arr.slice(startIndex), ...arr.slice(0, startIndex)];
+}
+
+const startIndex = Math.floor(Math.random() * GAMES.length);
+
+const RANDOMIZED_GAMES = rotateArray(GAMES, startIndex);
+
+
+for (const game of RANDOMIZED_GAMES) {
+  const chess = new Chess();
+  const moves = chess.moves({ verbose: true });
+  for (const move of moves) {
+    chess.move(move);
+    for (let i = 0; i < FRAMES_PER_MOVE; i++) {
+      drawFrame(chess);
+      encoder.addFrame(ctx);
+    }
+  }
+}
 
 const outputDir = path.join(process.cwd(), 'output');
 fs.mkdirSync(outputDir, { recursive: true });
