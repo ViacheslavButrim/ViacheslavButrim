@@ -13,6 +13,9 @@ const canvasHeight = boardSize;
 const squareSize = boardSize / 8;
 const MOVES_DELAY_MS = 900;
 const FRAMES_BETWEEN_GAMES = 6;
+const FPS = 20;
+const FRAMES_PER_MOVE = Math.floor((MOVES_DELAY_MS / 1000) * FPS);
+encoder.setDelay(1000 / FPS);
 
 /* ================= PIXEL RAIN CONFIG ================= */
 const PIXEL_LAYERS = [
@@ -156,11 +159,14 @@ async function playGame(pgn) {
   const moves = chess.history();
   chess.reset();
 
-  for (const m of moves) {
-    chess.move(m);
+for (const move of moves) {
+  chess.move(move);
+
+  for (let i = 0; i < FRAMES_PER_MOVE; i++) {
     drawFrame(chess);
     encoder.addFrame(ctx);
   }
+}
 
   for (let i = 0; i < FRAMES_BETWEEN_GAMES; i++) {
     drawFrame(chess);
