@@ -5,8 +5,8 @@ const fs = require('fs');
 const path = require('path');
 
 /* ================= CONFIG ================= */
-const boardSize = 1200;
-const squareSize = boardSize / 8;
+const boardSize = 1200;            // повний розмір canvas
+const squareSize = boardSize / 8;  // розмір клітинки
 const MOVES_DELAY_MS = 1000;
 const FRAMES_BETWEEN_GAMES = 5;
 
@@ -17,8 +17,7 @@ const GAMES = [
    17.Be3 Qc7 18.Nd2 Nc5 19.f4 exf4 20.Bxf4 Nfd7 21.Nf3 Bg7 22.Nd4 Qb6 23.Kh1 Ne5 24.Rf1 Ned3
    25.Bc1 Nxc1 26.Rxc1 Be5 27.Nge2 b4 28.cxb4 Qxb4 29.b3 cxb3 30.Bxb3 Nxb3 31.Nxb3 Qxa4 32.Rc7 Rf8
    33.Rxb7 Qxe4 34.Na5 Rac8 35.Nc6 Rxc6 36.dxc6 Qxc6 37.Rb3 a5 38.Nd4 Qc4 39.Nf3 Qf4 40.Rb5 Rc8 41.Rxa5 Rc1
-   42.Qe2 Rxf1+ 43.Qxf1 h5 44.Ra8+ Kg7 45.Ra7 g5 46.Ra5 g4 47.Nxe5 Qxf1+ 48.Kh2 dxe5 49.hxg4 hxg4 50.Kg3 Qf4+ 51.Kh4 Kg6 52.Ra6+ f6 53.Rxf6+ Kxf6 54.g3 Qg5# 0-1`,
-  // Додаткові PGN-партії можна додати сюди...
+   42.Qe2 Rxf1+ 43.Qxf1 h5 44.Ra8+ Kg7 45.Ra7 g5 46.Ra5 g4 47.Nxe5 Qxf1+ 48.Kh2 dxe5 49.hxg4 hxg4 50.Kg3 Qf4+ 51.Kh4 Kg6 52.Ra6+ f6 53.Rxf6+ Kxf6 54.g3 Qg5# 0-1`
 ];
 
 /* ================= SETUP ================= */
@@ -52,7 +51,7 @@ async function loadPieces() {
   }
 }
 
-/* ================= DRAW ================= */
+/* ================= BOARD IMAGE ================= */
 let boardImage;
 
 async function loadBoard() {
@@ -61,14 +60,20 @@ async function loadBoard() {
   boardImage = await loadImage(boardPath);
 }
 
+/* ================= DRAW BOARD ================= */
 function drawBoard(chess) {
-  const boardX = (WIDTH - boardSize) / 2;
-  const boardY = (HEIGHT - boardSize) / 2;
+  // Фон (для контрасту)
+  ctx.fillStyle = '#0a0a1f';
+  ctx.fillRect(0, 0, boardSize, boardSize);
 
-  // малюємо шахівницю з PNG
+  // Центрування шахівниці
+  const boardX = 0;
+  const boardY = 0;
+
+  // Малюємо шахівницю з PNG
   ctx.drawImage(boardImage, boardX, boardY, boardSize, boardSize);
 
-  // малюємо фігури поверх
+  // Малюємо фігури поверх
   for (let y = 0; y < 8; y++) {
     for (let x = 0; x < 8; x++) {
       const square = chess.board()[y][x];
@@ -86,7 +91,7 @@ async function playGame(gamePgn) {
   chess.loadPgn(gamePgn);
 
   const moves = chess.history();
-  chess.reset(); // починаємо з чистої дошки
+  chess.reset();
 
   for (const move of moves) {
     chess.move(move);
@@ -94,7 +99,7 @@ async function playGame(gamePgn) {
     encoder.addFrame(ctx);
   }
 
-  // Пауза між партіями
+  // Пауза після гри
   for (let i = 0; i < FRAMES_BETWEEN_GAMES; i++) {
     drawBoard(chess);
     encoder.addFrame(ctx);
@@ -103,6 +108,7 @@ async function playGame(gamePgn) {
 
 async function generateGIF() {
   await loadPieces();
+  await loadBoard();
 
   for (const game of GAMES) {
     await playGame(game);
@@ -110,7 +116,8 @@ async function generateGIF() {
 
   encoder.finish();
   await new Promise(r => writeStream.on('finish', r));
-  console.log('✔ chess-ai.gif з кількома партіями згенеровано');
+
+  console.log('✔ chess-ai.gif з PNG дошкою та фігурами згенеровано');
 }
 
 generateGIF().catch(err => {
