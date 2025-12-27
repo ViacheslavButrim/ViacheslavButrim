@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 
 /* ================= CONFIG ================= */
-const boardSize = 1200;            // повний розмір canvas
+const boardSize = 600;            // повний розмір canvas
 const squareSize = boardSize / 8;  // розмір клітинки
 const MOVES_DELAY_MS = 1000;
 const FRAMES_BETWEEN_GAMES = 5;
