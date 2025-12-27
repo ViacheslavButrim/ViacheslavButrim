@@ -25,6 +25,7 @@
 </div>
 
 <img 
+  align="center"
   src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/chess-ai.gif"
   alt="Chess AI"
   width="400"
