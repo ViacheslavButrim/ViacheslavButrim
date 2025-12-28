@@ -11,13 +11,11 @@ const canvasHeight = boardSize;
 const squareSize = boardSize / 8;
 
 // ================= TIMING =================
-const MOVE_DELAY = 1000;    // затримка на хід
-const END_FRAMES = 5;       // фінальні кадри партії
-const PAUSE_BETWEEN_GAMES = 200; // пауза між партіями (мс)
+const MOVE_DELAY = 900; // мс на хід (менше = менший GIF)
 
 // ================= GAMES =================
 const GAMES = [
-  `1. h4 e5 2. c4 Nf6 3. e3 c6 4. g4 g6 5. d4 d6 6. g5 Nh5 7. dxe5 dxe5 8. Qxd8+
+    `1. h4 e5 2. c4 Nf6 3. e3 c6 4. g4 g6 5. d4 d6 6. g5 Nh5 7. dxe5 dxe5 8. Qxd8+
 Kxd8 9. Nf3 Bg7 10. Nc3 Bg4 11. Be2 Nd7 12. Nd2 Bxe2 13. Kxe2 h6 14. Nde4 hxg5
 15. Nxg5 Ke7 16. b3 Ke8 17. Nce4 Bf8 18. Bb2 f5 19. Ng3 Bd6 20. Rad1 Ke7 21. Rd2
 Nxg3+ 22. fxg3 Bb4 23. Rd3 e4 24. Rd4 Rh5 25. Rhd1 Nf6 26. a3 Bc5 27. R4d2 Re8
@@ -222,19 +220,24 @@ Rxe5 exd5 22. Rf5 dxc4 23. Rxf7+ Kc8 24. Bc3 Rf8 25. Rxb7 Kxb7 26. Bxh8 Rxh8 27.
 Rxd6 Rf8 28. Rd4 cxb3 29. axb3 Rxf3 30. Rd7+ Kb6 31. Rxh7 a5 32. Kb2 Kb5 33.
 Rh5+ Kb4 34. c3+ Rxc3 35. Rb5+ Kxb5 36. Kxc3 1-0`
 ];
+];
 
-// ================= RANDOMIZE ARRAY =================
+// ================= RANDOMIZE =================
 function shuffleArray(arr) {
   return arr
-    .map(value => ({ value, sort: Math.random() }))
-    .sort((a, b) => a.sort - b.sort)
-    .map(({ value }) => value);
+    .map(v => ({ v, s: Math.random() }))
+    .sort((a, b) => a.s - b.s)
+    .map(({ v }) => v);
 }
 
-// ================= CANVAS / GIF =================
+// ================= CANVAS =================
 const encoder = new GIFEncoder(canvasWidth, canvasHeight);
 const canvas = createCanvas(canvasWidth, canvasHeight);
 const ctx = canvas.getContext('2d');
+
+// offscreen для дошки
+const boardCanvas = createCanvas(boardSize, boardSize);
+const boardCtx = boardCanvas.getContext('2d');
 
 const pieces = ['K', 'Q', 'R', 'B', 'N', 'P'];
 const pieceImages = {};
@@ -253,27 +256,34 @@ async function loadAssets() {
   }
 
   boardImage = await loadImage(path.join(assetsDir, 'dashboard.png'));
-  console.log('✔ Assets loaded');
+
+  // 🔒 Рендер дошки ОДИН РАЗ
+  boardCtx.drawImage(boardImage, 0, 0, boardSize, boardSize);
+
+  console.log('✔ Assets loaded, board cached');
 }
 
 // ================= DRAW FRAME =================
 function drawFrame(chess) {
   ctx.clearRect(0, 0, canvasWidth, canvasHeight);
-  ctx.drawImage(boardImage, 0, 0, boardSize, boardSize);
 
-  const b = chess.board();
+  // статична дошка
+  ctx.drawImage(boardCanvas, 0, 0);
+
+  // фігури
+  const board = chess.board();
   for (let y = 0; y < 8; y++) {
     for (let x = 0; x < 8; x++) {
-      const s = b[y][x];
-      if (s) {
-        ctx.drawImage(
-          pieceImages[s.color + s.type.toUpperCase()],
-          x * squareSize,
-          y * squareSize,
-          squareSize,
-          squareSize
-        );
-      }
+      const piece = board[y][x];
+      if (!piece) continue;
+
+      ctx.drawImage(
+        pieceImages[piece.color + piece.type.toUpperCase()],
+        x * squareSize,
+        y * squareSize,
+        squareSize,
+        squareSize
+      );
     }
   }
 }
@@ -286,17 +296,9 @@ async function playGame(pgn) {
   const moves = chess.history();
   chess.reset();
 
-  // основні ходи
-  for (const m of moves) {
-    chess.move(m);
+  for (const move of moves) {
+    chess.move(move);
     encoder.setDelay(MOVE_DELAY);
-    drawFrame(chess);
-    encoder.addFrame(ctx);
-  }
-
-  // фінальні кадри партії (короткі)
-  encoder.setDelay(PAUSE_BETWEEN_GAMES);
-  for (let i = 0; i < END_FRAMES; i++) {
     drawFrame(chess);
     encoder.addFrame(ctx);
   }
@@ -313,14 +315,13 @@ async function playGame(pgn) {
   encoder.createReadStream().pipe(fs.createWriteStream(gifPath));
 
   encoder.start();
-  encoder.setRepeat(0);
-  encoder.setQuality(10);
+  encoder.setRepeat(0);   // loop
+  encoder.setQuality(15); // 🔽 більша цифра = менший файл
 
-  // Рандомний порядок партій
-  const randomizedGames = shuffleArray(GAMES);
+  const games = shuffleArray(GAMES);
 
-  for (const g of randomizedGames) {
-    await playGame(g);
+  for (const game of games) {
+    await playGame(game);
   }
 
   encoder.finish();
