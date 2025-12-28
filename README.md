@@ -22,10 +22,10 @@
   
 <table>
   <tr>
-    <td width="380">
+    <td width="320">
       <img
         src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/chess-ai.gif"
-        width="360"
+        width="300"
         alt="Chess AI"
       />
     </td>
