@@ -4,82 +4,64 @@ const { Chess } = require('chess.js');
 const fs = require('fs');
 const path = require('path');
 
-// ================= SIZES =================
-const boardSize = 400;
+const boardSize = 360;
 const canvasWidth = boardSize;
 const canvasHeight = boardSize;
 const squareSize = boardSize / 8;
 
-// ================= TIMING =================
-const MOVE_DELAY = 1000;        // затримка на хід
-const END_FRAMES = 5;           // фінальні кадри партії
-const PAUSE_BETWEEN_GAMES = 200;
+const MOVE_DELAY = 1000;   
+const END_FRAMES = 5;      
+const PAUSE_BETWEEN_GAMES = 2000; 
 
 // ================= GAMES =================
-const GAMES = [ 
+const GAMES = [
+`1. b3 b6 2. Bb2 Bb7 3. e3 Nf6 4. Nf3 e6 5. g3 c5 6. Bg2 Qc7 7. O-O Be7 8. d4 d6
+9. c4 cxd4 10. exd4 a6 11. Nc3 Nbd7 12. d5 e5 13. Nh4 O-O 14. Nf5 Rae8 15. Nxe7+
+Rxe7 16. a4 Rfe8 17. Bc1 h6 18. Be3 Bc8 19. h3 Nf8 20. Qd2 N6d7 21. a5 bxa5 22.
+Ne2 f5 23. Qxa5 Qb8 24. Qa3 Ng6 25. Bd2 Nc5 26. Bb4 Rc7 27. Ba5 Rf7 28. b4 Ne4
+29. c5 Nd2 30. Rfd1 Nc4 31. Qd3 Nxa5 32. bxa5 dxc5 33. d6 e4 34. Qc3 Bd7 35.
+Qxc5 f4 36. Qh5 f3 37. Qxg6 fxg2 38. Nf4 e3 39. fxe3 Rxe3 40. Rab1 Qa7 41. Rb6
+Bf5 42. Qh5 Qd7 43. Nd5 Rxg3 44. Ne7+ Kh7 45. Qxf7 Rxh3 46. Qg8# 1-0`,
+  `1. e4 c5 2. Nf3 d6 3. c3 Nf6 4. Bd3 Nc6 5. Bc2 Bg4 6. h3 Bh5 7. d3 e6 8. Nbd2 d5
+9. Qe2 Be7 10. Nf1 h6 11. Ng3 Bg6 12. O-O Qc7 13. Re1 O-O 14. e5 Nd7 15. h4 Rac8
+16. h5 Bh7 17. Bf4 b5 18. a3 a5 19. Nh2 b4 20. Ng4 Kh8 21. Ba4 bxc3 22. bxc3 Rb8
+23. Qd2 Rb7 24. Bc2 Rfb8 25. Qd1 Rb2 26. Bc1 R2b7 27. Qe2 Qd8 28. Ba4 Qc7 29.
+Kh2 Rb1 30. Bf4 R1b2 31. Qf3 Nb6 32. Bd1 Nd7 33. Ba4 Nb6 34. Bxc6 Qxc6 35. Bc1
+Rc2 36. Qxf7 Bh4 37. Nf6 Qb7 38. Qxe6 Rxf2 39. Nxh7 Kxh7 40. Be3 Rff8 41. Bxc5
+Qf7 42. Qg6+ Qxg6 43. hxg6+ Kxg6 44. Bxf8 Rxf8 45. Rf1 Rc8 46. Nf5 Bg5 47. Rab1
+Na4 48. Rb7 Rxc3 49. Rxg7+ Kh5 50. Kh3 Rxd3+ 51. Ng3+ Rxg3+ 52. Kxg3 Bh4+ 53.
+Kh3 Nc3 54. g4# 1-0`,
+  `1. b3 d5 2. Bb2 Nf6 3. e3 g6 4. Bxf6 exf6 5. g3 Bd6 6. Bg2 Be6 7. c4 c6 8. cxd5
+Bxd5 9. Bxd5 cxd5 10. d4 Qa5+ 11. Kf1 h5 12. Nf3 Nd7 13. Qd3 f5 14. Nc3 Nf6 15.
+Kg2 O-O 16. a3 Rac8 17. Rhc1 Ne4 18. b4 Qd8 19. Nd2 h4 20. Ndxe4 dxe4 21. Qb5
+Qg5 22. Nxe4 h3+ 23. Kg1 Qe7 24. Nxd6 Qxd6 25. Qxb7 Rb8 26. Qc6 Qe7 27. Qc4 g5
+28. Qf1 g4 29. Qd3 Qb7 30. d5 Qd7 31. Rc5 Rb6 32. f3 Re8 33. Rd1 Rd6 34. Kf2
+gxf3 35. Qd4 Re4 36. Qc3 Re8 37. Rd4 Rg6 38. Rh4 Rg7 39. Qf6 Qa4 40. Qh6 Kf8 41.
+Qf6 Kg8 42. Qh6 Kf8 43. Qh8+ Rg8 44. Qd4 Qb3 45. Qd2 Qb1 46. Rc1 Qb3 47. d6 Rd8
+48. Rd4 Rg6 49. d7 Ke7 50. Rc8 Re6 51. Rxd8 Kxd8 52. e4 fxe4 53. Qg5+ f6 54.
+Qg8+ Kc7 55. d8=Q+ Kc6 56. Qd7+ Kb6 57. Qb8+ Ka6 58. Qdb5# 1-0`,
+  `1. b3 Nf6 2. Bb2 g6 3. Bxf6 exf6 4. e3 d5 5. d4 c6 6. Ne2 Bd6 7. c4 Be6 8. cxd5
+Bxd5 9. Nbc3 Qa5 10. f3 f5 11. Kf2 Be6 12. h4 h5 13. a3 O-O 14. g3 Nd7 15. b4
+Qc7 16. Nf4 Rae8 17. Rc1 Qb8 18. Bd3 Nf6 19. Qd2 Re7 20. Rhe1 Rfe8 21. Bb1 Bc4
+22. Ba2 Bxa2 23. Qxa2 Qd8 24. Nxg6 Re6 25. Nf4 Bxf4 26. gxf4 Nd5 27. Rg1+ Kh8
+28. Nxd5 Qxh4+ 29. Kf1 Qh3+ 30. Kf2 Qh2+ 31. Rg2 Qh4+ 32. Kg1 cxd5 33. Rh2 Rg6+
+34. Kf1 Qg3 35. Rxh5+ Kg7 36. Qf2 Rxe3 37. Qxe3 Qg2+ 38. Ke1 Kf8 39. Rc8+ Kg7
+40. Rg8+ Kxg8 41. Qe8+ Kg7 42. Qh8# 1-0`,
+  `1. b3 d5 2. Bb2 Nf6 3. d3 c5 4. Nd2 Nc6 5. Ngf3 Qc7 6. e4 d4 7. c3 e5 8. cxd4
+cxd4 9. Rc1 Bd6 10. Be2 O-O 11. O-O Qe7 12. Nc4 Be6 13. Nxd6 Qxd6 14. Qc2 Rfc8
+15. Nd2 b5 16. Qb1 h6 17. Rc2 Nb4 18. Rxc8+ Rxc8 19. Rc1 Rxc1+ 20. Bxc1 Qc5 21.
+Ba3 a5 22. Nf3 Nd7 23. Ne1 Qc3 24. Bb2 Qc7 25. h4 Nc5 26. Ba3 Nba6 27. Bc1 b4
+28. Bd2 Qd6 29. h5 Nc7 30. f4 exf4 31. Qc1 Nb5 32. Bxf4 Qb6 33. Bxh6 gxh6 34.
+Qxh6 Qd8 35. Nf3 Nc3 36. Bf1 Nd7 37. e5 Qf8 38. Qg5+ Kh8 39. Qf4 Qg7 40. Nxd4
+Qxe5 41. Qh6+ Kg8 42. Nc6 Qc5+ 43. d4 Qxc6 44. Qg5+ Kf8 45. Qd8+ Kg7 46. Qg5+
+Kf8 47. h6 Qe4 48. Qd8# 1-0`,
   `1. h4 e5 2. c4 Nf6 3. e3 c6 4. g4 g6 5. d4 d6 6. g5 Nh5 7. dxe5 dxe5 8. Qxd8+
 Kxd8 9. Nf3 Bg7 10. Nc3 Bg4 11. Be2 Nd7 12. Nd2 Bxe2 13. Kxe2 h6 14. Nde4 hxg5
 15. Nxg5 Ke7 16. b3 Ke8 17. Nce4 Bf8 18. Bb2 f5 19. Ng3 Bd6 20. Rad1 Ke7 21. Rd2
 Nxg3+ 22. fxg3 Bb4 23. Rd3 e4 24. Rd4 Rh5 25. Rhd1 Nf6 26. a3 Bc5 27. R4d2 Re8
-28. b4 Bb6 29. Rd6 Rf8 30. Re6# 1-0`,
-  `1. h4 d5 2. d4 Nf6 3. e3 Bf5 4. f3 h5 5. c4 e6 6. Nc3 c5 7. cxd5 exd5 8. Bd3
-Bxd3 9. Qxd3 Nc6 10. Nge2 Be7 11. Bd2 O-O 12. Kf2 Rc8 13. Rad1 Re8 14. g3 Bd6
-15. Kg2 cxd4 16. exd4 Qb6 17. Bg5 Nh7 18. Bf4 Bxf4 19. Nxf4 Qxb2+ 20. Rd2 Nb4
-21. Qxh7+ Kxh7 22. Rxb2 Rxc3 23. Rxb4 Rc2+ 24. Kh3 Kh6 25. Rxb7 f6 26. Rxa7 g5
-27. hxg5+ fxg5 28. Ra6+ 1-0`,
-  `1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bf4 O-O 6. e3 c5 7. dxc5 Bxc5 8. Be2
-dxc4 9. Qc2 Nc6 10. Bxc4 h6 11. O-O Qe7 12. Rfd1 Bd7 13. Ne4 Nxe4 14. Qxe4 Rac8
-15. a3 Rfd8 16. h4 Be8 17. Rxd8 Rxd8 18. Rc1 Bd6 19. Bd3 f5 20. Qc4 Bf7 21. Bxd6
-Qxd6 22. Be2 e5 23. Qb5 e4 24. Nh2 f4 25. Rd1 Qc7 26. Rxd8+ Nxd8 27. Nf1 fxe3
-28. Nxe3 Ne6 29. Bc4 a6 30. Qf5 Nd4 31. Qxe4 Bxc4 32. Qxd4 Be6 33. f3 Kf7 34.
-Kf2 b5 35. g4 Qh2+ 36. Ng2 Kg8 37. Qf4 Qh1 38. Qe5 Bc4 39. Qe8+ Kh7 40. Qe1 Qh2
-41. b3 Bd5 42. Qd1 Bf7 43. Qd4 Kg8 44. b4 Bc4 45. a4 Qh1 46. a5 1-0`,
-  `1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Nc3 a6 8. Ne5
-Ra7 9. Nxc4 b5 10. Ne5 Bb7 11. Bxb7 Rxb7 12. Be3 Nd5 13. Nxd5 Qxd5 14. Qb3 Rd8
-15. Rfc1 c5 16. dxc5 Qxe5 17. c6 Nxc6 18. Rxc6 a5 19. Rd1 Rxd1+ 20. Qxd1 h6 21.
-Rc8+ Kh7 22. Qc2+ Qf5 23. Qc6 Qd5 24. Qxd5 exd5 25. Bd4 Kg6 26. Kg2 f6 27. Kf3
-Kf5 28. Rc6 a4 29. g4+ Kg6 30. h4 Kf7 31. h5 b4 32. Bc5 a3 33. b3 Bxc5 34. Rxc5
-Ke6 35. Ke3 Kd6 36. Kd4 Ke6 37. f4 f5 38. Rc6+ Kd7 39. Rg6 fxg4 40. Rxg7+ Kc6
-41. Rxg4 Re7 42. e3 Re4+ 43. Kd3 Kc5 44. Rg6 Re8 45. Rxh6 Rg8 46. Rg6 Rh8 47. h6
-1-0`,
-  `1. e4 d5 2. exd5 Qxd5 3. Nc3 Qe5+ 4. Be2 Bg4 5. d4 Bxe2 6. Ncxe2 Qa5+ 7. c3 Nf6
-8. Nf3 e6 9. O-O Bd6 10. c4 c6 11. Nc3 O-O 12. Re1 Nbd7 13. c5 Be7 14. a3 Qc7
-15. g3 b6 16. Bf4 Qb7 17. b4 a5 18. Rb1 axb4 19. axb4 Rfd8 20. Qc2 Nf8 21. h4
-Nd5 22. Bg5 f6 23. Bd2 Nxc3 24. Qxc3 Rd5 25. Kg2 Rad8 26. Ra1 e5 27. cxb6 exd4
-28. Qc4 Bd6 29. Nxd4 Rc8 30. Nf5 Kh8 31. Ra7 Qxb6 32. Rxg7 Qb5 33. Qg4 Ng6 34.
-Rxh7+ Kxh7 35. Qh5+ Kg8 36. Qxg6+ Kf8 37. Qg7# 1-0`,
-  `1. Nf3 c5 2. e4 e6 3. b3 Nc6 4. Bb2 a6 5. g3 d5 6. d3 d4 7. Nbd2 e5 8. Nc4 Qc7
-9. a4 Be6 10. a5 Bxc4 11. bxc4 Nxa5 12. Nxe5 Bd6 13. Nf3 Nc6 14. Bg2 Nge7 15.
-O-O h5 16. Bc1 h4 17. Ng5 Ng6 18. f4 Be7 19. Qg4 Nb4 20. Rf2 hxg3 21. hxg3 Qc8
-22. Qf5 O-O 23. Nxf7 Qxf5 24. exf5 Kxf7 25. fxg6+ Kxg6 26. Bxb7 Ra7 27. Be4+ Kf7
-28. Ra5 Rc8 29. Ba3 Bd8 30. Bxb4 cxb4 31. Rf5+ Ke8 32. Re2 Be7 33. Bf3 a5 34.
-Bh5+ Kd7 35. Rxe7+ 1-0`,
-  `1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Qa4+ Nd7 8.
-Nf3 O-O 9. Bg5 c5 10. Rd1 cxd4 11. cxd4 Nf6 12. Bd3 Bg4 13. O-O Bxf3 14. gxf3
-Nh5 15. Be2 Bf6 16. Be3 Qc8 17. Kg2 e5 18. d5 Qd8 19. d6 Bg5 20. Kh1 Bf4 21. Rg1
-Qh4 22. Rg2 Rfd8 23. Qb3 Bxe3 24. fxe3 Rxd6 25. Rxd6 Qe1+ 26. Rg1 Qxe2 27. Qd1
-Qxe3 28. Re1 Qg5 29. Rd7 Nf4 30. Rg1 Qf6 31. Rxb7 Rd8 32. Rd7 Rxd7 33. Qxd7 Ne2
-34. Rf1 Nf4 35. Qxa7 Qg5 36. Qf2 h5 37. a4 Nd3 38. Qe2 Nf4 39. Qd2 Qf6 40. a5
-Qa6 41. Re1 Ne6 42. Qc3 Nd4 43. Kg2 Qf6 44. Rf1 h4 45. Kh1 Qa6 46. Re1 Kg7 47.
-f4 f6 48. fxe5 fxe5 49. Qc7+ Kh6 50. Qxe5 Qd3 51. Qh8+ Kg5 52. Rg1+ Kf4 53.
-Qxh4+ Ke3 54. Rg3+ Nf3 55. Rxf3+ 1-0`,
-  `1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Qa4+ Nd7 8.
-Nf3 O-O 9. Bg5 c5 10. Rd1 cxd4 11. cxd4 Nf6 12. Bd3 Bg4 13. O-O Bxf3 14. gxf3
-Nh5 15. Be2 Bf6 16. Be3 Qc8 17. Kg2 e5 18. d5 Qd8 19. d6 Bg5 20. Kh1 Bf4 21. Rg1
-Qh4 22. Rg2 Rfd8 23. Qb3 Bxe3 24. fxe3 Rxd6 25. Rxd6 Qe1+ 26. Rg1 Qxe2 27. Qd1
-Qxe3 28. Re1 Qg5 29. Rd7 Nf4 30. Rg1 Qf6 31. Rxb7 Rd8 32. Rd7 Rxd7 33. Qxd7 Ne2
-34. Rf1 Nf4 35. Qxa7 Qg5 36. Qf2 h5 37. a4 Nd3 38. Qe2 Nf4 39. Qd2 Qf6 40. a5
-Qa6 41. Re1 Ne6 42. Qc3 Nd4 43. Kg2 Qf6 44. Rf1 h4 45. Kh1 Qa6 46. Re1 Kg7 47.
-f4 f6 48. fxe5 fxe5 49. Qc7+ Kh6 50. Qxe5 Qd3 51. Qh8+ Kg5 52. Rg1+ Kf4 53.
-Qxh4+ Ke3 54. Rg3+ Nf3 55. Rxf3+ 1-0`,
-  `1. d4 e6 2. c4 b6 3. Nf3 Bb7 4. g3 Nf6 5. Bg2 g6 6. Nc3 Bg7 7. d5 O-O 8. O-O Na6
-9. e4 exd5 10. cxd5 c6 11. d6 Re8 12. Re1 Ng4 13. Bg5 Bf6 14. Bxf6 Qxf6 15. h3
-Ne5 16. Nxe5 Qxe5 17. f4 Qc5+ 18. Kh2 Nb4 19. a3 Na6 20. e5 f5 21. Rc1 Qa5 22.
-g4 Rf8 23. e6 dxe6 24. Re5 b5 25. Rxe6 Rad8 26. Re7 Qb6 27. Qb3+ Kh8 28. Qe6 Qd4
-29. Ne2 Qxd6 30. Qxd6 Rxd6 31. Rxb7 Rd2 32. Rxc6 Nb8 33. Rcc7 Re8 34. Rxh7+ 1-0`
+28. b4 Bb6 29. Rd6 Rf8 30. Re6# 1-0`
 ];
 
-// ================= RANDOMIZE ARRAY =================
 function shuffleArray(arr) {
   return arr
     .map(value => ({ value, sort: Math.random() }))
@@ -87,20 +69,14 @@ function shuffleArray(arr) {
     .map(({ value }) => value);
 }
 
-// ================= CANVAS / GIF =================
 const encoder = new GIFEncoder(canvasWidth, canvasHeight);
 const canvas = createCanvas(canvasWidth, canvasHeight);
 const ctx = canvas.getContext('2d');
-
-// 🔒 offscreen canvas — дошка малюється ОДИН РАЗ
-const boardCanvas = createCanvas(boardSize, boardSize);
-const boardCtx = boardCanvas.getContext('2d');
 
 const pieces = ['K', 'Q', 'R', 'B', 'N', 'P'];
 const pieceImages = {};
 let boardImage;
 
-// ================= LOAD ASSETS =================
 async function loadAssets() {
   const assetsDir = path.join(process.cwd(), 'assets');
 
@@ -112,22 +88,13 @@ async function loadAssets() {
     }
   }
 
-  boardImage = await loadImage(
-    path.join(assetsDir, 'dashboard.png')
-  );
-
-  // ⚡ МАЛЮЄМО ДОШКУ ОДИН РАЗ
-  boardCtx.drawImage(boardImage, 0, 0, boardSize, boardSize);
-
-  console.log('✔ Assets loaded, board cached');
+  boardImage = await loadImage(path.join(assetsDir, 'dashboard.png'));
+  console.log('✔ Assets loaded');
 }
 
-// ================= DRAW FRAME =================
 function drawFrame(chess) {
   ctx.clearRect(0, 0, canvasWidth, canvasHeight);
-
-  // ⚡ швидке копіювання готової дошки
-  ctx.drawImage(boardCanvas, 0, 0);
+  ctx.drawImage(boardImage, 0, 0, boardSize, boardSize);
 
   const b = chess.board();
   for (let y = 0; y < 8; y++) {
@@ -146,7 +113,6 @@ function drawFrame(chess) {
   }
 }
 
-// ================= PLAY GAME =================
 async function playGame(pgn) {
   const chess = new Chess();
   chess.loadPgn(pgn);
@@ -154,7 +120,6 @@ async function playGame(pgn) {
   const moves = chess.history();
   chess.reset();
 
-  // основні ходи
   for (const m of moves) {
     chess.move(m);
     encoder.setDelay(MOVE_DELAY);
@@ -162,7 +127,6 @@ async function playGame(pgn) {
     encoder.addFrame(ctx);
   }
 
-  // фінальні кадри
   encoder.setDelay(PAUSE_BETWEEN_GAMES);
   for (let i = 0; i < END_FRAMES; i++) {
     drawFrame(chess);
@@ -170,7 +134,6 @@ async function playGame(pgn) {
   }
 }
 
-// ================= MAIN =================
 (async () => {
   await loadAssets();
 
@@ -182,7 +145,7 @@ async function playGame(pgn) {
 
   encoder.start();
   encoder.setRepeat(0);
-  encoder.setQuality(10);
+  encoder.setQuality(1);
 
   const randomizedGames = shuffleArray(GAMES);
 
