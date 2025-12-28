@@ -6,7 +6,7 @@ const path = require('path');
 
 // ================= SIZES =================
 const boardSize = 400;
-const sidebarWidth = 260;
+const sidebarWidth = 300; // трохи ширше для красивого тексту
 const canvasWidth = boardSize + sidebarWidth;
 const canvasHeight = boardSize;
 const squareSize = boardSize / 8;
@@ -65,46 +65,32 @@ async function loadAssets() {
   console.log('✔ Assets loaded');
 }
 
-// ================= DRAW STATIC TEXT =================
+// ================= DRAW TEXT =================
 function drawSidebar(text) {
-  const x = boardSize + 16;
-  const maxWidth = sidebarWidth - 32;
-
+  const xStart = boardSize + 20; // відступ від дошки
+  const maxWidth = sidebarWidth - 40; // padding
   ctx.fillStyle = '#22d3ee';
-  ctx.font = '14px monospace';
+  ctx.font = '18px "Courier New", monospace';
   ctx.textBaseline = 'top';
-
-  let y = 16;
 
   const paragraphs = text.split('\n');
 
+  // вирівнювання по центру
+  const totalHeight = paragraphs.length * 24 + (paragraphs.length - 1) * 8;
+  let y = (canvasHeight - totalHeight) / 2;
+
   for (const p of paragraphs) {
-    let line = '';
-    const words = p.split(' ');
-
-    for (const w of words) {
-      const test = line + w + ' ';
-      if (ctx.measureText(test).width > maxWidth) {
-        ctx.fillText(line, x, y);
-        line = w + ' ';
-        y += 18;
-      } else {
-        line = test;
-      }
-    }
-
-    if (line) {
-      ctx.fillText(line, x, y);
-      y += 22;
-    }
+    const textWidth = ctx.measureText(p).width;
+    const x = xStart + (maxWidth - textWidth) / 2;
+    ctx.fillText(p, x, y);
+    y += 32; // висота рядка + відстань між рядками
   }
 }
 
 // ================= DRAW FRAME =================
 function drawFrame(chess, sidebarText) {
-  // фон лише для дошки
-  ctx.fillStyle = '#0a0a1f';
-  ctx.fillRect(0, 0, boardSize, boardSize);
+  // фон прозорий, нічого не малюємо
+  ctx.clearRect(0, 0, canvasWidth, canvasHeight);
 
   // дошка
   ctx.drawImage(boardImage, 0, 0, boardSize, boardSize);
@@ -125,7 +111,7 @@ function drawFrame(chess, sidebarText) {
     }
   }
 
-  // текст справа (статично)
+  // текст справа
   drawSidebar(sidebarText);
 }
 
