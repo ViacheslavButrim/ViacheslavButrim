@@ -15,8 +15,6 @@ const squareSize = boardSize / 8;
 
 // ================= TIMING =================
 const MOVE_DELAY = 1000;
-const RAIN_DELAY = 60;
-const RAIN_FRAMES = 3;
 const END_FRAMES = 20;
 
 // ================= GAMES =================
@@ -70,57 +68,6 @@ async function loadAssets() {
   console.log('✔ Assets loaded');
 }
 
-// ================= PIXEL RAIN =================
-const PIXEL_LAYERS = [
-  { count: 30, speed: 2, size: [4, 8], alpha: 0.8 },
-  { count: 20, speed: 3.5, size: [6, 12], alpha: 0.6 },
-  { count: 10, speed: 5, size: [8, 14], alpha: 0.4 }
-];
-const COLORS = ['#22d3ee', '#00fff7'];
-
-function createRain() {
-  const arr = [];
-  for (const l of PIXEL_LAYERS) {
-    for (let i = 0; i < l.count; i++) {
-      arr.push({
-        x: Math.random() * canvasWidth,
-        y: Math.random() * canvasHeight,
-        speed: l.speed * (0.8 + Math.random()),
-        size: l.size[0] + Math.random() * (l.size[1] - l.size[0]),
-        alpha: l.alpha,
-        drift: Math.random() * 1.5 - 0.75,
-        color: COLORS[Math.random() * COLORS.length | 0]
-      });
-    }
-  }
-  return arr;
-}
-
-const rain = createRain();
-
-function updateRain(rainArr) {
-  for (const p of rainArr) {
-    p.y += p.speed;
-    p.x += p.drift;
-    if (p.y > canvasHeight) {
-      p.y = -p.size;
-      p.x = Math.random() * canvasWidth;
-    }
-  }
-}
-
-function drawRain(rainArr) {
-  for (const p of rainArr) {
-    ctx.globalAlpha = p.alpha;
-    ctx.shadowBlur = 12;
-    ctx.shadowColor = p.color;
-    ctx.fillStyle = p.color;
-    ctx.fillRect(p.x, p.y, p.size, p.size);
-  }
-  ctx.globalAlpha = 1;
-  ctx.shadowBlur = 0;
-}
-
 // ================= SIDEBAR TEXT =================
 function drawSidebar(text) {
   const x = boardSize;
@@ -165,7 +112,6 @@ function drawFrame(chess, sidebarText) {
   ctx.fillStyle = '#0a0a1f';
   ctx.fillRect(0, 0, canvasWidth, canvasHeight);
 
-  drawRain(rain);
   ctx.drawImage(boardImage, 0, 0, boardSize, boardSize);
 
   const b = chess.board();
@@ -201,17 +147,9 @@ async function playGame(game) {
     encoder.setDelay(MOVE_DELAY);
     drawFrame(chess, game.text);
     encoder.addFrame(ctx);
-
-    encoder.setDelay(RAIN_DELAY);
-    for (let i = 0; i < RAIN_FRAMES; i++) {
-      updateRain(rain);
-      drawFrame(chess, game.text);
-      encoder.addFrame(ctx);
-    }
   }
 
   for (let i = 0; i < END_FRAMES; i++) {
-    updateRain(rain);
     drawFrame(chess, game.text);
     encoder.addFrame(ctx);
   }
