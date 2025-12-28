@@ -49,4 +49,4 @@ if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
 fs.writeFileSync(path.join(outputDir, 'pixel-rain-advanced.svg'), svg);
 
-console.log('✔ Advanced Pixel Rain SVG generated');
+console.log('Advanced Pixel Rain SVG generated');
