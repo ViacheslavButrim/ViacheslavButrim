@@ -7,10 +7,8 @@ const path = require('path');
 // ================= SIZES =================
 const boardSize = 400;
 const sidebarWidth = 260;
-
 const canvasWidth = boardSize + sidebarWidth;
 const canvasHeight = boardSize;
-
 const squareSize = boardSize / 8;
 
 // ================= TIMING =================
@@ -39,7 +37,6 @@ const GAMES = [
 function rotateArray(arr, startIndex) {
   return [...arr.slice(startIndex), ...arr.slice(0, startIndex)];
 }
-
 const startIndex = Math.floor(Math.random() * GAMES.length);
 const RANDOMIZED_GAMES = rotateArray(GAMES, startIndex);
 
@@ -68,20 +65,23 @@ async function loadAssets() {
   console.log('✔ Assets loaded');
 }
 
-// ================= SIDEBAR TEXT =================
-function drawSidebar(text) {
-  const x = boardSize;
-  const padding = 16;
+// ================= TEXT ANIMATION =================
+function getAnimatedText(fullText, frame) {
+  const speed = 2; // літер за кадр
+  const maxChars = Math.min(fullText.length, frame * speed);
+  return fullText.slice(0, maxChars);
+}
 
-  ctx.fillStyle = '#0f172a';
-  ctx.fillRect(x, 0, sidebarWidth, canvasHeight);
+// ================= DRAW SIDEBAR =================
+function drawSidebar(text) {
+  const x = boardSize + 16;
+  const maxWidth = sidebarWidth - 32;
 
   ctx.fillStyle = '#22d3ee';
   ctx.font = '14px monospace';
   ctx.textBaseline = 'top';
 
-  const maxWidth = sidebarWidth - padding * 2;
-  let y = padding;
+  let y = 16;
 
   const paragraphs = text.split('\n');
 
@@ -92,7 +92,7 @@ function drawSidebar(text) {
     for (const w of words) {
       const test = line + w + ' ';
       if (ctx.measureText(test).width > maxWidth) {
-        ctx.fillText(line, x + padding, y);
+        ctx.fillText(line, x, y);
         line = w + ' ';
         y += 18;
       } else {
@@ -101,7 +101,7 @@ function drawSidebar(text) {
     }
 
     if (line) {
-      ctx.fillText(line, x + padding, y);
+      ctx.fillText(line, x, y);
       y += 22;
     }
   }
@@ -109,9 +109,14 @@ function drawSidebar(text) {
 
 // ================= DRAW FRAME =================
 function drawFrame(chess, sidebarText) {
+  // фон дошки
   ctx.fillStyle = '#0a0a1f';
-  ctx.fillRect(0, 0, canvasWidth, canvasHeight);
+  ctx.fillRect(0, 0, boardSize, boardSize);
 
+  // очистити область тексту (прозоро)
+  ctx.clearRect(boardSize, 0, sidebarWidth, canvasHeight);
+
+  // дошка
   ctx.drawImage(boardImage, 0, 0, boardSize, boardSize);
 
   const b = chess.board();
@@ -141,14 +146,30 @@ async function playGame(game) {
   const moves = chess.history();
   chess.reset();
 
+  let textFrame = 0;
+  let animatedText = '';
+
   for (const m of moves) {
     chess.move(m);
 
+    animatedText = getAnimatedText(game.text, textFrame);
+    textFrame++;
+
     encoder.setDelay(MOVE_DELAY);
-    drawFrame(chess, game.text);
+    drawFrame(chess, animatedText);
     encoder.addFrame(ctx);
   }
 
+  // текст дописується після всіх ходів
+  while (animatedText.length < game.text.length) {
+    animatedText = getAnimatedText(game.text, textFrame);
+    textFrame++;
+
+    drawFrame(chess, animatedText);
+    encoder.addFrame(ctx);
+  }
+
+  // фінальні кадри
   for (let i = 0; i < END_FRAMES; i++) {
     drawFrame(chess, game.text);
     encoder.addFrame(ctx);
