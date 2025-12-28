@@ -20,34 +20,25 @@
        width="100%" 
        style="display:block; margin:0; padding:0; vertical-align:bottom;" />
   
-<table align="center">
+<table>
   <tr>
-    <td align="center">
+    <td width="380">
       <img
         src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/chess-ai.gif"
-        width="100%"
-        style="max-width:360px"
+        width="360"
         alt="Chess AI"
       />
     </td>
-  </tr>
-  <tr>
-    <td align="center">
-<img
-        src="https://capsule-render.vercel.app/api?type=rect&height=8&color=0:61DAFB,100:0F172A"
-        width="100%"
-      />
-<br/>
-<img
-        src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=61DAFB&center=true&vCenter=true&width=600&lines=Every+move+matters;+Plan+your+code+like+a+grandmaster;+Innovation+starts+with+strategy"
-        alt="Typing SVG"
-      />
- <br/>
-  <img
-        src="https://capsule-render.vercel.app/api?type=rect&height=8&color=0:0F172A,100:61DAFB"
-        width="100%"
-      />
-</td>
+    <td valign="center">
+    <p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=10&color=0:61DAFB,100:0F172A" />
+</p>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=61DAFB&center=true&vCenter=true&width=800&lines=Every+move+matters;+Plan+your+code+like+a+grandmaster;+Innovation+starts+with+strategy" alt="Typing SVG" />
+</p>
+      <p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=10&color=0:0F172A,100:61DAFB" />
+</p>
   </tr>
 </table>
   <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/pixel-rain.svg"
