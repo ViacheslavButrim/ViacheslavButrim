@@ -6,8 +6,7 @@ const path = require('path');
 
 // ================= SIZES =================
 const boardSize = 400;
-const sidebarWidth = 300; // трохи ширше для красивого тексту
-const canvasWidth = boardSize + sidebarWidth;
+const canvasWidth = boardSize;
 const canvasHeight = boardSize;
 const squareSize = boardSize / 8;
 
@@ -17,28 +16,19 @@ const END_FRAMES = 20;
 
 // ================= GAMES =================
 const GAMES = [
-  {
-    pgn: `[Event "Random Game"]
+  `[Event "Random Game"]
 1. e4 e5 2. Nf3 Nc6 3. Bb5 a6`,
-    text: `Іспанська партія.
-Класичний дебют з тиском на коня c6.
-Білі отримують комфортну ініціативу.`
-  },
-  {
-    pgn: `[Event "Another Game"]
-1. d4 d5 2. c4 c6 3. Nc3 Nf6`,
-    text: `Слов’янський захист.
-Надійна пішакова структура.
-Гра на позиційне перевищення.`
-  }
+  `[Event "Another Game"]
+1. d4 d5 2. c4 c6 3. Nc3 Nf6`
 ];
 
-// ================= RANDOM START =================
-function rotateArray(arr, startIndex) {
-  return [...arr.slice(startIndex), ...arr.slice(0, startIndex)];
+// ================= RANDOMIZE ARRAY =================
+function shuffleArray(arr) {
+  return arr
+    .map(value => ({ value, sort: Math.random() }))
+    .sort((a, b) => a.sort - b.sort)
+    .map(({ value }) => value);
 }
-const startIndex = Math.floor(Math.random() * GAMES.length);
-const RANDOMIZED_GAMES = rotateArray(GAMES, startIndex);
 
 // ================= CANVAS / GIF =================
 const encoder = new GIFEncoder(canvasWidth, canvasHeight);
@@ -65,34 +55,9 @@ async function loadAssets() {
   console.log('✔ Assets loaded');
 }
 
-// ================= DRAW TEXT =================
-function drawSidebar(text) {
-  const xStart = boardSize + 20; // відступ від дошки
-  const maxWidth = sidebarWidth - 40; // padding
-  ctx.fillStyle = '#22d3ee';
-  ctx.font = '18px "Courier New", monospace';
-  ctx.textBaseline = 'top';
-
-  const paragraphs = text.split('\n');
-
-  // вирівнювання по центру
-  const totalHeight = paragraphs.length * 24 + (paragraphs.length - 1) * 8;
-  let y = (canvasHeight - totalHeight) / 2;
-
-  for (const p of paragraphs) {
-    const textWidth = ctx.measureText(p).width;
-    const x = xStart + (maxWidth - textWidth) / 2;
-    ctx.fillText(p, x, y);
-    y += 32; // висота рядка + відстань між рядками
-  }
-}
-
 // ================= DRAW FRAME =================
-function drawFrame(chess, sidebarText) {
-  // фон прозорий, нічого не малюємо
+function drawFrame(chess) {
   ctx.clearRect(0, 0, canvasWidth, canvasHeight);
-
-  // дошка
   ctx.drawImage(boardImage, 0, 0, boardSize, boardSize);
 
   const b = chess.board();
@@ -110,30 +75,25 @@ function drawFrame(chess, sidebarText) {
       }
     }
   }
-
-  // текст справа
-  drawSidebar(sidebarText);
 }
 
 // ================= PLAY GAME =================
-async function playGame(game) {
+async function playGame(pgn) {
   const chess = new Chess();
-  chess.loadPgn(game.pgn);
+  chess.loadPgn(pgn);
 
   const moves = chess.history();
   chess.reset();
 
   for (const m of moves) {
     chess.move(m);
-
     encoder.setDelay(MOVE_DELAY);
-    drawFrame(chess, game.text);
+    drawFrame(chess);
     encoder.addFrame(ctx);
   }
 
-  // фінальні кадри
   for (let i = 0; i < END_FRAMES; i++) {
-    drawFrame(chess, game.text);
+    drawFrame(chess);
     encoder.addFrame(ctx);
   }
 }
@@ -152,8 +112,11 @@ async function playGame(game) {
   encoder.setRepeat(0);
   encoder.setQuality(10);
 
-  for (const game of RANDOMIZED_GAMES) {
-    await playGame(game);
+  // Рандомний порядок партій
+  const randomizedGames = shuffleArray(GAMES);
+
+  for (const g of randomizedGames) {
+    await playGame(g);
   }
 
   encoder.finish();
