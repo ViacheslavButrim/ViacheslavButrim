@@ -31,7 +31,7 @@
     </td>
     <td valign="center">
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=61DAFB&center=true&vCenter=true&width=800&lines=Shaping+digital+experiences;Turning+complex+ideas+into+clean+interfaces;Web+solutions+that+engage" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=61DAFB&center=true&vCenter=true&width=800&lines=Every+move+matters;+Plan+your+code+like+a+grandmaster;+Innovation+starts+with+strategy" alt="Typing SVG" />
 </p>
   </tr>
 </table>
