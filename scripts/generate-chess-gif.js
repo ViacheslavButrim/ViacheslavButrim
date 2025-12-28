@@ -4,7 +4,7 @@ const { Chess } = require('chess.js');
 const fs = require('fs');
 const path = require('path');
 
-const boardSize = 360;
+const boardSize = 400;
 const canvasWidth = boardSize;
 const canvasHeight = boardSize;
 const squareSize = boardSize / 8;
@@ -22,15 +22,6 @@ Ne2 f5 23. Qxa5 Qb8 24. Qa3 Ng6 25. Bd2 Nc5 26. Bb4 Rc7 27. Ba5 Rf7 28. b4 Ne4
 29. c5 Nd2 30. Rfd1 Nc4 31. Qd3 Nxa5 32. bxa5 dxc5 33. d6 e4 34. Qc3 Bd7 35.
 Qxc5 f4 36. Qh5 f3 37. Qxg6 fxg2 38. Nf4 e3 39. fxe3 Rxe3 40. Rab1 Qa7 41. Rb6
 Bf5 42. Qh5 Qd7 43. Nd5 Rxg3 44. Ne7+ Kh7 45. Qxf7 Rxh3 46. Qg8# 1-0`,
-  `1. e4 c5 2. Nf3 d6 3. c3 Nf6 4. Bd3 Nc6 5. Bc2 Bg4 6. h3 Bh5 7. d3 e6 8. Nbd2 d5
-9. Qe2 Be7 10. Nf1 h6 11. Ng3 Bg6 12. O-O Qc7 13. Re1 O-O 14. e5 Nd7 15. h4 Rac8
-16. h5 Bh7 17. Bf4 b5 18. a3 a5 19. Nh2 b4 20. Ng4 Kh8 21. Ba4 bxc3 22. bxc3 Rb8
-23. Qd2 Rb7 24. Bc2 Rfb8 25. Qd1 Rb2 26. Bc1 R2b7 27. Qe2 Qd8 28. Ba4 Qc7 29.
-Kh2 Rb1 30. Bf4 R1b2 31. Qf3 Nb6 32. Bd1 Nd7 33. Ba4 Nb6 34. Bxc6 Qxc6 35. Bc1
-Rc2 36. Qxf7 Bh4 37. Nf6 Qb7 38. Qxe6 Rxf2 39. Nxh7 Kxh7 40. Be3 Rff8 41. Bxc5
-Qf7 42. Qg6+ Qxg6 43. hxg6+ Kxg6 44. Bxf8 Rxf8 45. Rf1 Rc8 46. Nf5 Bg5 47. Rab1
-Na4 48. Rb7 Rxc3 49. Rxg7+ Kh5 50. Kh3 Rxd3+ 51. Ng3+ Rxg3+ 52. Kxg3 Bh4+ 53.
-Kh3 Nc3 54. g4# 1-0`,
   `1. b3 d5 2. Bb2 Nf6 3. e3 g6 4. Bxf6 exf6 5. g3 Bd6 6. Bg2 Be6 7. c4 c6 8. cxd5
 Bxd5 9. Bxd5 cxd5 10. d4 Qa5+ 11. Kf1 h5 12. Nf3 Nd7 13. Qd3 f5 14. Nc3 Nf6 15.
 Kg2 O-O 16. a3 Rac8 17. Rhc1 Ne4 18. b4 Qd8 19. Nd2 h4 20. Ndxe4 dxe4 21. Qb5
@@ -145,7 +136,7 @@ async function playGame(pgn) {
 
   encoder.start();
   encoder.setRepeat(0);
-  encoder.setQuality(1);
+  encoder.setQuality(15);
 
   const randomizedGames = shuffleArray(GAMES);
 
