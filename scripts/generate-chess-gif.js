@@ -11,7 +11,7 @@ const squareSize = boardSize / 8;
 
 const MOVE_DELAY = 1000;   
 const END_FRAMES = 5;      
-const PAUSE_BETWEEN_GAMES = 2000; 
+const PAUSE_BETWEEN_GAMES = 200; 
 
 // ================= GAMES =================
 const GAMES = [
