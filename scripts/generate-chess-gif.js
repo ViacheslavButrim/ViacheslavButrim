@@ -11,12 +11,12 @@ const canvasHeight = boardSize;
 const squareSize = boardSize / 8;
 
 // ================= TIMING =================
-const MOVE_DELAY = 1000;    // затримка на хід
-const END_FRAMES = 5;       // фінальні кадри партії
-const PAUSE_BETWEEN_GAMES = 200; // пауза між партіями (мс)
+const MOVE_DELAY = 1000;        // затримка на хід
+const END_FRAMES = 5;           // фінальні кадри партії
+const PAUSE_BETWEEN_GAMES = 200;
 
 // ================= GAMES =================
-const GAMES = [
+const GAMES = [ 
   `1. h4 e5 2. c4 Nf6 3. e3 c6 4. g4 g6 5. d4 d6 6. g5 Nh5 7. dxe5 dxe5 8. Qxd8+
 Kxd8 9. Nf3 Bg7 10. Nc3 Bg4 11. Be2 Nd7 12. Nd2 Bxe2 13. Kxe2 h6 14. Nde4 hxg5
 15. Nxg5 Ke7 16. b3 Ke8 17. Nce4 Bf8 18. Bb2 f5 19. Ng3 Bd6 20. Rad1 Ke7 21. Rd2
@@ -110,6 +110,10 @@ const encoder = new GIFEncoder(canvasWidth, canvasHeight);
 const canvas = createCanvas(canvasWidth, canvasHeight);
 const ctx = canvas.getContext('2d');
 
+// 🔒 offscreen canvas — дошка малюється ОДИН РАЗ
+const boardCanvas = createCanvas(boardSize, boardSize);
+const boardCtx = boardCanvas.getContext('2d');
+
 const pieces = ['K', 'Q', 'R', 'B', 'N', 'P'];
 const pieceImages = {};
 let boardImage;
@@ -126,14 +130,22 @@ async function loadAssets() {
     }
   }
 
-  boardImage = await loadImage(path.join(assetsDir, 'dashboard.png'));
-  console.log('✔ Assets loaded');
+  boardImage = await loadImage(
+    path.join(assetsDir, 'dashboard.png')
+  );
+
+  // ⚡ МАЛЮЄМО ДОШКУ ОДИН РАЗ
+  boardCtx.drawImage(boardImage, 0, 0, boardSize, boardSize);
+
+  console.log('✔ Assets loaded, board cached');
 }
 
 // ================= DRAW FRAME =================
 function drawFrame(chess) {
   ctx.clearRect(0, 0, canvasWidth, canvasHeight);
-  ctx.drawImage(boardImage, 0, 0, boardSize, boardSize);
+
+  // ⚡ швидке копіювання готової дошки
+  ctx.drawImage(boardCanvas, 0, 0);
 
   const b = chess.board();
   for (let y = 0; y < 8; y++) {
@@ -168,7 +180,7 @@ async function playGame(pgn) {
     encoder.addFrame(ctx);
   }
 
-  // фінальні кадри партії (короткі)
+  // фінальні кадри
   encoder.setDelay(PAUSE_BETWEEN_GAMES);
   for (let i = 0; i < END_FRAMES; i++) {
     drawFrame(chess);
@@ -190,7 +202,6 @@ async function playGame(pgn) {
   encoder.setRepeat(0);
   encoder.setQuality(10);
 
-  // Рандомний порядок партій
   const randomizedGames = shuffleArray(GAMES);
 
   for (const g of randomizedGames) {
