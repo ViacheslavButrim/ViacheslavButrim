@@ -72,4 +72,4 @@ const outputDir = path.join(__dirname, '..', 'output');
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
 fs.writeFileSync(path.join(outputDir, 'interactive-starfield-hover.svg'), svg);
-console.log('✔ Interactive Starfield з hover згенеровано у output/interactive-starfield-hover.svg');
+console.log('Interactive Starfield з hover згенеровано у output/interactive-starfield-hover.svg');
