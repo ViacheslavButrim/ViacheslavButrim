@@ -25,9 +25,7 @@
     <td width="420">
       <img
         src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/chess-ai.gif"
-        width="360"
-        height="360"
-        align="center"
+        width="400"
         alt="Chess AI"
       />
     </td>
