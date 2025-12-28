@@ -10,7 +10,7 @@ const canvasHeight = boardSize;
 
 const squareSize = boardSize / 8;
 
-const MOVE_DELAY = 1000;                
+const MOVE_DELAY = 1000;               
 const END_FRAMES = 20;
 
 const GAMES = [
