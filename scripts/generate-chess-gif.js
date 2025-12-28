@@ -4,38 +4,32 @@ const { Chess } = require('chess.js');
 const fs = require('fs');
 const path = require('path');
 
-const boardSize = 400;
-const canvasWidth = boardSize;
+const boardSize = 400; // шахівниця 400x400
+const textWidth = 400; // місце для тексту праворуч
+const canvasWidth = boardSize + textWidth;
 const canvasHeight = boardSize;
 
 const squareSize = boardSize / 8;
 
-const MOVE_DELAY = 1000;        
-const RAIN_DELAY = 60;         
-const RAIN_FRAMES = 3;         
+const MOVE_DELAY = 1000;
 const END_FRAMES = 20;
 
+// PGN партії
 const GAMES = [
-  `[Event "Random Game"]
-  1. e4 e5 2. Nf3 Nc6 3. Bb5 a6`,
-  `[Event "Another Game"]
-  1. d4 d5 2. c4 c6 3. Nc3 Nf6`
+  `[Event "January 07 Late 2025"]
+[Date "2025.01.07"]
+[White "Magnus Carlsen"]
+[Black "Jose Carlos Ibarra Jerez"]
+[Result "1-0"]
+1. h4 e5 2. c4 Nf6 3. e3 c6 4. g4 g6 5. d4 d6 6. g5 Nh5 7. dxe5 dxe5 8. Qxd8+
+Kxd8 9. Nf3 Bg7 10. Nc3 Bg4 11. Be2 Nd7 12. Nd2 Bxe2 13. Kxe2 h6 14. Nde4 hxg5
+15. Nxg5 Ke7 16. b3 Ke8 17. Nce4 Bf8 18. Bb2 f5 19. Ng3 Bd6 20. Rad1 Ke7 21. Rd2
+Nxg3+ 22. fxg3 Bb4 23. Rd3 e4 24. Rd4 Rh5 25. Rhd1 Nf6 26. a3 Bc5 27. R4d2 Re8
+28. b4 Bb6 29. Rd6 Rf8 30. Re6# 1-0`
 ];
 
-// ================= RANDOM START =================
-function shuffle(arr) {
-  return arr
-    .map(v => ({ v, r: Math.random() }))
-    .sort((a, b) => a.r - b.r)
-    .map(o => o.v);
-}
-
-function rotateArray(arr, startIndex) {
-  return [...arr.slice(startIndex), ...arr.slice(0, startIndex)];
-}
-
 const startIndex = Math.floor(Math.random() * GAMES.length);
-const RANDOMIZED_GAMES = rotateArray(GAMES, startIndex);
+const RANDOMIZED_GAMES = [...GAMES.slice(startIndex), ...GAMES.slice(0, startIndex)];
 
 const encoder = new GIFEncoder(canvasWidth, canvasHeight);
 const canvas = createCanvas(canvasWidth, canvasHeight);
@@ -45,86 +39,29 @@ const pieces = ['K','Q','R','B','N','P'];
 const pieceImages = {};
 let boardImage;
 
-// ============== Load Assets ==============
 async function loadAssets() {
   try {
-    // assets відносно теки, з якої запускається скрипт
-    const assetsDir = path.join(process.cwd(), 'assets');
-
     for (const c of ['w','b']) {
       for (const p of pieces) {
-        const imgPath = path.join(assetsDir, 'pieces', `${c}${p}.png`);
+        const imgPath = path.join(__dirname, 'assets', 'pieces', `${c}${p}.png`);
         pieceImages[c+p] = await loadImage(imgPath);
       }
     }
-
-    boardImage = await loadImage(path.join(assetsDir, 'dashboard.png'));
+    boardImage = await loadImage(path.join(__dirname, 'assets', 'dashboard.png'));
     console.log('✔ Assets loaded');
   } catch (err) {
     console.error('❌ Error loading assets:', err);
   }
 }
 
-// ================= PIXEL RAIN =================
-const PIXEL_LAYERS = [
-  { count: 30, speed: 2, size: [4, 8], alpha: 0.8 },
-  { count: 20, speed: 3.5, size: [6, 12], alpha: 0.6 },
-  { count: 10, speed: 5, size: [8, 14], alpha: 0.4 },
-];
-const COLORS = ['#22d3ee', '#00fff7'];
+function drawFrame(chess, gameText) {
+  // чисте полотно
+  ctx.clearRect(0, 0, canvasWidth, canvasHeight);
 
-function createRain() {
-  const arr = [];
-  for (const l of PIXEL_LAYERS) {
-    for (let i = 0; i < l.count; i++) {
-      arr.push({
-        x: Math.random() * canvasWidth,
-        y: Math.random() * canvasHeight,
-        speed: l.speed * (0.8 + Math.random()),
-        size: l.size[0] + Math.random() * (l.size[1] - l.size[0]),
-        alpha: l.alpha,
-        drift: Math.random() * 1.5 - 0.75,
-        color: COLORS[Math.random() * COLORS.length | 0]
-      });
-    }
-  }
-  return arr;
-}
-
-const rain = createRain();
-
-function updateRain(rainArr) {
-  for (const p of rainArr) {
-    p.y += p.speed;
-    p.x += p.drift;
-    if (p.y > canvasHeight) {
-      p.y = -p.size;
-      p.x = Math.random() * canvasWidth;
-    }
-  }
-}
-
-function drawRain(rainArr) {
-  for (const p of rainArr) {
-    ctx.globalAlpha = p.alpha;
-    ctx.shadowBlur = 12;
-    ctx.shadowColor = p.color;
-    ctx.fillStyle = p.color;
-    ctx.fillRect(p.x, p.y, p.size, p.size);
-  }
-  ctx.globalAlpha = 1;
-  ctx.shadowBlur = 0;
-}
-
-// ================= DRAW FRAME =================
-function drawFrame(chess) {
-  ctx.fillStyle = '#0a0a1f';
-  ctx.fillRect(0, 0, canvasWidth, canvasHeight);
-
-  drawRain(rain);
-
+  // малюємо шахівницю
   ctx.drawImage(boardImage, 0, 0, boardSize, boardSize);
 
+  // малюємо фігури
   const b = chess.board();
   for (let y = 0; y < 8; y++) {
     for (let x = 0; x < 8; x++) {
@@ -140,9 +77,18 @@ function drawFrame(chess) {
       }
     }
   }
+
+  // малюємо текст праворуч
+  ctx.fillStyle = '#ffffff';
+  ctx.font = '16px monospace';
+  ctx.textBaseline = 'top';
+
+  const lines = gameText.split('\n');
+  lines.forEach((line, i) => {
+    ctx.fillText(line, boardSize + 10, 10 + i * 18);
+  });
 }
 
-// ================= PLAY GAME =================
 async function playGame(pgn) {
   const chess = new Chess();
   chess.loadPgn(pgn);
@@ -151,27 +97,18 @@ async function playGame(pgn) {
 
   for (const m of moves) {
     chess.move(m);
-
     encoder.setDelay(MOVE_DELAY);
-    drawFrame(chess);
+    drawFrame(chess, pgn);
     encoder.addFrame(ctx);
-
-    encoder.setDelay(RAIN_DELAY);
-    for (let i = 0; i < RAIN_FRAMES; i++) {
-      updateRain(rain);
-      drawFrame(chess);
-      encoder.addFrame(ctx);
-    }
   }
 
+  // додаткові кадри наприкінці
   for (let i = 0; i < END_FRAMES; i++) {
-    updateRain(rain);
-    drawFrame(chess);
+    drawFrame(chess, pgn);
     encoder.addFrame(ctx);
   }
 }
 
-// ================= MAIN =================
 (async () => {
   await loadAssets();
 
