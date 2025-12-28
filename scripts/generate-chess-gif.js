@@ -76,12 +76,7 @@ Qxh4+ Ke3 54. Rg3+ Nf3 55. Rxf3+ 1-0`,
 9. e4 exd5 10. cxd5 c6 11. d6 Re8 12. Re1 Ng4 13. Bg5 Bf6 14. Bxf6 Qxf6 15. h3
 Ne5 16. Nxe5 Qxe5 17. f4 Qc5+ 18. Kh2 Nb4 19. a3 Na6 20. e5 f5 21. Rc1 Qa5 22.
 g4 Rf8 23. e6 dxe6 24. Re5 b5 25. Rxe6 Rad8 26. Re7 Qb6 27. Qb3+ Kh8 28. Qe6 Qd4
-29. Ne2 Qxd6 30. Qxd6 Rxd6 31. Rxb7 Rd2 32. Rxc6 Nb8 33. Rcc7 Re8 34. Rxh7+ 1-0`,
-  `1. d4 d5 2. c4 Nc6 3. Nc3 dxc4 4. d5 Ne5 5. Nf3 Nxf3+ 6. exf3 e6 7. Bxc4 c6 8.
-dxe6 Qxd1+ 9. Kxd1 Bxe6 10. Bxe6 fxe6 11. Ke2 Nf6 12. Be3 Nd5 13. a4 Bb4 14. Ne4
-O-O-O 15. a5 a6 16. Ra4 e5 17. Rc1 Rd7 18. g3 Rhd8 19. Bc5 Bxc5 20. Nxc5 Rd6 21.
-Re4 Nf6 22. Rb4 Rd2+ 23. Ke1 Nd5 24. Rxb7 Rd4 25. Ra7 Kb8 26. Rxa6 Nb4 27. Rb6+
-Kc7 28. Rxb4 Rxb4 29. Na6+ 1-0`
+29. Ne2 Qxd6 30. Qxd6 Rxd6 31. Rxb7 Rd2 32. Rxc6 Nb8 33. Rcc7 Re8 34. Rxh7+ 1-0`
 ];
 
 // ================= RANDOMIZE ARRAY =================
