@@ -33,9 +33,9 @@
     <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&height=10&color=0:61DAFB,100:0F172A" />
 </p>
-<p align="center" style="margin:0;">
+<div align="center" style="margin:0;">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=61DAFB&center=true&vCenter=true&width=800&lines=Every+move+matters;+Plan+your+code+like+a+grandmaster;+Innovation+starts+with+strategy" alt="Typing SVG" />
-</p>
+</div>
       <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&height=10&color=0:0F172A,100:61DAFB" />
 </p>
