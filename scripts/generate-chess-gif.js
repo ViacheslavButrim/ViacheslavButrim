@@ -118,7 +118,7 @@ async function playGame(pgn) {
 
   encoder.start();
   encoder.setRepeat(0);
-  encoder.setQuality(15);
+  encoder.setQuality(50);
 
   const randomizedGames = shuffleArray(GAMES);
 
