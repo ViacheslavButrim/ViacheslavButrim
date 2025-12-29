@@ -38,6 +38,14 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&height=10&color=0:0F172A,100:61DAFB" />
 </p>
   </tr>
+   <tr>
+    <td colspan="2">
+      <img
+        src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/pixel-rain.svg"
+        width="100%"
+      />
+    </td>
+  </tr>
 </table>
   <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/pixel-rain.svg"
        width="100%" 
