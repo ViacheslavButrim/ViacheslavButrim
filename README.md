@@ -49,7 +49,7 @@
 <div align="center" style="margin-top:20">
   <a href="mailto:viacheslavbutrim@gmail.com" 
   >
-  <img align="center"
+  <img align="center"  style="padding-top:20"
   src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/mail.svg"
   width="24"
 />
