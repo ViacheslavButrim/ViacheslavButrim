@@ -60,7 +60,11 @@
        box-shadow: 0 0 10px #22d3ee, 0 0 20px #00fff7;
      "
   >
-    📩 Contact Me — viacheslavbutrim@gmail.com
+  <img
+  src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/mail.svg"
+  width="18"
+/>
+Contact Me — viacheslavbutrim@gmail.com
   </a>
 </p>
 
