@@ -46,9 +46,8 @@
        style="display:block; margin:0; padding:0; vertical-align:bottom;" />
 </div>
 
-<div align="center">
+<div align="center"; style="margin-top:20">
   <a href="mailto:viacheslavbutrim@gmail.com" 
-     style="margin-top:20"
   >
   <img align="center"
   src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/mail.svg"
