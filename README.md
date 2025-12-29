@@ -45,11 +45,11 @@
        width="100%" 
        style="display:block; margin:0; padding:0; vertical-align:bottom;" />
 </div>
-
-<div align="center" style="margin-top:20">
+<br><br>
+<div align="center">
   <a href="mailto:viacheslavbutrim@gmail.com" 
   >
-  <img align="center"  style="padding-top:20"
+  <img align="center"
   src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/mail.svg"
   width="24"
 />
