@@ -39,7 +39,7 @@
 </p>
   </tr>
 </table>
-  <img margin:0; src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/pixel-rain.svg"
+  <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/pixel-rain.svg"
        width="100%" 
  />
 </div>
