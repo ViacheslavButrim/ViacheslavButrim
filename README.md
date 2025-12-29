@@ -46,7 +46,7 @@
        style="display:block; margin:0; padding:0; vertical-align:bottom;" />
 </div>
 
-<div align="center"; style="margin-top:20">
+<div align="center" style="margin-top:20">
   <a href="mailto:viacheslavbutrim@gmail.com" 
   >
   <img align="center"
