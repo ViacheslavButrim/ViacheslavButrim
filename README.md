@@ -18,7 +18,7 @@
   <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/interactive-starfield-hover.svg"
        width="100%" 
    />  
-<table>
+<table margin-bottom:0;>
   <tr>
     <td width="320">
       <img
