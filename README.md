@@ -47,7 +47,7 @@
   <a href="mailto:viacheslavbutrim@gmail.com" 
   >
   <img align="center"
-  src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/mail.svg"
+  src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/birdmail.svg"
   width="24"
 />
 Contact Me — viacheslavbutrim@gmail.com
