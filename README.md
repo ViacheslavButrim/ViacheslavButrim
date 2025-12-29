@@ -62,7 +62,7 @@
   >
   <img
   src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/mail.svg"
-  width="18"
+  width="24"
 />
 Contact Me — viacheslavbutrim@gmail.com
   </a>
