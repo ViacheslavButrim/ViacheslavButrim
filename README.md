@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">Creating modern web experiences with attention to detail and performance.</h1>
-<p align="center">
+<p align="center" style="display:flex; gap:40;">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" />
