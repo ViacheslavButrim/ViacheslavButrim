@@ -48,17 +48,7 @@
 
 <div align="center">
   <a href="mailto:viacheslavbutrim@gmail.com" 
-     style="
-       display:block;
-       background: linear-gradient(90deg, #00fff7, #22d3ee);
-       color:#0a0a1f;
-       font-weight:bold;
-       font-family: 'Fira Code', monospace;
-       padding: 12px 28px;
-       border-radius: 12px;
-       text-decoration: none;
-       box-shadow: 0 0 10px #22d3ee, 0 0 20px #00fff7;
-     "
+     style="margin-top:20"
   >
   <img align="center"
   src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/mail.svg"
