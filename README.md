@@ -49,7 +49,7 @@
   <img align="center"
   src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/birdmail.svg"
   width="24"
-/>
+/>&nbsp;&nbsp;
 Contact Me — viacheslavbutrim@gmail.com
   </a>
 </div>
