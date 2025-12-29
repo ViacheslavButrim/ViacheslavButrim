@@ -46,7 +46,7 @@
        style="display:block; margin:0; padding:0; vertical-align:bottom;" />
 </div>
 
-<p align="center">
+<div align="center">
   <a href="mailto:viacheslavbutrim@gmail.com" 
      style="
        display:block;
@@ -66,6 +66,6 @@
 />
 Contact Me — viacheslavbutrim@gmail.com
   </a>
-</p>
+</div>
 
 
