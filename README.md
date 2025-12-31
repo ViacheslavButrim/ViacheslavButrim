@@ -48,8 +48,7 @@
   >
 <p align="center">
   <img
-    src="https://tenor.com/uk/view/benjammins-spam-spam-alert-scammer-scam-gif-11387994361216014018"
-    alt="Bird with letter GIF"
+    src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/spam.svg"
     width="48"
     height="48"
     style="vertical-align: middle;"
