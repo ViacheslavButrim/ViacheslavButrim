@@ -46,12 +46,12 @@
 <div align="center">
   <a href="mailto:viacheslavbutrim@gmail.com" 
   >
-<p align="center">
+<div align="center">
   <img
     src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/spam.gif"
   />
   &nbsp;&nbsp;Contact Me — viacheslavbutrim@gmail.com
-</p>
+</div>
   </a>
 </div>
 
