@@ -46,10 +46,14 @@
 <div align="center">
   <a href="mailto:viacheslavbutrim@gmail.com" 
   >
-  <img align="center"
-  src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/birdmail.svg"
-  width="24"
-/>&nbsp;
+<p align="center">
+  <img
+    src="https://tenor.com/uk/view/benjammins-spam-spam-alert-scammer-scam-gif-11387994361216014018"
+    alt="Bird with letter GIF"
+    width="48"
+    height="48"
+  />
+</p>&nbsp;
 Contact Me — viacheslavbutrim@gmail.com
   </a>
 </div>
