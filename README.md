@@ -43,16 +43,11 @@
  />
 </div>
 <br>
-<div align="center">
-  <a href="mailto:viacheslavbutrim@gmail.com" style="text-decoration: none; color: inherit;">
-    <img
-      src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/spam.gif"
-      alt="Spam GIF"
-      width="48"
-      height="48"
-    />
-    &nbsp;&nbsp;Contact Me — viacheslavbutrim@gmail.com
+<p align="center">
+  <a href="mailto:viacheslavbutrim@gmail.com">
+    <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/spam.gif" width="48" height="48" />
+    Contact Me — viacheslavbutrim@gmail.com
   </a>
-</div>
+</p>
 
 
