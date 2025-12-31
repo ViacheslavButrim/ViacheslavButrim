@@ -47,15 +47,15 @@
   <a href="mailto:viacheslavbutrim@gmail.com" 
   >
 <p align="center">
-  <div class="tenor-gif-embed" data-postid="11387994361216014018" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/benjammins-spam-spam-alert-scammer-scam-gif-11387994361216014018">Benjammins Spam Sticker</a>from <a href="https://tenor.com/search/benjammins-stickers">Benjammins Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
   <img
-    src="https://tenor.com/uk/view/benjammins-spam-spam-alert-scammer-scam-gif-11387994361216014018"
+    src="https://media.tenor.com/JVZFrYt5Zs8AAAAC/benjammins-spam.gif"
     alt="Bird with letter GIF"
     width="48"
     height="48"
+    style="vertical-align: middle;"
   />
-</p>&nbsp;
-Contact Me — viacheslavbutrim@gmail.com
+  &nbsp;&nbsp;Contact Me — viacheslavbutrim@gmail.com
+</p>
   </a>
 </div>
 
