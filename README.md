@@ -43,6 +43,9 @@
  />
 </div>
 <br>
-[![Spam GIF](https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/spam.gif)](mailto:viacheslavbutrim@gmail.com) Contact Me — viacheslavbutrim@gmail.com
+<p align="center">
+  [![Spam GIF](https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/spam.gif)]
+  <a href="mailto:viacheslavbutrim@gmail.com">Contact Me — viacheslavbutrim@gmail.com</a>
+</p>
 
 
