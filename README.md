@@ -43,7 +43,7 @@
  />
 </div>
 <br>
-<p align="center">
+<p>
   <a href="mailto:viacheslavbutrim@gmail.com">
     <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/spam.gif" width="48" height="48" />
     Contact Me — viacheslavbutrim@gmail.com
