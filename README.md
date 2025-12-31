@@ -50,7 +50,6 @@
       alt="Spam GIF"
       width="48"
       height="48"
-      style="vertical-align: middle;"
     />
     &nbsp;&nbsp;Contact Me — viacheslavbutrim@gmail.com
   </a>
