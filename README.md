@@ -44,14 +44,15 @@
 </div>
 <br>
 <div align="center">
-  <a href="mailto:viacheslavbutrim@gmail.com" 
-  >
-<div align="center">
-  <img
-    src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/spam.gif"
-  />
-  &nbsp;&nbsp;Contact Me — viacheslavbutrim@gmail.com
-</div>
+  <a href="mailto:viacheslavbutrim@gmail.com" style="text-decoration: none; color: inherit;">
+    <img
+      src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/spam.gif"
+      alt="Spam GIF"
+      width="48"
+      height="48"
+      style="vertical-align: middle;"
+    />
+    &nbsp;&nbsp;Contact Me — viacheslavbutrim@gmail.com
   </a>
 </div>
 
