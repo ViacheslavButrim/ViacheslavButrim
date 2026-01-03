@@ -47,8 +47,9 @@
 <br>
  <p align="center">
    <img align="center" src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/spam.gif" width="56" height="56" alt="Spam GIF" />&nbsp;&nbsp;
+   Contact Me — 
   <a href="mailto:viacheslavbutrim@gmail.com" style="text-decoration: none; color: inherit;">
-    Contact Me — viacheslavbutrim@gmail.com
+    viacheslavbutrim@gmail.com
   </a>
  </p>
 
