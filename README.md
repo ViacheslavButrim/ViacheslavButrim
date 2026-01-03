@@ -44,8 +44,8 @@
 </div>
 <br>
  <p align="center">
-   <img align="middle" src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/spam.gif" width="56" height="56" alt="Spam GIF" />&nbsp;&nbsp;
-  <a align="top" href="mailto:viacheslavbutrim@gmail.com" style="text-decoration: none; color: inherit;">
+   <img align="top" src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/spam.gif" width="56" height="56" alt="Spam GIF" />&nbsp;&nbsp;
+  <a href="mailto:viacheslavbutrim@gmail.com" style="text-decoration: none; color: inherit;">
     Contact Me — viacheslavbutrim@gmail.com
   </a>
  </p>
