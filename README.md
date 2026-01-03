@@ -2,7 +2,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=61DAFB&center=true&vCenter=true&width=800&lines=Hi+there+%F0%9F%91%8B;I'm+Viacheslav+Butrim;Full-Stack+Developer+%F0%9F%9A%80;HTML+%7C+CSS+%7C+JS+%7C+SASS;Next.js+%7C+React+%7C+Node.js+%7C+TypeScript" alt="Typing SVG" />
 </p>
 
-<h1 align="center">Creating modern web experiences with attention to detail and performance. <img align="center" src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/startup.gif" alt="Startup GIF" /></h1>
+<h1 align="center">Creating modern web experiences with attention to detail and performance.    <img align="center" src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/startup.gif" alt="Startup GIF" /></h1>
 <p align="center">
   <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/sun.gif" width="56" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
