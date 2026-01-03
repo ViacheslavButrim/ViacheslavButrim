@@ -4,7 +4,7 @@
 
 <h1 align="center">Creating modern web experiences with attention to detail and performance.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img align="center" src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/startup.gif" alt="Startup GIF" /></h1>
 <p align="center">
-  <img align="middle" src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/sun.gif" width="56" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img align="center" src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/sun.gif" width="56" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
