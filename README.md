@@ -4,7 +4,7 @@
 
 <h1 align="center">Creating modern web experiences with attention to detail and performance. <img align="center" src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/startup.gif" alt="Startup GIF" /></h1>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/sun.gif" width="40" height="40" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/sun.gif" width="56" height="56" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -13,7 +13,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/sun.gif" width="40" height="40" />
+  <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/sun.gif" width="56" height="56" />
 </p>
  
 <div align="center" margin:0; padding:0; line-height:0;">
