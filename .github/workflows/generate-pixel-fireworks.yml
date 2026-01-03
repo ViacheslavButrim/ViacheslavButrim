@@ -75,4 +75,5 @@ jobs:
           git config user.email "github-actions@github.com"
           git add output README.md
           git commit -m "Update SVGs (v=${VERSION})" || echo "No changes"
-          git push
+          git pull origin main --rebase
+          git push origin main
