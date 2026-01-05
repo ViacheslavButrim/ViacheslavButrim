@@ -52,8 +52,7 @@
   <a href="mailto:viacheslavbutrim@gmail.com" style="text-decoration: none; color: inherit;">
     viacheslavbutrim@gmail.com
   </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img align="center" src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/fihgter.gif" width="116" />
-     <img align="center" src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/fatality.gif" width="48" />&nbsp;&nbsp;
+    <img align="center" src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/cat.gif" width="116" />
  </p>
 
 
