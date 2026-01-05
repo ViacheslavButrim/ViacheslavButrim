@@ -46,7 +46,6 @@
 </div>
 <br>
  <p align="center">
-    <img align="center" src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/humans.gif" width="156" />&nbsp;&nbsp;
      <img align="center" src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/teacher.gif" width="156" />&nbsp;&nbsp;
    <img align="center" src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/step.gif" width="56" height="56" />&nbsp;&nbsp;
    Contact Me -  
