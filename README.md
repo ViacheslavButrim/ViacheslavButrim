@@ -47,7 +47,7 @@
 <br>
  <p align="center">
     <img align="center" src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/fihgter.gif" height="56" />&nbsp;&nbsp;
-     <img align="center" src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/fatality.gif" width="56" />&nbsp;&nbsp;
+     <img align="center" src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/fatality.gif" width="48" />&nbsp;&nbsp;
    <img align="center" src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/step.gif" width="56" height="56" />&nbsp;&nbsp;
    Contact Me -  
   <a href="mailto:viacheslavbutrim@gmail.com" style="text-decoration: none; color: inherit;">
