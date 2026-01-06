@@ -47,7 +47,7 @@
 <br>
  <p align="center">
      <img align="center" src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/teacher.gif" width="156" />
-   <img align="center" src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/step.gif" width="56" height="56" />&nbsp;&nbsp;
+   <img align="center" src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/step.gif" width="56" height="56" />
    Contact Me -  
   <a href="mailto:viacheslavbutrim@gmail.com" style="text-decoration: none; color: inherit;">
     viacheslavbutrim@gmail.com
