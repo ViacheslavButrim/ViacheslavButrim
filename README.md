@@ -53,8 +53,10 @@
     viacheslavbutrim@gmail.com
   </a>&nbsp;&nbsp;&nbsp;&nbsp;
     <img align="center" src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/cat.gif" width="116" />&nbsp;&nbsp;
-   Built on instinct.<br/>
-   Refined by experience.
+   <br/>
+   Built on instinct. Refined by experience.
  </p>
-
+<p align="center">
+  © All rights reserved. Viacheslav Butrim · 2025.
+</p>
 
