@@ -13,7 +13,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" />&nbsp;&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/astronaut-20286_512.gif" height="116" />
+  <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/astronaut-20286_512.gif" witdh="56" />
 </p>
  
 <div align="center" margin:0; padding:0; line-height:0;">
