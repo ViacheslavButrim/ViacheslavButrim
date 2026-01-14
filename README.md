@@ -53,7 +53,4 @@
    <br/>
    Built on instinct. Refined by experience.
  </p>
-<p align="center">
-  © All rights reserved. Viacheslav Butrim · 2025.
-</p>
 
