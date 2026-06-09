@@ -43,8 +43,7 @@
    Contact Me -  
   <a href="mailto:viacheslavbutrim@gmail.com" style="text-decoration: none; color: inherit;">
     viacheslavbutrim@gmail.com
-  </a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <h1 align="center"><img align="center" src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/startup.gif" /></h1>&nbsp;&nbsp;
+  </a>&nbsp;&nbsp;&nbsp;&nbsp;<img align="center" src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/startup.gif" />
    <br/>
  </p>
 
