@@ -169,24 +169,15 @@ parts.push(`</svg>`);
 
 const svg = parts.join('');
 
-const outputDir = path.join(
-  __dirname,
-  '..',
-  'output'
-);
+const outputDir = path.join(__dirname, '..', 'output');
 
 fs.mkdirSync(outputDir, {
   recursive: true
 });
 
 fs.writeFileSync(
-  path.join(
-    outputDir,
-    'starfield-neon.svg'
-  ),
+  path.join(outputDir, 'interactive-starfield-hover.svg'),
   svg
 );
 
-console.log(
-  'Neon Starfield generated successfully.'
-);
+console.log('Starfield generated successfully');
