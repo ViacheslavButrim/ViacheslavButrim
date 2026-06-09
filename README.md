@@ -41,12 +41,14 @@
 </div>
 <br>
  <p align="center">
+   <div>
  <img
   align="center"
-  src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/"
+  src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/blendertimer-load-32.gif"
   width="56"
   height="56"
 />
+   </div>
    Contact Me -  
   <a href="mailto:viacheslavbutrim@gmail.com" style="text-decoration: none; color: inherit;">
     viacheslavbutrim@gmail.com
