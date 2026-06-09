@@ -42,7 +42,7 @@ parts.push(`
 
   <filter id="glow">
     <feGaussianBlur
-      stdDeviation="1.8"
+      stdDeviation="2"
       result="blur"
     />
     <feMerge>
@@ -62,9 +62,9 @@ for (let i = 0; i < NUM_STARS; i++) {
   const x = random(0, WIDTH);
   const y = random(0, HEIGHT);
 
-  const size = random(0.4, 1.4);
+  const size = random(0.4, 1.8);
 
-  const pulse = random(2, 7);
+  const pulse = random(2, 8);
   const delay = random(0, 5);
 
   const palette =
@@ -107,11 +107,11 @@ for (let i = 0; i < NUM_METEORS; i++) {
   const startX = random(-400, WIDTH);
   const startY = random(-100, HEIGHT * 0.5);
 
-  const length = random(40, 80);
+  const length = random(40, 160);
 
-  const duration = random(0.4, 0,8);
+  const duration = random(0.8, 2.4);
 
-  const delay = random(i * 20, i * 40);
+  const delay = random(i * 15, i * 35);
 
   const colors = [
     '#4DEEFF',
@@ -136,7 +136,7 @@ for (let i = 0; i < NUM_METEORS; i++) {
         x2="${length}"
         y2="${length * 0.35}"
         stroke="${color}"
-        stroke-width="0.6"
+        stroke-width="1.2"
         stroke-linecap="round"
         filter="url(#glow)"
       />
