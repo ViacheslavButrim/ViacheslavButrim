@@ -5,7 +5,7 @@ const WIDTH = 1200;
 const HEIGHT = 400;
 
 const NUM_STARS = 800;
-const NUM_METEORS = 2;
+const NUM_METEORS = 1;
 
 const random = (min, max) =>
   Math.random() * (max - min) + min;
