@@ -13,7 +13,7 @@ let svg = `
 <svg xmlns="http://www.w3.org/2000/svg"
      width="${WIDTH}"
      height="${HEIGHT}"
-     style="background:#040816;cursor:none"
+     style="background:#00111c;cursor:none"
      onmousemove="const e=event;document.querySelectorAll('circle.star').forEach(s=>{const dx=(s.cx.baseVal.value-e.offsetX)/15,dy=(s.cy.baseVal.value-e.offsetY)/15;s.setAttribute('cx',s.cx.baseVal.value+dx);s.setAttribute('cy',s.cy.baseVal.value+dy)})">
 
 <defs>
