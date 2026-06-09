@@ -107,12 +107,11 @@ for (let i = 0; i < NUM_METEORS; i++) {
   const startX = random(-400, WIDTH);
   const startY = random(-100, HEIGHT * 0.5);
 
-  const length = random(80, 160);
+  const length = random(40, 80);
 
-  const duration = random(0.8, 1.4);
+  const duration = random(0.4, 0,8);
 
-  // рідко з'являються
-  const delay = random(i * 8, i * 15);
+  const delay = random(i * 20, i * 40);
 
   const colors = [
     '#4DEEFF',
@@ -137,7 +136,7 @@ for (let i = 0; i < NUM_METEORS; i++) {
         x2="${length}"
         y2="${length * 0.35}"
         stroke="${color}"
-        stroke-width="0.8"
+        stroke-width="0.6"
         stroke-linecap="round"
         filter="url(#glow)"
       />
