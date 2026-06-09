@@ -104,7 +104,7 @@ for (let i = 0; i < NUM_STARS; i++) {
 
 for (let i = 0; i < NUM_METEORS; i++) {
 
-  const startX = random(-400, WIDTH);
+  const startX = random(-400, WIDTH * 0.25);
   const startY = random(-100, HEIGHT * 0.5);
 
   const length = random(40, 120);
