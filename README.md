@@ -43,7 +43,7 @@
  <p align="center">
  <img
   align="center"
-  src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/blendertimer-load-32.gif"
+  src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/"
   width="56"
   height="56"
 />
