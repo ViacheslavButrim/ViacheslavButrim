@@ -5,7 +5,7 @@ const WIDTH = 1200;
 const HEIGHT = 400;
 
 const NUM_STARS = 800;
-const NUM_METEORS = 4;
+const NUM_METEORS = 2;
 
 const random = (min, max) =>
   Math.random() * (max - min) + min;
@@ -42,7 +42,7 @@ parts.push(`
 
   <filter id="glow">
     <feGaussianBlur
-      stdDeviation="2"
+      stdDeviation="1.8"
       result="blur"
     />
     <feMerge>
@@ -62,7 +62,7 @@ for (let i = 0; i < NUM_STARS; i++) {
   const x = random(0, WIDTH);
   const y = random(0, HEIGHT);
 
-  const size = random(0.4, 1.6);
+  const size = random(0.4, 1.4);
 
   const pulse = random(2, 8);
   const delay = random(0, 5);
@@ -109,15 +109,14 @@ for (let i = 0; i < NUM_METEORS; i++) {
 
   const length = random(40, 120);
 
-  const duration = random(1.8, 2.4);
+  const duration = random(0.4, 0.8);
 
-  const delay = random(i * 15, i * 35);
+  const delay = random(i * 40, i * 90);
 
   const colors = [
-    '#4DEEFF',
-    '#00BFFF',
-    '#A855F7',
-    '#D946EF'
+  '#7DF9FF',
+  '#4DEEFF',
+  '#B8FFFF'
   ];
 
   const color =
@@ -134,9 +133,9 @@ for (let i = 0; i < NUM_METEORS; i++) {
         x1="0"
         y1="0"
         x2="${length}"
-        y2="${length * 0.35}"
+        y2="${length * 0.22}"
         stroke="${color}"
-        stroke-width="0.8"
+        stroke-width="0.4"
         stroke-linecap="round"
         filter="url(#glow)"
       />
