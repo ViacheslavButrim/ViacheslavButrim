@@ -109,7 +109,7 @@ for (let i = 0; i < NUM_METEORS; i++) {
 
   const length = random(40, 120);
 
-  const duration = 12;
+  const duration = 24;
 
   const colors = [
   '#7DF9FF',
