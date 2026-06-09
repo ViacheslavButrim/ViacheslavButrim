@@ -11,7 +11,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" />&nbsp;&nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" />&nbsp;&nbsp;&nbsp;
 </p>
-<img align="center" src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/fullstack.png" /> 
+<img align="center" margin:0; padding:0; line-height:0; src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/fullstack.png" /> 
 <div align="center" margin:0; padding:0; line-height:0;">
   <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/interactive-starfield-hover.svg"
        width="100%" 
@@ -43,7 +43,7 @@
    Contact Me -  
   <a href="mailto:viacheslavbutrim@gmail.com" style="text-decoration: none; color: inherit;">
     viacheslavbutrim@gmail.com
-  </a>&nbsp;&nbsp;&nbsp;&nbsp;<img align="center" style="margin:0;" style="padding:0;" src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/startup.gif" />
+  </a>&nbsp;&nbsp;&nbsp;&nbsp;<img align="center" src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/startup.gif" />
    <br/>
  </p>
 
