@@ -62,7 +62,7 @@ for (let i = 0; i < NUM_STARS; i++) {
   const x = random(0, WIDTH);
   const y = random(0, HEIGHT);
 
-  const size = random(0.4, 1.8);
+  const size = random(0.4, 1.6);
 
   const pulse = random(2, 8);
   const delay = random(0, 5);
@@ -107,9 +107,9 @@ for (let i = 0; i < NUM_METEORS; i++) {
   const startX = random(-400, WIDTH);
   const startY = random(-100, HEIGHT * 0.5);
 
-  const length = random(40, 160);
+  const length = random(40, 120);
 
-  const duration = random(0.8, 2.4);
+  const duration = random(1.8, 2.4);
 
   const delay = random(i * 15, i * 35);
 
@@ -136,7 +136,7 @@ for (let i = 0; i < NUM_METEORS; i++) {
         x2="${length}"
         y2="${length * 0.35}"
         stroke="${color}"
-        stroke-width="1.2"
+        stroke-width="0.8"
         stroke-linecap="round"
         filter="url(#glow)"
       />
