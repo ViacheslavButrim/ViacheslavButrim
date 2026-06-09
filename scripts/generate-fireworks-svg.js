@@ -109,9 +109,8 @@ for (let i = 0; i < NUM_METEORS; i++) {
 
   const length = random(40, 120);
 
-  const duration = random(0.4, 0.8);
-
-  const delay = random(i * 40, i * 90);
+  const duration = 5;
+  const delay = i * 0.3;
 
   const colors = [
   '#7DF9FF',
