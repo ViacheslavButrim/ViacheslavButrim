@@ -12,7 +12,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" />&nbsp;&nbsp;&nbsp;
 </p>
 <img align="center" margin:0; padding:0; line-height:0; src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/fullstack.png" /> 
-<div align="center" margin:0; padding:0; line-height:0;">
+<div align="center" margin:0; padding:0; line-height:0; >
   <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/interactive-starfield-hover.svg"
        width="100%" 
    />  
