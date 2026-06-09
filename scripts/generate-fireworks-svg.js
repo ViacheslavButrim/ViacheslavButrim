@@ -5,55 +5,13 @@ const WIDTH = 1200;
 const HEIGHT = 400;
 
 const NUM_STARS = 800;
-const NUM_SATELLITES = 3;
-const NUM_METEORS = 3;
+const NUM_METEORS = 4;
 
 const random = (min, max) =>
   Math.random() * (max - min) + min;
 
 const parts = [];
 
-parts.push(`
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="${WIDTH}"
-  height="${HEIGHT}"
-  viewBox="0 0 ${WIDTH} ${HEIGHT}"
-  style="background:#02020B"
->
-
-<defs>
-
-  <filter id="glow">
-    <feGaussianBlur
-      stdDeviation="2"
-      result="blur"
-    />
-    <feMerge>
-      <feMergeNode in="blur"/>
-      <feMergeNode in="SourceGraphic"/>
-    </feMerge>
-  </filter>
-
-`);
-for (let i = 0; i < NUM_SATELLITES; i++) {
-  const radius = random(90, 170);
-
-  parts.push(`
-    <path
-      id="orbit-${i}"
-      d="
-        M ${WIDTH / 2 - radius},${HEIGHT / 2}
-        a ${radius},${radius} 0 1,1 ${radius * 2},0
-        a ${radius},${radius} 0 1,1 -${radius * 2},0
-      "
-      fill="none"
-      stroke="none"
-    />
-  `);
-}
-
-parts.push(`</defs>`);
 const leftColors = [
   '#00BFFF',
   '#4DEEFF',
@@ -72,24 +30,49 @@ const rightColors = [
   '#7C3AED'
 ];
 
+parts.push(`
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="${WIDTH}"
+  height="${HEIGHT}"
+  viewBox="0 0 ${WIDTH} ${HEIGHT}"
+  style="background:#02020B"
+>
+<defs>
+
+  <filter id="glow">
+    <feGaussianBlur
+      stdDeviation="1.8"
+      result="blur"
+    />
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+</defs>
+`);
+
+//
+// STARS
+//
+
 for (let i = 0; i < NUM_STARS; i++) {
   const x = random(0, WIDTH);
   const y = random(0, HEIGHT);
 
   const size = random(0.4, 1.4);
 
-  const pulse = random(2, 6);
+  const pulse = random(2, 7);
   const delay = random(0, 5);
 
-  let palette;
-
-  if (x < WIDTH * 0.35) {
-    palette = leftColors;
-  } else if (x < WIDTH * 0.65) {
-    palette = centerColors;
-  } else {
-    palette = rightColors;
-  }
+  const palette =
+    x < WIDTH * 0.35
+      ? leftColors
+      : x < WIDTH * 0.65
+      ? centerColors
+      : rightColors;
 
   const color =
     palette[
@@ -106,7 +89,7 @@ for (let i = 0; i < NUM_STARS; i++) {
     >
       <animate
         attributeName="opacity"
-        values="0.2;1;0.2"
+        values="0.25;1;0.25"
         dur="${pulse}s"
         begin="${delay}s"
         repeatCount="indefinite"
@@ -114,50 +97,22 @@ for (let i = 0; i < NUM_STARS; i++) {
     </circle>
   `);
 }
-for (let i = 0; i < NUM_SATELLITES; i++) {
 
-  const size = random(2, 3);
+//
+// FAST METEORS
+//
 
-  const speed = random(18, 28);
-
-  const color =
-    Math.random() > 0.5
-      ? '#4DEEFF'
-      : '#D946EF';
-
-  parts.push(`
-    <circle
-      r="${size}"
-      fill="${color}"
-      filter="url(#glow)"
-    >
-
-      <animateMotion
-        dur="${speed}s"
-        repeatCount="indefinite"
-      >
-        <mpath href="#orbit-${i}" />
-      </animateMotion>
-
-      <animate
-        attributeName="opacity"
-        values="0.4;1;0.4"
-        dur="4s"
-        repeatCount="indefinite"
-      />
-
-    </circle>
-  `);
-}
 for (let i = 0; i < NUM_METEORS; i++) {
 
-  const startX = random(-200, WIDTH);
-  const startY = random(0, HEIGHT / 2);
+  const startX = random(-400, WIDTH);
+  const startY = random(-100, HEIGHT * 0.5);
 
-  const length = random(60, 120);
+  const length = random(80, 160);
 
-  const duration = random(4, 8);
-  const delay = random(0, 10);
+  const duration = random(0.8, 1.4);
+
+  // рідко з'являються
+  const delay = random(i * 8, i * 15);
 
   const colors = [
     '#4DEEFF',
@@ -174,15 +129,16 @@ for (let i = 0; i < NUM_METEORS; i++) {
     ];
 
   parts.push(`
-    <g>
+    <g opacity="0">
 
       <line
         x1="0"
         y1="0"
         x2="${length}"
-        y2="${length}"
+        y2="${length * 0.35}"
         stroke="${color}"
-        stroke-width="1.5"
+        stroke-width="0.8"
+        stroke-linecap="round"
         filter="url(#glow)"
       />
 
@@ -190,7 +146,7 @@ for (let i = 0; i < NUM_METEORS; i++) {
         attributeName="transform"
         type="translate"
         from="${startX} ${startY}"
-        to="${WIDTH + 200} ${HEIGHT + 200}"
+        to="${WIDTH + 300} ${HEIGHT + 150}"
         dur="${duration}s"
         begin="${delay}s"
         repeatCount="indefinite"
@@ -198,7 +154,8 @@ for (let i = 0; i < NUM_METEORS; i++) {
 
       <animate
         attributeName="opacity"
-        values="0;1;0"
+        values="0;1;1;0"
+        keyTimes="0;0.15;0.8;1"
         dur="${duration}s"
         begin="${delay}s"
         repeatCount="indefinite"
@@ -207,12 +164,16 @@ for (let i = 0; i < NUM_METEORS; i++) {
     </g>
   `);
 }
+
 parts.push(`</svg>`);
 
 const svg = parts.join('');
 
-const outputDir =
-  path.join(__dirname, '..', 'output');
+const outputDir = path.join(
+  __dirname,
+  '..',
+  'output'
+);
 
 fs.mkdirSync(outputDir, {
   recursive: true
@@ -221,11 +182,11 @@ fs.mkdirSync(outputDir, {
 fs.writeFileSync(
   path.join(
     outputDir,
-    'interactive-starfield-hover.svg'
+    'starfield-neon.svg'
   ),
   svg
 );
 
 console.log(
-  'Optimized SVG generated successfully'
+  'Neon Starfield generated successfully.'
 );
