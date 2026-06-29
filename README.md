@@ -15,9 +15,6 @@
 <img align="center" margin:0; padding:0; line-height:0; src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/assets/icons/fullstack.png" /> 
 </div>
 <div align="center" margin:0; padding:0; line-height:0;>
-  <img src="https://raw.githubusercontent.com/ViacheslavButrim/ViacheslavButrim/main/output/interactive-starfield-hover.svg"
-       width="100%" 
-   />  
 <table>
   <tr>
     <td width="320">
